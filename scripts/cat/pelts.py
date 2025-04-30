@@ -759,6 +759,9 @@ class Pelt:
 
         self.reverse = reverse
         self.skin = skin
+        self.fur_texture = fur_texture if fur_texture is not None else choice(["soft", "slimy", "sleek", "rough", "furless", "silky", "sparse", "curly", "fuzzy", "spiky"])
+        self.build = build if build is not None else choice(["stocky", "slender", "lithe", "wiry", "muscular", "lanky", "delicate"])
+        self.size = size if size is not None else choice(["tiny", "small", "average", "average", "large", "huge"])
 
     @staticmethod
     def generate_new_pelt(gender: str, parents: tuple = (), age: str = "adult"):
