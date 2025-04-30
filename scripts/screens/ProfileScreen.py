@@ -1207,7 +1207,13 @@ class ProfileScreen(Screens):
         # PELT LENGTH
         output += "fur length: " + the_cat.pelt.length
         # NEWLINE ----------
+        output += "\n"
+        output += "fur texture: " + the_cat.pelt.fur_texture
 
+        output += "\n"
+        output += "height: " + the_cat.pelt.height
+        output += "\n"
+        output += "build: " + the_cat.pelt.build
 
 
         # FEATURES
@@ -1411,22 +1417,27 @@ class ProfileScreen(Screens):
         output += "\n"
         if the_cat.dead:
             output += str(the_cat.moons)
+            years = round((the_cat.moons / 12.0), 1)
             if the_cat.moons == 1:
                 output += " cycle (in life)\n"
+                output += f" cycle ({years} years in life)\n"
             elif the_cat.moons != 1:
                 output += " cycles (in life)\n"
+                output += f" cycles ({years} years in life)\n"
 
             output += str(the_cat.dead_for)
+            years_dead = round((the_cat.dead_for / 12.0), 1)
             if the_cat.dead_for == 1:
-                output += " cycle (in death)"
+                output += " cycle ({years_dead} years in death)"
             elif the_cat.dead_for != 1:
-                output += " cycles (in death)"
+                output += " cycles ({years_dead} years in death)"
         else:
             output += str(the_cat.moons)
+            years = round((the_cat.moons / 12.0), 1)
             if the_cat.moons == 1:
-                output += " cycle"
+                output += f" cycle ({years} years)"
             elif the_cat.moons != 1:
-                output += " cycles"
+                output += f" cycles ({years} years)"
 
         # MATE
         if len(the_cat.mate) > 0:
