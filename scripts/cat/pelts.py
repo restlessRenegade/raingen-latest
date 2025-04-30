@@ -724,7 +724,7 @@ class Pelt:
                  reverse: bool = False,
                  fur_texture:str=None,
                  build:str=None,
-                 height:str=None,
+                 size:str=None,
                  accessories:list=None,
                  inventory:list=None
                  ) -> None:
