@@ -2,6 +2,8 @@
 Added:
 - Added new events
 - Allegiences screen has been updated to accurately reflect slugcats
+- Added in more-attributes mod to Raingen, showing three new slugcat traits, fur texture, build, and size
+- Added in doublepatches mod to Raingen, youre not running out of unique markings anytime soon
 
 Fixed:
 - Sparse pelt sometimes being invisible
