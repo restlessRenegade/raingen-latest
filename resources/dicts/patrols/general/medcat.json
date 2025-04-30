@@ -1175,10 +1175,10 @@
                 ]                
             },
             {
-                "text": "s_c greets the Ascended slugcat with bright eyes and an easy going smile. The two converse for what feels like only minutes, but much to s_c's surprise, the sun is starting to set. s_c hurriedly gathers some tansy before returning to camp.",
+                "text": "s_c greets the Ascended slugcat with bright eyes and an easy going smile. The two converse for what feels like only minutes, but much to s_c's surprise, the sun is starting to set. s_c hurriedly gathers some ground fern before returning to camp.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["tansy"],
+                "herbs": ["ground_fern"],
                 "stat_trait":[
                     "childish",
                     "playful",
@@ -3000,7 +3000,7 @@
 	        "cleric": [1, 1]
     	},
     	"weight": 40,
-    	"intro_text": "p_l is out alone in c_n's territory when a shiver runs down {PRONOUN/p_l/poss} spine. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops}. {PRONOUN/p_l/subject/CAP} slowly {VERB/p_l/turn/turns} {PRONOUN/p_l/poss} head. On the rosemary bush next to {PRONOUN/p_l/object}, the moth lazily stretches its wings, the scavenger skull on its back grinning.",
+    	"intro_text": "p_l is out alone in c_n's territory when a shiver runs down {PRONOUN/p_l/poss} spine. {PRONOUN/p_l/subject/CAP} {VERB/p_l/stop/stops}. {PRONOUN/p_l/subject/CAP} slowly {VERB/p_l/turn/turns} {PRONOUN/p_l/poss} head. On the karma flower next to {PRONOUN/p_l/object}, the moth lazily stretches its wings, the scavenger skull on its back grinning.",
     	"decline_text": "It's just a moth, p_l tells {PRONOUN/p_l/self}, and continues on {PRONOUN/p_l/poss} way.",
     	"chance_of_success": 70,
     	"pl_skill_constraint": ["OMEN,3"],
@@ -3056,7 +3056,7 @@
                 "text": "The two slugcats come upon a field of pumpkins, luckily empty of scavengers. As p_l pokes around to see if any herbs are about, r_c gleefully sinks {PRONOUN/r_c/poss} spear into a pumpkin. {PRONOUN/r_c/subject/CAP} {VERB/r_c/scratch/scratches} some crude shapes into the pumpkin before declaring that it's a slugcat! p_l snickers and replies that it's the most beautiful slugcat they've ever seen. r_c slyly shoots back, yes, only second to p_l.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["rosemary"],
+                "herbs": ["karma_flower"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3097,7 +3097,7 @@
                 "text": "The two slugcats come upon a field of pumpkins, luckily empty of scavenger. As p_l pokes around to see if any herbs are about, r_c instead gleefully sinks {PRONOUN/r_c/poss} spear into a pumpkin. {PRONOUN/r_c/subject/CAP} {VERB/r_c/scratch/scratches} some crude shapes into the pumpkin before declaring that it's a slugcat! p_l snickers and replies that it's the most beautiful slugcat they've ever seen. r_c slyly shoots back, yes, only second to p_l.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["rosemary"],
+                "herbs": ["karma_flower"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
