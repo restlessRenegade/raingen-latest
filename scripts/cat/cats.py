@@ -3494,7 +3494,7 @@ class Cat:
                 "prevent_fading": self.prevent_fading,
                 "favourite": self.favourite,
                 "fur_texture": self.pelt.fur_texture,
-                "height": self.pelt.height,
+                "size": self.pelt.size,
                 "build": self.pelt.build,
             }
 
