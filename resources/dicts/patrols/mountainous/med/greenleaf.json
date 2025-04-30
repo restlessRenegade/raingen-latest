@@ -1811,38 +1811,38 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering elder leaves. There's a particular tree in a sheltered dip along a stream {PRONOUN/p_l/subject} {VERB/p_l/want/wants} to check on today.",
+        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering some batnip. There's a particular pathway in a sheltered dip along a stream {PRONOUN/p_l/subject} {VERB/p_l/want/wants} to check on today.",
         "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts about leaving {PRONOUN/p_l/poss} patients behind and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Elder leaves being used to <i>soothe</i> sprains, and elder leaves having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects.",
+                "text": "Batnip being used to <i>soothe</i> sprains, and batnip having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["elder_leaves", "juniper"]
+                "herbs": ["batnip", "orb_vine"]
             },
             {
-                "text": "The tree, growing in a sheltered spot without huge amounts of wind, has branches that extend a mere whisker-length above the ground. The gathering is simple, today, warmed by the greenleaf sun.",
+                "text": "The batnip, growing in a sheltered spot without huge amounts of wind, has either a field of them, or none at all. The gathering is simple, today, warmed by the greenleaf sun.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "juniper"]
+                "herbs": ["many_herbs", "batnip", "orb_vine"]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carrying those back to camp instead.",
+                "text": "s_c has managed to discover, with time and experience, that batnip picking is actually better handled by searching for large fields of batnip, instead of searching for the larger lone plants.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "juniper"]
+                "herbs": ["many_herbs", "batnip", "orb_vine"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, the elder tree p_l has picked out seems to have a bug infestation of some kind, and p_l doesn't want to use these tattered, diseased-looking leaves.",
+                "text": "Unfortunately, the batnip field p_l has picked out seems to have attracted its name-sake, p_l doesn't want to use these tattered, and munched on plants.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "p_l, reaching out just a little too far to try and grab a branch of elder while balanced on another, loses {PRONOUN/p_l/poss} balance and tumbles to the ground.",
+                "text": "p_l, reaching out just a little too far to try and grab a precariously placed batnip plant on a ledge, loses {PRONOUN/p_l/poss} balance and tumbles to the ground.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1870,15 +1870,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering elder leaves. There's a particular tree in a sheltered dip along a stream they want to check on today, bringing app1 to show them why choosing to harvest from a sheltered plant can be helpful.",
+        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering batnip. There's a particular pathway in a sheltered dip along a stream they want to check on today, bringing app1 to show them why choosing to harvest from a sheltered area can be helpful.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Elder leaves being used to <i>soothe</i> sprains, and elder leaves having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects. app1 is more occupied climbing the tree, and p_l isn't going to dissuade their pride in plucking from the highest branches, even if they're no more potent than those at the bottom.",
+                "text": "Batnip being used to <i>soothe</i> sprains, and batnip having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects. app1 is more occupied climbing the little high rises, and p_l isn't going to dissuade their pride in plucking from the highest patches, even if they're no more potent than those lower down.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["elder_leaves", "juniper"],
+                "herbs": ["batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1897,10 +1897,10 @@
                 ]
             },
             {
-                "text": "The tree, growing in a sheltered spot without huge amounts of wind, has branches that extend a mere whisker-length above the ground. The gathering is simple, today, warmed by the greenleaf sun. They even stop for a nap before going home, app1 stretching out and ripping at the ground with their claws indulgently.",
+                "text": "The patch, growing in a sheltered spot without huge amounts of wind, has either a field of batnip or just a few lone plants. The gathering is simple, today, warmed by the greenleaf sun. They even stop for a nap before going home, app1 stretching out and ripping at the ground with their paws indulgently.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "juniper"],
+                "herbs": ["many_herbs", "batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1919,11 +1919,11 @@
                 ]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carrying those back to camp instead. They pass on the trick to app1, and once they're back at camp both clerics strip off the leaves and give them a quick wash.",
+                "text": "s_c has managed to discover, with time and experience, that batnip picking is actually better handled by finding a large fiend of them, instead of plucking every lone plant in sight. They pass on the trick to app1, and once they're back at camp both clerics strip off the leaves and give them a quick wash.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "juniper"],
+                "herbs": ["many_herbs", "batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1944,7 +1944,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, the elder tree p_l has picked out seems to have a bug infestation of some kind, and p_l doesn't want to use these tattered, diseased-looking leaves.",
+                "text": "Unfortunately, the batnip patch p_l has picked out seems to have attracted its name-sake, and p_l doesn't want to use these tattered, munched on leaves.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1965,7 +1965,7 @@
                 ]
             },
             {
-                "text": "r_c, reaching out just a little too far to try and grab a branch of elder while balanced on another, loses their balance and tumbles to the ground.",
+                "text": "r_c, reaching out just a little too far to try and grab a lone batnip plant on a highrise, loses their balance and tumbles to the ground.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2008,15 +2008,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering elder leaves. There's a particular tree in a sheltered dip along a stream they want to check on today, bringing a group of their Clanmates with them.",
+        "intro_text": "The thick growth of greenleaf will serve c_n well today, p_l decides, thinking about gathering some batnip. There's a particular pathway in a sheltered dip along a stream they want to check on today, bringing a group of their Clanmates with them.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Elder leaves being used to <i>soothe</i> sprains, and elder leaves having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects. They share the little joke with the patrol, and the slugcats <i>murrp</i> with amusement, but it does also remind everyone to be careful as they strip leaves from the tree.",
+                "text": "Batnip being used to <i>soothe</i> sprains, and batnip having to be gathered in a way that <i>risks</i> sprains, is truly one of the Ascended's little ironies, p_l reflects. They share the little joke with the patrol, and the slugcats <i>murrp</i> with amusement, but it does also remind everyone to be careful as they grab the plants from more precarious locations.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["elder_leaves", "juniper"],
+                "herbs": ["batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2035,10 +2035,10 @@
                 ]
             },
             {
-                "text": "The tree, growing in a sheltered spot without huge amounts of wind, has branches that extend a mere whisker-length above the ground. The gathering is simple, today, warmed by the greenleaf sun. It makes the patrol an easy mission, with the slugcats taking the opportunity to hang out and socialize as much as gather herbs.",
+                "text": "The batnip, growing in a sheltered spot without huge amounts of wind, has either a field of them or just a few lone plants. The gathering is simple, today, warmed by the greenleaf sun. It makes the patrol an easy mission, with the slugcats taking the opportunity to hang out and socialize as much as gather herbs.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "juniper"],
+                "herbs": ["many_herbs", "batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2057,11 +2057,11 @@
                 ]
             },
             {
-                "text": "s_c has managed to discover, with time and experience, that elder leaf picking is actually better handled by chewing off several low hanging, thin branches, and carrying those back to camp instead. With so many assistants they can bring a truly massive haul home, where the rest of the patrol helps them strip the leaves and carefully store them.",
+                "text": "s_c has managed to discover, with time and experience, that batnip picking is actually better handled by searching for a large patch of batnip, instead of grabbing every lone plant. With so many assistants they can bring a truly massive haul home, where the rest of the patrol helps them strip the leaves and carefully store them.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "juniper"],
+                "herbs": ["many_herbs", "batnip", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2082,7 +2082,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, the elder tree p_l has picked out seems to have a bug infestation of some kind, and p_l doesn't want to use these tattered, diseased-looking leaves.",
+                "text": "Unfortunately, the patch p_l has picked out seems to have attracted its name-sake, and p_l doesn't want to use these tattered, munched on leaves.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2103,7 +2103,7 @@
                 ]
             },
             {
-                "text": "r_c, reaching out just a little too far to try and grab a branch of elder while balanced on another, loses their balance and tumbles to the ground.",
+                "text": "r_c, reaching out just a little too far to try and grab a lone batnip on a highrise, loses their balance and tumbles to the ground.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2411,33 +2411,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find a juniper tree, wanting to restock on its needles.",
+        "intro_text": "p_l heads out to find an orb vine, wanting to restock on its pods.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l finds a healthy-looking juniper tree and collects a decent amount of needles from it with minimum fuss. As they pad home, p_l decides to climb a young oak in search of the valuable herb.",
+                "text": "p_l finds a healthy-looking orb vine and collects a decent amount of pods from it with minimum fuss. As they pad home, p_l decides to climb a young oak in search of the valuable herb.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["oak_leaves", "juniper"]
+                "herbs": ["oak_leaves", "orb_vine"]
             },
             {
-                "text": "Juniper needles have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms.",
+                "text": "Orb vine pods have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "oak_leaves", "juniper"]
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful.",
+                "text": "s_c trots off to a good orb vine, hopping onto a pole to gather its pods. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "oak_leaves", "juniper"]
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l seems to have forgotten where to find a juniper tree, much to their own embarrassment.",
+                "text": "p_l seems to have forgotten where to find an orb vine, much to their own embarrassment.",
                 "exp": 0,
                 "weight": 20
             }
@@ -2458,15 +2458,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find a juniper tree, wanting to restock on its needles. It's also a good opportunity for app1 to learn more about the plant.",
+        "intro_text": "p_l heads out to find an orb vine, wanting to restock on its pods. It's also a good opportunity for app1 to learn more about the plant.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l and app1 find a healthy-looking juniper tree and collects a decent amount of needles from it with minimum fuss. As they pad home, p_l remembers that oak leaf stores have gotten low. They decide to climb a young oak in search of the valuable herb, whilst app1 looks on worriedly shards of bark showering down on their pelt.",
+                "text": "p_l and app1 find a healthy-looking orb vine and collects a decent amount of pods from it with minimum fuss. As they pad home, p_l remembers that oak leaf stores have gotten low. They decide to climb a young oak in search of the valuable herb, whilst app1 looks on worriedly shards of bark showering down on their pelt.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["oak_leaves", "juniper"],
+                "herbs": ["oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2485,10 +2485,10 @@
                 ]
             },
             {
-                "text": "Juniper needles have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms. They make sure to send app1 off with both heaps of praise and a little sprig of juniper, to bring its pleasant scent to their nest.",
+                "text": "Orb vine pods have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms. They make sure to send app1 off with both heaps of praise and a little sprig of orb vine, to bring its pleasant scent to their nest.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "oak_leaves", "juniper"],
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2507,11 +2507,11 @@
                 ]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. As they work, they chat to app1 about juniper's calming effects and the importance of oak leaves in curing deadly infections. Juniper is one of the few herbs their Clanmates compete to go on patrols to help collect, everyone likes the scent.",
+                "text": "s_c trots off to a good orb vine, hopping onto a pole to harvest its pods. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. As they work, they chat to app1 about juniper's calming effects and the importance of oak leaves in curing deadly infections. Juniper is one of the few herbs their Clanmates compete to go on patrols to help collect, everyone likes the scent.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "oak_leaves", "juniper"],
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2532,7 +2532,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l seems to have forgotten where to find a juniper tree, much to their own embarrassment and app1's shock.",
+                "text": "p_l seems to have forgotten where to find an orb vine, much to their own embarrassment and app1's shock.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2576,7 +2576,7 @@
                 "text": "The patrol finds a healthy-looking juniper tree and collects a decent amount of needles from it with minimum fuss. As they pad home, p_l remembers that oak leaf stores have gotten low. One of the warriors offers to climb a young oak in search of the valuable herb.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["oak_leaves", "juniper"],
+                "herbs": ["oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2598,7 +2598,7 @@
                 "text": "Juniper needles have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "oak_leaves", "juniper"],
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2621,7 +2621,7 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "oak_leaves", "juniper"],
+                "herbs": ["many_herbs", "oak_leaves", "orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3848,23 +3848,23 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves, an elder tree not far off also captures p_l's attention.",
+                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves, a batnip patch not far off also captures p_l's attention.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["elder_leaves", "oak_leaves"]
+                "herbs": ["batnip", "oak_leaves"]
             },
             {
-                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den. Elder leaves work well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a young elder tree. They're always happy to bring a good crop of them back to the herb stores.",
+                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den. Batnip work well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a fresh batnip patch. They're always happy to bring a good crop of them back to the herb stores.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"]
+                "herbs": ["many_herbs", "batnip", "oak_leaves"]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also elder leaves lying about, so s_c takes the opportunity to gather a decent collection.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also some batnip growing about, so s_c takes the opportunity to gather a decent collection.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"]
+                "herbs": ["many_herbs", "batnip", "oak_leaves"]
             }
         ],
         "fail_outcomes": [
@@ -3895,10 +3895,10 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves. app1 nearly gets stuck trying to climb up a challenging branch, but the branches are wide, strong, and sturdy. The apprentice soon overcomes their fear, making it safely down to the ground. p_l spares app1 from climbing another tree and opts to climb the elder tree themselves.",
+                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves. app1 nearly gets stuck trying to climb up a challenging branch, but the branches are wide, strong, and sturdy. The apprentice soon overcomes their fear, making it safely down to the ground. p_l spares app1 from climbing another cliffside and opts to climb up it themselves to get the batnip atop it.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["elder_leaves", "oak_leaves"],
+                "herbs": ["batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3917,10 +3917,10 @@
                 ]
             },
             {
-                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den - they're always happy to bring a good crop of them back to the herb stores. Elder leaves work well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a young elder tree.",
+                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den - they're always happy to bring a good crop of them back to the herb stores. Batnip works well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a fresh batnip patch.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"],
+                "herbs": ["many_herbs", "batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3939,11 +3939,11 @@
                 ]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also elder leaves lying about, so the patrol takes the opportunity to gather a decent collection.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also some batnip growing about, so the patrol takes the opportunity to gather a decent collection.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"],
+                "herbs": ["many_herbs", "batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4006,10 +4006,10 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves. The warriors flex their talents, and p_l encourages them as they show off their climbing skills, breaking off twigs to send the leaves down to p_l, the warriors eye a nearby elder tree and dare one another to race to the top.",
+                "text": "The shade of the oak tree makes the ground beneath it cool, and bodes well for harvesting its leaves. The warriors flex their talents, and p_l encourages them as they show off their climbing skills, breaking off twigs to send the leaves down to p_l, the warriors eye a nearby batnip patch up a cliffside and dare one another to race to the top.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["elder_leaves", "oak_leaves"],
+                "herbs": ["batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4028,10 +4028,10 @@
                 ]
             },
             {
-                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den - they're always happy to bring a good crop of them back to the herb stores. Elder leaves work well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a young elder tree. Their Clanmates are, as expected, a huge help carrying everything back home.",
+                "text": "As a basic infection-preventing herb, oak leaves are useful for nearly all of the various scrapes, cuts, and injuries p_l sees in the cleric den - they're always happy to bring a good crop of them back to the herb stores. Batnip works well alongside them, being great for easing the pains of a sprain and to p_l's excitement they come across a fresh batnip patch. Their Clanmates are, as expected, a huge help carrying everything back home.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"],
+                "herbs": ["many_herbs", "batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4050,11 +4050,11 @@
                 ]
             },
             {
-                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also elder leaves lying about, so the patrol takes the opportunity to gather a decent collection. It's less entertaining for the warriors helping them, but the slugcats still make a nice easy afternoon of it.",
+                "text": "s_c spots an oak tree that's valiantly trying to sprout leaves from a half-fallen branch, one of the casualties of last leaf-bare, and heads to harvest from that, taking the safe option of plucking leaves from the ground. There are also some batnip growing about, so the patrol takes the opportunity to gather a decent collection. It's less entertaining for the warriors helping them, but the slugcats still make a nice easy afternoon of it.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "elder_leaves", "oak_leaves"],
+                "herbs": ["many_herbs", "batnip", "oak_leaves"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5897,10 +5897,10 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "It's at least a little funny, how elder leaves are so suited for easing the pains of the Clan's elders. The tree isn't named for that - there's an old myth about a cleric asking an ancient tree for advice - but sometimes the coincidence amuses p_l.",
+                "text": "It's at least a little funny, how batnip to batflies is like scugmint to slugcats. The plant isn't named for that however - there's an old myth about a cleric asking a popcorn plant for advice - but sometimes the coincidence amuses p_l.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["elder_leaves"],
+                "herbs": ["batnip"],
                 "art": "gen_bord_story",
                 "relationships": [
                     {
@@ -5929,7 +5929,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c feels like p_l is finding amusement in {PRONOUN/r_c/poss} scrambling attempts to get elder leaves, and {PRONOUN/r_c/subject}'d really rather p_l <i>didn't</i>.",
+                "text": "r_c feels like p_l is finding amusement in {PRONOUN/r_c/poss} scrambling attempts to get some batnip, and {PRONOUN/r_c/subject}'d really rather p_l <i>didn't</i>.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6010,7 +6010,7 @@
                 "text": "If finding juniper is quite a fight, be sensible and look for a height. See - juniper trees grow in dry soil, typically in higher places.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["juniper"],
+                "herbs": ["orb_vine"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
