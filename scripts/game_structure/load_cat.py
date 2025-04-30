@@ -139,6 +139,9 @@ def json_load():
                 scars=cat["scars"] if "scars" in cat else [],
                 accessory=cat["accessory"],
                 opacity=cat["opacity"] if "opacity" in cat else 100,
+                fur_texture=cat["fur_texture"] if "fur_texture" in cat else choice(["soft", "slimy", "sleek", "rough", "furless", "silky", "sparse", "curly", "fuzzy", "spiky"]),
+                build = cat['build'] if "build" in cat else choice(["stocky", "slender", "lithe", "wiry", "muscular", "lanky", "delicate"]),
+                size=cat["size"] if "size" in cat else choice(["tiny", "small", "average", "average", "large", "huge"]),
                 accessories=cat["accessories"] if "accessories" in cat else [],
                 inventory = cat["inventory"] if "inventory" in cat else []
             )
