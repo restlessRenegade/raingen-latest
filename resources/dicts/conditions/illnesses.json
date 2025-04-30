@@ -26,10 +26,10 @@
 
         ],
         "herbs": [
-            "juniper",
-            "poppy",
-            "thyme",
-            "ragwort"
+            "orb_vine",
+            "grape_root",
+            "mushroom",
+            "seed_grass"
         ]
     },
     "diarrhea": {
@@ -57,10 +57,10 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "betony",
-            "mullein",
-            "juniper",
-            "mallow"
+            "bubble_weed",
+            "mosaic_weed",
+            "orb_vine",
+            "lavender"
         ]
     },
     "fleas": {
@@ -93,7 +93,7 @@
             }
         ],
         "herbs": [
-            "plantain"
+            "ivy"
         ]
     },
     "greencough": {
@@ -127,11 +127,11 @@
         ],
         "herbs": [
             "scugmint",
-            "tansy",
-            "mullein",
-            "plantain",
-            "juniper",
-            "poppy",
+            "ground_fern",
+            "mosaic_weed",
+            "ivy",
+            "orb_vine",
+            "grape_root",
             "moss"
         ]
     },
@@ -166,11 +166,11 @@
         ],
         "herbs": [
             "scugmint",
-            "tansy",
-            "mullein",
-            "plantain",
-            "juniper",
-            "poppy",
+            "ground_fern",
+            "mosaic_weed",
+            "ivy",
+            "orb_vine",
+            "grape_root",
             "moss"
         ]
     },
@@ -204,10 +204,10 @@
             }
         ],
         "herbs": [
-            "marigold",
-            "burdock",
-            "wild_garlic",
-            "poppy"
+            "storm_weed",
+            "shadow_root",
+            "spinet",
+            "grape_root"
         ]
     },
     "redcough": {
@@ -235,13 +235,13 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "lungwort",
-            "mullein",
-            "tansy",
-            "plantain",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "hyacinth",
+            "mosaic_weed",
+            "ground_fern",
+            "ivy",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -275,9 +275,9 @@
             }
         ],
         "herbs": [
-            "ragwort",
-            "juniper",
-            "poppy"
+            "seed_grass",
+            "orb_vine",
+            "grape_root"
         ]
     },
     "whitecough": {
@@ -311,12 +311,12 @@
         ],
         "herbs": [
             "scugmint",
-            "plantain",
-            "tansy",
-            "mullein",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "ivy",
+            "ground_fern",
+            "mosaic_weed",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -350,7 +350,7 @@
             }
         ],
         "herbs": [
-            "lungwort"
+            "hyacinth"
         ]
     },
     "a festering wound": {
@@ -378,12 +378,12 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "marigold",
-            "burdock",
+            "storm_weed",
+            "shadow_root",
             "oak_leaves",
-            "ragwort",
-            "juniper",
-            "poppy",
+            "seed_grass",
+            "orb_vine",
+            "grape_root",
             "moss"
         ]
     },
@@ -412,8 +412,8 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "juniper",
-            "ragwort",
+            "orb_vine",
+            "seed_grass",
             "moss"
         ]
     },
@@ -447,8 +447,8 @@
             }
         ],
         "herbs": [
-            "juniper",
-            "ragwort",
+            "orb_vine",
+            "seed_grass",
             "moss"
         ]
     },
@@ -482,10 +482,10 @@
             }
         ],
         "herbs": [
-            "juniper",
-            "mallow",
-            "ragwort",
-            "poppy"
+            "orb_vine",
+            "lavender",
+            "seed_grass",
+            "grape_root"
         ]
     },
     "constant nightmares": {
@@ -514,9 +514,9 @@
         "risks": [
         ],
         "herbs": [
-            "juniper",
-            "thyme",
-            "poppy"
+            "orb_vine",
+            "mushroom",
+            "grape_root"
         ]
     },
     "grief stricken": {
@@ -553,9 +553,9 @@
             }
         ],
         "herbs": [
-            "juniper",
-            "thyme",
-            "poppy"
+            "orb_vine",
+            "mushroom",
+            "grape_root"
         ]
     },
     "malnourished": {
@@ -583,7 +583,7 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "thyme"
+            "mushroom"
         ]
     },
     "starving": {
@@ -611,7 +611,7 @@
         "infectiousness": 0,
         "risks": [],
         "herbs": [
-            "thyme"
+            "mushroom"
         ]
     }
 }
