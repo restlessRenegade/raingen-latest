@@ -160,5 +160,26 @@
         "saint": "clover",
         "rivulet": "cyan",
         "spearmaster": "violet"
+},
+    "old_herbs" {
+        "elder_leaves": "batnip",
+        "juniper": "orb_vine",
+        "lungwort": "hyacinth",
+        "mallow": "lavender",
+        "marigold": "storm_weed",
+        "ragwort": "seed_grass",
+        "raspberry": "bubble_fruit",
+        "tansy": "ground_fern",
+        "thyme": "mushroom",
+        "wild_garlic": "spinet",
+        "dandelion": "dandelion_peach",
+        "mullein": "mosaic_weed",
+        "rosemary": "karma_flower",
+        "burdock": "shadow_root",
+        "blackberry": "cactus",
+        "betony": "bubble_weed",
+        "goldenrod": "lily_puck",
+        "poppy": "grape_root",
+        "plantain": "ivy",
 }
 }
