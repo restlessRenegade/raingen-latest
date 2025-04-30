@@ -49,9 +49,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "marigold",
-            "ragwort"
+            "orb_vine",
+            "storm_weed",
+            "seed_grass"
         ]
     },
     "born without a leg": {
@@ -81,9 +81,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "marigold",
-            "ragwort"
+            "orb_vine",
+            "storm_weed",
+            "seed_grass"
         ]
     },
     "weak leg": {
@@ -113,9 +113,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "marigold",
-            "ragwort"
+            "orb_vine",
+            "storm_weed",
+            "seed_grass"
         ]
     },
     "twisted leg": {
@@ -145,9 +145,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "marigold",
-            "ragwort"
+            "orb_vine",
+            "storm_weed",
+            "seed_grass"
         ]
     },
     "lost their tail": {
@@ -176,8 +176,8 @@
             }
         ],
         "herbs": [
-            "juniper",
-            "ragwort"
+            "orb_vine",
+            "seed_grass"
         ]
     },
     "born without a tail": {
@@ -234,9 +234,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "ragwort",
-            "marigold"
+            "orb_vine",
+            "seed_grass",
+            "storm_weed"
         ]
     },
     "raspy lungs": {
@@ -261,8 +261,8 @@
             }
         ],
         "herbs": [
-            "betony",
-            "mullein"
+            "bubble_weed",
+            "mosaic_weed"
         ]
     },
     "the rot": {
@@ -418,9 +418,9 @@
         ],
         "herbs": [
             "daisy",
-            "juniper",
-            "marigold",
-            "ragwort"
+            "orb_vine",
+            "storm_weed",
+            "seed_grass"
         ]
     },
     "seizure prone": {
@@ -445,8 +445,8 @@
             }
         ],
         "herbs": [
-            "ragwort",
-            "juniper"
+            "seed_grass",
+            "orb_vine"
         ]
     },
     "allergies": {
@@ -517,9 +517,9 @@
             }
         ],
         "herbs": [
-            "thyme",
-            "juniper",
-            "poppy"
+            "mushroom",
+            "orb_vine",
+            "grape_root"
         ]
     },
     "lasting grief": {
@@ -544,9 +544,9 @@
             }
         ],
         "herbs": [
-            "thyme",
-            "juniper",
-            "poppy"
+            "mushroom",
+            "orb_vine",
+            "grape_root"
         ]
     },
     "persistent headaches": {
@@ -575,8 +575,8 @@
             }
         ],
         "herbs": [
-            "poppy",
-            "juniper"
+            "grape_root",
+            "orb_vine"
         ]
     }
 }
