@@ -722,6 +722,9 @@ class Pelt:
                  senior_sprite: int = None,
                  para_adult_sprite: int = None,
                  reverse: bool = False,
+                 fur_texture:str=None,
+                 build:str=None,
+                 height:str=None,
                  accessories:list=None,
                  inventory:list=None
                  ) -> None:
