@@ -247,10 +247,10 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l is plucking some rosemary when their attention is suddenly grabbed by omen_list_sight. The fur on their back begins to prickle slightly, the sound of their heartbeat like thunder in their ears. They turn and hare back to camp, herbs forgotten. They need to tell their mentor about this as soon as possible!",
+                "text": "p_l is plucking some karma flowers when their attention is suddenly grabbed by omen_list_sight. The fur on their back begins to prickle slightly, the sound of their heartbeat like thunder in their ears. They turn and hare back to camp, herbs forgotten. They need to tell their mentor about this as soon as possible!",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["rosemary"]
+                "herbs": ["karma_flower"]
             }
         ],
         "fail_outcomes": [
@@ -2693,10 +2693,10 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Even though there's nothing about this place that's different, except for it being chosen for being a peaceful spot, p_l always feels that the grief and love their Clanmates express here has seeped into every corner. They tidy the grounds, collecting rosemary as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
+                "text": "Even though there's nothing about this place that's different, except for it being chosen for being a peaceful spot, p_l always feels that the grief and love their Clanmates express here has seeped into every corner. They tidy the grounds, collecting karma flowers as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["rosemary"],
+                "herbs": ["karma_flower"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2742,10 +2742,10 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "Even though there's nothing about this place that's different, except for it being chosen for being a peaceful spot, p_l always feels that the grief and love their Clanmates express here has seeped into every corner. They tidy the grounds, collecting rosemary as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
+                "text": "Even though there's nothing about this place that's different, except for it being chosen for being a peaceful spot, p_l always feels that the grief and love their Clanmates express here has seeped into every corner. They tidy the grounds, collecting karma flowers as they work. It feels appropriate for the plant to grow here, when its herbs are used to hide the scent of death.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["rosemary"],
+                "herbs": ["karma_flower"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
