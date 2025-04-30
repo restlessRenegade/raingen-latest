@@ -27,13 +27,13 @@
         "cause_permanent": [],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "tansy",
-            "poppy",
-            "ragwort",
+            "spinet",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
             "moss"
         ]
     },
@@ -66,13 +66,13 @@
         "cause_permanent": [],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "tansy",
-            "poppy",
-            "ragwort",
+            "spinet",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
             "moss"
         ]
     },
@@ -105,13 +105,13 @@
         "cause_permanent": [],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "tansy",
-            "poppy",
-            "ragwort",
+            "spinet",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
             "moss"
         ]
     },
@@ -144,13 +144,13 @@
         "cause_permanent": [],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "tansy",
-            "poppy",
-            "ragwort",
+            "spinet",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
             "moss"
         ]
     },
@@ -183,13 +183,13 @@
         "cause_permanent": [],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "tansy",
-            "poppy",
-            "ragwort",
+            "spinet",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
             "moss"
         ]
     },
@@ -220,14 +220,14 @@
         ],
         "cause_permanent": [],
         "herbs": [
-            "tansy",
-            "marigold",
+            "ground_fern",
+            "storm_weed",
             "oak_leaves",
-            "goldenrod",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy"
+            "lily_puck",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root"
         ]
     },
 
@@ -265,15 +265,15 @@
         ],
         "cause_permanent": [],
         "herbs": [
-            "wild_garlic",
-            "burdock",
-            "tansy",
+            "spinet",
+            "shadow_root",
+            "ground_fern",
             "cobwebs",
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "goldenrod",
-            "juniper",
-            "poppy",
+            "lily_puck",
+            "orb_vine",
+            "grape_root",
             "moss"
         ]
     },
@@ -302,7 +302,7 @@
         "cause_permanent": [],
         "herbs": [
             "moss",
-            "plantain"
+            "ivy"
         ]
     },
 
@@ -329,11 +329,11 @@
         "herbs": [
             "cobwebs",
             "horsetail",
-            "marigold",
-            "ragwort",
-            "juniper",
+            "storm_weed",
+            "seed_grass",
+            "orb_vine",
             "moss",
-            "poppy"
+            "grape_root"
         ]
     },
     "broken jaw":{
@@ -366,12 +366,12 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -395,10 +395,10 @@
             "the rot"
         ],
         "herbs": [
-            "marigold",
-            "burdock",
-            "wild_garlic",
-            "poppy"
+            "storm_weed",
+            "shadow_root",
+            "spinet",
+            "grape_root"
         ]
     },
     "broken bone":{
@@ -434,12 +434,12 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -475,12 +475,12 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -525,14 +525,14 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
-            "wild_garlic",
+            "lily_puck",
+            "storm_weed",
+            "spinet",
             "oak_leaves",
-            "tansy",
-            "poppy",
-            "ragwort",
-            "juniper",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
+            "orb_vine",
             "moss"
         ]
     },
@@ -572,14 +572,14 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
-            "wild_garlic",
+            "lily_puck",
+            "storm_weed",
+            "spinet",
             "oak_leaves",
-            "tansy",
-            "poppy",
-            "ragwort",
-            "juniper",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
+            "orb_vine",
             "moss"
         ]
     },
@@ -608,10 +608,10 @@
             "constant joint pain"
         ],
         "herbs": [
-            "marigold",
-            "ragwort",
+            "storm_weed",
+            "seed_grass",
             "daisy",
-            "poppy"
+            "grape_root"
         ]
     },
 
@@ -635,10 +635,10 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "marigold",
-            "ragwort",
+            "storm_weed",
+            "seed_grass",
             "daisy",
-            "poppy"
+            "grape_root"
         ]
     },
 
@@ -661,9 +661,9 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "elder_leaves",
-            "dandelion",
-            "poppy"
+            "batnip",
+            "dandelion_peach",
+            "grape_root"
         ]
     },
 
@@ -696,14 +696,14 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
-            "wild_garlic",
+            "lily_puck",
+            "storm_weed",
+            "spinet",
             "oak_leaves",
-            "tansy",
-            "poppy",
-            "ragwort",
-            "juniper",
+            "ground_fern",
+            "grape_root",
+            "seed_grass",
+            "orb_vine",
             "moss"
         ]
     },
@@ -754,9 +754,9 @@
         ],
         "herbs": [
             "oak_leaves",
-            "marigold",
+            "storm_weed",
             "wild garlic",
-            "poppy"
+            "grape_root"
         ]
     },
 
@@ -780,10 +780,10 @@
         ],
         "herbs": [
             "daisy",
-            "dandelion",
-            "marigold",
-            "ragwort",
-            "poppy"
+            "dandelion_peach",
+            "storm_weed",
+            "seed_grass",
+            "grape_root"
         ]
     },
 
@@ -806,9 +806,9 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "dandelion",
-            "poppy",
-            "raspberry"
+            "dandelion_peach",
+            "grape_root",
+            "bubble_fruit"
         ]
     },
 
@@ -837,9 +837,9 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic"
+            "spinet"
         ]
     },
 
@@ -867,9 +867,9 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "marigold",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic"
+            "spinet"
         ]
     },
 
@@ -899,11 +899,11 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "raspberry"
+            "spinet",
+            "bubble_fruit"
         ]
     },
 
@@ -933,10 +933,10 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic"
+            "spinet"
         ]
     },
 
@@ -971,11 +971,11 @@
             "lost their tail"
         ],
         "herbs": [
-            "juniper",
-            "ragwort",
-            "poppy",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss",
-            "dandelion"
+            "dandelion_peach"
         ]
     },
 
@@ -1006,8 +1006,8 @@
         ],
         "herbs": [
             "oak_leaves",
-            "juniper",
-            "ragwort",
+            "orb_vine",
+            "seed_grass",
             "moss"
         ]
     },
@@ -1050,12 +1050,12 @@
             "raspy lungs"
         ],
         "herbs": [
-            "juniper",
-            "betony",
-            "mullein",
-            "tansy",
-            "plantain",
-            "ragwort"
+            "orb_vine",
+            "bubble_weed",
+            "mosaic_weed",
+            "ground_fern",
+            "ivy",
+            "seed_grass"
         ]
     },
 
@@ -1084,13 +1084,13 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
-            "wild_garlic",
+            "storm_weed",
+            "spinet",
             "oak_leaves",
-            "goldenrod",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "lily_puck",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -1122,13 +1122,13 @@
         ],
         "herbs": [
             "cobwebs",
-            "marigold",
-            "wild_garlic",
+            "storm_weed",
+            "spinet",
             "oak_leaves",
-            "goldenrod",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "lily_puck",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -1157,10 +1157,10 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "thyme",
-            "juniper",
-            "ragwort",
-            "poppy"
+            "mushroom",
+            "orb_vine",
+            "seed_grass",
+            "grape_root"
         ]
     },
 
@@ -1185,10 +1185,10 @@
             "recurring shock"
         ],
         "herbs": [
-            "thyme",
-            "juniper",
-            "ragwort",
-            "poppy"
+            "mushroom",
+            "orb_vine",
+            "seed_grass",
+            "grape_root"
         ]
     },
 
@@ -1227,9 +1227,9 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "juniper",
-            "ragwort",
-            "tansy"
+            "orb_vine",
+            "seed_grass",
+            "ground_fern"
         ]
     },
 
@@ -1260,8 +1260,8 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "ragwort",
-            "juniper",
+            "seed_grass",
+            "orb_vine",
             "moss"
         ]
     },
@@ -1302,9 +1302,9 @@
             "persistent headaches"
         ],
         "herbs": [
-            "juniper",
-            "ragwort",
-            "thyme"
+            "orb_vine",
+            "seed_grass",
+            "mushroom"
         ]
     },
 
@@ -1338,13 +1338,13 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -1377,13 +1377,13 @@
         ],
         "herbs": [
             "cobwebs",
-            "goldenrod",
-            "marigold",
+            "lily_puck",
+            "storm_weed",
             "oak_leaves",
-            "wild_garlic",
-            "juniper",
-            "ragwort",
-            "poppy",
+            "spinet",
+            "orb_vine",
+            "seed_grass",
+            "grape_root",
             "moss"
         ]
     },
@@ -1415,9 +1415,9 @@
             "paralyzed"
         ],
         "herbs": [
-            "juniper",
-            "ragwort",
-            "poppy"
+            "orb_vine",
+            "seed_grass",
+            "grape_root"
         ]
     },
     
@@ -1448,11 +1448,11 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "dandelion",
-            "tansy",
-            "juniper",
-            "ragwort",
-            "poppy"
+            "dandelion_peach",
+            "ground_fern",
+            "orb_vine",
+            "seed_grass",
+            "grape_root"
         ]
     },
 
@@ -1478,9 +1478,9 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "blackberry",
-            "dandelion",
-            "poppy"
+            "cactus",
+            "dandelion_peach",
+            "grape_root"
         ]
     },
 
@@ -1506,8 +1506,8 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "poppy",
-            "juniper"
+            "grape_root",
+            "orb_vine"
         ]
     },
 
@@ -1533,8 +1533,8 @@
         "cause_permanent": [
         ],
         "herbs": [
-            "poppy",
-            "juniper"
+            "grape_root",
+            "orb_vine"
         ]
     },
     
