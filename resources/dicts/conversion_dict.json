@@ -161,7 +161,7 @@
         "rivulet": "cyan",
         "spearmaster": "violet"
 },
-    "old_herbs" {
+    "old_herbs": {
         "elder_leaves": "batnip",
         "juniper": "orb_vine",
         "lungwort": "hyacinth",
