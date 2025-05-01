@@ -2862,7 +2862,7 @@ class Cat:
         elif mediator.experience_level == "trainee":
             # Negative bonus for very low.
             chance = 20
-         elif mediator.experience_level == "beginner":
+        elif mediator.experience_level == "beginner":
             chance = 25
         elif mediator.experience_level == "novice":
             chance = 30
@@ -2882,7 +2882,7 @@ class Cat:
             chance = 70
         elif mediator.experience_level == "master":
             chance = 90
-         elif mediator.experience_level == "grandmaster":
+        elif mediator.experience_level == "grandmaster":
             chance = 99
         else:
             chance = 40
