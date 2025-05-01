@@ -471,23 +471,23 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some raspberries too and picking large bunches of them to take home.",
+                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruit too and picking large bunches of them to take home.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["blackberry", "raspberry"]
+                "herbs": ["blackberry", "bubble_fruit"]
             },
             {
-                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble is starting a war with a temptingly harvestable raspberry bramble nearby. As they set out the leaves out to dry before they're put away in the herb stores, p_l lets out a purr at the sight of their harvest.",
+                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble is starting a war with a temptingly harvestable bubble fruit patch nearby. As they set out the fruit to dry before they're put away in the herb stores, p_l lets out a purr at the sight of their harvest.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "raspberry"]
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"]
             },
             {
-                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the brambles they encounter, both blackberry and raspberry.",
+                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the patches they encounter, both blackberry and bubble fruit.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "raspberry"]
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"]
             }
         ],
         "fail_outcomes": [
@@ -520,10 +520,10 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some raspberries too and picking large bunches of them to take home. app1 hasn't considered plant pruning as a cleric skill before now, and they have a good conversation about why it's important.",
+                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruits too and picking large bunches of them to take home. app1 hasn't considered plant pruning as a cleric skill before now, and they have a good conversation about why it's important.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["blackberry", "raspberry"],
+                "herbs": ["blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -542,10 +542,10 @@
                 ]
             },
             {
-                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble is starting a war with a temptingly harvestable raspberry bramble nearby. Seeing the leaves set out to dry, app1 watching over them diligently, makes p_l feel like they can relax.",
+                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the patch is starting a war with a temptingly harvestable bubble fruit patch nearby. Seeing the fruit set out to dry, app1 watching over them diligently, makes p_l feel like they can relax.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "raspberry"],
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -564,11 +564,11 @@
                 ]
             },
             {
-                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the brambles they encounter, both blackberry and raspberry. app1 smiles to hear the quiet sound, comforted by the familiar work and tune.",
+                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the patches they encounter, both blackberry and bubble fruit. app1 smiles to hear the quiet sound, comforted by the familiar work and tune.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "raspberry"],
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -630,10 +630,10 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some raspberries too and picking large bunches of them to take home. It's a long afternoon, but a productive, light-hearted one, filled with smiles and jokes as the obligingly slugcats follow p_l's direction to carry everything home.",
+                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruits too and picking large bunches of them to take home. It's a long afternoon, but a productive, light-hearted one, filled with smiles and jokes as the obligingly slugcats follow p_l's direction to carry everything home.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["blackberry", "raspberry"],
+                "herbs": ["blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -652,10 +652,10 @@
                 ]
             },
             {
-                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble is starting a war with a temptingly harvestable raspberry bramble nearby. Their Clanmates send p_l away for a nap in the sunshine as they organize the blackberry leaves, and p_l smiles appreciatively.",
+                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the patch is starting a war with a temptingly harvestable bubble fruit patch nearby. Their Clanmates send p_l away for a nap in the sunshine as they organize the blackberry leaves, and p_l smiles appreciatively.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "raspberry"],
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -674,11 +674,11 @@
                 ]
             },
             {
-                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the brambles they encounter, both blackberry and raspberry. The patrol follows their lead, and it's a relaxed group that wanders back into camp with a massive haul from the blackberry bushes.",
+                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the patches they encounter, both blackberry and bubble fruit. The patrol follows their lead, and it's a relaxed group that wanders back into camp with a massive haul from the blackberry bushes.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "raspberry"],
+                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2145,28 +2145,28 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh goldenrod for the stores. If lucky is on their side, there might be some marigold they can add to their storages as well.",
+        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh goldenrod for the stores. If lucky is on their side, there might be some stormweed they can add to their storages as well.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The many stems of goldenrod surround p_l as they work, snipping off stems and clumps of tiny yellow flowers to bring back to c_n's herb stores. Their delight grows at seeing how much they collected, and it grows stronger still when they are able to carefully pluck some marigold as well, which they had made sure not to get their hopes up of finding. Perhaps the Ascended is being kind this season.",
+                "text": "The many stems of goldenrod surround p_l as they work, snipping off stems and clumps of tiny yellow flowers to bring back to c_n's herb stores. Their delight grows at seeing how much they collected, and it grows stronger still when they are able to carefully pluck some stormweed as well, which they had made sure not to get their hopes up of finding. Perhaps the Ascended is being kind this season.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["goldenrod", "marigold"]
+                "herbs": ["goldenrod", "storm_weed"]
             },
             {
-                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the plants next to it, and the marigold carefully peeking its way out from beneath the thicket. It, too, has been blooming. Neither of these plants will miss the stems and flowers p_l takes.",
+                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the plants next to it, and the stormweed carefully peeking its way out from beneath the thicket. It, too, has been blooming. Neither of these plants will miss the stems and flowers p_l takes.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "marigold"]
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"]
             },
             {
-                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod and marigold petals to take back for the Clan's stores.",
+                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod and stormweed petals to take back for the Clan's stores.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "marigold"]
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"]
             }
         ],
         "fail_outcomes": [
@@ -2197,10 +2197,10 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Many stems of goldenrod and marigold surround p_l as they work, snipping stems and yellow clumps of tiny flowers to bring back to c_n's herb stores. app1 and p_l occasionally exchange quiet meows as they work, contact calls reassuring each other that they're both still there amid the towering goldenrod.",
+                "text": "Many stems of goldenrod and stormweed surround p_l as they work, snipping stems and blue clumps of tiny flowers to bring back to c_n's herb stores. app1 and p_l occasionally exchange quiet meows as they work, contact calls reassuring each other that they're both still there amid the towering goldenrod.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["goldenrod", "marigold"],
+                "herbs": ["goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2219,10 +2219,10 @@
                 ]
             },
             {
-                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the marigold next to it, bursting with health. Neither will miss the stems and flowers p_l and app1 take.",
+                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the stormweed next to it, bursting with health. Neither will miss the stems and flowers p_l and app1 take.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "marigold"],
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2241,11 +2241,11 @@
                 ]
             },
             {
-                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod, and the odd marigold, to take back for the Clan's stores. As they do, they instruct app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
+                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod, and the odd stormweed, to take back for the Clan's stores. As they do, they instruct app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "marigold"],
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2310,7 +2310,7 @@
                 "text": "The many stems of goldenrod surround p_l as they work, snipping off stems and clumps of tiny yellow flowers to bring back to c_n's herb stores. The patrol chats as they work, exchanging gossip and news as the smell of cut stems wreathes around them.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["goldenrod", "marigold"],
+                "herbs": ["goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2329,10 +2329,10 @@
                 ]
             },
             {
-                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the marigold next to it, bursting with health. Neither will miss the stems and flowers p_l takes.",
+                "text": "The bushes have responded to the sun's call with great enthusiasm, exploding outward in chaotic growth. p_l finds it heartening, seeing the goldenrod fight its own territorial battles against the stormweed next to it, bursting with health. Neither will miss the stems and flowers p_l takes.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "marigold"],
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2351,11 +2351,11 @@
                 ]
             },
             {
-                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod, and the odd marigold, to take back for the Clan's stores. They control what is harvested, while their team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
+                "text": "s_c has a good eye for these things, and snips off the best and most lush goldenrod, and the odd stormweed, to take back for the Clan's stores. They control what is harvested, while their team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "marigold"],
+                "herbs": ["many_herbs", "goldenrod", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -2507,7 +2507,7 @@
                 ]
             },
             {
-                "text": "s_c trots off to a good orb vine, hopping onto a pole to harvest its pods. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. As they work, they chat to app1 about juniper's calming effects and the importance of oak leaves in curing deadly infections. Juniper is one of the few herbs their Clanmates compete to go on patrols to help collect, everyone likes the scent.",
+                "text": "s_c trots off to a good orb vine, hopping onto a pole to harvest its pods. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. As they work, they chat to app1 about orb vine's calming effects and the importance of oak leaves in curing deadly infections. Orb vine pods are one of the few herbs their Clanmates compete to go on patrols to help collect, everyone likes the scent.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2568,12 +2568,12 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find a juniper tree, wanting to restock on its needles. Some of their Clanmates volunteer to come with them, hoping to keep a few pleasantly smelling needles for scenting their own nests, though they'll have to be careful about placing them so the needles don't spike anyone.",
+        "intro_text": "p_l heads out to find an orb vine, wanting to restock on its pods. Some of their Clanmates volunteer to come with them, hoping to keep a few pleasantly smelling pods for scenting their own nests, though they'll have to be careful about placing them so the pods don't break on anyone.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The patrol finds a healthy-looking juniper tree and collects a decent amount of needles from it with minimum fuss. As they pad home, p_l remembers that oak leaf stores have gotten low. One of the warriors offers to climb a young oak in search of the valuable herb.",
+                "text": "The patrol finds a healthy-looking orb vine and collects a decent amount of pods from it with minimum fuss. As they pad home, p_l remembers that oak leaf stores have gotten low. One of the warriors offers to climb a young oak in search of the valuable herb.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["oak_leaves", "orb_vine"],
@@ -2595,7 +2595,7 @@
                 ]
             },
             {
-                "text": "Juniper needles have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms.",
+                "text": "Orb vine pods have so many uses. Calming minds, easing breath, soothing bellies, as a traveling herb... really, p_l will always feel better having a good store of the stuff, and this patrol has been very successful - including an unexpected mouthful of oak leaves from a newly fallen branch after the recent greenleaf storms.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "oak_leaves", "orb_vine"],
@@ -2617,7 +2617,7 @@
                 ]
             },
             {
-                "text": "s_c trots off to a good juniper tree, hopping onto a low branch to harvest its needles. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. Their patrol follows their lead, pulling twigs off, although a couple times s_c does need to remind them that the carpet of dead needles on the ground wouldn't be useful for the herb stores.",
+                "text": "s_c trots off to a good sized orb vine, hopping onto a low pole to harvest its pods. From their vantage point, they are able to reach a low oak branch with a collection of large, deep green oak leaves. They take the opportunity to gather a pawful. Their patrol follows their lead, pulling twigs off, although a couple times s_c does need to remind them that the dead pods on the ground wouldn't be useful for the herb stores.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
@@ -2642,7 +2642,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The warriors are full of complaints about the sharp juniper needles spiking their poor widdle noses, and eventually a mildly disgusted p_l calls off the herb gathering patrol.",
+                "text": "The warriors are full of complaints about the sticky orb vine clinging onto their poor widdle noses, and eventually a mildly disgusted p_l calls off the herb gathering patrol.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2681,15 +2681,15 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l and app1 head out for lungwort, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
+        "intro_text": "p_l and app1 head out for hyacinth, with p_l starting a lesson on the value of this rare herb for treating yellowcough.",
         "decline_text": "A slugcat grabs p_l's attention before they can leave. p_l heaves a sigh - the expedition is delayed for another time.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, they feel the weight of their responsibilities lift, and they let out a yowl and stop to play with app1.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the bushy flowers they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, they feel the weight of their responsibilities lift, and they let out a yowl and stop to play with app1.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2708,10 +2708,10 @@
                 ]
             },
             {
-                "text": "app1 listens intently as the hours drift slowly by in their intense search, and then finally spots a bush with leaves sprinkled with white. It's lungwort! p_l showers them with praise, app1 feeling like they could burst with pride over their accomplishment.",
+                "text": "app1 listens intently as the hours drift slowly by in their intense search, and then finally spots a vibrant plant with a bunch of curly flowers. It's hyacinth! p_l showers them with praise, app1 feeling like they could burst with pride over their accomplishment.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2730,12 +2730,12 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the clerics visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the hyacinth within their borders, the clerics visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale vibrant curly flower bunches are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
                 "can_have_stat": ["adult"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2754,12 +2754,12 @@
                 ]
             },
             {
-                "text": "Night falls, and still s_c insists they keep going. Lungwort is the only reliable cure for yellowcough, and they just can't let c_n go without. Exhausted, but determined, the clerics persist patiently until they finally find the precious, speckled leaves.",
+                "text": "Night falls, and still s_c insists they keep going. Hyacinth is the only reliable cure for yellowcough, and they just can't let c_n go without. Exhausted, but determined, the clerics persist patiently until they finally find the precious, curly flower bunches.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
                 "can_have_stat": ["adult"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2816,7 +2816,7 @@
             "all apprentices": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n stock up on it.",
+        "intro_text": "p_l is on a mission to find hyacinth now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n stock up on it.",
         "decline_text": "A slugcat grabs p_l's attention before they can leave camp.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -2824,7 +2824,7 @@
                 "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2836,10 +2836,10 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. Frustratingly, p_l doesn't have the capacity to carry everything back to camp, but they stick the location in their mind as a place to return to.",
+                "text": "Not only is the hyacinth intact and growing nicely, but there's also a nice patch of ivy growing just nearby. Frustratingly, p_l doesn't have the capacity to carry everything back to camp, but they stick the location in their mind as a place to return to.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2851,11 +2851,11 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the cleric visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the hyacinth within their borders, the cleric visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale curly flower bunches are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2867,11 +2867,11 @@
                 ]
             },
             {
-                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the cleric persists patiently until they find the precious, speckled leaves.",
+                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the cleric persists patiently until they find the precious, curly flower bunches.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2885,7 +2885,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find lungwort anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "p_l searches until their pawpads are sore and {PRONOUN/p_l/poss} muscles exhausted, but can't find hyacinth anywhere. {PRONOUN/p_l/subject/CAP} return to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -2922,15 +2922,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l is on a mission to find lungwort now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help.",
+        "intro_text": "p_l is on a mission to find hyacinth now that greenleaf is here. As the only reliable cure for yellowcough, they're determined that c_n won't run out of it. They take along a warrior escort to help.",
         "decline_text": "A slugcat grabs p_l's attention before they can leave.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "It takes them all day, but eventually, finally, p_l spots the speckled leaves they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
+                "text": "It takes them all day, but eventually, finally, p_l spots the curly flower bunch they've been looking for, so crucial to harvest while the growing season is upon them. For just a second, they feel the weight of their responsibilities lift, the strength of that relief catching them off guard.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2942,10 +2942,10 @@
                 ]
             },
             {
-                "text": "Not only is the lungwort intact and growing nicely, but there's also a nice patch of plantain growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jollily with their good mood.",
+                "text": "Not only is the hyacinth intact and growing nicely, but there's also a nice patch of ivy growing just nearby. p_l loads up their mostly-obliging escort and carries the extensive harvest home, tail waving jollily with their good mood.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth", "ivy"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2957,12 +2957,12 @@
                 ]
             },
             {
-                "text": "It takes all of s_c's considerable talent for such things to hunt down the lungwort within their borders, the cleric visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale speckled leaves are found.",
+                "text": "It takes all of s_c's considerable talent for such things to hunt down the hyacinth within their borders, the cleric visiting each likely nook and cranny in a carefully planned search pattern until, finally, those telltale curly flower bunches are found.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2", "CLEVER,3"],
                 "can_have_stat": ["r_c"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -2974,12 +2974,12 @@
                 ]
             },
             {
-                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the cleric persists patiently until they find the precious, speckled leaves.",
+                "text": "Night falls, but still s_c insistently keeps going - they just can't let c_n go without. Exhausted, but determined, the cleric persists patiently until they find the precious, curly flower bunches.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": ["patient"],
                 "can_have_stat": ["r_c"],
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3009,7 +3009,7 @@
                 ]
             },
             {
-                "text": "The cats search and search until their pawpads are sore and their muscles exhausted, but they just can't find lungwort anywhere. p_l returns to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
+                "text": "The cats search and search until their pawpads are sore and their muscles exhausted, but they just can't find hyacinth anywhere. p_l returns to camp disappointed, but determined to try again. It's simply too important to not keep a good supply of.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3044,28 +3044,28 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh mallow for the stores.",
+        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh lavender for the stores.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The soft, rose-like scent of the mallow bushes drifts around p_l as they work, snipping off clumps of large fuzzy three-nubbed leaves and the occasional pink flower to be taken back to camp. Thankfully, another pink-flowered plant grows nearby and p_l had just begun to run out of betony.",
+                "text": "The soft, rose-like scent of the lavender bushes drifts around p_l as they work, snipping off clumps of large purple flowers to be taken back to camp. Thankfully, another bush like plant grows nearby and p_l had just begun to run out of bubble weed.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["mallow", "betony"]
+                "herbs": ["lavender", "betony"]
             },
             {
-                "text": "It's always nice to harvest from a bush so big it will probably never even notice the leaves and flowers p_l takes. And just nearby, a betony plant is patiently waiting for its stems to be collected.",
+                "text": "It's always nice to harvest from a bush so big it will probably never even notice the flowers p_l takes. And just nearby, a bubble weed plant is patiently waiting for its stems to be collected.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "betony"]
+                "herbs": ["many_herbs", "lavender", "betony"]
             },
             {
-                "text": "s_c has a good eye for these things, finding an excellent patch of mallow with a tempting betony plant growing nearby.",
+                "text": "s_c has a good eye for these things, finding an excellent patch of lavender with a tempting bubble weed plant growing nearby.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "betony"]
+                "herbs": ["many_herbs", "lavender", "betony"]
             }
         ],
         "fail_outcomes": [
@@ -3091,15 +3091,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh mallow for the stores with app1.",
+        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh lavender for the stores with app1.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The soft, rose-like scent of the mallow bushes drifts around p_l and app1 as they work, snipping off clumps of large fuzzy three-nubbed leaves and the occasional pink flower to be taken back to camp. Thankfully, another pink-flowered plant grows nearby and p_l had just begun to run out of betony. Bees hum through the air, not trying to bother the clerics, and p_l points out where they think the hive might be to app1.",
+                "text": "The soft, rose-like scent of the lavender bushes drifts around p_l and app1 as they work, snipping off clumps of purple flowers to be taken back to camp. Thankfully, another bush like plant grows nearby and p_l had just begun to run out of bubble weed. Bees hum through the air, not trying to bother the clerics, and p_l points out where they think the hive might be to app1.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["mallow", "betony"],
+                "herbs": ["lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3118,10 +3118,10 @@
                 ]
             },
             {
-                "text": "It's always nice to harvest from a bush so big it will probably never even notice the leaves and flowers p_l takes  and just nearby a betony plant is patiently waiting for its stems to be collected. app1 carefully fixes the location in their mind, to return to next year.",
+                "text": "It's always nice to harvest from a bush so big it will probably never even notice the flowers p_l takes, and just nearby a bubble weed plant is patiently waiting for its stems to be collected. app1 carefully fixes the location in their mind, to return to next year.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "betony"],
+                "herbs": ["many_herbs", "lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3140,11 +3140,11 @@
                 ]
             },
             {
-                "text": "s_c has a good eye for these things, finding an excellent patch of mallow with a tempting betony plant growing nearby. As they do, they instruct app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
+                "text": "s_c has a good eye for these things, finding an excellent patch of lavender with a tempting bubble weed plant growing nearby. As they do, they instruct app1 in how to judge the quality of each stem. Each plant will contain both ideal and bad examples, either of which could be harvested, and it's important app1 has this knowledge, too.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "betony"],
+                "herbs": ["many_herbs", "lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3202,15 +3202,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh mallow for the stores with a patrol of their Clanmates to assist them.",
+        "intro_text": "Greenleaf is truly the best time of year to be a cleric, with the world so full of flowers and green growth. p_l heads out to gather fresh lavender for the stores with a patrol of their Clanmates to assist them.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The soft, rose-like scent of the mallow bushes drifts around p_l as they work, snipping off clumps of large fuzzy three-nubbed leaves and the occasional pink flower to be taken back to camp. Thankfully, another pink-flowered plant grows nearby and p_l had just begun to run out of betony. The patrol chats as they work, exchanging gossip and news as the smell of cut stems grows around them.",
+                "text": "The soft, rose-like scent of the lavender bushes drifts around p_l as they work, snipping off clumps of purple flowers to be taken back to camp. Thankfully, another bush like plant grows nearby and p_l had just begun to run out of bubble weed. The patrol chats as they work, exchanging gossip and news as the smell of cut stems grows around them.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["mallow", "betony"],
+                "herbs": ["lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3229,10 +3229,10 @@
                 ]
             },
             {
-                "text": "It's always nice to harvest from a bush so big it will probably never even notice the leaves and flowers p_l takes , not even with an entire patrol helping them carry away mallow and just nearby a betony plant is patiently waiting for its stems to be collected.",
+                "text": "It's always nice to harvest from a bush so big it will probably never even notice the flowers p_l takes , not even with an entire patrol helping them carry away lavender and just nearby a bubble weed plant is patiently waiting for its stems to be collected.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "betony"],
+                "herbs": ["many_herbs", "lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3251,11 +3251,11 @@
                 ]
             },
             {
-                "text": "s_c has a good eye for these things, finding an excellent patch of mallow with a tempting betony plant growing nearby. They control what is harvested, while their team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
+                "text": "s_c has a good eye for these things, finding an excellent patch of lavender with a tempting bubble weed plant growing nearby. They control what is harvested, while their team works to efficiently carry the herb back to camp, deferring to s_c's expertise.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "betony"],
+                "herbs": ["many_herbs", "lavender", "betony"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3311,28 +3311,28 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "More marigold would be useful, particularly with greenleaf in full swing. The season will bring the marigold to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance.",
+        "intro_text": "More stormweed would be useful, particularly with greenleaf in full swing. The season will bring the stormweed to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance.",
         "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts about leaving {PRONOUN/p_l/poss} patients behind and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The low-growing marigold creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively sunset-colored flowers. Nearby, a sharp scent indicates tansy must be growing.",
+                "text": "The low-growing stormweed creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively electric blue flowers. Nearby, a feathery leaf indicates ground fern must be growing.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["tansy", "marigold"]
+                "herbs": ["ground_fern", "storm_weed"]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much marigold as {PRONOUN/p_l/subject} can stuff into {PRONOUN/p_l/poss} mouth, and somehow manages to fit in a little tansy too.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much stormweed as {PRONOUN/p_l/subject} can stuff into {PRONOUN/p_l/poss} mouth, and somehow manages to fit in a little ground fern too.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "marigold"]
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves and flowers, somehow finds some tansy as well, and pads home, unaware of how much of {PRONOUN/s_c/poss} success rests on {PRONOUN/s_c/poss} talent for herb gathering.",
+                "text": "s_c finds a patch of stormweed, harvests its best leaves and flowers, somehow finds some ground fern as well, and pads home, unaware of how much of {PRONOUN/s_c/poss} success rests on {PRONOUN/s_c/poss} talent for herb gathering.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "marigold"]
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"]
             }
         ],
         "fail_outcomes": [
@@ -3358,15 +3358,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "More marigold would be useful, particularly with greenleaf in full swing. The season will bring the marigold to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance with app1.",
+        "intro_text": "More stormweed would be useful, particularly with greenleaf in full swing. The season will bring the stormweed to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance with app1.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The low-growing marigold creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively sunset-colored flowers. Nearby, a sharp scent indicates tansy must be growing. Sure enough, app1 has no trouble identifying either of them.",
+                "text": "The low-growing stormweed creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively electric blue flowers. Nearby, a feathery leaf indicates ground fern must be growing. Sure enough, app1 has no trouble identifying either of them.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["tansy", "marigold"],
+                "herbs": ["ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3385,10 +3385,10 @@
                 ]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much marigold as they can stuff into their mouth, and somehow manages to fit in a little tansy too. app1 actually drops some of the leaves they carry on the way back to camp, a little over-ambitious with how much they can carry.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much stormweed as they can stuff into their mouth, and somehow manages to fit in a little ground fern too. app1 actually drops some of the leaves they carry on the way back to camp, a little over-ambitious with how much they can carry.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "marigold"],
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3407,11 +3407,11 @@
                 ]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves and flowers, somehow finds some tansy as well, and pads home, unaware of how much of their success rests on their talent for herb gathering. app1 watches, trying to soak up their skills.",
+                "text": "s_c finds a patch of stormweed, harvests its best leaves and flowers, somehow finds some ground fern as well, and pads home, unaware of how much of their success rests on their talent for herb gathering. app1 watches, trying to soak up their skills.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "marigold"],
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3468,15 +3468,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "More marigold would be useful, particularly with greenleaf in full swing. The season will bring the marigold to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance, especially with a patrol of their Clanmates to assist them.",
+        "intro_text": "More stormweed would be useful, particularly with greenleaf in full swing. The season will bring the stormweed to bloom, and the flowers are just as useful as the leaves to p_l, <i>and</i> extremely easy to spot from a distance, especially with a patrol of their Clanmates to assist them.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The low-growing marigold creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively sunset-colored flowers. Even the warriors understand how to identify marigold in full bloom. Nearby, a sharp scent indicates tansy must be growing.",
+                "text": "The low-growing stormweed creeps across the ground, spotted less by its strange leaves that look like they're pretending to be small fern fronds from a distance, and more by their explosively electric blue flowers. Even the warriors understand how to identify stormweed in full bloom. Nearby, a feathery leaf indicates ground fern must be growing.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["tansy", "marigold"],
+                "herbs": ["ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3495,10 +3495,10 @@
                 ]
             },
             {
-                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much marigold as they can stuff into their mouth, and somehow manages to fit in a little tansy too. The warriors helping them don't understand the importance, but obligingly follow p_l's example.",
+                "text": "It stops infection, bleeding, <i>and</i> sore joints - why would any cleric ever want to risk running out of it? p_l brings back as much stormweed as they can stuff into their mouth, and somehow manages to fit in a little ground fern too. The warriors helping them don't understand the importance, but obligingly follow p_l's example.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "marigold"],
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3517,11 +3517,11 @@
                 ]
             },
             {
-                "text": "s_c finds a patch of marigold, harvests its best leaves and flowers, somehow finds some tansy as well, and pads home, unaware of how much of their success rests on their talent for herb gathering. The patrol, too, is unaware, but it certainly bolsters their faith in their cleric to see them succeed with such competence.",
+                "text": "s_c finds a patch of stormweed, harvests its best leaves and flowers, somehow finds some ground fern as well, and pads home, unaware of how much of their success rests on their talent for herb gathering. The patrol, too, is unaware, but it certainly bolsters their faith in their cleric to see them succeed with such competence.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "marigold"],
+                "herbs": ["many_herbs", "ground_fern", "storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3588,7 +3588,7 @@
                 "herbs": ["mullein", "thyme"]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of lungwort. Or, for that matter, the pleasing scent of thyme, which p_l stumbles across and may as well harvest too.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. Or, for that matter, the pleasing scent of thyme, which p_l stumbles across and may as well harvest too.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "mullein", "thyme"]
@@ -3651,7 +3651,7 @@
                 ]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of lungwort. app1 soaks up the lessons on its uses attentively, and also sniffs out a thyme bush for p_l.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. app1 soaks up the lessons on its uses attentively, and also sniffs out a thyme bush for p_l.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "mullein", "thyme"],
@@ -3761,7 +3761,7 @@
                 ]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of lungwort. The warriors helping p_l don't understand the importance, but obligingly help them harvest it and the thyme bush they stumble across.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. The warriors helping p_l don't understand the importance, but obligingly help them harvest it and the thyme bush they stumble across.",
                 "exp": 10,
                 "weight": 5,
                 "herbs": ["many_herbs", "mullein", "thyme"],
@@ -4644,33 +4644,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find ragwort, holding the particular fractal shape of its furled leaves in their mind to distinguish it from every other low-growing patch of greenery.",
+        "intro_text": "p_l heads out to find seed grass, holding the particular shape of its furled grass shape in their mind to distinguish it from every other low-growing patch of greenery.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Ugh. The ragwort p_l finds is flowering, and the yellow flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the burdock plant ready to be harvested nearby.",
+                "text": "Ugh. The seed grass p_l finds is flowering, and the white flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the shadow root ready to be harvested nearby.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["burdock", "ragwort"]
+                "herbs": ["shadow_root", "seed_grass"]
             },
             {
-                "text": "Ragwort brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth. The extra burdock root they pick up definitely doesn't make it easier.",
+                "text": "Seed grass brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth. The extra shadow root they pick up definitely doesn't make it easier.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "ragwort"]
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune burdock roots to cover their teeth.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, seed grass - using their paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune shadow roots to cover their teeth.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
-                "herbs": ["many_herbs", "burdock", "ragwort"]
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the ragwort leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the seed grass, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20
             }
@@ -4691,15 +4691,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find ragwort, holding the particular fractal shape of its furled leaves in their mind to distinguish it from every other low-growing patch of greenery, and doing their best to describe the shape to app1.",
+        "intro_text": "p_l heads out to find seed grass, holding the particular fractal shape of its furled leaves in their mind to distinguish it from every other low-growing patch of greenery, and doing their best to describe the shape to app1.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Ugh. The ragwort p_l finds is flowering, and the yellow flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the burdock plant ready to be harvested nearby. app1 quietly asks if there's anything they can do to block the scent, but no, it's just better to get harvesting over with quickly.",
+                "text": "Ugh. The seed grass p_l finds is flowering, and the white flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the shadow root ready to be harvested nearby. app1 quietly asks if there's anything they can do to block the scent, but no, it's just better to get harvesting over with quickly.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["burdock", "ragwort"],
+                "herbs": ["shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4718,10 +4718,10 @@
                 ]
             },
             {
-                "text": "Ragwort brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, and has a lot of sympathy for app1's disgusted expression. p_l lets them carry some burdock they found instead.",
+                "text": "Seed grass brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely <i>foul.</i> p_l's pleased with their harvest, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, and has a lot of sympathy for app1's disgusted expression. p_l lets them carry some shadow root they found instead.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "ragwort"],
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4740,11 +4740,11 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune burdock roots to cover their teeth, and app1 is desperately grateful to learn the trick.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, seed grass - using their paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune shadow root to cover their teeth, and app1 is desperately grateful to learn the trick.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
-                "herbs": ["many_herbs", "burdock", "ragwort"],
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4765,7 +4765,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the ragwort leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the seed grass, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4801,15 +4801,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find ragwort, holding the particular fractal shape of its furled leaves in their mind to distinguish it from every other low-growing patch of greenery. They bring warriors with them to carry it back to camp.",
+        "intro_text": "p_l heads out to find seed grass, holding the particular furled grass shape in their mind to distinguish it from every other low-growing patch of greenery. They bring warriors with them to carry it back to camp.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Ugh. The ragwort p_l finds is flowering, and the yellow flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the burdock plant ready to be harvested nearby. There a chorus of long-suffering sighs as the slugcats get to work, accomplishing their unpleasant task diligently, but without any joy.",
+                "text": "Ugh. The seed grass p_l finds is flowering, and the white flowers of the plant waft out their scent, leaving a foul taste hanging in the air. It's so bad, p_l almost misses the shadow root ready to be harvested nearby. There a chorus of long-suffering sighs as the slugcats get to work, accomplishing their unpleasant task diligently, but without any joy.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["burdock", "ragwort"],
+                "herbs": ["shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4828,10 +4828,10 @@
                 ]
             },
             {
-                "text": "Ragwort brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely foul. p_l's pleased with their harvest, particularly the extra burdock, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, a sentiment that the patrol helping them definitely shares... at length, very descriptively.",
+                "text": "Seed grass brings strength to slugcats who need it, and eases aching joints, but Void it tastes absolutely foul. p_l's pleased with their harvest, particularly the extra shadow root, but really wishes they had a way to bring it back to camp that didn't need them to carry it in their mouth, a sentiment that the patrol helping them definitely shares... at length, very descriptively.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "ragwort"],
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4850,11 +4850,11 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using their claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune burdock roots to cover their teeth. Some of the warriors are too impatient to follow their lead, and end up suffering the taste of ragwort as the patrol brings back loads of the leaves.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, seed grass - using their paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult, but doable, if only just, using some opportune shadow root to cover their teeth. Some of the warriors are too impatient to follow their lead, and end up suffering the taste of seed grass as the patrol brings back loads of the leaves.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
-                "herbs": ["many_herbs", "burdock", "ragwort"],
+                "herbs": ["many_herbs", "shadow_root", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4875,7 +4875,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the ragwort leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the seed grass, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4910,23 +4910,23 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While gathering herbs, p_l spots a bush of red berries.",
-        "decline_text": "p_l decides not to touch the berries.",
+        "intro_text": "While gathering herbs, p_l spots a patch of blue bulbs.",
+        "decline_text": "p_l decides not to touch the bulbs.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "p_l identifies them as raspberries, and carefully chews off a branch laden with them to bring back to camp - the herb stocks can use this odd fruit, especially its leaves.",
+                "text": "p_l identifies them as bubble fruit, and carefully grabs some of them to bring back to camp - the herb stocks can use this odd fruit, especially after popping and drying it.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["raspberry"]
+                "herbs": ["bubble_fruit"]
             },
             {
-                "text": "p_l knows deathberries when they see them, and slips back to camp to report it to the leader - the warriors will need to be told to avoid this bush.",
+                "text": "p_l knows baby flashbangs when they see them, and slips back to camp to report it to the leader - the warriors will need to be told to avoid this bush until the plants have matured.",
                 "exp": 30,
                 "weight": 5
             },
             {
-                "text": "It takes little intelligence to recognize deathberries, but a great deal to collect them anyway. If s_c can dry them out, these berries will be sufficient for c_n for years to come. By using their weight to snap off one of the bush's branches, and then carefully carrying it back to camp, s_c manages to bring them safely home.",
+                "text": "It takes little intelligence to recognize baby flashbangs, but a great deal to collect them anyway. If s_c can dry them out, these strange plants will be sufficient for c_n for years to come. By using their paws to carefully snap off the stems, and then carefully carrying it back to camp, s_c manages to bring them safely home.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -4934,12 +4934,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "While p_l thinks they're <i>probably</i> cranberries, they aren't confident enough with the identification to risk being wrong and plucking deathberries instead.",
+                "text": "While p_l thinks they're <i>probably</i> rain bulbs, they aren't confident enough with the identification to risk being wrong and plucking baby flashbangs instead.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "While plucking them from the bush, p_l feels one of the berries split in their mouth, and a deceptively good taste coats their tongue. These aren't raspberries. They rush to force themselves to throw up, and it works, expelling the deathberries from their system, but they're weak and shaky for the rest of the day.",
+                "text": "While plucking them from the bush, p_l feels one of the fruits split in their mouth, and a deceptively good taste coats their tongue. These aren't bubble fruit. They rush to force themselves to throw up, and it works, expelling the baby flashbangs from their system, but they're weak and shaky for the rest of the day.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4967,39 +4967,39 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "While gathering herbs, app1 stumbles upon a bush of red berries.",
-        "decline_text": "app1 decides not to touch the berries.",
+        "intro_text": "While gathering herbs, app1 stumbles upon a patch of blue bulbs.",
+        "decline_text": "app1 decides not to touch the bulbs.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "app1 identifies them as raspberries, and carefully chews off a branch laden with them to bring back to camp. They can't quite remember what raspberries treat, but they're pretty sure it's something to do with birth.",
+                "text": "app1 identifies them as bubble fruit, and carefully chews off a small batch of stems to bring back to camp. They can't quite remember what bubble fruits treat, but they're pretty sure it's something to do with birth.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["raspberry"]
+                "herbs": ["bubble_fruit"]
             },
             {
-                "text": "These... could be deathberries. Might be raspberries. But maybe deathberries. It's not worth the risk, they can ask their mentor for more training about it later.",
+                "text": "These... could be baby flashbangs. Might be bubble fruit. But maybe baby flashbangs. It's not worth the risk, they can ask their mentor for more training about it later.",
                 "exp": 30,
                 "weight": 5
             }
         ],
         "fail_outcomes": [
             {
-                "text": "app1 confidently gathers them and prances back to camp, where {PRONOUN/app1/subject} {VERB/app1/are/is} then informed that they've gathered raspberries, not cranberries, and this isn't going to help the Clan's elders with their problems.",
+                "text": "app1 confidently gathers them and prances back to camp, where {PRONOUN/app1/subject} {VERB/app1/are/is} then informed that they've gathered bubble fruit, not rain bulbs, and this isn't going to help the Clan's elders with their problems.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "app1 plucks the berries, several splitting in their mouth, and is surprised at how good they taste - after all, every herb they're trying to learn tastes awful, so it's surprising that one tastes good. As they start back to camp, however, they wobble a bit, and the world goes dark. Their body is found soon after, but it's already too late to help.",
+                "text": "app1 plucks the fruits, several splitting in their mouth, and is surprised at both how good they taste and how soft they were - after all, every herb they're trying to learn tastes awful, so it's surprising that one tastes good. As they start back to camp, however, they wobble a bit, and the world goes dark. Their body is found soon after, but it's already too late to help.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "reg_death": "m_c died before completing their cleric training, from accidentally eating deathberries."
+                    "reg_death": "m_c died before completing their cleric training, from accidentally eating baby flashbangs."
                 }
             },
             {
-                "text": "app1 carefully plucks the delicious-tasting berries, and as soon as the deceptive taste hits their tongue, they realize they've made a terrible mistake. Trying to force themself to vomit and staggering weakly, they crawl back to camp, weakly hoping their mentor will help them.",
+                "text": "app1 carefully plucks the delicious-tasting fruits, and as soon as the deceptive taste hits their tongue, they realize they've made a terrible mistake. Trying to force themself to vomit and staggering weakly, they crawl back to camp, weakly hoping their mentor will help them.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -5010,7 +5010,7 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c died before completing their cleric training, from accidentally eating deathberries."
+                    "reg_death": "m_c died before completing their cleric training, from accidentally eating baby flashbangs."
                 }
             }
         ]
@@ -5028,33 +5028,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find tansy, scenting the air for its sharp smell and eyes on the lookout for tansy's strange, orb-like yellow flowers that greenleaf has brought out in abundance.",
+        "intro_text": "p_l heads out to find ground fern, eyes on the lookout for ground fern's strange, feathery leaves that greenleaf has brought out in abundance.",
         "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts about leaving {PRONOUN/p_l/poss} patients behind and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The yellow dew drops shining merrily in the distance guide p_l into the tansy patch, where {PRONOUN/p_l/subject} {VERB/p_l/take/takes} a good harvest. It's just unfortunate {PRONOUN/p_l/subject} can't talk {PRONOUN/p_l/self} out of harvesting some ragwort too - this is going to taste very bad.",
+                "text": "The dew drops shining merrily in the distance guide p_l into the ground fern patch, where {PRONOUN/p_l/subject} {VERB/p_l/take/takes} a good harvest. It's just unfortunate {PRONOUN/p_l/subject} can't talk {PRONOUN/p_l/self} out of harvesting some seed grass too - this is going to taste very bad.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["tansy", "ragwort"]
+                "herbs": ["ground_fern", "seed_grass"]
             },
             {
-                "text": "Good for all coughs, all wounds, and all poisons - but it would be dangerous to assume tansy has no downsides. In small doses, it does help with nearly any ailment... but in <i>large</i> doses, it poisons the body, even to the point of causing death. The ragwort trying to outgrow it may stink, but at least that herb isn't dangerous.",
+                "text": "Good for all coughs, all wounds, and all poisons - but it would be dangerous to assume ground fern has no downsides. In small doses, it does help with nearly any ailment... but in <i>large</i> doses, it poisons the body, even to the point of causing death. The seed grass trying to outgrow it may stink, but at least that herb isn't dangerous.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "ragwort"]
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra ragwort {PRONOUN/s_c/subject} {VERB/s_c/find/finds}. s_c isn't sure {PRONOUN/s_c/subject}'ll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb.",
+                "text": "Ground fern might look unique enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra seed grass {PRONOUN/s_c/subject} {VERB/s_c/find/finds}. s_c isn't sure {PRONOUN/s_c/subject}'ll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "ragwort"]
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Try as {PRONOUN/p_l/subject} might, p_l can't quite remember the exact shape of the tansy leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as {PRONOUN/p_l/subject} might, p_l can't quite remember the exact shape of the ground fern leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20
             }
@@ -5075,15 +5075,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find tansy with app1. They instruct app1 to scent the air for its sharp smell and keep their eyes on the lookout for tansy's strange, orb-like yellow flowers that greenleaf has brought out in abundance.",
+        "intro_text": "p_l heads out to find ground fern with app1. They instruct app1 to keep their eyes on the lookout for ground fern's strange, feathery leaves that greenleaf has brought out in abundance.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The yellow dew drops shining merrily in the distance guide app1 into the tansy patch, where they take a good harvest. It's just unfortunate they can't talk themselves out of harvesting some ragwort too - this is going to taste very bad. p_l is proud of the work they've put in to learning so many things so quickly though.",
+                "text": "The dew drops shining merrily in the distance guide app1 into the ground fern patch, where they take a good harvest. It's just unfortunate they can't talk themselves out of harvesting some seed grass too - this is going to taste very bad. p_l is proud of the work they've put in to learning so many things so quickly though.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["tansy", "ragwort"],
+                "herbs": ["ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5102,10 +5102,10 @@
                 ]
             },
             {
-                "text": "Good for all coughs, for all wounds, for all poisons - but it would be dangerous to assume tansy has no downsides. p_l quietly explains to app1 how tansy is also used to ease the passing of mortally wounded slugcats and to induce losing a litter in queens whose pregnancy is risking their life. This means you don't use it to treat pregnant or nursing queens, or slugpups. The topic is serious enough that app1 even forgets to complain about the additional ragwort they find.",
+                "text": "Good for all coughs, for all wounds, for all poisons - but it would be dangerous to assume ground fern has no downsides. p_l quietly explains to app1 how ground fern is also used to ease the passing of mortally wounded slugcats and to induce losing a litter in queens whose pregnancy is risking their life. This means you don't use it to treat pregnant or nursing queens, or slugpups. The topic is serious enough that app1 even forgets to complain about the additional seed grass they find.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "ragwort"],
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5124,11 +5124,11 @@
                 ]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra ragwort they find. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, and app1 thankfully seems to be taking the appropriate amount of care harvesting it.",
+                "text": "Ground fern might look unique enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra seed grass they find. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, and app1 thankfully seems to be taking the appropriate amount of care harvesting it.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "ragwort"],
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5149,7 +5149,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the tansy leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the ground fern leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -5185,15 +5185,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out to find tansy, scenting the air for its sharp smell and eyes on the lookout for tansy's strange, orb-like yellow flowers that greenleaf has brought out in abundance. They've brought some of their Clanmates with them to hopefully help them carry a good harvest home.",
+        "intro_text": "p_l heads out to find ground fern, scenting the air for its sharp smell and eyes on the lookout for ground fern's strange, feathery leaves that greenleaf has brought out in abundance. They've brought some of their Clanmates with them to hopefully help them carry a good harvest home.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The yellow dew drops shining merrily in the distance guide p_l's patrol into the tansy patch, where they take a good harvest. It's just unfortunate they can't talk themselves out of harvesting some ragwort too - this is going to taste very bad.",
+                "text": "The dew drops shining merrily in the distance guide p_l's patrol into the ground fern patch, where they take a good harvest. It's just unfortunate they can't talk themselves out of harvesting some seed grass too - this is going to taste very bad.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["tansy", "ragwort"],
+                "herbs": ["ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5212,10 +5212,10 @@
                 ]
             },
             {
-                "text": "Good for all coughs, all wounds, and all poisons - but it would be dangerous to assume tansy has no downsides. In small doses, it does help with nearly any ailment... but in <i>large</i> doses, it poisons the body, even to the point of causing death. The ragwort trying to outgrow it may stink, but at least that herb isn't dangerous. p_l carefully guides the patrol while gathering it, not that the warriors would be in any danger short of trying to drink the herb.",
+                "text": "Good for all coughs, all wounds, and all poisons - but it would be dangerous to assume ground fern has no downsides. In small doses, it does help with nearly any ailment... but in <i>large</i> doses, it poisons the body, even to the point of causing death. The seed grass trying to outgrow it may stink, but at least that herb isn't dangerous. p_l carefully guides the patrol while gathering it, not that the warriors would be in any danger short of trying to drink the herb.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "tansy", "ragwort"],
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5234,11 +5234,11 @@
                 ]
             },
             {
-                "text": "Tansy might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra ragwort they find. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, which is extra helpful when gathering with their less-experienced Clanmates.",
+                "text": "Ground fern might smell sharp enough to be enjoyed freshening up dens, but it sure tastes... interesting. Definitely not improved by the extra seed grass they find. s_c isn't sure they'll ever get used to it, but at least it's a reminder to be careful around the potentially poisonous herb, which is extra helpful when gathering with their less-experienced Clanmates.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "tansy", "ragwort"],
+                "herbs": ["many_herbs", "ground_fern", "seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5259,7 +5259,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the tansy leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the ground fern leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -5560,33 +5560,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for wild garlic.",
+        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for spinet.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The mallow and garlic will certainly restock the herb stores... which are close to p_l's nest. Yay...",
+                "text": "The lavender and spinet will certainly restock the herb stores... which are close to p_l's nest... At least the herbs smell nice.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["wild_garlic", "mallow"]
+                "herbs": ["spinet", "lavender"]
             },
             {
-                "text": "The leaves, and especially the bulbs, of wild garlic are the preeminent herb to treat infection, even if using them results each time in either their patient or their loved ones complaining about the smell. p_l, personally, will take a bit of a bad smell over illness, thank you very much. On the other paw, mallow is a lot more appreciated by members of the Clan suffering from bellyaches.",
+                "text": "The leaves, and especially the flowers, of spinet are the preeminent herb to treat infection, even if using them results each time in either their patient or their loved ones complaining about the strong floral smell. p_l, personally, will take a bit of a powerful floral smell over illness, thank you very much. On the other paw, lavender is a lot more appreciated by members of the Clan suffering from bellyaches.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "wild_garlic"]
+                "herbs": ["many_herbs", "lavender", "spinet"]
             },
             {
-                "text": "s_c, ever vulture-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and this patch has heaps to harvest. To the cleric's delight, a mallow patch was growing not too far off.",
+                "text": "s_c, ever vulture-eyed, spots some flowers that look suspiciously white, with oddly colored leaves. One sniff confirms it as spinet, and this patch has heaps to harvest. To the cleric's delight, a lavender patch was growing not too far off.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "wild_garlic"]
+                "herbs": ["many_herbs", "lavender", "spinet"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the garlic leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the spinet flowers, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20
             }
@@ -5607,15 +5607,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for wild garlic with app1.",
+        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for spinet with app1.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The mallow and garlic will certainly restock the herb stores... which are close to p_l's nest. Yay... they commiserate with app1, both slugcats sighing but accepting the stink in their den as a necessary evil.",
+                "text": "The lavender and spinet will certainly restock the herb stores... which are close to p_l's nest... They commiserate with app1, both slugcats sighing but accepting the powerful smell in their den as a necessary evil.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["mallow", "wild_garlic"],
+                "herbs": ["lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5634,10 +5634,10 @@
                 ]
             },
             {
-                "text": "The leaves and especially the bulbs of wild garlic are the preeminent herb to treat infection, even if using them literally always resulting in either their patient or their loved ones complaining about the smell. p_l teaches app1 that sometimes they need to prioritize treating their patients over listening to them. Thankfully, the mallow that was gathered is a lot more appreciated by members of the Clan suffering from bellyaches.",
+                "text": "The leaves and especially the flowers of spinet are the preeminent herb to treat infection, even if using them literally always resulting in either their patient or their loved ones complaining about the strong floral smell. p_l teaches app1 that sometimes they need to prioritize treating their patients over listening to them. Thankfully, the lavender that was gathered is a lot more appreciated by members of the Clan suffering from bellyaches.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "wild_garlic"],
+                "herbs": ["many_herbs", "lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5656,11 +5656,11 @@
                 ]
             },
             {
-                "text": "s_c, ever vulture-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and this patch has heaps to harvest with app1. To the clerics' delight, a mallow patch was growing not too far off.",
+                "text": "s_c, ever vulture-eyed, spots flowers that look suspiciously white, with oddly colored leaves. One sniff confirms it as spinet, and this patch has heaps to harvest with app1. To the clerics' delight, a lavender patch was growing not too far off.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "wild_garlic"],
+                "herbs": ["many_herbs", "lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5681,7 +5681,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the garlic leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the spinet leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -5717,15 +5717,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for wild garlic with a gathering patrol.",
+        "intro_text": "p_l heads out on what promises to be a fragrant patrol, searching for spinet with a gathering patrol.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The mallow and garlic will certainly restock the herb stores... which are close to p_l's nest. Yay... the warriors look relieved that they never have to sleep next to the herbs.",
+                "text": "The lavender and spinet will certainly restock the herb stores... which are close to p_l's nest... the warriors look relieved that they never have to sleep next to the herbs.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["mallow", "wild_garlic"],
+                "herbs": ["lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5744,10 +5744,10 @@
                 ]
             },
             {
-                "text": "The leaves and especially the bulbs of wild garlic are the preeminent herb to treat infection, even if using them literally always resulting in either their patient or their loved ones complaining about the smell. The patrol looks a little disgusted, but they're still a great help to p_l for gathering it. Thankfully, the mallow that was gathered is a lot more appreciated by members of the Clan suffering from bellyaches.",
+                "text": "The leaves and especially the flowers of spinet are the preeminent herb to treat infection, even if using them literally always resulting in either their patient or their loved ones complaining about the strong floral smell. The patrol looks a little disgusted, but they're still a great help to p_l for gathering it. Thankfully, the lavender that was gathered is a lot more appreciated by members of the Clan suffering from bellyaches.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mallow", "wild_garlic"],
+                "herbs": ["many_herbs", "lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5766,11 +5766,11 @@
                 ]
             },
             {
-                "text": "s_c, ever vulture-eyed, spots grass that looks suspiciously tall, with oddly thick blades. One sniff confirms it as wild garlic, and the patch has heaps for their patrol to harvest. To the cleric's delight, a mallow patch was growing not too far off.",
+                "text": "s_c, ever vulture-eyed, spots flowers that look suspiciously white, with oddly colored leaves. One sniff confirms it as spinet, and the patch has heaps for their patrol to harvest. To the cleric's delight, a lavender patch was growing not too far off.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mallow", "wild_garlic"],
+                "herbs": ["many_herbs", "lavender", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5791,7 +5791,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, p_l can't quite remember the exact shape of the garlic leaves, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
+                "text": "Try as they might, p_l can't quite remember the exact shape of the spinet flowers, and {PRONOUN/p_l/subject} {VERB/p_l/are/is}n't going to harvest from plants {PRONOUN/p_l/subject} {VERB/p_l/have/has}n't confidently identified. Better safe than sorry, as they say.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6002,12 +6002,12 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "As the patrol sets out, p_l remembers an old saying about searching for juniper.",
+        "intro_text": "As the patrol sets out, p_l remembers an old saying about searching for orb vines.",
         "decline_text": "The patrol doesn't stop to listen.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "If finding juniper is quite a fight, be sensible and look for a height. See - juniper trees grow in dry soil, typically in higher places.",
+                "text": "If finding an orb vine is quite a fight, be sensible and look for a height. See - orb vine grow in dry coves, typically in higher places.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["orb_vine"],
@@ -6067,16 +6067,16 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "Keeping a supply of lungwort is serious business, p_l instructs.",
+        "intro_text": "Keeping a supply of hyacinth is serious business, p_l instructs.",
         "decline_text": "Yes, the slugcats all know that, that's why they're here looking for the stuff.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Lungwort doesn't help with many aliments. But it is the <b>only</b> cure for yellowcough, and Clans have wasted away and died out for want of it, plague sweeping through their ranks, breath rasping in failing lungs til none remained to witness. c_n <i>needs</i> a steady supply of lungwort.",
+                "text": "Hyacinth doesn't help with many aliments. But it is the <b>only</b> cure for yellowcough, and Clans have wasted away and died out for want of it, plague sweeping through their ranks, breath rasping in failing lungs til none remained to witness. c_n <i>needs</i> a steady supply of hyacinth.",
                 "exp": 20,
                 "weight": 20,
                 "art": "gen_bord_story",
-                "herbs": ["lungwort"],
+                "herbs": ["hyacinth"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -6104,7 +6104,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Just thinking of the histories, the Clans lost to plagues that only lungwort can cure - it makes r_c distracted, {PRONOUN/r_c/poss} tail lashing agitatedly, and {PRONOUN/r_c/subject} {VERB/r_c/seem/seems} to mistake <i>everything</i> as lungwort... once r_c suggests that deathberries are lungwort, p_l decides to call the patrol to a halt.",
+                "text": "Just thinking of the histories, the Clans lost to plagues that only hyacinth can cure - it makes r_c distracted, {PRONOUN/r_c/poss} tail lashing agitatedly, and {PRONOUN/r_c/subject} {VERB/r_c/seem/seems} to mistake <i>everything</i> as hyacinth... once r_c suggests that deathberries are hyacinth, p_l decides to call the patrol to a halt.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6140,15 +6140,15 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "As they lift their muzzles to try and catch mallow's sweet scent on the wind, p_l asks the patrol if they know how the herb got its name.",
+        "intro_text": "As they lift their muzzles to try and catch lavender's sweet scent on the wind, p_l asks the patrol if they know how the herb got its name.",
         "decline_text": "Before p_l can continue, a messenger arrives from camp - p_l's presence is needed there.",
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "Mallow has a very literal name - it mellows things out, helping calm both the gut and the respiratory system. Perhaps it's not the most powerful herb in their arsenal, but it's excellent at helping in combination with others.",
+                "text": "Lavender has a more abstract name - it mellows things out like the night sky, helping calm both the gut and the respiratory system. Perhaps it's not the most powerful herb in their arsenal, but it's excellent at helping in combination with others.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["mallow"],
+                "herbs": ["lavender"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6169,12 +6169,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Try as they might, no one can sniff out any mallow, and the slugcats return to camp empty-pawed.",
+                "text": "Try as they might, no one can sniff out any lavender, and the slugcats return to camp empty-pawed.",
                 "exp": 0,
                 "weight": 20
             },
             {
-                "text": "They find mallow... but r_c ends up eating it instead of carrying it back, resulting in the herbs being ruined.",
+                "text": "They find lavender... but r_c ends up eating it instead of carrying it back, resulting in the herbs being ruined.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6210,15 +6210,15 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "Heads crane about, looking for marigold. As they work, p_l offers a story.",
+        "intro_text": "Heads crane about, looking for stormweed. As they work, p_l offers a story.",
         "decline_text": "Herb gathering isn't always compatible with conversation, and p_l trails off before {PRONOUN/p_l/subject} truly {VERB/p_l/start/starts}.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Once upon a time there was a plant that, unusually, loved not the midday sun's strength, but the sunset's quiet beauty. When it came time to bloom itself, it chose those colors, locking in just a hint of the sunset's warmth into itself. When we use marigold to treat stiff joints, that warmth is gifted to our patients.",
+                "text": "Once upon a time there was a plant that, unusually, loved not the thunderstorm's strength, but the rain shower's quiet beauty. When it came time to bloom itself, it chose to take on the cool colors of a rainy day, locking in just a hint of the lightning's power into itself. When we use stormweed to treat stiff joints, that electricity is gifted to our patients.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["marigold"],
+                "herbs": ["storm_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6246,7 +6246,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "It's always difficult enough to try and identify marigold without its signature bloom, and though p_l doesn't mean to, {PRONOUN/p_l/poss} story distracts from the patrol's efforts.",
+                "text": "It's always difficult enough to try and identify stormweed without its signature bloom, and though p_l doesn't mean to, {PRONOUN/p_l/poss} story distracts from the patrol's efforts.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6341,15 +6341,15 @@
         },
         "weight": 20,
         "pl_skill_constraint": ["LORE,1", "STORY,1", "HEALER,1"],
-        "intro_text": "app1 is probably not <i>trying</i> to be annoying - but {PRONOUN/app1/poss} complaints about the taste of ragwort help no one, and it's just slowing the entire patrol down.",
+        "intro_text": "app1 is probably not <i>trying</i> to be annoying - but {PRONOUN/app1/poss} complaints about the taste of seed grass help no one, and it's just slowing the entire patrol down.",
         "decline_text": "Toughen up, honestly.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l sighs, holding {PRONOUN/p_l/poss} temper. Listen, the strength that ragwort imparts is what gives it such a foul taste. If app1's found a particularly disgusting bunch of leaves, that's success, not failure.",
+                "text": "p_l sighs, holding {PRONOUN/p_l/poss} temper. Listen, the strength that seed grass imparts is what gives it such a foul taste. If app1's found a particularly disgusting bunch of grass, that's success, not failure.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["ragwort"],
+                "herbs": ["seed_grass"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6440,10 +6440,10 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The jagged edges of the raspberry leaves mark them as a gift from the stars. Their pain relief and ability to reduce bloodloss have saved countless lives, and brought slugpups safely into the world.",
+                "text": "The soft, watery nature of bubble fruit mark them as a gift from the Void. Their pain relief and ability to reduce bloodloss have saved countless lives, and brought slugpups safely into the world.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["raspberry"],
+                "herbs": ["bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6464,21 +6464,9 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Raspberries aren't a blessing, they're a health hazard, r_c grumbles, disentangling {PRONOUN/r_c/poss} pelt from the brambles' thorns.",
+                "text": "Bubble fruit aren't a blessing, they're a pain in the rear, r_c grumbles, shaking {PRONOUN/r_c/poss} pelt to get the water off of it.",
                 "exp": 0,
                 "weight": 20,
-                "injury": [
-                    {
-                        "cats": ["r_c"],
-                        "injuries": ["torn pelt"],
-                        "scars": ["SCRATCHSIDE"]
-                    }
-                ],
-                "history_text": {
-                    "scar": "m_c was scarred from bramble thorns on a herb gathering patrol.",
-                    "reg_death": "Bramble thorns scratched up m_c, and the wounds eventually festered and killed {PRONOUN/m_c/object}.",
-                    "lead_death": "bramble thorns scratched up m_c and the wounds eventually festered and killed {PRONOUN/m_c/object}."
-                },
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6505,15 +6493,15 @@
             "all apprentices": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 shovels tansy into {PRONOUN/app1/poss} mouth without any cares in the world. p_l stops {PRONOUN/app1/object}, and tells {PRONOUN/app1/object} {PRONOUN/app1/subject} really <i>should</i> have a care.",
+        "intro_text": "app1 shovels ground fern into {PRONOUN/app1/poss} mouth without any cares in the world. p_l stops {PRONOUN/app1/object}, and tells {PRONOUN/app1/object} {PRONOUN/app1/subject} really <i>should</i> have a care.",
         "decline_text": "p_l takes {PRONOUN/app1/object} down to a stream to clean out {PRONOUN/app1/poss} mouth.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Stop that. Tansy isn't mallow or dandelion, to be played with by slugpups. In high concentrations or potency, it can kill the elderly, pregnant, or compromised, and it will <i>definitely</i> make app1 sick if {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} respect it.",
+                "text": "Stop that. Ground fern isn't lavender or dandelion peaches, to be played with by slugpups. In high concentrations or potency, it can kill the elderly, pregnant, or compromised, and it will <i>definitely</i> make app1 sick if {PRONOUN/app1/subject} {VERB/app1/don't/doesn't} respect it.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["tansy"],
+                "herbs": ["ground_fern"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -6534,7 +6522,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l spends so much time lecturing app1 on the dangers of tansy that {PRONOUN/p_l/subject} {VERB/p_l/end/ends}up failing to collect any of the stars-damned stuff.",
+                "text": "p_l spends so much time lecturing app1 on the dangers of ground fern that {PRONOUN/p_l/subject} {VERB/p_l/end/ends}up failing to collect any of the void-damned stuff.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6555,7 +6543,7 @@
                 ]
             },
             {
-                "text": "p_l wanders off to do {PRONOUN/p_l/poss} own collecting. However, leaving the apprentice alone is a mistake. It takes a <i>lot</i> of tansy to poison a slugcat, but app1 was trying <i>very</i> hard to collect as much as possible.",
+                "text": "p_l wanders off to do {PRONOUN/p_l/poss} own collecting. However, leaving the apprentice alone is a mistake. It takes a <i>lot</i> of ground fern to poison a slugcat, but app1 was trying <i>very</i> hard to collect as much as possible.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -6566,8 +6554,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c poisoned {PRONOUN/m_c/self} collecting excessive amounts of tansy as an apprentice.",
-                    "lead_death": "after collecting excessive amounts of tansy as an apprentice"
+                    "reg_death": "m_c poisoned {PRONOUN/m_c/self} collecting excessive amounts of ground fern as an apprentice.",
+                    "lead_death": "after collecting excessive amounts of ground fern as an apprentice"
                 },
                 "relationships": [
                     {
@@ -6580,7 +6568,7 @@
                 ]
             },
             {
-                "text": "app1 ignores p_l as p_l launches into a story about the dangers of tansy. That's the wrong move though, because by the time {PRONOUN/app1/subject}{VERB/app1/'re/'s} back at camp, nausea has well and truly set in.",
+                "text": "app1 ignores p_l as p_l launches into a story about the dangers of ground fern. That's the wrong move though, because by the time {PRONOUN/app1/subject}{VERB/app1/'re/'s} back at camp, nausea has well and truly set in.",
                 "exp": 0,
                 "weight": 20,
                 "injury": [
@@ -6596,8 +6584,8 @@
                     }
                 ],
                 "history_text": {
-                    "reg_death": "m_c poisoned {PRONOUN/m_c/self} collecting excessive amounts of tansy as an apprentice.",
-                    "lead_death": "after collecting excessive amounts of tansy as an apprentice"
+                    "reg_death": "m_c poisoned {PRONOUN/m_c/self} collecting excessive amounts of ground fern as an apprentice.",
+                    "lead_death": "after collecting excessive amounts of ground fern as an apprentice"
                 },
                 "relationships": [
                     {
