@@ -27,6 +27,8 @@ from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game
 import scripts.game_structure.screen_settings  # must be done like this to get updates when we change screen size etc
 
+if TYPE_CHECKING:
+    from scripts.cat.cats import Cat
 
 # ---------------------------------------------------------------------------- #
 #                               Getting Cats                                   #
@@ -2757,9 +2759,9 @@ def generate_sprite(
                     )
                 )
                 white_patch.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-                    new_sprite.blit(white_patch, (0, 0))
-                else:
-                    new_sprite.blit(sprites.sprites['white' + white + cat_sprite], (0, 0))
+                new_sprite.blit(white_patch, (0, 0))
+            else:
+                new_sprite.blit(sprites.sprites['white' + white + cat_sprite], (0, 0))
                     
         # draw vit & points
 
