@@ -202,7 +202,6 @@
 			"Note that extra patch chances decrease with each extra patch - chances base_extra_white 5 by default, base_extra_tortie 3 by default"
 		]
 	},
-	},
 	"cat_name_controls": {
 		"always_name_after_appearance": false,
 		"allow_eye_names": true,
