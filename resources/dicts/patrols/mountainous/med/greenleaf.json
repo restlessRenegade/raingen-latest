@@ -466,33 +466,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The blackberry brambles will be at their peak leaf growth soon, if they aren't there already. p_l heads out to replenish the Clan's stocks.",
+        "intro_text": "The cacti will be at their peak size soon, if they aren't there already. p_l heads out to replenish the Clan's stocks.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruit too and picking large bunches of them to take home.",
+                "text": "At this time of year, the cacti have grown enough to completely shade the ground under their sheer size. p_l harvests without worry, finding some bubble fruit too and picking large bunches of them to take home.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["blackberry", "bubble_fruit"]
+                "herbs": ["cactus", "bubble_fruit"]
             },
             {
-                "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the bramble is starting a war with a temptingly harvestable bubble fruit patch nearby. As they set out the fruit to dry before they're put away in the herb stores, p_l lets out a purr at the sight of their harvest.",
+                "text": "Perfect - there's a good crop of cactus bulbs just waiting for them, and the cacti is starting a war with a temptingly harvestable bubble fruit patch nearby. As they set out the fruit to dry before they're put away in the herb stores, p_l lets out a purr at the sight of their harvest.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"]
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"]
             },
             {
-                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the patches they encounter, both blackberry and bubble fruit.",
+                "text": "s_c falls into the meditative state that herb-gathering brings, and they hum to themselves as they work, crisply plucking from the patches they encounter, both cactus and bubble fruit.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"]
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l attempts to pick their way through the blackberry thorns to reach the leaves, but it soon becomes clear that it's a hopeless task.",
+                "text": "p_l attempts to pick their way through the cactus thorns to reach the bulbs, but it soon becomes clear that it's a hopeless task.",
                 "exp": 0,
                 "weight": 20
             }
@@ -523,7 +523,7 @@
                 "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruits too and picking large bunches of them to take home. app1 hasn't considered plant pruning as a cleric skill before now, and they have a good conversation about why it's important.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["blackberry", "bubble_fruit"],
+                "herbs": ["cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -545,7 +545,7 @@
                 "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the patch is starting a war with a temptingly harvestable bubble fruit patch nearby. Seeing the fruit set out to dry, app1 watching over them diligently, makes p_l feel like they can relax.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -568,7 +568,7 @@
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -633,7 +633,7 @@
                 "text": "At this time of year, the blackberries have grown enough leaves to completely shade the ground under their brambles. p_l harvests without worry, finding some bubble fruits too and picking large bunches of them to take home. It's a long afternoon, but a productive, light-hearted one, filled with smiles and jokes as the obligingly slugcats follow p_l's direction to carry everything home.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["blackberry", "bubble_fruit"],
+                "herbs": ["cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -655,7 +655,7 @@
                 "text": "Perfect - there's a good crop of blackberry leaves just waiting for them, and the patch is starting a war with a temptingly harvestable bubble fruit patch nearby. Their Clanmates send p_l away for a nap in the sunshine as they organize the blackberry leaves, and p_l smiles appreciatively.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -678,7 +678,7 @@
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "blackberry", "bubble_fruit"],
+                "herbs": ["many_herbs", "cactus", "bubble_fruit"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -734,33 +734,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for burdock. p_l heads out to replenish the Clan's stocks.",
+        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for shadow root. p_l heads out to replenish the Clan's stocks.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The heat of greenleaf has made the burdock plants grow to towering size, with some leaves approaching the length of an adult slugcat. It's not finding them that's hard, it's trying to carry all the roots back to camp all at once that proves difficult! On the way back, they spot some plantain and almost drop all of their roots when they attempt to collect it.",
+                "text": "The heat of greenleaf has made the shadow roots grow to towering size, with some leaves approaching the length of an adult slugcat. It's not finding them that's hard, it's trying to carry all the roots back to camp all at once that proves difficult! On the way back, they spot some plantain and almost drop all of their roots when they attempt to collect it.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["burdock", "plantain"]
+                "herbs": ["shadow_root", "plantain"]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. On the way back to camp, they even find some freshly sprouted plantain to pick! Laying the fat roots out in a towering pile in the herb stores makes p_l's entire body thrum with a contented purr, even as they're still tucking the plantain leaves away in a shady spot.",
+                "text": "Luck is on p_l's side today - the shadow root is both plentiful and easy to find. On the way back to camp, they even find some freshly sprouted plantain to pick! Laying the fat roots out in a towering pile in the herb stores makes p_l's entire body thrum with a contented purr, even as they're still tucking the plantain leaves away in a shady spot.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "plantain"]
+                "herbs": ["many_herbs", "shadow_root", "plantain"]
             },
             {
-                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot. They're pleasantly surprised when they also spot a hidden patch of plantain on the way back. Good gathering today, it seems!",
+                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a shadow root and digging at its foot. They're pleasantly surprised when they also spot a hidden patch of plantain on the way back. Good gathering today, it seems!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "burdock", "plantain"]
+                "herbs": ["many_herbs", "shadow_root", "plantain"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any burdock, and it feels like a wasted afternoon.",
+                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any shadow root, and it feels like a wasted afternoon.",
                 "exp": 0,
                 "weight": 20
             }
@@ -783,15 +783,15 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for burdock. p_l heads out to replenish the Clan's stocks, bringing app1 along.",
+        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for shadow root. p_l heads out to replenish the Clan's stocks, bringing app1 along.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "The heat of greenleaf has made the burdock plants grow to towering size, with some leaves approaching the length of an adult slugcat. It's not finding them that's hard, it's trying to carry all the roots back to camp all at once that proves difficult! On the way back, app1 spots some plantain leaves, and p_l chuckles to themself softly as the apprentice attempts to fit the leaves and roots into their jaws to carry back.",
+                "text": "The heat of greenleaf has made the shadow roots grow to towering size, with some leaves approaching the length of an adult slugcat. It's not finding them that's hard, it's trying to carry all the roots back to camp all at once that proves difficult! On the way back, app1 spots some plantain leaves, and p_l chuckles to themself softly as the apprentice attempts to fit the leaves and roots into their jaws to carry back.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["burdock", "plantain"],
+                "herbs": ["shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -810,10 +810,10 @@
                 ]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Digging the roots out is a bit more difficult, but they manage a good haul. On the walk back, app1 waves their tail excitedly as they spot a patch of plantain near the path. p_l praises their herb-finding skills as they stop to gather some of the leaves.",
+                "text": "Luck is on p_l's side today - the shadow root is both plentiful and easy to find. Digging the roots out is a bit more difficult, but they manage a good haul. On the walk back, app1 waves their tail excitedly as they spot a patch of plantain near the path. p_l praises their herb-finding skills as they stop to gather some of the leaves.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "plantain"],
+                "herbs": ["many_herbs", "shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -832,11 +832,11 @@
                 ]
             },
             {
-                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot. They're leading the way back when they also spot some plantain growing nearby. With a purr, they make sure to gather some of that as well, since it's good for all sorts of stings.",
+                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a shadow root and digging at its foot. They're leading the way back when they also spot some plantain growing nearby. With a purr, they make sure to gather some of that as well, since it's good for all sorts of stings.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "burdock", "plantain"],
+                "herbs": ["many_herbs", "shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -857,7 +857,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any burdock, and it feels like a wasted afternoon. They avoid snapping at app1, who seems unable to identify the common herb, but they definitely come close.",
+                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any shadow root, and it feels like a wasted afternoon. They avoid snapping at app1, who seems unable to identify the common herb, but they definitely come close.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -893,15 +893,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for burdock. p_l heads out to replenish the Clan's stocks, bringing along anyone who isn't busy with other work.",
+        "intro_text": "With the full sun of greenleaf fueling plant growth everywhere, it's the perfect time to hunt for shadow root. p_l heads out to replenish the Clan's stocks, bringing along anyone who isn't busy with other work.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "The heat of greenleaf has made the burdock plants grow to towering size, with some leaves approaching the length of an adult slugcat. It's a long afternoon, but a productive, light-hearted one, filled with smiles and jokes as the obliging slugcats follow p_l's direction to carry everything home. p_l is amused to find some plantain leaves in the mix as they're sorting later.",
+                "text": "The heat of greenleaf has made the shadow roots grow to towering size, with some leaves approaching the length of an adult slugcat. It's a long afternoon, but a productive, light-hearted one, filled with smiles and jokes as the obliging slugcats follow p_l's direction to carry everything home. p_l is amused to find some plantain leaves in the mix as they're sorting later.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["burdock", "plantain"],
+                "herbs": ["shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -920,10 +920,10 @@
                 ]
             },
             {
-                "text": "Luck is on p_l's side today - the burdock is both plentiful and easy to find. Laying the fat roots out in a towering pile in the herb stores makes p_l's entire body thrum with a contented purr, and their Clanmates smile, obligingly helping out their hard-working cleric. p_l is amused to find some plantain leaves among the roots, as well.",
+                "text": "Luck is on p_l's side today - the shadow root is both plentiful and easy to find. Laying the fat roots out in a towering pile in the herb stores makes p_l's entire body thrum with a contented purr, and their Clanmates smile, obligingly helping out their hard-working cleric. p_l is amused to find some plantain leaves among the roots, as well.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "burdock", "plantain"],
+                "herbs": ["many_herbs", "shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -942,12 +942,12 @@
                 ]
             },
             {
-                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a burdock plant and digging at its foot. Their team follows them, ready to pitch in and provide the muscle needed to bring back an excellent harvest. On the way home, p_l spots some plantain growing close to the path and directs a warrior to grab some of that, as well.",
+                "text": "s_c shows their usual talent for spotting herbs, trotting straight over to a shadow root and digging at its foot. Their team follows them, ready to pitch in and provide the muscle needed to bring back an excellent harvest. On the way home, p_l spots some plantain growing close to the path and directs a warrior to grab some of that, as well.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
                 "can_have_stat": ["p_l"],
-                "herbs": ["many_herbs", "burdock", "plantain"],
+                "herbs": ["many_herbs", "shadow_root", "plantain"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -968,7 +968,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any burdock, and no one else on the patrol is very helpful either. They return to camp without any burdock, prickling with frustration.",
+                "text": "Maybe they're just coming down with a runny nose, but p_l doesn't manage to sniff out any shadow root, and no one else on the patrol is very helpful either. They return to camp without any shadow root, prickling with frustration.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1277,23 +1277,23 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion nearby - perfect.",
+                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion peaches nearby - perfect.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["daisy", "dandelion"]
+                "herbs": ["daisy", "dandelion_peach"]
             },
             {
-                "text": "Greenleaf brings a veritable explosion of daisies and dandelions raising little white and yellow flowers around every corner, and p_l barely even needs to leave camp to gather them.",
+                "text": "Greenleaf brings a veritable explosion of daisies and dandelion peaches raising little white and blue flowers around every corner, and p_l barely even needs to leave camp to gather them.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "daisy", "dandelion"]
+                "herbs": ["many_herbs", "daisy", "dandelion_peach"]
             },
             {
-                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelions next to them. s_c collects enough that they have trouble not dropping any on the way back to camp.",
+                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelion peaches next to them. s_c collects enough that they have trouble not dropping any on the way back to camp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "daisy"]
+                "herbs": ["many_herbs", "dandelion_peach", "daisy"]
             }
         ],
         "fail_outcomes": [
@@ -1326,10 +1326,10 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion nearby - perfect. p_l goes through their common uses with app1.",
+                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion peaches nearby - perfect. p_l goes through their common uses with app1.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["daisy", "dandelion"],
+                "herbs": ["daisy", "dandelion_peach"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1348,10 +1348,10 @@
                 ]
             },
             {
-                "text": "Greenleaf brings a veritable explosion of daisies and dandelions raising little white and yellow flowers around every corner, and p_l barely even needs to leave camp to gather them. It gives them time to let app1 run off and play with their friends, and seeing their apprentice getting to relax makes them smile from their favorite basking spot.",
+                "text": "Greenleaf brings a veritable explosion of daisies and dandelion peaches raising little white and blue flowers around every corner, and p_l barely even needs to leave camp to gather them. It gives them time to let app1 run off and play with their friends, and seeing their apprentice getting to relax makes them smile from their favorite basking spot.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "daisy", "dandelion"],
+                "herbs": ["many_herbs", "daisy", "dandelion_peach"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1370,11 +1370,11 @@
                 ]
             },
             {
-                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelions next to them. s_c collects enough that they have trouble not dropping any on the way back to camp. At least with app1 here with them the load is shared, and they purr in appreciation of the apprentice.",
+                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelion peaches next to them. s_c collects enough that they have trouble not dropping any on the way back to camp. At least with app1 here with them the load is shared, and they purr in appreciation of the apprentice.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "daisy"],
+                "herbs": ["many_herbs", "dandelion_peach", "daisy"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1436,10 +1436,10 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion nearby - perfect. With a larger patrol, the slugcats bring back a good haul, and p_l makes sure to thank everyone for their assistance.",
+                "text": "Daisies may seem like part of the everyday carpet of greenery, present everywhere from rocks to fields to nestled at the foot of trees, but that doesn't make their leaves any less useful. And there's some dandelion peaches nearby - perfect. With a larger patrol, the slugcats bring back a good haul, and p_l makes sure to thank everyone for their assistance.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["daisy", "dandelion"],
+                "herbs": ["daisy", "dandelion_peach"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1458,10 +1458,10 @@
                 ]
             },
             {
-                "text": "Greenleaf brings a veritable explosion of daisies and dandelions raising little white and yellow flowers around every corner, and p_l barely even needs to leave camp to gather them. It ends up feeling like an afternoon full of chatting and catching up with their Clanmates that happens to have daisy gathering in it, rather than a typical herb gathering patrol.",
+                "text": "Greenleaf brings a veritable explosion of daisies and dandelion peachs raising little white and blue flowers around every corner, and p_l barely even needs to leave camp to gather them. It ends up feeling like an afternoon full of chatting and catching up with their Clanmates that happens to have daisy gathering in it, rather than a typical herb gathering patrol.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "daisy", "dandelion"],
+                "herbs": ["many_herbs", "daisy", "dandelion_peach"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1480,11 +1480,11 @@
                 ]
             },
             {
-                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelions next to them. s_c collects enough that they have trouble not dropping any on the way back to camp. The patrol, filled with gossip and chatter on the way out, and daisy leaves on the trip back, makes for an easy, enjoyable afternoon.",
+                "text": "Daisies aren't hard to find in the warmer seasons, popping up all over the place with dandelion peaches next to them. s_c collects enough that they have trouble not dropping any on the way back to camp. The patrol, filled with gossip and chatter on the way out, and daisy leaves on the trip back, makes for an easy, enjoyable afternoon.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "daisy"],
+                "herbs": ["many_herbs", "dandelion_peach", "daisy"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -1542,33 +1542,33 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "Greenleaf's bounty means that finding dandelions shouldn't be any trouble. If {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} lucky, {PRONOUN/p_l/subject} might also be able to find additional herbs, such as wild garlic.",
+        "intro_text": "Greenleaf's bounty means that finding dandelion peaches shouldn't be any trouble. If {PRONOUN/p_l/subject}{VERB/p_l/'re/'s} lucky, {PRONOUN/p_l/subject} might also be able to find additional herbs, such as spinet.",
         "decline_text": "{PRONOUN/p_l/subject/CAP} {VERB/p_l/have/has} second thoughts about leaving {PRONOUN/p_l/poss} patients behind and {VERB/p_l/decide/decides} to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their roots and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices. Just as useful is the wild garlic that they find nearby, hidden by some undergrowth, but impossible to miss due to their scent.",
+                "text": "Truly, dandelion peaches are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their fruit and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices, not to mention the fruit makes for an excellent snack. Just as useful is the spinet that they find nearby, hidden by some undergrowth, but impossible to miss due to their scent.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["dandelion", "wild_garlic"]
+                "herbs": ["dandelion_peach", "spinet"]
             },
             {
-                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion plants and the additional wild garlic {PRONOUN/p_l/subject} had been hoping to find. Later {PRONOUN/p_l/subject}'ll sort the leaves and roots to be stored separately, the leaves remain fresh for a far shorter time.",
+                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion peach plants and the additional spinet {PRONOUN/p_l/subject} had been hoping to find. Later {PRONOUN/p_l/subject}'ll sort the leaves and flowers to be stored separately, the leaves remain fresh for a far shorter time.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"]
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"]
             },
             {
-                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions and wild garlic to bring back to camp.",
+                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelion peaches and spinet to bring back to camp.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"]
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, c_n doesn't seem to be the only things after dandelions, and p_l can't gather from this patch without killing off the already damaged plants.",
+                "text": "Unfortunately, c_n doesn't seem to be the only things after dandelion peaches, and p_l can't gather from this patch without killing off the already damaged plants.",
                 "exp": 0,
                 "weight": 20
             }
@@ -1591,15 +1591,15 @@
             "normal adult": [-1, -1]
         },
         "weight": 20,
-        "intro_text": "Greenleaf's bounty means that finding dandelions - and hopefully other plants, like wild garlic - shouldn't be any trouble.  p_l heads out to look for them, taking app1 to learn about one of the most useful common herbs in the cleric arsenal.",
+        "intro_text": "Greenleaf's bounty means that finding dandelion peaches - and hopefully other plants, like spinet - shouldn't be any trouble.  p_l heads out to look for them, taking app1 to learn about one of the most useful common herbs in the cleric arsenal.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their roots and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices. Then p_l chuckles to themself, spotting a nearby patch of wild garlic not even a lizard-length away. Time to see how app1 will react to this stinky herb!",
+                "text": "Truly, dandelion peaches are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their roots and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices, not to mention the fruit makes for an excellent snack. Then p_l chuckles to themself, spotting a nearby patch of spinet not even a lizard-length away. Time to see how app1 will react to this stinky herb!",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["dandelion", "wild_garlic"],
+                "herbs": ["dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1618,10 +1618,10 @@
                 ]
             },
             {
-                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion plants and additional wild garlic that had been impossible to miss on the way back. Later they'll teach app1 to sort the leaves and roots to be stored separately, the leaves remain fresh for a far shorter time.",
+                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion peach plants and additional spinet that had been impossible to miss on the way back. Later they'll teach app1 to sort the leaves and roots to be stored separately, the leaves remain fresh for a far shorter time.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"],
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1640,11 +1640,11 @@
                 ]
             },
             {
-                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions to bring back to camp. Instead, they let app1 take the lead in finding the plants, praising them for all the progress they've made in herbcraft. They are especially proud when app1 notices the wild garlic nearby and points out that they can gather that as well.",
+                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelion peaches to bring back to camp. Instead, they let app1 take the lead in finding the plants, praising them for all the progress they've made in herbcraft. They are especially proud when app1 notices the spinet nearby and points out that they can gather that as well.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"],
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1665,7 +1665,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Unfortunately, c_n doesn't seem to be the only things after dandelions, and p_l can't gather from this patch without killing off the already damaged plants. app1 actually starts an argument about it, insistent that they don't need to worry about protecting the dandelion patch for the future.",
+                "text": "Unfortunately, c_n doesn't seem to be the only things after dandelion peaches, and p_l can't gather from this patch without killing off the already damaged plants. app1 actually starts an argument about it, insistent that they don't need to worry about protecting the dandelion patch for the future.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -1702,15 +1702,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "Greenleaf's bounty means that finding dandelions shouldn't be any trouble. p_l heads out to look for them, bringing a group of their Clanmates along for the gathering patrol. With this many warriors, they should bring back a good haul, and might even be able to grab another herb - wild garlic, perhaps? - as well.",
+        "intro_text": "Greenleaf's bounty means that finding dandelion peaches shouldn't be any trouble. p_l heads out to look for them, bringing a group of their Clanmates along for the gathering patrol. With this many warriors, they should bring back a good haul, and might even be able to grab another herb - spinet, perhaps? - as well.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Truly, dandelions are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their roots and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices. They aren't quite as obliging when it's time to gather the wild garlic that is growing some lizard-lengths away from the dandelions!",
+                "text": "Truly, dandelion peaches are an essential herb to keep in stock, crucial for poisons and stings. The white milk in their roots and stems keeps for a long time and is a potent cure for poison, while their leaves are weaker but fast acting and can be chewed into poultices, not to mention the fruit makes for an excellent snack. They aren't quite as obliging when it's time to gather the spnet that is growing some lizard-lengths away from the dandelion peaches!",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["dandelion", "wild_garlic"],
+                "herbs": ["dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1729,10 +1729,10 @@
                 ]
             },
             {
-                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion plants and several wild garlic bulbs. Later they'll sort the leaves and roots of the dandelions to be stored separately, the leaves remain fresh for a far shorter time, but for now they make sure to thank the warriors that've helped them bring home so many.",
+                "text": "It's a successful gathering mission, with p_l striding back to camp with a great haul of entire dandelion peach plants and several spinet plants. Later they'll sort the leaves and flowers of the dandelion peaches to be stored separately, the leaves remain fresh for a far shorter time, but for now they make sure to thank the warriors that've helped them bring home so many.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"],
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1751,11 +1751,11 @@
                 ]
             },
             {
-                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelions and plentiful wild garlic to bring back to camp. They help the warriors carefully pluck fluffy dandelions heads to bring back for the nursery, and don't even have the heart to get annoyed when the warriors decline to help carry the wild garlic.",
+                "text": "With warmth in the air and ground, s_c doesn't need to try very hard to find an excellent haul of dandelion peaches and plentiful spinet to bring back to camp. They help the warriors carefully pluck fluffy dandelion peach fruits to bring back for the nursery, and don't even have the heart to get annoyed when the warriors decline to help carry the spinet.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "dandelion", "wild_garlic"],
+                "herbs": ["many_herbs", "dandelion_peach", "spinet"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -1776,7 +1776,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The warriors that are supposed to be helping p_l gather dandelions instead seem more intent on hunting, and p_l gives up, storming back to camp with their temper flaring.",
+                "text": "The warriors that are supposed to be helping p_l gather dandelion peaches instead seem more intent on hunting, and p_l gives up, storming back to camp with their temper flaring.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3577,33 +3577,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the mullein starts to tower over the other plants, it's a good time to harvest it.",
+        "intro_text": "As the mosaic weeds start to tower over the other plants, it's a good time to harvest it.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l spots the mullein plants by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. They hop down to trot over and harvest them, and nearly squish a thyme plant. Hey, they'll take that too!",
+                "text": "p_l spots the mosaic weeds by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. They hop down to trot over and harvest them, and nearly squish a mushroom. Hey, they'll take that too!",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["mullein", "thyme"]
+                "herbs": ["mosaic_weed", "mushroom"]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. Or, for that matter, the pleasing scent of thyme, which p_l stumbles across and may as well harvest too.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mosaic weeds are a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. Or, for that matter, the pleasing scent of mushrooms, which p_l stumbles across and may as well harvest too.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mullein", "thyme"]
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"]
             },
             {
-                "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home. As a bonus, their plant pruning operation exposes a couple hidden thyme plants creeping along the soil, and they're added to the day's harvest.",
+                "text": "The always-reliable s_c spots mosaic weeds growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home. As a bonus, their plant pruning operation exposes a couple hidden mushrooms creeping along the soil, and they're added to the day's harvest.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mullein", "thyme"]
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l could swear that there's usually some mullein around here - but not this time.",
+                "text": "p_l could swear that there's usually some mosaic weed around here - but not this time.",
                 "exp": 0,
                 "weight": 20
             }
@@ -3624,15 +3624,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the mullein starts to tower over the other plants, it's a good time to harvest it. p_l explains to app1 how mullein's height make it easy to spot from a distance.",
+        "intro_text": "As the mosaic weeds start to tower over the other plants, it's a good time to harvest it. p_l explains to app1 how mosaic weed's height make it easy to spot from a distance.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l spots the mullein plants by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. Once they've called app1 up to have a look, they hop down to trot over and harvest them and nearly squish a thyme plant. Hey, they'll take that too!",
+                "text": "p_l spots the mosaic weeds by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. Once they've called app1 up to have a look, they hop down to trot over and harvest them and nearly squish a mushroom. Hey, they'll take that too!",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["mullein", "thyme"],
+                "herbs": ["mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3651,10 +3651,10 @@
                 ]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. app1 soaks up the lessons on its uses attentively, and also sniffs out a thyme bush for p_l.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mosaic weeds are a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. app1 soaks up the lessons on its uses attentively, and also sniffs out a mushroom patch for p_l.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "mullein", "thyme"],
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3673,11 +3673,11 @@
                 ]
             },
             {
-                "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and, with app1 helping them, knocks them over so that the entire bundle can be carried home. As a bonus, their plant pruning operation exposes a couple hidden thyme plants creeping along the soil, and they're added to the day's harvest.",
+                "text": "The always-reliable s_c spots mosaic weeds growing plenty of leaves on their strange central stems, and, with app1 helping them, knocks them over so that the entire bundle can be carried home. As a bonus, their plant pruning operation exposes a couple hidden mushrooms creeping along the soil, and they're added to the day's harvest.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mullein", "thyme"],
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -3698,7 +3698,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l could swear that there's usually some mullein around here - but not this time.",
+                "text": "p_l could swear that there's usually some mosaic weed around here - but not this time.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -3734,15 +3734,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "As the mullein starts to tower over the other plants, it's a good time to harvest it.",
+        "intro_text": "As the mosaic weeds start to tower over the other plants, it's a good time to harvest it.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l spots the mullein plants by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. They hop down to trot over and harvest them with the rest of the patrol, and nearly squish a thyme plant. Hey, they'll take that too!",
+                "text": "p_l spots the mosaic weeds by scrambling up onto a low rock and looking for their sapling-like, fat, towering stems starting to poke over all the other plants. They hop down to trot over and harvest them with the rest of the patrol, and nearly squish a mushroom. Hey, they'll take that too!",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["mullein", "thyme"],
+                "herbs": ["mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3761,10 +3761,10 @@
                 ]
             },
             {
-                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mullein is a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. The warriors helping p_l don't understand the importance, but obligingly help them harvest it and the thyme bush they stumble across.",
+                "text": "Easing the lungs of those with weaker chest muscles or infections, helping with certain sorts of pain, <i>and</i> being used to treat unhappy guts - mosaic weeds are a good herb to keep in stock, even if it doesn't have the glamour of scugmint or the rarity of hyacinth. The warriors helping p_l don't understand the importance, but obligingly help them harvest it and the mushroom patch they stumble across.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "mullein", "thyme"],
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3783,11 +3783,11 @@
                 ]
             },
             {
-                "text": "The always-reliable s_c spots mullein plants growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home by the patrol. As a bonus, their plant pruning operation exposes a couple hidden thyme plants creeping along the soil, and they're added to the day's harvest.",
+                "text": "The always-reliable s_c spots mosaic weeds growing plenty of leaves on their strange central stems, and knocks them over so that the entire bundle can be carried home by the patrol. As a bonus, their plant pruning operation exposes a couple hidden mushrooms creeping along the soil, and they're added to the day's harvest.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "mullein", "thyme"],
+                "herbs": ["many_herbs", "mosaic_weed", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -3808,7 +3808,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l could swear that there's usually some mullein around here - but not this time.",
+                "text": "p_l could swear that there's usually some mosaic weed around here - but not this time.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -4116,23 +4116,23 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp blocked off by them, but hey, there's plantain. Nearby, a mullein plant looks like it's about to topple onto the path too, and p_l clears it away before it can.",
+                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp blocked off by them, but hey, there's plantain. Nearby, a mosaic weed looks like it's about to topple onto the path too, and p_l clears it away before it can.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["plantain", "mullein"]
+                "herbs": ["plantain", "mosaic_weed"]
             },
             {
-                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of. p_l finds today's harvest growing overshadowed by a big mullein plant, and takes that too.",
+                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of. p_l finds today's harvest growing overshadowed by a big mosaic weed, and takes that too.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "plantain", "mullein"]
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple. Oh, and there's some mullein to pick up on the way home.",
+                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple. Oh, and there's some mosaic weed to pick up on the way home.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "plantain", "mullein"]
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"]
             }
         ],
         "fail_outcomes": [
@@ -4163,10 +4163,10 @@
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp be blocked off by them, but hey, there's plantain. They show app1 how the leaves can make excellent structural support for bandages and poultices. Nearby, a mullein plant looks like it's about to topple onto the path too, and p_l clears it away before it can.",
+                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp be blocked off by them, but hey, there's plantain. They show app1 how the leaves can make excellent structural support for bandages and poultices. Nearby, a mosaic weed looks like it's about to topple onto the path too, and p_l clears it away before it can.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["plantain", "mullein"],
+                "herbs": ["plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4185,10 +4185,10 @@
                 ]
             },
             {
-                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of, and always taught early in the herbal lore each cleric must memorise. p_l finds today's harvest growing overshadowed by a big mullein plant, and takes that too.",
+                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic but valuable herb to keep stocks of, and always taught early in the herbal lore each cleric must memorise. p_l finds today's harvest growing overshadowed by a big mosaic weed, and takes that too.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "plantain", "mullein"],
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4207,11 +4207,11 @@
                 ]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple, p_l teaches app1. Oh, and there's some mullein to pick up on the way home.",
+                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple, p_l teaches app1. Oh, and there's some mosaic weed to pick up on the way home.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "plantain", "mullein"],
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -4274,10 +4274,10 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp be blocked off by them, but hey, there's plantain. The warriors are relieved p_l lets them clear the plants away - there'll be plantain elsewhere, and the Clan needs this path. Nearby, a mullein plant looks like it's about to topple onto the path too, and p_l clears it away before it can.",
+                "text": "p_l doesn't so much find the plantain plants as find one of the main paths headed away from camp be blocked off by them, but hey, there's plantain. The warriors are relieved p_l lets them clear the plants away - there'll be plantain elsewhere, and the Clan needs this path. Nearby, a mosaic weed looks like it's about to topple onto the path too, and p_l clears it away before it can.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["plantain", "mullein"],
+                "herbs": ["plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4296,10 +4296,10 @@
                 ]
             },
             {
-                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic, but valuable, herb to keep stocks of. It's even relatively innocuous taste-wise, making it easy to harvest. p_l finds today's harvest growing overshadowed by a big mullein plant, and takes that too.",
+                "text": "Suitable for soothing throat and pelt irritation, and with a welcome - albeit weird - habit of consistently sprouting up on well-trodden paths, plantain is a basic, but valuable, herb to keep stocks of. It's even relatively innocuous taste-wise, making it easy to harvest. p_l finds today's harvest growing overshadowed by a big mosaic weed, and takes that too.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "plantain", "mullein"],
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -4318,11 +4318,11 @@
                 ]
             },
             {
-                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple. Oh, and there's some mullein to pick up on the way home, <i>And</i> the warriors get to tidy their paths through the territory. It's a win-win!",
+                "text": "Go to where other animals wander through c_n's territory on little beaten paths, wander around until you bump nose-first into a plantain plant, harvest. Simple. Oh, and there's some mosaic weed to pick up on the way home, <i>And</i> the warriors get to tidy their paths through the territory. It's a win-win!",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "plantain", "mullein"],
+                "herbs": ["many_herbs", "plantain", "mosaic_weed"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5294,33 +5294,33 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has finally put enough time aside to go search for thyme.",
+        "intro_text": "p_l has finally put enough time aside to go search for mushrooms.",
         "decline_text": "They have second thoughts about leaving their patients behind, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Thankfully, they don't have to go far, and being among thyme's calming scent makes gathering it quite pleasant. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they can carry.",
+                "text": "Thankfully, they don't have to go far, and being among the mushroom's calming scent makes gathering it quite pleasant. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they can carry.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["goldenrod", "thyme"]
+                "herbs": ["goldenrod", "mushroom"]
             },
             {
-                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Thyme is always both helpful and pleasant to have around, and p_l makes sure to organize the herb stores ensuring they have a healthy amount of goldenrod to go alongside the thyme, which p_l places so that the scent wafts near their nest.",
+                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Mushrooms are always both helpful and pleasant to have around, and p_l makes sure to organize the herb stores ensuring they have a healthy amount of goldenrod to go alongside the mushrooms, which p_l places so that the scent wafts near their nest.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "thyme"]
+                "herbs": ["many_herbs", "goldenrod", "mushroom"]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, mouth crammed full of the herb, as they make their way home. Spotting a small goldenrod plant that looks like it's beginning to wilt, they pause to gather the remaining stems to make good use of it.",
+                "text": "s_c carefully plucks the stems, mouth crammed full of the herb, as they make their way home trying to not consume any of the mushrooms by accient. Spotting a small goldenrod plant that looks like it's beginning to wilt, they pause to gather the remaining stems to make good use of it.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "thyme"]
+                "herbs": ["many_herbs", "goldenrod", "mushroom"]
             }
         ],
         "fail_outcomes": [
             {
-                "text": "p_l has no time - and no thyme. They're forced to give up on the search for today.",
+                "text": "p_l has no time, and no mushrooms. They're forced to give up on the search for today.",
                 "exp": 0,
                 "weight": 20
             }
@@ -5341,15 +5341,15 @@
             "healer cats": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has finally put enough time aside to go search for thyme with app1.",
+        "intro_text": "p_l has finally put enough time aside to go search for mushrooms with app1.",
         "decline_text": "They have second thoughts leaving their patients behind, especially with them also bringing their apprentice, and decide to go another day.",
         "chance_of_success": 70,
         "success_outcomes": [
             {
-                "text": "Thankfully, they don't have to go far, and being among thyme's calming scent makes gathering it quite pleasant. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they can carry. Both app1 and p_l enjoy the chance for a peaceful afternoon.",
+                "text": "Thankfully, they don't have to go far, and being among the mushroom's calming scent makes gathering it quite pleasant. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they can carry. Both app1 and p_l enjoy the chance for a peaceful afternoon.",
                 "exp": 20,
                 "weight": 20,
-                "herbs": ["goldenrod", "thyme"],
+                "herbs": ["goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5368,10 +5368,10 @@
                 ]
             },
             {
-                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Thyme is always both helpful and pleasant to have around, p_l makes sure to organize the herb stores ensuring they have a healthy amount of goldenrod to go alongside the thyme, which p_l places so that the scent wafts near the nests they and app1 curl up in at night.",
+                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Mushrooms are always both helpful and pleasant to have around, p_l makes sure to organize the herb stores ensuring they have a healthy amount of goldenrod to go alongside the mushrooms, which p_l places so that the scent wafts near the nests they and app1 curl up in at night.",
                 "exp": 20,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "thyme"],
+                "herbs": ["many_herbs", "goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5390,11 +5390,11 @@
                 ]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, putting down the herbs they carry to explain it to app1 while they gather a few goldenrod stems from a nearby plant.",
+                "text": "s_c carefully plucks the stems of the mushrooms, putting down the herbs they carry to explain their effects especially in high quantities to app1 while they gather a few goldenrod stems from a nearby plant.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "thyme"],
+                "herbs": ["many_herbs", "goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["patrol"],
@@ -5415,7 +5415,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l has no time - and no thyme. They're forced to give up on the search for today.",
+                "text": "p_l has no time and no mushrooms. They're forced to give up on the search for today.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -5451,15 +5451,15 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l has finally put enough time aside to go search for thyme with a gathering patrol.",
+        "intro_text": "p_l has finally put enough time aside to go search for mushrooms with a gathering patrol.",
         "decline_text": "They're stopped before they leave camp - these warriors are needed elsewhere. p_l's expedition will have to wait.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Thankfully, they don't have to go far, and being among thyme's calming scent makes gathering it quite pleasant as the patrol settles in to nip off its leaves. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they and their entourage can carry.",
+                "text": "Thankfully, they don't have to go far, and being among the mushroom's calming scent makes gathering it quite pleasant as the patrol settles in to nip off the herb. To p_l's excitement they have just spotted a huge patch of goldenrod and hurry over to collect as much as they and their entourage can carry.",
                 "exp": 10,
                 "weight": 20,
-                "herbs": ["goldenrod", "thyme"],
+                "herbs": ["goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5478,10 +5478,10 @@
                 ]
             },
             {
-                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Thyme is always both helpful and pleasant to have around, and p_l decides that this patrol has brought back more than enough, including a couple of stems of goldenrod, so much there's no harm in letting the warriors take a stem each for their nests.",
+                "text": "It calms racing hearts and minds, bringing slugcats back from the shock of loss or injury. Mushrooms are always both helpful and pleasant to have around, and p_l decides that this patrol has brought back more than enough, including a couple of stems of goldenrod, so much there's no harm in letting the warriors take a stem each for their nests.",
                 "exp": 10,
                 "weight": 5,
-                "herbs": ["many_herbs", "goldenrod", "thyme"],
+                "herbs": ["many_herbs", "goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5500,11 +5500,11 @@
                 ]
             },
             {
-                "text": "Thyme, thyme, thyme, there's never enough thyme. s_c snorts at their little joke, putting down the herbs they carry to explain it to the rest of the patrol while they gather a few goldenrod stems from a nearby plant.",
+                "text": "s_c carefully plucks some mushroom stems, putting down the herbs they carry to explain their effects to the rest of the patrol while they gather a few goldenrod stems from a nearby plant.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["SENSE,2"],
-                "herbs": ["many_herbs", "goldenrod", "thyme"],
+                "herbs": ["many_herbs", "goldenrod", "mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
@@ -5525,7 +5525,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l has no time - and no thyme. They're forced to give up on the search for today.",
+                "text": "p_l has no time and no mushrooms. They're forced to give up on the search for today.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -6623,7 +6623,7 @@
                 "text": "Some sicknesses aren't physical, but live in the mind instead, p_l instructs. That's very normal, and just as a Clanmate with a twisted leg is just as loved and valued as one who can run without pain, an illness that is mental is just as valid of a struggle, the slugcats just as loved and supported in their needs.",
                 "exp": 30,
                 "weight": 20,
-                "herbs": ["thyme"],
+                "herbs": ["mushroom"],
                 "relationships": [
                     {
                         "cats_to": ["p_l"],
