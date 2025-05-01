@@ -1222,6 +1222,16 @@
     }
   },
   {
+    "event_id": "gen_misc_any_albinovulture_RARE",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 2,
+    "event_text": "m_c spotted a strange white vulture flying overhead, a sign from The Ascended, or just sheer luck?",
+    "m_c": {
+        "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
+    }
+  },
+  {
     "event_id": "gen_misc_multi_kit1",
     "location": ["any"],
     "season": ["greenleaf", "newleaf"],
