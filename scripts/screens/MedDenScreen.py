@@ -488,9 +488,9 @@ class MedDenScreen(Screens):
             if cat.not_working():
                 med_working = False
             if med_working is True:
-                work_status = "This cat can work"
+                work_status = "This scug can work"
             else:
-                work_status = "This cat isn't able to work"
+                work_status = "This scug isn't able to work"
             info_list = [med_skill, med_exp, work_status]
             self.med_info.set_text("<br>".join(info_list))
 
