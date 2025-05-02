@@ -2703,14 +2703,15 @@ def generate_sprite(
             else:
                 tortie_pattern = cat.pelt.tortiepattern
 
-            patches = sprites.sprites[
-                tortie_pattern + cat.pelt.tortiecolour + cat_sprite
-            ].copy()
-            patches.blit(
-                sprites.sprites["tortiemask" + pattern + cat_sprite],
-                (0, 0),
-                special_flags=pygame.BLEND_RGBA_MULT,
-            )
+            for pattern in cat.pelt.pattern:
+                patches = sprites.sprites[
+                    tortie_pattern + cat.pelt.tortiecolour + cat_sprite
+                    ].copy()
+                patches.blit(
+                    sprites.sprites["tortiemask" + pattern + cat_sprite],
+                    (0, 0),
+                    special_flags=pygame.BLEND_RGBA_MULT
+                )
 
             # Add patches onto cat.
             new_sprite.blit(patches, (0, 0))
