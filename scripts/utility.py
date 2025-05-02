@@ -27,9 +27,6 @@ from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game
 import scripts.game_structure.screen_settings  # must be done like this to get updates when we change screen size etc
 
-if TYPE_CHECKING:
-    from scripts.cat.cats import Cat
-
 # ---------------------------------------------------------------------------- #
 #                               Getting Cats                                   #
 # ---------------------------------------------------------------------------- #
