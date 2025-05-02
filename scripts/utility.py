@@ -862,9 +862,9 @@ def create_new_cat(
                 )
 
         if age > 12:
-            if not randint(0, 50):   #0 = trans
-                print('TRANS OUTSIDER!!!!')
-                if not randint(0, 2):   #0 = nonbinary
+            if not randint(0, 50):  # 0 = trans
+                print("TRANS OUTSIDER!!!!")
+                if not randint(0, 2):  # 0 = nonbinary
                     if _gender == "male":
                         new_cat.genderalign = "trans female"
                         new_cat.pronouns = [new_cat.default_pronouns[1].copy()]
@@ -880,24 +880,27 @@ def create_new_cat(
         mutilation_scars = [
             "CUTOPEN",
             "BESIEGED",
-            "VIVISECTION", 
-            "LABRATCHEST", 
-            "LABRATLIMBS", 
-            "RESTITCHEDUPPER", 
-            "RESTITCHEDLOWER", 
+            "VIVISECTION",
+            "LABRATCHEST",
+            "LABRATLIMBS",
+            "RESTITCHEDUPPER",
+            "RESTITCHEDLOWER",
             "STITCHEDHEAD",
-            "EXTRACTIONTWO", 
-            "MESSIAH", 
-            "ENVOYCHEST"
+            "EXTRACTIONTWO",
+            "MESSIAH",
+            "ENVOYCHEST",
         ]
 
         if kittypet:
-            if new_cat.genderalign == "trans male" or new_cat.genderalign == "nonbinary":
+            if (
+                new_cat.genderalign == "trans male"
+                or new_cat.genderalign == "nonbinary"
+            ):
                 new_cat.pelt.scars.append("TOPSURGERY")
 
-            if not randint(0, 10): #1 out of 5
-                new_cat.pelt.scars.append(choice(mutilation_scars)) 
-                
+            if not randint(0, 10):  # 1 out of 5
+                new_cat.pelt.scars.append(choice(mutilation_scars))
+
         # give em a collar if they got one
         if accessory:
             new_cat.pelt.accessories.append(accessory)
@@ -920,9 +923,9 @@ def create_new_cat(
             "NORIGHTEAR",
             "MANLEG",
             "ROTRIDDEN",
-            "FULLBODYBURNS", 
-            "HALFFACELEFT", 
-            "HALFFACERIGHT"
+            "FULLBODYBURNS",
+            "HALFFACELEFT",
+            "HALFFACERIGHT",
         ]
         for scar in new_cat.pelt.scars:
             if scar in not_allowed:
@@ -2269,11 +2272,15 @@ def event_text_adjust(
 
     # acc_plural (only works for main_cat's acc)
     if "acc_plural" in text:
-        text = text.replace("acc_plural", str(ACC_DISPLAY[main_cat.pelt.accessories[-1]]["plural"]))
+        text = text.replace(
+            "acc_plural", str(ACC_DISPLAY[main_cat.pelt.accessories[-1]]["plural"])
+        )
 
     # acc_singular (only works for main_cat's acc)
     if "acc_singular" in text:
-        text = text.replace("acc_singular", str(ACC_DISPLAY[main_cat.pelt.accessories[-1]]["singular"]))
+        text = text.replace(
+            "acc_singular", str(ACC_DISPLAY[main_cat.pelt.accessories[-1]]["singular"])
+        )
 
     if "given_herb" in text:
         if "_" in chosen_herb:
@@ -2704,12 +2711,16 @@ def generate_sprite(
                 tortie_pattern = cat.pelt.tortiepattern
 
             for pattern in cat.pelt.pattern:
-                 patches = sprites.sprites[
-                     tortie_pattern + cat.pelt.tortiecolour + cat_sprite].copy()
-                 patches.blit(sprites.sprites["tortiemask" + pattern + cat_sprite], (0, 0),
-                              special_flags=pygame.BLEND_RGBA_MULT)
-                 # Add patches onto cat.
-                 new_sprite.blit(patches, (0, 0))
+                patches = sprites.sprites[
+                    tortie_pattern + cat.pelt.tortiecolour + cat_sprite
+                ].copy()
+                patches.blit(
+                    sprites.sprites["tortiemask" + pattern + cat_sprite],
+                    (0, 0),
+                    special_flags=pygame.BLEND_RGBA_MULT,
+                )
+                # Add patches onto cat.
+                new_sprite.blit(patches, (0, 0))
 
         # TINTS
         if (
@@ -2731,17 +2742,29 @@ def generate_sprite(
             new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
 
         # draw white patches
-         if cat.pelt.white_patches:
-             for white in cat.pelt.white_patches:
-                 if cat.pelt.white_patches_tint != "none" and cat.pelt.white_patches_tint in sprites.white_patches_tints["tint_colours"]:
-                     white_patch = sprites.sprites['white' + white + cat_sprite].copy()
-                     tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-                     tint.fill(tuple(sprites.white_patches_tints["tint_colours"][cat.pelt.white_patches_tint]))
-                     white_patch.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-                     new_sprite.blit(white_patch, (0, 0))
-                 else:
-                     new_sprite.blit(sprites.sprites['white' + white + cat_sprite], (0, 0))
-                    
+        if cat.pelt.white_patches:
+            for white in cat.pelt.white_patches:
+                if (
+                    cat.pelt.white_patches_tint != "none"
+                    and cat.pelt.white_patches_tint
+                    in sprites.white_patches_tints["tint_colours"]
+                ):
+                    white_patch = sprites.sprites["white" + white + cat_sprite].copy()
+                    tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
+                    tint.fill(
+                        tuple(
+                            sprites.white_patches_tints["tint_colours"][
+                                cat.pelt.white_patches_tint
+                            ]
+                        )
+                    )
+                    white_patch.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+                    new_sprite.blit(white_patch, (0, 0))
+                else:
+                    new_sprite.blit(
+                        sprites.sprites["white" + white + cat_sprite], (0, 0)
+                    )
+
         # draw vit & points
 
         if cat.pelt.points:
@@ -2768,7 +2791,12 @@ def generate_sprite(
             )
 
         # draw normal eyes
-        if cat.pelt.eye_colour not in Pelt.riveye_colours and cat.pelt.eye_colour not in Pelt.buttoneye_colours not in Pelt.bobaeye_colours:
+        if (
+            cat.pelt.eye_colour not in Pelt.riveye_colours
+            and cat.pelt.eye_colour
+            not in Pelt.buttoneye_colours
+            not in Pelt.bobaeye_colours
+        ):
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
@@ -2804,7 +2832,7 @@ def generate_sprite(
             new_sprite.blit(sprites.sprites["lineartdf" + cat_sprite], (0, 0))
         elif dead:
             new_sprite.blit(sprites.sprites["lineartdead" + cat_sprite], (0, 0))
-            
+
         # draw the rot
         if not scars_hidden:
             for scar in cat.pelt.scars:
@@ -2813,84 +2841,146 @@ def generate_sprite(
                         sprites.sprites["scars" + "ROTRIDDEN" + cat_sprite], (0, 0)
                     )
 
-        #draw special skin
+        # draw special skin
         if not feature_hidden:
             if cat.pelt.skin in Pelt.closest_skin:
-                new_sprite.blit(sprites.sprites["skin" + cat.pelt.skin + cat_sprite], (0, 0))
+                new_sprite.blit(
+                    sprites.sprites["skin" + cat.pelt.skin + cat_sprite], (0, 0)
+                )
 
-        #draw CLOSE TO BODY ACCS i'm finally doing it yuppie
+        # draw CLOSE TO BODY ACCS i'm finally doing it yuppie
         for i in cat.pelt.accessories:
             if not acc_hidden:
                 if i in Pelt.closest_accs:
                     try:
                         if i in cat.pelt.plant_accessories:
-                            new_sprite.blit(sprites.sprites['acc_herbs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["acc_herbs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.wild_accessories:
-                            new_sprite.blit(sprites.sprites['acc_wild' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["acc_wild" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.collars:
-                            new_sprite.blit(sprites.sprites['collars' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["collars" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.lizards:
-                            new_sprite.blit(sprites.sprites['lizards' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["lizards" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.muddypaws:
-                            new_sprite.blit(sprites.sprites['muddypaws' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["muddypaws" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.herbs2:
-                            new_sprite.blit(sprites.sprites['herbs2' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["herbs2" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs:
-                            new_sprite.blit(sprites.sprites['newaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs2:
-                            new_sprite.blit(sprites.sprites['newaccs2' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs2" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.insectwings:
-                            new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["insectwings" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.buddies:
-                            new_sprite.blit(sprites.sprites['buddies' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["buddies" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.bodypaint:
-                            new_sprite.blit(sprites.sprites['bodypaint' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["bodypaint" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.implant:
-                            new_sprite.blit(sprites.sprites['implant' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["implant" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.magic:
-                            new_sprite.blit(sprites.sprites['magic' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["magic" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.necklaces:
-                            new_sprite.blit(sprites.sprites['necklaces' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["necklaces" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.drapery:
-                            new_sprite.blit(sprites.sprites['drapery' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["drapery" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.pridedrapery:
-                            new_sprite.blit(sprites.sprites['pridedrapery' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["pridedrapery" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.eyepatches:
-                            new_sprite.blit(sprites.sprites['eyepatches' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["eyepatches" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.larsaccs:
-                            new_sprite.blit(sprites.sprites['larsaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["larsaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.harleyaccs:
-                            new_sprite.blit(sprites.sprites['harleyaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["harleyaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.featherboas:
-                            new_sprite.blit(sprites.sprites['featherboas' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["featherboas" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.scarves:
-                            new_sprite.blit(sprites.sprites['scarves' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["scarves" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.neckbandanas:
-                            new_sprite.blit(sprites.sprites['neckbandanas' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["neckbandanas" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.chains:
-                            new_sprite.blit(sprites.sprites['chains' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["chains" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs3:
-                            new_sprite.blit(sprites.sprites['newaccs3' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs3" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.floatyeyes:
-                            new_sprite.blit(sprites.sprites['floatyeyes' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["floatyeyes" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.ponchoaccs:
-                            new_sprite.blit(sprites.sprites['ponchoaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["ponchoaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.orbitals:
-                            new_sprite.blit(sprites.sprites['orbitals' + i + cat_sprite], (0, 0))
-                    #THIS SECTION ABOVE IS ONLY FOR CLOSE-TO-BODY ACCESSORIES
+                            new_sprite.blit(
+                                sprites.sprites["orbitals" + i + cat_sprite], (0, 0)
+                            )
+                    # THIS SECTION ABOVE IS ONLY FOR CLOSE-TO-BODY ACCESSORIES
 
                     except:
                         continue
-        #?????
+        # ?????
         blendmode = pygame.BLEND_RGBA_MIN
-        
-        #draw the rest of the skin
+
+        # draw the rest of the skin
         if not feature_hidden:
             if cat.pelt.skin not in Pelt.closest_skin:
-                new_sprite.blit(sprites.sprites["skin" + cat.pelt.skin + cat_sprite], (0, 0))
-            
+                new_sprite.blit(
+                    sprites.sprites["skin" + cat.pelt.skin + cat_sprite], (0, 0)
+                )
+
         # draw riv, button, and boba eyes
-        if cat.pelt.eye_colour in Pelt.riveye_colours or cat.pelt.eye_colour in Pelt.buttoneye_colours or cat.pelt.eye_colour in Pelt.bobaeye_colours:
+        if (
+            cat.pelt.eye_colour in Pelt.riveye_colours
+            or cat.pelt.eye_colour in Pelt.buttoneye_colours
+            or cat.pelt.eye_colour in Pelt.bobaeye_colours
+        ):
             eyes = sprites.sprites["eyes" + cat.pelt.eye_colour + cat_sprite].copy()
             if cat.pelt.eye_colour2 != None:
                 eyes.blit(
@@ -2908,79 +2998,143 @@ def generate_sprite(
                         special_flags=blendmode,
                     )
 
-        #draw the rest of the accs
+        # draw the rest of the accs
         for i in cat.pelt.accessories:
             if not acc_hidden:
                 if i not in Pelt.closest_accs:
                     try:
                         if i in cat.pelt.plant_accessories:
-                            new_sprite.blit(sprites.sprites['acc_herbs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["acc_herbs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.wild_accessories:
-                            new_sprite.blit(sprites.sprites['acc_wild' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["acc_wild" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.collars:
-                            new_sprite.blit(sprites.sprites['collars' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["collars" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.lizards:
-                            new_sprite.blit(sprites.sprites['lizards' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["lizards" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.muddypaws:
-                            new_sprite.blit(sprites.sprites['muddypaws' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["muddypaws" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.herbs2:
-                            new_sprite.blit(sprites.sprites['herbs2' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["herbs2" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs:
-                            new_sprite.blit(sprites.sprites['newaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs2:
-                            new_sprite.blit(sprites.sprites['newaccs2' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs2" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.insectwings:
-                            new_sprite.blit(sprites.sprites['insectwings' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["insectwings" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.buddies:
-                            new_sprite.blit(sprites.sprites['buddies' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["buddies" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.bodypaint:
-                            new_sprite.blit(sprites.sprites['bodypaint' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["bodypaint" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.implant:
-                            new_sprite.blit(sprites.sprites['implant' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["implant" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.magic:
-                            new_sprite.blit(sprites.sprites['magic' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["magic" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.necklaces:
-                            new_sprite.blit(sprites.sprites['necklaces' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["necklaces" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.drapery:
-                            new_sprite.blit(sprites.sprites['drapery' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["drapery" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.pridedrapery:
-                            new_sprite.blit(sprites.sprites['pridedrapery' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["pridedrapery" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.eyepatches:
-                            new_sprite.blit(sprites.sprites['eyepatches' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["eyepatches" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.larsaccs:
-                            new_sprite.blit(sprites.sprites['larsaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["larsaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.harleyaccs:
-                            new_sprite.blit(sprites.sprites['harleyaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["harleyaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.featherboas:
-                            new_sprite.blit(sprites.sprites['featherboas' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["featherboas" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.scarves:
-                            new_sprite.blit(sprites.sprites['scarves' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["scarves" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.neckbandanas:
-                            new_sprite.blit(sprites.sprites['neckbandanas' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["neckbandanas" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.chains:
-                            new_sprite.blit(sprites.sprites['chains' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["chains" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.newaccs3:
-                            new_sprite.blit(sprites.sprites['newaccs3' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["newaccs3" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.floatyeyes:
-                            new_sprite.blit(sprites.sprites['floatyeyes' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["floatyeyes" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.morespears:
-                            new_sprite.blit(sprites.sprites['morespears' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["morespears" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.flagaccs:
-                            new_sprite.blit(sprites.sprites['flagaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["flagaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.haloaccs:
-                            new_sprite.blit(sprites.sprites['haloaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["haloaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.ponchoaccs:
-                            new_sprite.blit(sprites.sprites['ponchoaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["ponchoaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.glassesaccs:
-                            new_sprite.blit(sprites.sprites['glassesaccs' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["glassesaccs" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.orbitals:
-                            new_sprite.blit(sprites.sprites['orbitals' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["orbitals" + i + cat_sprite], (0, 0)
+                            )
                         elif i in cat.pelt.vulturemasks:
-                            new_sprite.blit(sprites.sprites['vulturemasks' + i + cat_sprite], (0, 0))
+                            new_sprite.blit(
+                                sprites.sprites["vulturemasks" + i + cat_sprite], (0, 0)
+                            )
 
                     except:
                         continue
-                
+
         # Apply fading fog
         if (
             cat.pelt.opacity <= 97
