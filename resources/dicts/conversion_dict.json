@@ -180,6 +180,23 @@
         "betony": "bubble_weed",
         "goldenrod": "lily_puck",
         "poppy": "grape_root",
-        "plantain": "ivy",
-}
+        "plantain": "ivy"
+},
+    "old_colors": {
+        "PALEGREY": "SKY",
+        "SILVER": "BLUE",
+        "GREY": "INDIGO",
+        "DARKGREY": "PURPLE",
+        "PALEGINGER": "YELLOW",
+        "GOLDEN": "ORANGE",
+        "GINGER": "SCARLET",
+        "DARKGINGER": "RED",
+        "SIENNA": "PINK",
+        "LIGHTBROWN": "MINT",
+        "LILAC": "LIME",
+        "BROWN": "GREEN",
+        "GOLDEN-BROWN": "MAROON",
+        "DARKBROWN": "PERIWINKLE",
+        "CHOCOLATE": "LAVENDER"
+    }
 }
