@@ -2704,17 +2704,12 @@ def generate_sprite(
                 tortie_pattern = cat.pelt.tortiepattern
 
             for pattern in cat.pelt.pattern:
-                patches = sprites.sprites[
-                    tortie_pattern + cat.pelt.tortiecolour + cat_sprite
-                    ].copy()
-                patches.blit(
-                    sprites.sprites["tortiemask" + pattern + cat_sprite],
-                    (0, 0),
-                    special_flags=pygame.BLEND_RGBA_MULT
-                )
-
-            # Add patches onto cat.
-            new_sprite.blit(patches, (0, 0))
+                 patches = sprites.sprites[
+                     tortie_pattern + cat.pelt.tortiecolour + cat_sprite].copy()
+                 patches.blit(sprites.sprites["tortiemask" + pattern + cat_sprite], (0, 0),
+                              special_flags=pygame.BLEND_RGBA_MULT)
+                 # Add patches onto cat.
+                 new_sprite.blit(patches, (0, 0))
 
         # TINTS
         if (
@@ -2736,30 +2731,16 @@ def generate_sprite(
             new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
 
         # draw white patches
-        if cat.pelt.white_patches:
-            for white in cat.pelt.white_patches:
-                if cat.pelt.white_patches_tint != "none" and cat.pelt.white_patches_tint in sprites.white_patches_tints["tint_colours"]:
-                    white_patch = sprites.sprites[
-                        'white' + white + cat_sprite
-                        ].copy()
-            # Apply tint to white patches.
-            if (
-                cat.pelt.white_patches_tint != "none"
-                and cat.pelt.white_patches_tint
-                in sprites.white_patches_tints["tint_colours"]
-            ):
-                tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-                tint.fill(
-                    tuple(
-                        sprites.white_patches_tints["tint_colours"][
-                            cat.pelt.white_patches_tint
-                        ]
-                    )
-                )
-                white_patch.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
-                new_sprite.blit(white_patch, (0, 0))
-            else:
-                new_sprite.blit(sprites.sprites['white' + white + cat_sprite], (0, 0))
+         if cat.pelt.white_patches:
+             for white in cat.pelt.white_patches:
+                 if cat.pelt.white_patches_tint != "none" and cat.pelt.white_patches_tint in sprites.white_patches_tints["tint_colours"]:
+                     white_patch = sprites.sprites['white' + white + cat_sprite].copy()
+                     tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
+                     tint.fill(tuple(sprites.white_patches_tints["tint_colours"][cat.pelt.white_patches_tint]))
+                     white_patch.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+                     new_sprite.blit(white_patch, (0, 0))
+                 else:
+                     new_sprite.blit(sprites.sprites['white' + white + cat_sprite], (0, 0))
                     
         # draw vit & points
 
