@@ -1385,7 +1385,7 @@ class Pelt:
                 self.tortiebase = choice(Pelt.tortiebases)
             if not self.pattern:
                 chosen_pattern = set()
-                self.pattern = choice(Pelt.tortiepatterns)
+                chosen_pattern.add(choice(Pelt.tortiepatterns))
 
                 num = game.config["cat_generation"]["base_extra_tortie"]
 
@@ -1409,7 +1409,7 @@ class Pelt:
                     # people are fans of the print message, so I'm putting it back
                     print("Wildcard tortie!")
 
-                    # Allow any pattern:
+                     # Allow any pattern:
                     self.tortiepattern = choice(Pelt.tortiebases)
 
                     # Allow any colors that aren't the base color.
