@@ -708,7 +708,7 @@ class Pelt:
                  pattern: str = None,
                  tortiepattern: str = None,
                  vitiligo: str = None,
-                 points: str = None,
+                 points: list = None,
                  accessory: str = None,
                  paralyzed: bool = False,
                  opacity: int = 100,
@@ -1458,7 +1458,7 @@ class Pelt:
         for p in parents:
             if p:
                 if p.pelt.white_patches:
-                    par_whitepatches.add(p.pelt.white_patches)
+                     par_whitepatches.add(choice(p.pelt.white_patches))
                 if p.pelt.points:
                     par_points.append(p.pelt.points)
 
@@ -1887,7 +1887,7 @@ class Pelt:
         white_patches_tint_name = str(cat.pelt.white_patches_tint).lower() 
         
         if cat.pelt.white_patches:
-            if cat.pelt.white_patches == "FULLWHITE":
+            if any(white in Pelt.mostly_white for white in cat.pelt.white_patches) and cat.pelt.name != "Calico":
                 # If the cat is fullwhite, discard all other information. They are just whatever white patch tint color they have
                 color_name = f"{white_patches_tint_name}"
             if cat.pelt.white_patches in Pelt.mostly_white and cat.pelt.name != "Calico":
