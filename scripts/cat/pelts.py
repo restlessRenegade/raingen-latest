@@ -927,17 +927,6 @@ class Pelt:
                 self.cat_sprites['senior'] = 13
             elif self.cat_sprites['senior'] == 5:
                 self.cat_sprites['senior'] = 14
-        
-        if self.pattern in convert_dict["old_tortie_patches"]:
-            old_pattern = self.pattern
-            self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
-
-            # If the pattern is old, there is also a chance the base color is stored in
-            # tortiecolour. That may be different from the pelt color ("main" for torties)
-            # generated before the "ginger-on-ginger" update. If it was generated after that update,
-            # tortiecolour and pelt_colour will be the same. Therefore, let's also re-set the pelt color
-            self.colour = self.tortiecolour
-            self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
             
         if self.pattern == "MINIMAL1":
             self.pattern = "MINIMALONE"
@@ -1254,7 +1243,8 @@ class Pelt:
         elif chosen_pelt == "Calico":
             if not chosen_white:
                 chosen_pelt = "Tortie"
-
+                
+        # SET THE PELT
         self.name = chosen_pelt
         self.colour = chosen_pelt_color
         self.length = chosen_pelt_length
@@ -1607,13 +1597,7 @@ class Pelt:
             weights = (10, 10, 10, 10, 1)
 
         chosen_white_patches = set()
-        white_list = [
-            Pelt.little_white,
-            Pelt.mid_white,
-            Pelt.high_white,
-            Pelt.mostly_white,
-            ["FULLWHITE"],
-        ]
+        white_list = [Pelt.little_white, Pelt.mid_white, Pelt.high_white, Pelt.mostly_white, ['FULLWHITE']]
         chosen_white_patches.add(choice(
             random.choices(white_list, weights=weights, k=1)[0]
         ))
