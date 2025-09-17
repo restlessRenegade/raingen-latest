@@ -1,1 +1,25 @@
-
+{
+  "prefixes": {
+    "numbers": ["One"],
+    "verbs": ["Fading", "Falling", "Flying", "Soaring"],
+  },
+  "nouns": ["Void", "Karma", "Faith"],
+  "connectors": ["to", "under", "upon", "of", "in"],
+  "concepts": ["Veiled"],
+  "biome_prefixes": {
+    "Forest": [],
+    "Beach": [],
+    "Plains": [],
+    "Mountains": [],
+    "Wetlands": [],
+    "Desert": []
+  },
+  "biome_nouns": {
+    "Forest": ["Woods"],
+    "Beach": ["Shores"],
+    "Plains": ["Grasses"],
+    "Mountains": ["Peaks"],
+    "Wetlands": ["Marshes"],
+    "Desert": ["Dunes"]
+  }
+}
