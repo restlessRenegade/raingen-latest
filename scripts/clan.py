@@ -1314,7 +1314,7 @@ class Clan:
     @temperament.setter
     def temperament(self, val):
         return
-
+        
 
 class OtherClan:
     """
@@ -1396,6 +1396,41 @@ class StarClan:
                     fade_level = f
         white.fill((255, 255, 255, fade_level))
         return white
+
+class Iterator:
+    """
+    TO-DO: DOCS, EVERYTHING
+    """
+    interaction_dict = {
+        "friendly": ["offend", "praise"],
+        "neutral": ["provoke", "befriend"],
+        "hostile": ["antagonize", "appease"],
+    }
+    interests_list = [
+        "slugcat lover",
+        "scavenger lover",
+        "lizard lover",
+        "yeek lover",
+        "centipede lover",
+        "vulture lover",
+        "biology",
+        "mechanics",
+        "robotics",
+        "cybernetics",
+        "astronomy",
+        "engineering",
+        "ascension",
+        "karma",
+        "psychology"
+    ]
+    personality_list = [
+        "cold",
+        "tactical",
+        "apathetic",
+        "warm",
+        "caring",
+        "curious"
+    ]
 
 
 clan_class = Clan()
