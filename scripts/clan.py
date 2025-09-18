@@ -1431,6 +1431,29 @@ class Iterator:
         "caring",
         "curious"
     ]
+    def itty_init(self, name="", relations=0, level="", personality="", interests="", chosen_icon=""):
+        iterator_names = names.iterator_names_dict["numbers"]
+        iterator_names.extend(names.iterator_names_dict["verbs"])
+        self.name = name or choice(iterator_names)
+
+        self.relations = relations or randint(8, 12)
+        self.interests = interests or choice(self.interests_list)
+        self.personality = personality or choice(self.personality_list)
+        if self.personality not in self.personality_list:
+            self.personality = choice(self.personality_list)
+
+        self.chosen_icon = (
+            None  # have to establish None first so that iterator_icon_sprite works
+        )
+        self.chosen_icon = (
+            chosen_icon
+            if chosen_icon
+            else iterator_icon_sprite(self, return_string=True)
+        )
+
+    def __repr__(self):
+        return f"{self.name}Clan"
+        
 
 
 clan_class = Clan()
