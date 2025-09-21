@@ -2851,9 +2851,7 @@ def generate_sprite(
                 for key in sprites.sprites:
                     if key.endswith(suffix2) and key[:key.find(cat.pelt.eye_colour2)].endswith("2"):
                         found2 = sprites.sprites[key]
-                    elif key.startswith(suffix2) and key[:key.find(cat.pelt.eye_colour2)].startswith("multi"):
-                        found2 = sprites.sprites[key]
-                    break
+                        break
                 if found2:
                     eyes.blit(found2, (0, 0))
             new_sprite.blit(eyes, (0, 0))
