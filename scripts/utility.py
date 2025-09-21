@@ -2847,12 +2847,13 @@ def generate_sprite(
             eyes = find_eye_sprite(cat, cat_sprite)
             if cat.pelt.eye_colour2 is not None:
                 suffix2 = f"{cat.pelt.eye_colour2}{cat_sprite}"
+                prefix2 = f"{cat_sprite}"
                 found2 = None
                 for key in sprites.sprites:
                     if key.endswith(suffix2) and key[:key.find(cat.pelt.eye_colour2)].endswith("2"):
                         found2 = sprites.sprites[key]
                         break
-                    elif key.endswith(suffix2) and key[:key.find(cat.pelt.eye_colour2)].startswith("MULTI"):
+                    if key.startswith(prefix2) and key[:key.find(cat.pelt.eye_colour2)].startswith("MULTI"):
                         found2 = sprites.sprites[key]
                         break
                 if found2:
