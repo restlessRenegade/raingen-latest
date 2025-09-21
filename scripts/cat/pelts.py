@@ -382,7 +382,15 @@ class Pelt:
                 self.tortiecolour = 'PERIWINKLE'
             elif self.tortiecolour == 'CHOCOLATE':
                 self.tortiecolour = 'LAVENDER'
-        # build - pelt length conversion
+
+        #build - pelt length conversions
+        if self.build:
+            if self.build == 'long':
+                self.build = 'bulky'
+            if self.build == 'medium':
+                self.build = 'average'
+            if self.build == 'short':
+                self.build = 'slim'
         
         # tint conversions
         #if self.tint in convert_dict["old_tints"]:
