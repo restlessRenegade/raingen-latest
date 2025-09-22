@@ -3208,6 +3208,8 @@ class Cat:
 
         if self.df:
             file_name += "_df"
+        if self.outside and self.dead:
+            file_name += "_ur"
 
         file_name += ".png"
 
