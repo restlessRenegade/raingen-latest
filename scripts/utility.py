@@ -2839,6 +2839,8 @@ def generate_sprite(
             new_sprite.blit(sprites.sprites["lines" + cat_sprite], (0, 0))
         elif cat.df:
             new_sprite.blit(sprites.sprites["lineartdf" + cat_sprite], (0, 0))
+        elif cat.dead and cat.outside:
+            new_sprite.blit(sprites.sprites["lineartur" + cat_sprite], (0, 0))
         elif dead:
             new_sprite.blit(sprites.sprites["lineartdead" + cat_sprite], (0, 0))
             
@@ -3081,6 +3083,10 @@ def generate_sprite(
 
             if cat.df:
                 temp = sprites.sprites["fadedf" + stage + cat_sprite].copy()
+                temp.blit(new_sprite, (0, 0))
+                new_sprite = temp
+            elif cat.dead and cat.outside:
+                temp = sprites.sprites["fadeur" + stage + cat_sprite].copy()
                 temp.blit(new_sprite, (0, 0))
                 new_sprite = temp
             else:
