@@ -193,12 +193,14 @@ class Sprites:
 
         self.make_group('lineartdead', (0, 0), 'lineartdead')
         self.make_group('lineartdf', (0, 0), 'lineartdf')
+        self.make_group('lineartur', (0, 0), 'lineartur')
 
         # Fading Fog
         for i in range(0, 3):
             self.make_group('fademask', (i, 0), f'fademask{i}')
             self.make_group('fadestarclan', (i, 0), f'fadestarclan{i}')
             self.make_group('fadedarkforest', (i, 0), f'fadedf{i}')
+            self.make_group("fadeunknownresidence", (i, 0), f"fadeur{i}")
 
         # Define eye colors
         eye_colors = sprites_py_dict['eye_colors']
