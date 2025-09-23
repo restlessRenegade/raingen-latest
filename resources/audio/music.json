@@ -5,11 +5,12 @@
   "plains_playlist": [],
   "beach_playlist": [],
   "mountainous_playlist": [],
+  "desert_playlist": ["This will be added once normal clangen releases it"],
+  "wetlands_playlist": ["This will be added once normal clangen releases it"],
   "comment": ["Below here are biomes that are planned to be added"],
   "underground_playlist": [],
   "glacial_playlist": [],
-  "desert_playlist": ["This will be added once normal clangen releases it"],
-  "wetlands_playlist": ["This will be added once normal clangen releases it"],
+  "jungle_playlist": [],
   "urban_playlist": [],
   "iterator_playlist": []
 }
