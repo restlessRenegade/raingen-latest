@@ -105,6 +105,36 @@
             "Greenleaf": [3,6,4,2,0],
             "Leaf-fall": [2,5,5,2,1],
             "Leaf-bare": [1,3,6,4,2]
+        },
+		"Underground": {
+            "Newleaf": [2,5,5,2,1],
+            "Greenleaf": [2,5,5,2,1],
+            "Leaf-fall": [2,5,5,2,1],
+            "Leaf-bare": [2,6,4,2,1]
+        },
+		"Glacial": {
+            "Newleaf": [2,5,5,2,1],
+            "Greenleaf": [2,5,5,2,1],
+            "Leaf-fall": [2,5,5,2,1],
+            "Leaf-bare": [3,6,3,2,1]
+        },
+		"Jungle": {
+            "Newleaf": [2,5,5,2,1],
+            "Greenleaf": [2,5,5,2,1],
+            "Leaf-fall": [2,5,5,2,1],
+            "Leaf-bare": [2,6,4,2,1]
+        },
+		"Urban": {
+            "Newleaf": [2,5,5,2,1],
+            "Greenleaf": [2,5,5,2,1],
+            "Leaf-fall": [2,5,5,2,1],
+            "Leaf-bare": [2,6,4,2,1]
+        },
+		"Iterator": {
+            "Newleaf": [2,5,5,2,1],
+            "Greenleaf": [2,5,5,2,1],
+            "Leaf-fall": [2,5,5,2,1],
+            "Leaf-bare": [2,6,4,2,1]
         }
     },
     "comment": [
