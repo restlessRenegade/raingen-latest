@@ -1316,8 +1316,11 @@ class Pelt:
             self.skin = choice(random.choices(mechanical_features, mechanical_weights, k=1)[0])
         elif not random.randint(0, voidspawnnum):
             voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart]
-            voidspawn_weights = [4,1,4,12,12,8]
+            voidspawn_weights = [40,1,40,120,120,80]
             self.skin = choice(random.choices(voidspawn_features, voidspawn_weights, k=1)[0])
+            if self.skin in Pelt.familiar:
+                self.colour = "PURPLE"
+                print("HE HAS ARRIVED")
                 
     @property
     def white(self):
