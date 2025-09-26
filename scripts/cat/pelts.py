@@ -207,7 +207,11 @@ class Pelt:
     #misc descriptors
     texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
     size = ["tiny", "small", "medium", "large", "huge"]
+    species = ["mamillian", "feline", "amphibious", "aquatic", "reptilian", "aerial", "insectoid", "subterrarian", "voidspawn", "mechanical"]
 
+    #species feature lists - Pelts are planned to be added to this later!
+    mamillian_skin = 
+    
     """Holds all appearance information for a cat. """
 
     def __init__(self,
@@ -216,6 +220,7 @@ class Pelt:
                  colour: str = "WHITE",
                  texture: str = "smooth",
                  size: str = "medium",
+                 species: str = "feline",
                  white_patches: str = None,
                  eye_color: str = "BLUE",
                  eye_colour2: str = None,
@@ -245,6 +250,7 @@ class Pelt:
         self.colour = colour
         self.texture = texture
         self.size = size
+        self.species = species
         self.white_patches = white_patches
         self.eye_colour = eye_color
         self.eye_colour2 = eye_colour2
@@ -291,6 +297,7 @@ class Pelt:
         new_pelt.init_pattern()
         new_pelt.init_tint()
         new_pelt.common_combinations()
+        new_pelt.init_species(parents)
 
         return new_pelt
 
@@ -1250,6 +1257,28 @@ class Pelt:
                 self.vitiligo = None
                 self.points = None
                 print("clear pelt")
+
+    def init_species(self):
+        mamilliannum = game.config["cat_generation"]["base_mamillian"]
+        felinenum = game.config["cat_generation"]["base_feline"]
+        amphibiousnum = game.config["cat_generation"]["base_amphibious"]
+        reptiliannum = game.config["cat_generation"]["base_reptilian"]
+        insectoidnum = game.config["cat_generation"]["base_insectoid"]
+        aquaticnum = game.config["cat_generation"]["base_aquatic"]
+        aerialnum = game.config["cat_generation"]["base_aerial"]
+        subterrarian = game.config["cat_generation"]["base_subterrarian"]
+        mechanicalnum = game.config["cat_generation"]["base_mechanical"]
+        voidspawnnum = game.config["cat_generation"]["base_voidspawn"]
+
+        if not random.randint(0, mamilliannum):
+            mamillian_features = [Pelt.empty, Pelt.whiskers, Pelt.ramhorns, Pelt.scavhorns, Pelt.elitehorns, Pelt.antlers, Pelt.tongues, Pelt.
+            self.eye_colour = choice(Pelt.riveye_colours)
+        elif not random.randint(0, felinenum):
+            self.eye_colour = choice(Pelt.buttoneye_colours)
+        elif not random.randint(0, bobaeyenum):
+            self.eye_colour = choice(Pelt.bobaeye_colours)
+        elif not random.randint(0, geckoeyenum):
+            self.eye_colour = choice(Pelt.geckoeyes_colors)
                 
     @property
     def white(self):
