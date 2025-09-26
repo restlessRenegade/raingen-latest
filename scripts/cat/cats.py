@@ -3502,6 +3502,7 @@ class Cat:
                 "eye_colour2": (self.pelt.eye_colour2 or None),
                 "size": self.pelt.size,
                 "texture": self.pelt.texture,
+                "species": self.pelt.species,
                 "reverse": self.pelt.reverse,
                 "white_patches": self.pelt.white_patches,
                 "vitiligo": self.pelt.vitiligo,
