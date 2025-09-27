@@ -1303,7 +1303,7 @@ class Pelt:
         elif not random.randint(0, subterraneannum):
             subterranean_features = [Pelt.whiskers, Pelt.empty, Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
                                      Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
-                                     Pelt.drogwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
+                                     Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
             subterranean_weights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
             self.skin = choice(random.choices(subterranean_features, subterranean_weights, k=1)[0])
         elif not random.randint(0, mechanicalnum):
