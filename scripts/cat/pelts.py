@@ -1289,7 +1289,7 @@ class Pelt:
         elif not random.randint(0, insectoidnum):
             insectoid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
                                    Pelt.bodyeyes]
-            insectoid_weights = [10,20,20,10,10,15,10,10,10]
+            insectoid_weights = [10,20,20,10,10,15,10,10,10,5]
             self.skin = choice(random.choices(insectoid_features, insectoid_weights, k=1)[0])
         elif not random.randint(0, aquaticnum):
             aquatic_features = [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils]
