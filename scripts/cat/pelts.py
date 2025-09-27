@@ -1257,9 +1257,9 @@ class Pelt:
 
     def init_species(self, parents):
         if not parents:
-            self.eye_colour = choice(Pelt.species)
+            self.species = choice(Pelt.species)
         else:
-            self.eye_colour = choice([i.pelt.species for i in parents] + [choice(Pelt.species)])
+            self.species = choice([i.pelt.species for i in parents] + [choice(Pelt.species)])
         
         mammalliannum = game.config["cat_generation"]["base_mammallian"]
         felinenum = game.config["cat_generation"]["base_feline"]
