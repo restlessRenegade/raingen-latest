@@ -208,9 +208,6 @@ class Pelt:
     texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
     size = ["tiny", "small", "medium", "large", "huge"]
     species = ["mamillian", "feline", "amphibious", "aquatic", "reptilian", "aerial", "insectoid", "subterrarian", "voidspawn", "mechanical"]
-
-    #species feature lists - Pelts are planned to be added to this later!
-    mamillian_skin = 
     
     """Holds all appearance information for a cat. """
 
