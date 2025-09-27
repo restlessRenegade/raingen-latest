@@ -1268,7 +1268,7 @@ class Pelt:
         voidspawnnum = game.config["cat_generation"]["base_voidspawn"]
 
         if not random.randint(0, mamilliannum):
-            mamillian_features = [Pelt.empty, Pelt.whiskers, Pelt.ramhorns, Pelt.scavhorns, Pelt.elitehorns, Pelt.antlers, Pelt.tongues, Pelt.grasssheepback, Pelt.acrotail
+            mamillian_features = [Pelt.empty, Pelt.whiskers, Pelt.ramhorns, Pelt.scavhorns, Pelt.elitehorns, Pelt.antlers, Pelt.tongues, Pelt.grasssheepback, Pelt.acrotail,
                                   Pelt.fangs, Pelt.manes, Pelt.wool, Pelt.quills, Pelt.limbfades]
             mamillian_weights = [10,10,10,10,10,5,5,3,3,10,5,5,5,10]
             self.skin = choice(random.choices(mamillian_features, mamillian_weights, k=1)[0])
@@ -1282,12 +1282,12 @@ class Pelt:
             amphibious_weights = [10,10,10,5,10,20,5,3,3,3]
             self.skin = choice(random.choices(amphibious_features, amphibious_weights, k=1)[0])
         elif not random.randint(0, reptiliannum):
-            reptilian_features = [Pelt.empty, Pelt.claws, Pelt.whiskers, Pelt.sharphorns, Pelt.unihorns, Pelt.dragonhorns, Pelt.tailfrills, Pelt.thorns, Pelt.lizardneedles
+            reptilian_features = [Pelt.empty, Pelt.claws, Pelt.whiskers, Pelt.sharphorns, Pelt.unihorns, Pelt.dragonhorns, Pelt.tailfrills, Pelt.thorns, Pelt.lizardneedles,
                                   Pelt.dragonwhiskers, Pelt.spearholes, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.lizardfins, Pelt.spikes]
             reptilian_weights = [10,10,10,10,10,10,12,8,8,8,4,12,8,8,10]
             self.skin = choice(random.choices(reptilian_features, reptilian_weights, k=1)[0])
         elif not random.randint(0, insectoidnum):
-            insectioid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.cenitpedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger
+            insectioid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.cenitpedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
                                    Pelt.bodyeyes]
             insectoid_weights = [10,20,20,10,10,15,10,10,10]
             self.skin = choice(random.choices(insectoid_features, insectoid_weights, k=1)[0])
