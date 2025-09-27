@@ -207,6 +207,7 @@ class Pelt:
     #misc descriptors
     texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
     size = ["tiny", "small", "medium", "large", "huge"]
+    species = ["mammallian", "feline", "amphibious", "reptillian", "insectoid", "aquatic", "aerial", "subterranean", "mechanical", "voidspawn"]
     
     """Holds all appearance information for a cat. """
 
@@ -1254,7 +1255,12 @@ class Pelt:
                 self.points = None
                 print("clear pelt")
 
-    def init_species(self):
+    def init_species(self, parents):
+        if not parents:
+            self.eye_colour = choice(Pelt.species)
+        else:
+            self.eye_colour = choice([i.pelt.species for i in parents] + [choice(Pelt.species)])
+        
         mammalliannum = game.config["cat_generation"]["base_mammallian"]
         felinenum = game.config["cat_generation"]["base_feline"]
         amphibiousnum = game.config["cat_generation"]["base_amphibious"]
