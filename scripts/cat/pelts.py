@@ -1255,7 +1255,7 @@ class Pelt:
                 print("clear pelt")
 
     def init_species(self):
-        mammallian = game.config["cat_generation"]["base_mammallian"]
+        mammalliannum = game.config["cat_generation"]["base_mammallian"]
         felinenum = game.config["cat_generation"]["base_feline"]
         amphibiousnum = game.config["cat_generation"]["base_amphibious"]
         reptiliannum = game.config["cat_generation"]["base_reptilian"]
