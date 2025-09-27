@@ -1277,7 +1277,7 @@ class Pelt:
             feline_weights = [10,15,5,15]
             self.skin = choice(random.choices(feline_features, feline_weights, k=1)[0])
         elif not random.randint(0, amphibiousnum):
-            amphibious_features = [Pelt.empty, Pelt.sharphorns, Pelt.unihorns, Pelt.seaslugpapille, Pelt.glowspots, Pelt.gills, Pelt.tears, Pelt.bodyeyes, Pelt.kingtendrils,
+            amphibious_features = [Pelt.empty, Pelt.sharphorns, Pelt.unihorns, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.gills, Pelt.tears, Pelt.bodyeyes, Pelt.kingtendrils,
                                    Pelt.loach]
             amphibious_weights = [10,10,10,5,10,20,5,3,3,3]
             self.skin = choice(random.choices(amphibious_features, amphibious_weights, k=1)[0])
@@ -1292,7 +1292,7 @@ class Pelt:
             insectoid_weights = [10,20,20,10,10,15,10,10,10]
             self.skin = choice(random.choices(insectoid_features, insectoid_weights, k=1)[0])
         elif not random.randint(0, aquaticnum):
-            aquatic_features = [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapille, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils]
+            aquatic_features = [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils]
             aquatic_weights = [4,20,10,12,8,8,12,4]
             self.skin = choice(random.choices(aquatic_features, aquatic_weights, k=1)[0])
         elif not random.randint(0, aerialnum):
