@@ -1263,7 +1263,7 @@ class Pelt:
         insectoidnum = game.config["cat_generation"]["base_insectoid"]
         aquaticnum = game.config["cat_generation"]["base_aquatic"]
         aerialnum = game.config["cat_generation"]["base_aerial"]
-        subterrariannum = game.config["cat_generation"]["base_subterrarian"]
+        subterraneannum = game.config["cat_generation"]["base_subterranean"]
         mechanicalnum = game.config["cat_generation"]["base_mechanical"]
         voidspawnnum = game.config["cat_generation"]["base_voidspawn"]
 
@@ -1300,12 +1300,12 @@ class Pelt:
                                Pelt.lovebirdwings, Pelt.pidgeonwings, Pelt.vulturewing, Pelt.colorwings, Pelt.whitefadewings, Pelt.wings, Pelt.kingtendrils]
             aerial_weights = [4,4,8,8,8,12,20,20,20,20,20,20,20,20,4]
             self.skin = choice(random.choices(aerial_features, aerial_weights, k=1)[0])
-        elif not random.randint(0, subterrariannum):
-            subterrarian_features = [Pelt.whiskers, Pelt.empty, Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
+        elif not random.randint(0, subterraneannum):
+            subterranean_features = [Pelt.whiskers, Pelt.empty, Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
                                      Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
                                      Pelt.drogwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
-            subterrarian_weights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
-            self.skin = choice(random.choices(subterrarian_features, subterrarian_weights, k=1)[0])
+            subterranean_weights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
+            self.skin = choice(random.choices(subterranean_features, subterranean_weights, k=1)[0])
         elif not random.randint(0, mechanicalnum):
             mechanical_features = [Pelt.empty, Pelt.claws, Pelt.glowspots, Pelt.bodyeyes, Pelt.spearholes, Pelt.cyanfeatures, Pelt.glassback, Pelt.overseertenna, Pelt.roboticspines,
                                    Pelt.chimneytail, Pelt.mechanical, Pelt.tongues]
