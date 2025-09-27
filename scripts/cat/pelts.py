@@ -1263,7 +1263,7 @@ class Pelt:
         insectoidnum = game.config["cat_generation"]["base_insectoid"]
         aquaticnum = game.config["cat_generation"]["base_aquatic"]
         aerialnum = game.config["cat_generation"]["base_aerial"]
-        subterrarian = game.config["cat_generation"]["base_subterrarian"]
+        subterrariannum = game.config["cat_generation"]["base_subterrarian"]
         mechanicalnum = game.config["cat_generation"]["base_mechanical"]
         voidspawnnum = game.config["cat_generation"]["base_voidspawn"]
 
