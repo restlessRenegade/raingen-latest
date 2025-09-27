@@ -204,7 +204,7 @@
 		"base_aerial": 5,
 		"base_subterrarian": 5,
 		"base_mechanical": 3,
-		"base_voidspawn": 1
+		"base_voidspawn": 1,
 		"comment": [
 			"Higher numbers = smaller chances.",
 			"Except for most common combinations. Higher number = bigger chance.",
