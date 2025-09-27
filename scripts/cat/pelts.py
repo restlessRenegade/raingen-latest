@@ -1287,7 +1287,7 @@ class Pelt:
             reptilian_weights = [10,10,10,10,10,10,12,8,8,8,4,12,8,8,10]
             self.skin = choice(random.choices(reptilian_features, reptilian_weights, k=1)[0])
         elif not random.randint(0, insectoidnum):
-            insectioid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.cenitpedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
+            insectioid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
                                    Pelt.bodyeyes]
             insectoid_weights = [10,20,20,10,10,15,10,10,10]
             self.skin = choice(random.choices(insectoid_features, insectoid_weights, k=1)[0])
