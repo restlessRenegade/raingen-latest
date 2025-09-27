@@ -1170,7 +1170,7 @@ class ProfileScreen(Screens):
         output += "\n"
 
         # SPECIES
-        output += "species: " + str(the_cat.pelt.species())
+        output += "species: " + the_cat.pelt.species
         # NEWLINE ----------
         output += "\n"
 
