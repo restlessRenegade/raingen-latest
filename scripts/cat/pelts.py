@@ -1287,67 +1287,82 @@ class Pelt:
         elif not random.randint(0, felinenum):
             feline_features = [Pelt.whiskers, Pelt.fangs, Pelt.manes, Pelt.claws]
             feline_fweights = [10,15,5,15]
-            feline_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                feline_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                             "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "vulture",
                             "yeek", "rusted", "lantern", "drizzle", "envoy", "fluffy", "banana", "leafy", "necklace", "dreamer",
                             "fire", "countershaded", "skinny", "sparse", "skeleton", "swing", "ice", "glitter", "maned", "malibu",
                             "plantain", "spooky", "clay", "grave", "citadel", "painted", "mono", "mima", "xelsquid", "lunatic", "silv"]
-            self.name = choice(random.choices(feline_pelts))
+                self.name = choice(random.choices(feline_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(feline_features, feline_fweights, k=1)[0])
             self.species = "feline"
         elif not random.randint(0, amphibiousnum):
             amphibious_features = [Pelt.empty, Pelt.sharphorns, Pelt.unihorns, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.gills, Pelt.tears, Pelt.bodyeyes, Pelt.kingtendrils,
                                    Pelt.loach]
             amphibious_fweights = [10,10,10,5,10,20,5,3,3,3]
-            amphibious_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                amphibious_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                                 "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold",
                                 "vulture", "banana", "con", "lantern", "leviathan", "amoeba", "yeek", "rusted", "envoy", "drizzle", "solace", 
                                 "necklace", "dreamer", "duskdawn", "seer", "fire", "countershaded", "sparklecat", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", 
                                 "skeleton", "shred", "mold", "swing", "amazon", "boba", "glitter", "ice", "maned", "patchwork", "sunken", "whale",
                                 "dragonet", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "malibu", "clay", "antethisis", "citadel", "grave", "interloper",
                                 "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "snuff", "lacuna", "silv"]
-            self.name = choice(random.choices(amphibious_pelts))
+                self.name = choice(random.choices(amphibious_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(amphibious_features, amphibious_fweights, k=1)[0])
             self.species = "amphibious"
         elif not random.randint(0, reptiliannum):
             reptilian_features = [Pelt.empty, Pelt.claws, Pelt.whiskers, Pelt.sharphorns, Pelt.unihorns, Pelt.dragonhorns, Pelt.tailfrills, Pelt.thorns, Pelt.lizardneedles,
                                   Pelt.dragonwhiskers, Pelt.spearholes, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.lizardfins, Pelt.spikes]
             reptilian_fweights = [10,10,10,10,10,10,12,8,8,8,4,12,8,8,10]
-            reptillian_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                reptillian_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                                 "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold",
                                 "vulture", "banana", "con", "lantern", "leviathan", "yeek", "rusted", "envoy", "drizzle", "solace", 
                                 "necklace", "dreamer", "duskdawn", "seer", "fire", "countershaded", "sparklecat", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", 
                                 "skeleton", "shred", "mold", "swing", "glitter", "ice", "maned", "patchwork", "sunken", "cherry", "scaled", "lizard", "cyanlizard",
                                 "dragonet", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "malibu", "clay", "antethisis", "citadel", "grave", "interloper",
                                 "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "lunatic", "silv"]
-            self.name = choice(random.choices(reptillian_pelts))
+                self.name = choice(random.choices(reptillian_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(reptilian_features, reptilian_fweights, k=1)[0])
             self.species = "reptilian"
         elif not random.randint(0, insectoidnum):
             insectoid_features = [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
                                    Pelt.bodyeyes]
             insectoid_fweights = [10,20,20,10,10,15,10,10,10,5]
-            insectoid_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                insectoid_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                                "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "vulture", "banana", "centipede", "con", 
                                "lantern", "leviathan", "yeek", "rusted", "envoy", "drizzle", "solace", "necklace", "dreamer", "duskdawn", "seer", "fire", "countershaded", 
                                "sparklecat", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "skeleton", "shred", "glowing", "mold", "swing", "amazon",
                                "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "tomo", "whale", "dragonet", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", 
                                "noble", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted",
                                "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "lacuna", "silv"]
-            self.name = choice(random.choices(insectoid_pelts))
+                self.name = choice(random.choices(insectoid_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(insectoid_features, insectoid_fweights, k=1)[0])
             self.species = "insectoid"
         elif not random.randint(0, aquaticnum):
             aquatic_features = [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils]
             aquatic_fweights = [4,20,10,12,8,8,12,4]
-            amphibious_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                amphibious_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                                 "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "salmon", "betta",
                                 "vulture", "banana", "con", "lantern", "leviathan", "amoeba", "yeek", "rusted", "envoy", "drizzle", "solace", 
                                 "necklace", "dreamer", "duskdawn", "seer", "fire", "countershaded", "sparklecat", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", 
                                 "skeleton", "shred", "mold", "swing", "amazon", "boba", "glitter", "ice", "maned", "patchwork", "sunken", "whale",
                                 "dragonet", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "malibu", "clay", "antethisis", "citadel", "grave", "interloper",
                                 "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "snuff", "lacuna", "silv"]
-            self.name = choice(random.choices(insectoid_pelts))
+                self.name = choice(random.choices(insectoid_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(aquatic_features, aquatic_fweights, k=1)[0])
         elif not random.randint(0, aerialnum):
             aerial_features = [Pelt.dragonhorns, Pelt.dragonwhiskers, Pelt.moth, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.seaangelwings, Pelt.budgiewings, Pelt.conurewings,
@@ -1366,20 +1381,26 @@ class Pelt:
                                      Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
                                      Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
             subterranean_fweights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
-            subterranean_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
+            if self.name != "tortie" or "calico": 
+                subterranean_pelts = ["single", "tabby", "bengal", "marbled", "ticked", "smoke", "rosette", "speckled", "mackerel",
                                   "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "vulture",
                                   "yeek", "rusted", "lantern", "drizzle", "envoy", "fluffy", "banana", "leafy", "necklace", "dreamer",
                                   "fire", "countershaded", "skinny", "sparse", "skeleton", "swing", "ice", "glitter", "maned", "malibu",
                                   "plantain", "spooky", "clay", "grave", "citadel", "painted", "mono", "mima", "xelsquid", "lunatic", "silv"]
-            self.name = choice(random.choices(subterranean_pelts))
+                self.name = choice(random.choices(subterranean_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(subterranean_features, subterranean_fweights, k=1)[0])
             self.species = "subterranean"
         elif not random.randint(0, mechanicalnum):
             mechanical_features = [Pelt.empty, Pelt.claws, Pelt.glowspots, Pelt.bodyeyes, Pelt.spearholes, Pelt.cyanfeatures, Pelt.glassback, Pelt.overseertenna, Pelt.roboticspines,
                                    Pelt.chimneytail, Pelt.mechanical, Pelt.tongues]
             mechanical_fweights = [12,8,16,12,12,12,8,16,16,8,12,8]
-            mechanical_pelts = ["mecha", "plated"]
-            self.name = choice(random.choices(mechanical_pelts))
+            if self.name != "tortie" or "calico": 
+                mechanical_pelts = ["mecha", "plated"]
+                self.name = choice(random.choices(mechanical_pelts))
+            else:
+                continue
             self.skin = choice(random.choices(mechanical_features, mechanical_fweights, k=1)[0])
             self.species = "mechanical"
         elif not random.randint(0, voidspawnnum):
