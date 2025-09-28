@@ -1353,7 +1353,7 @@ class Pelt:
                                 "skeleton", "shred", "mold", "swing", "amazon", "boba", "glitter", "ice", "maned", "patchwork", "sunken", "whale",
                                 "dragonet", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "malibu", "clay", "antethisis", "citadel", "grave", "interloper",
                                 "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "snuff", "lacuna", "silv"]
-                self.name = choice(random.choices(insectoid_pelts))
+                self.name = choice(random.choices(amphibious_pelts))
             self.skin = choice(random.choices(aquatic_features, aquatic_fweights, k=1)[0])
         elif not random.randint(0, aerialnum):
             aerial_features = [Pelt.dragonhorns, Pelt.dragonwhiskers, Pelt.moth, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.seaangelwings, Pelt.budgiewings, Pelt.conurewings,
