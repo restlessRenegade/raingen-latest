@@ -266,10 +266,6 @@ class Sprites:
         tortiepatchesmasks = sprites_py_dict['tortiepatchesmasks']
         self.make_sprite_groups('tortiepatchesmasks', tortiepatchesmasks, 'tortiemask')
                 
-        # Empty skins
-        skin_colors = sprites_py_dict['skin_colors']
-        self.make_sprite_groups('skin', skin_colors, 'skin')
-                
         # Gills, Tongues, Quills
         gilltongue_rows = sprites_py_dict['gilltongue_rows']
         if game.settings["bea_gilltongue"]:
