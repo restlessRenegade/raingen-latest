@@ -1198,119 +1198,119 @@ class ProfileScreen(Screens):
         # FEATURES
         #god forgive me
         #i do not know a better way to do this
-        if the_cat.pelt.skin not in the_cat.pelt.empty:
-            output += "\n"
+        output += "\n"
+        if the_cat.pelt.skin != None
             featurename = "feature: " + the_cat.pelt.skin.lower()
-
+    
             #gills
             if the_cat.pelt.skin in the_cat.pelt.gills:
                 featurename = featurename.replace("gills", " gills")
                 output += featurename
-
+                
             #tongues
             elif the_cat.pelt.skin in the_cat.pelt.tongues:
                 featurename = featurename.replace("grey", "bluish grey")
                 featurename = featurename.replace("tongue", " tongue")
                 output += featurename
-                
+                    
             #spearholes
             elif the_cat.pelt.skin in the_cat.pelt.spearholes:
                 featurename = featurename.replace("mix", "black & white")
                 featurename = featurename.replace("spots", " tail spots")
                 output += featurename
-
+    
             #claws
             elif the_cat.pelt.skin in the_cat.pelt.claws:
                 featurename = featurename.replace("claws", " claws")
                 output += featurename
-                
+                    
             #antennae
             elif the_cat.pelt.skin in the_cat.pelt.antennae:
                 output += "feature: antennae"
-                
+                    
             #glowspots
             elif the_cat.pelt.skin in the_cat.pelt.glowspots:
                 output += "feature: glowing tail spots"
-                
+                    
             #ramhorns
             elif the_cat.pelt.skin in the_cat.pelt.ramhorns:
                 featurename = featurename.replace("hornsram", " ram horns")
                 output += featurename
-                
+                    
             #scavhorns
             elif the_cat.pelt.skin in the_cat.pelt.scavhorns:
                 featurename = featurename.replace("hornsscav", " scav antlers")
                 output += featurename
-                
+                    
             #elitehorns
             elif the_cat.pelt.skin in the_cat.pelt.elitehorns:
                 featurename = featurename.replace("hornselite", " elite scav antlers")
                 output += featurename
-                
+                    
             #sharphorns
             elif the_cat.pelt.skin in the_cat.pelt.sharphorns:
                 featurename = featurename.replace("hornssharp", " horns")
                 output += featurename
-                
+                    
             #dragonhorns
             elif the_cat.pelt.skin in the_cat.pelt.dragonhorns:
                 featurename = featurename.replace("hornsdragon", " dragon horns")
                 output += featurename
-                
+                    
             #unihorns
             elif the_cat.pelt.skin in the_cat.pelt.unihorns:
                 featurename = featurename.replace("hornslancer", " lancer horn")
                 output += featurename
-                
+                    
             #antlers
             elif the_cat.pelt.skin in the_cat.pelt.antlers:
                 output += "feature: deer antlers"
-                
+                    
             #moth
             elif the_cat.pelt.skin in the_cat.pelt.moth:
                 featurename = featurename.replace("moth", " moth whiskers")
                 output += featurename
-                
+                    
             #whiskers
             elif the_cat.pelt.skin in the_cat.pelt.whiskers:
                 featurename = featurename.replace("whiskers", " whiskers")
                 output += featurename
-                
+                    
             #lizardfins
             elif the_cat.pelt.skin in the_cat.pelt.lizardfins:
                 featurename = featurename.replace("fins", " fins")
                 output += featurename
-                
+                    
             #lizardneedles
             elif the_cat.pelt.skin in the_cat.pelt.lizardneedles:
                 featurename = featurename.replace("needles", " needles")
                 output += featurename
-                
+                    
             #thorns
             elif the_cat.pelt.skin in the_cat.pelt.thorns:
                 featurename = featurename.replace("thorns", " thorns")
                 output += featurename
-                
+                    
             #catfishwhiskers
             elif the_cat.pelt.skin in the_cat.pelt.catfishwhiskers:
                 featurename = featurename.replace("catfishwhiskers", " catfish whiskers")
                 output += featurename
-                
+                    
             #dragonwhiskers
             elif the_cat.pelt.skin in the_cat.pelt.dragonwhiskers:
                 featurename = featurename.replace("dragonwhiskers", " dragon whiskers")
                 output += featurename
-                
+                    
             #stinger
             elif the_cat.pelt.skin in the_cat.pelt.stinger:
                 featurename = featurename.replace("stinger", " tail stinger")
                 output += featurename
-
+    
             #cyanwings
             elif the_cat.pelt.skin in the_cat.pelt.cyanwings:
                 featurename = featurename.replace("wings", " lizard wings")
                 output += featurename
-                
+                    
             #cyanfeatures
             elif the_cat.pelt.skin in the_cat.pelt.cyanfeatures:
                 featurename = featurename.replace("dark", "dark ")
@@ -1319,61 +1319,68 @@ class ProfileScreen(Screens):
                 featurename = featurename.replace("cyancyan", "cyan")
                 featurename = featurename.replace("cyan", " cyan lizard tail & rings")
                 output += featurename
-                
+                    
             #centipedegrowths
             elif the_cat.pelt.skin in the_cat.pelt.centipedegrowths:
                 output += "feature: centipede growths"
-
+    
             #anglerfish
             elif the_cat.pelt.skin in the_cat.pelt.anglerfish:
                 output += "feature: anglerfish lure"
-                
+                    
             #spikes
             elif the_cat.pelt.skin in the_cat.pelt.spikes:
                 featurename = featurename.replace("spikes", " spikes")
                 output += featurename
-                
+                    
             #tailfrills
             elif the_cat.pelt.skin in the_cat.pelt.tailfrills:
                 featurename = featurename.replace("tailfrills", " tail frills")
                 output += featurename
-                
+                    
             #quills
             elif the_cat.pelt.skin in the_cat.pelt.quills:
                 featurename = featurename.replace("quills", " quills")
                 output += featurename
-                
+                    
             #firebugpart
             elif the_cat.pelt.skin in the_cat.pelt.firebugpart:
                 output += "feature: firebug antennae"
-                
+                    
             #dropwig
             elif the_cat.pelt.skin in the_cat.pelt.dropwig:
                 featurename = featurename.replace("dropwig", " dropwig")
                 output += featurename
-
+    
             #seaangelwings
             elif the_cat.pelt.skin in the_cat.pelt.seaangelwings:
                 output += "feature: sea angel wings"
-                
+                    
             #grasssheepback
             elif the_cat.pelt.skin in the_cat.pelt.grasssheepback:
                 output += "feature: grass sheep back"
-                
+                    
             #glassback
             elif the_cat.pelt.skin in the_cat.pelt.glassback:
                 output += "feature: molten glass back"
-                
+                    
             #seaslugpapillae
             elif the_cat.pelt.skin in the_cat.pelt.seaslugpapillae:
                 output += "feature: sea slug ears"
-                
+                    
             #familiar
             elif the_cat.pelt.skin in the_cat.pelt.familiar:
                 output += "feature: something familiar"
-                
+                    
             else:
                 output += featurename
+
+        #if the feature is None
+        elif the_cat.pelt.skin == None:
+            output += "feature: none"
+
+        else:
+            print("Okay you really screwed up something in the features as your feature is either not None or null or whatever, check your save file and fix it :>")
             # NEWLINE ----------
 
 
