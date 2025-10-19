@@ -239,7 +239,7 @@
     "season": ["any"],
     "sub_type": ["murder_reveal"],
     "weight": 15,
-    "event_text": "r_c overheard m_c muttering in {PRONOUN/m_c/poss} sleep, claws slashing at the air. {PRONOUN/m_c/poss/CAP} muttering confirms what r_c always suspected -  m_c was the one responsible for mur_c's death.",
+    "event_text": "r_c overheard m_c muttering in {PRONOUN/m_c/poss} sleep, paws clawing at the air. {PRONOUN/m_c/poss/CAP} muttering confirms what r_c always suspected -  m_c was the one responsible for mur_c's death.",
     "m_c": {
       "age": ["any"],
       "status": ["any"]
@@ -753,7 +753,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 10,
-    "event_text": "m_c always seems to have acc_plural stuck in {PRONOUN/m_c/poss} fur.",
+    "event_text": "m_c always seems to have acc_plural stuck in {PRONOUN/m_c/poss} pelt.",
     "new_accessory": ["HERBS","PETALS","DRY HERBS", "RED FEATHERS", "BLUE FEATHERS", "JAY FEATHERS"],
     "m_c":{
       "age": ["any"],
@@ -1445,7 +1445,7 @@
         "season": ["any"],
         "sub_type": ["accessory"],
         "weight": 15,
-        "event_text": "m_c snuck out of camp, and brought back with {PRONOUN/m_c/object} some acc_singular from when {PRONOUN/m_c/poss} fur got snagged in a bush.",
+        "event_text": "m_c snuck out of camp, and brought back with {PRONOUN/m_c/object} some acc_singular from when {PRONOUN/m_c/poss} pelt got snagged in a bush.",
         "new_accessory": ["HOLLY", "JUNIPER"],
         "m_c": {
             "status": ["kitten"]
@@ -1581,7 +1581,7 @@
         "season": ["any"],
         "sub_type": ["accessory"],
         "weight": 10,
-        "event_text": "No matter how hard r_c tries, there's always something stuck in m_c's fur.",
+        "event_text": "No matter how hard r_c tries, there's always something stuck in m_c's pelt.",
         "new_accessory": ["HERBS", "PETALS", "DRY HERBS"],
         "m_c": {
           "age": ["kitten"],
@@ -1598,7 +1598,7 @@
         "season": ["any"],
         "sub_type": ["accessory"],
         "weight": 15,
-        "event_text": "m_c finds some acc_singular to wear in {PRONOUN/m_c/poss} fur to impress r_c!",
+        "event_text": "m_c finds some acc_singular to wear in {PRONOUN/m_c/poss} pelt to impress r_c!",
         "new_accessory": ["WILD", "PLANT"],
         "m_c": {
             "age": ["kitten"],
@@ -1880,7 +1880,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's fur.",
+    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's pelt.",
     "new_accessory": ["BLUE FEATHERS", "JAY FEATHERS", "RED FEATHERS"],
     "m_c": {
         "age": ["adolescent"]
@@ -1926,7 +1926,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol.",
+    "event_text": "m_c was caught sharing prey with a pet, who was chased off by a patrol.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -1952,7 +1952,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen touching noses with a kittypet. Scandalous!",
+    "event_text": "m_c was seen touching noses with a pet. Scandalous!",
     "m_c": {
         "age": ["young adult", "adult", "senior adult", "senior"]
     },
@@ -1978,7 +1978,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen playing with a kittypet over the border.",
+    "event_text": "m_c was seen playing with a pet over the border.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2004,7 +2004,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen chasing a kittypet off of the territory.",
+    "event_text": "m_c was seen chasing a pet off of the territory.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2030,7 +2030,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached.",
+    "event_text": "m_c was seen in a very serious conversation with a pet, who ran away when another patrol approached.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -3929,7 +3929,7 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 10,
-    "event_text": "m_c yowls in shock, claws unsheathing from an unexpected weight pinning {PRONOUN/m_c/object}. When {PRONOUN/m_c/subject} {VERB/m_c/are/is} able to get up, m_c's surprised and a bit upset to see that it had been {PRONOUN/m_c/poss} mentor who attacked {PRONOUN/m_c/object}. r_c doesn't seem to notice m_c's discomfort as {PRONOUN/r_c/subject} excitedly {VERB/r_c/tell/tells} m_c about the acc_plural that now adorns {PRONOUN/m_c/poss} pelt.",
+    "event_text": "m_c yelps in shock, {PRONOUN/m_c/poss} spear being knocked out of {PRONOUN/m_c/poss} paws from an unexpected weight pinning {PRONOUN/m_c/object}. When {PRONOUN/m_c/subject} {VERB/m_c/are/is} able to get up, m_c's surprised and a bit upset to see that it had been {PRONOUN/m_c/poss} mentor who attacked {PRONOUN/m_c/object}. r_c doesn't seem to notice m_c's discomfort as {PRONOUN/r_c/subject} excitedly {VERB/r_c/tell/tells} m_c about the acc_plural that now adorns {PRONOUN/m_c/poss} pelt.",
     "new_accessory": ["WILD", "PLANT"],
     "m_c": {
       "status": ["apprentice", "cleric apprentice", "mediator apprentice"],
