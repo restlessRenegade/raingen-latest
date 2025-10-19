@@ -1233,7 +1233,7 @@ class Pelt:
             self.species = "aerial"
             
         elif not random.randint(0, subterraneannum):
-            subterranean_features = [Pelt.whiskers,  Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
+            subterranean_features = ["None", Pelt.whiskers,  Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
                                      Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
                                      Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
             subterranean_fweights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
