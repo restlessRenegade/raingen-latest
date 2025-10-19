@@ -291,7 +291,6 @@ class Pelt:
         new_pelt.init_eyes(parents)
         new_pelt.init_pattern()
         new_pelt.init_tint()
-        new_pelt.common_combinations()
         new_pelt.init_species(parents)
 
         return new_pelt
