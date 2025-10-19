@@ -3,7 +3,7 @@
   "sprite_names": [
             "lineart", "lineartdf", "lineartdead", "lineartur",
             "eyes", "eyes2", 
-            "skin", "gilltongue", "beagilltongue", "horns", "fancyskin", "whiskers", "orbitals", "datagamesstuff",
+            "gilltongue", "beagilltongue", "horns", "fancyskin", "whiskers", "orbitals", "datagamesstuff",
             "budgiewings", "colorwings", "conurewings", "lovebirdwings", "manes", "overseertenna", "pidgeonwings",
             "vulturewings", "whitepatchwings", "whitepatchwingsfade", "bodyeyes", "limbfades", "roboticspines",
             "scars", "missingscars",
@@ -162,11 +162,6 @@
             ["ORIOLE", "ROBIN", "BRINDLE", "PAIGE", "ROSETAIL", "SAFI", "DAPPLENIGHT", "BLANKET", "BELOVED", "BODY"],
             ["SHILOH", "FRECKLED", "HEARTBEAT", "SPECKLES", "TIGER", "SHROOM", "MAILBOX", "GILAMONSTER", "RINGEDMIMIC",
              "NECKLACEMIMIC"]
-        ],
-  "skin_colors": [
-            ["BLACK", "PINK", "DARKBROWN", "BROWN", "LIGHTBROWN", "RED"],
-            ["DARK", "DARKGREY", "GREY", "DARKSALMON", "SALMON", "PEACH"],
-            ["DARKMARBLED", "MARBLED", "LIGHTMARBLED", "DARKBLUE", "BLUE", "LIGHTBLUE"]
         ],
   "gilltongue_rows": [
             ["PINKGILLS", "BLUEGILLS", "REDGILLS", "LIMEGILLS", "YELLOWGILLS", "WHITEGILLS"],
