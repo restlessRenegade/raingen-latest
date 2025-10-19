@@ -154,7 +154,9 @@
             "citadelcolours", "gravecolours", "interlopercolours", "paintedcolours", "platedcolours", "monocolours",
             "slimecolours", "voidmasscolours", "xelsquidcolours", "mimacolours", "xelstarcolours", "bowiecolours",
             "xelflamecolours", "tooniecolours", "lunaticcolours", "cosmoscolours", "snuffcolours", "kiwicolours",
-            "lacunacolours", "silvcolours"
+            "lacunacolours", "silvcolours", "simplecolours", "solidcolours", "sourcecolours", "metrocolours",
+            "revamazoncolours", "revapplecolours", "revamoeba", "revbananacolours", "revbengalcolours", 
+            "revbobacolours", "revbettacolours", "revcentipedecolours", "revcherrycolours", "petaledcolours",
         ],
   "tortiepatchesmasks": [
             ["ONE", "TWO", "THREE", "FOUR", "REDTAIL", "DELILAH", "HALF", "STREAK", "MASK", "SMOKE"],
