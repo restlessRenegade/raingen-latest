@@ -1260,8 +1260,7 @@ class Pelt:
         # Error handling if a feature didnt generate
         if self.skin == None:
             print("ERROR species didn't generate a feature! Please report this!")
-            self.species = errorspecies
-            print(errorspecies + " is the species.")
+            print(self.species + " is the species.")
                 
     @property
     def white(self):
