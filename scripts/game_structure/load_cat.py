@@ -97,9 +97,9 @@ def json_load():
                 colour=cat["pelt_color"],
                 eye_color=cat["eye_colour"],
                 eye_colour2=cat["eye_colour2"] if "eye_colour2" in cat else None,
-                texture=cat["pelt_texture"],
-                size=cat["pelt_size"],
-                species=cat["pelt_species"],
+                texture=cat["texture"],
+                size=cat["size"],
+                species=cat["species"],
                 paralyzed=cat["paralyzed"],
                 kitten_sprite=(
                     cat["sprite_kitten"]
