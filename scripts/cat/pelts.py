@@ -230,7 +230,7 @@ class Pelt:
                  opacity: int = 100,
                  scars: list = None,
                  tint: str = "none",
-                 skin: str = "BLACK",
+                 skin: str = None,
                  white_patches_tint: str = "none",
                  kitten_sprite: int = None,
                  adol_sprite: int = None,
@@ -1256,6 +1256,12 @@ class Pelt:
             if self.skin in Pelt.familiar:
                 self.colour = "PURPLE"
                 print("HE HAS ARRIVED")
+
+        # Error handling if a feature didnt generate
+        if self.skin == None:
+            print("ERROR species didn't generate a feature! Please report this!")
+            self.species = errorspecies
+            print(errorspecies + " is the species.")
                 
     @property
     def white(self):
