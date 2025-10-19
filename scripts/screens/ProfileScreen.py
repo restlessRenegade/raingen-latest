@@ -1199,7 +1199,7 @@ class ProfileScreen(Screens):
         #god forgive me
         #i do not know a better way to do this
         output += "\n"
-        if the_cat.pelt.skin != "none":
+        if the_cat.pelt.skin != None:
             featurename = "feature: " + the_cat.pelt.skin.lower()
     
             #gills
@@ -1376,7 +1376,7 @@ class ProfileScreen(Screens):
                 output += featurename
 
         #if the feature is None
-        elif the_cat.pelt.skin == "none":
+        elif the_cat.pelt.skin == None:
             output += "feature: none"
 
         else:
