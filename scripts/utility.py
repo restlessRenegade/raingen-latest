@@ -2639,14 +2639,15 @@ def find_skin_sprite(cat, cat_sprite):
     """
     skin = cat.pelt.skin
     suffix = f"{skin}{cat_sprite}"
-    for key in sprites.sprites:
-        try:
-            if key.endswith(suffix):
-                return sprites.sprites[key].copy()
-        except (TypeError, KeyError):
-            print(f"WARNING: Skin sprite not found for skin '{skin}' and pose '{cat_sprite}', setting to BLACK ie empty.")
-            skin = "BLACK"
-            continue
+    if skin != None:
+        for key in sprites.sprites:
+            try:
+                if key.endswith(suffix):
+                    return sprites.sprites[key].copy()
+            except (TypeError, KeyError):
+                print(f"WARNING: Skin sprite not found for skin '{skin}' and pose '{cat_sprite}', setting to None.")
+                skin = None
+                continue
 
 def generate_sprite(
     cat,
@@ -2868,9 +2869,10 @@ def generate_sprite(
 
         #draw special skin
         try:
-            if not feature_hidden:
-                if cat.pelt.skin in Pelt.closest_skin:
-                    new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
+            if cat.pelt.skin != None:
+                if not feature_hidden:
+                    if cat.pelt.skin in Pelt.closest_skin:
+                        new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
         except TypeError: 
             skin = cat.pelt.skin
             print(f"ERROR sprite for {skin} invalid")
@@ -2958,9 +2960,10 @@ def generate_sprite(
         
         #draw the rest of the skin
         try:
-            if not feature_hidden:
-                if cat.pelt.skin not in Pelt.closest_skin:
-                    new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
+            if cat.pelt.skin != None:
+                if not feature_hidden:
+                    if cat.pelt.skin not in Pelt.closest_skin:
+                        new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
         except TypeError: 
             skin = cat.pelt.skin
             print(f"ERROR sprite for {skin} invalid")
