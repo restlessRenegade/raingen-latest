@@ -109,8 +109,6 @@ class Pelt:
     scars1 = sprite_names_dict['scars1']
     scars2 = sprite_names_dict['scars2']
     scars3 = sprite_names_dict['scars3']
-
-    skin_weights = game.config["feature_generation"]["feature_chances"]
     
     single_colours = sprite_names_dict['single_colours']
     warm_colours = sprite_names_dict['warm_colours']
@@ -837,10 +835,6 @@ class Pelt:
             'sick_adult': 18
         }
         self.reverse = bool(random.getrandbits(1))
-        # skin chances
-        self.skin = choice(
-            random.choices(Pelt.skin_categories, Pelt.skin_weights, k=1)[0]
-        )
 
         if self.length != 'bulky':
             self.cat_sprites['adult'] = random.randint(6, 8)
