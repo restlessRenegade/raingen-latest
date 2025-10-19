@@ -2639,14 +2639,14 @@ def find_skin_sprite(cat, cat_sprite):
     """
     skin = cat.pelt.skin
     suffix = f"{skin}{cat_sprite}"
-    if skin != None:
+    if skin != "none":
         for key in sprites.sprites:
             try:
                 if key.endswith(suffix):
                     return sprites.sprites[key].copy()
             except (TypeError, KeyError):
-                print(f"WARNING: Skin sprite not found for skin '{skin}' and pose '{cat_sprite}', setting to None.")
-                skin = None
+                print(f"WARNING: Skin sprite not found for skin '{skin}' and pose '{cat_sprite}', setting to none.")
+                skin = "none"
                 continue
 
 def generate_sprite(
@@ -2869,7 +2869,7 @@ def generate_sprite(
 
         #draw special skin
         try:
-            if cat.pelt.skin != None:
+            if cat.pelt.skin != "none":
                 if not feature_hidden:
                     if cat.pelt.skin in Pelt.closest_skin:
                         new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
@@ -2960,7 +2960,7 @@ def generate_sprite(
         
         #draw the rest of the skin
         try:
-            if cat.pelt.skin != None:
+            if cat.pelt.skin != "none":
                 if not feature_hidden:
                     if cat.pelt.skin not in Pelt.closest_skin:
                         new_sprite.blit(find_skin_sprite(cat, cat_sprite), (0, 0))
