@@ -1256,7 +1256,12 @@ class Pelt:
             if self.skin in Pelt.familiar:
                 self.colour = "PURPLE"
                 print("HE HAS ARRIVED")
-        
+
+        #error handling for if a species isnt generated
+        if self.species == None:
+            print("ERROR species didnt generate! Please report! Setting to mammallian and feature to None")
+            self.species = "mammallian"
+            self.skin = None
                 
     @property
     def white(self):
