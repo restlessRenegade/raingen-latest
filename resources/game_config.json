@@ -204,7 +204,7 @@
 		"base_mechanical": 3,
 		"base_voidspawn": 1,
 		"comment": [
-			"Higher numbers = smaller chances.",
+			"Higher numbers = smaller chances."
 		]
 	},
 	"cat_name_controls": {
