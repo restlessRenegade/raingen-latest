@@ -1759,7 +1759,7 @@
     "location": ["any"],
     "season": ["newleaf", "greenleaf", "leaf-fall"],
     "weight": 20,
-    "event_text": "m_c and r_c sneak out of camp to go bird watching.",
+    "event_text": "m_c and r_c sneak out of camp to go vulture watching.",
     "m_c": {
         "age": ["adolescent"]
     },
