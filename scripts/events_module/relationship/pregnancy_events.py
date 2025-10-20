@@ -250,7 +250,7 @@ class Pregnancy_Events:
                 kits = Pregnancy_Events.get_kits(amount, cat, None, clan)
                 insert = "this should not display"
                 if amount == 1:
-                    insert = "a single slugpups"
+                    insert = "a single slugpup"
                 if amount > 1:
                     insert = f"a litter of {amount} pups"
                 print_event = f"{cat.name} brought {insert} back to camp, but refused to talk about their origin."
@@ -385,9 +385,9 @@ class Pregnancy_Events:
                 kit.create_one_relationship(cat)
 
         if kits_amount == 1:
-            insert = "single kitten"
+            insert = "single slugpup"
         else:
-            insert = f"litter of {kits_amount} kits"
+            insert = f"litter of {kits_amount} pups"
 
         # Since cat has given birth, apply the birth cooldown.
         cat.birth_cooldown = game.config["pregnancy"]["birth_cooldown"]
