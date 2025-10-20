@@ -3282,7 +3282,7 @@ class ProfileScreen(Screens):
                 biome_platforms.subsurface(pygame.Rect(0 + offset, 0, 80, 70)),
                 (240, 210),
             )
-        elif the_cat.dead or game.clan.instructor.ID == the_cat.ID:
+        elif the_cat.dead or game.clan.instructor.ID == the_cat.ID and the_cat.outside == False:
             biome_platforms = platformsheet.subsurface(
                 pygame.Rect(0, order.index("SC/DF/UR") * 70, 640, 70)
             )
