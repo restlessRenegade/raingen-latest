@@ -202,6 +202,17 @@ class Pelt:
     #list for stuff that should logically be behind a cloak
     closest_skin = sprite_names_dict['closest_skin']
 
+    #now to help do more complicated stuffs by catagorizing where certain features are on the body
+    head_features = [empty, whiskers, antennae, sharphorns, ramhorns, scavhorns, elitehorns, unihorns, antlers, dragonhorns,
+                     moth, seaslugpapillae, gills, tongues, catfishwhiskers, dragonwhiskers, dropwig, centipedegrowths, thorns,
+                     familiar, tears, manes, overseertenna, kingtendrils, anglerfish, firebugpart, loach, wool, mechanical, fangs]
+    body_features = [empty, thorns, centipedegrowths, quills, lizardfins, lizardneedles, cyanfeatures, cyanwings, firebugpart,
+                     seaangelwings, glassback, grasssheepback, familiar, bodyeyes, wool, spikes, mechanical, slimetraits]
+    limb_features = [empty, thorns, claws, anglerfish, budgiewings, conurewings, lovebirdwings, pidgeonwings, vulturewings, colorwings,
+                     whitefadewings, wings, limbfades]
+    tail_features = [empty, tailfrills, thorns, glowspots, centipedegrowths, stinger, spearholes, cyanfeatures, loach, firebugparts,
+                     glassback, grasssheepback, familiar, acrotail, chimneytail, slimetraits, wool, bodyeyes]
+
     #misc descriptors
     texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
     size = ["tiny", "small", "medium", "large", "huge"]
@@ -277,7 +288,7 @@ class Pelt:
                             "sick_young": 19}
 
         self.reverse = reverse
-        self.skin = skin
+        self.skin = skin if skin is not None else []
 
     @staticmethod
     def generate_new_pelt(gender: str, parents: tuple = (), age: str = "adult"):
