@@ -652,7 +652,7 @@ class ProfileScreen(Screens):
                         self.the_cat.df = True
                         game.clan.add_to_darkforest(self.the_cat)
                         self.the_cat.thought = (
-                            "Is distraught after being sent to the Place of No Stars"
+                            "Is distraught after being sent to the Rotwound"
                         )
 
                 self.clear_profile()
@@ -1656,7 +1656,7 @@ class ProfileScreen(Screens):
             if "grief stricken" in the_cat.illnesses:
                 output += "grieving!"
             elif "fleas" in the_cat.illnesses:
-                output += "flea-ridden!"
+                output += "leech-ridden!"
             else:
                 output += "sick!"
 
