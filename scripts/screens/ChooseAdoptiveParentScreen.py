@@ -188,7 +188,7 @@ class ChooseAdoptiveParentScreen(Screens):
             tool_tip_text="A slugcat's adoptive parents are set automatically when the slugcat is born. "
             "Any slugcats that are mates with the parents at the time of birth are considered adoptive parents."
             "<br><br>"
-            "To be a possible adoptive parent, the slugcat has to be 14 moons older than the child.",
+            "To be a possible adoptive parent, the slugcat has to be 14 cycles older than the child.",
         )
 
         self.the_cat_frame = pygame_gui.elements.UIImage(
@@ -706,7 +706,7 @@ class ChooseAdoptiveParentScreen(Screens):
 
         info = (
             str(self.the_cat.moons)
-            + " moons\n"
+            + " cycles\n"
             + self.the_cat.status
             + "\n"
             + self.the_cat.genderalign
@@ -887,7 +887,7 @@ class ChooseAdoptiveParentScreen(Screens):
 
         info = (
             str(self.selected_cat.moons)
-            + " moons\n"
+            + " cycles\n"
             + self.selected_cat.status
             + "\n"
             + self.selected_cat.genderalign
