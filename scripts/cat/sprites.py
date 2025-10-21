@@ -346,6 +346,33 @@ class Sprites:
         roboticspines_colors = sprites_py_dict['roboticspines_colors']
         self.make_sprite_groups('roboticspines', roboticspines_colors, 'skin')
 
+        # beetlewingsc spritesheet
+        beetlewingsc_colors = sprites_py_dict['beetlewingsc_colors']
+        self.make_sprite_groups('beetlewingsc', beetlewingsc_colors, 'skin')
+
+        # beetlewingsf spritesheet
+        beetlewingsf_colors = sprites_py_dict['beetlewingsf_colors']
+        self.make_sprite_groups('beetlewingsf', beetlewingsf_colors, 'skin')
+
+        # beetlewingsft spritesheet
+        beetlewingsft_colors = sprites_py_dict['beetlewingsft_colors']
+        self.make_sprite_groups('beetlewingsft', beetlewingsft_colors, 'skin')
+
+        # bugwings spritesheet
+        bugwings_colors = sprites_py_dict['bugwings_colors']
+        self.make_sprite_groups('bugwings', bugwings_colors, 'skin')
+
+        # bugwingst spritesheet
+        bugwingst_colors = sprites_py_dict['bugwingst_colors']
+        self.make_sprite_groups('bugwingst', bugwingst_colors, 'skin')
+
+        # neonbatwings spritesheet
+        neonbatwings_colors = sprites_py_dict['neonbatwings_colors']
+        self.make_sprite_groups('neonbatwings', neonbatwings_colors, 'skin')
+
+        # bugwings spritesheet
+        spinefrills_colors = sprites_py_dict['spinefrills_colors']
+        self.make_sprite_groups('spinefrills', spinefrills_colors, 'skin')
 
         self.load_scars()
         self.load_symbols()
