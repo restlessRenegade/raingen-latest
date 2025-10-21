@@ -850,7 +850,7 @@ class LeaderDenScreen(Screens):
             ui_scale(pygame.Rect((0, 0), (121, 30))),
             "",
             object_id="#outsider_hunt",
-            tool_tip_text="This cat will be killed if found.",
+            tool_tip_text="This slugcat will be killed if found.",
             container=self.focus_outsider_button_container,
             starting_height=3,
             manager=MANAGER,
@@ -863,7 +863,7 @@ class LeaderDenScreen(Screens):
             ui_scale(pygame.Rect((0, 5), (121, 30))),
             "",
             object_id="#outsider_drive",
-            tool_tip_text="This cat will be driven out of the area if found (they will no longer be accessible in "
+            tool_tip_text="This slugcat will be driven out of the area if found (they will no longer be accessible in "
             "game).",
             container=self.focus_outsider_button_container,
             starting_height=3,
@@ -878,7 +878,7 @@ class LeaderDenScreen(Screens):
             ui_scale(pygame.Rect((0, 5), (121, 30))),
             "",
             object_id="#outsider_invite",
-            tool_tip_text="This cat will join the Clan if found.",
+            tool_tip_text="This slugcat will join the Clan if found.",
             container=self.focus_outsider_button_container,
             starting_height=3,
             manager=MANAGER,
