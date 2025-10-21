@@ -191,13 +191,23 @@ class Pelt:
     kingtendrils = sprite_names_dict['kingtendrils']
     mechanical = sprite_names_dict['mechanical']
     wool = sprite_names_dict['wool']
+    popsiclewhiskers = sprite_names_dict['popsiclewhiskers']
+    colorouts = sprite_names_dict['colorouts']
+    beetlewingsf = sprite_names_dict['beetlewingsf']
+    beetlewingsft = sprite_names_dict['beetlewingsft']
+    beetlewingsc = sprite_names_dict['beetlewingsc']
+    bugwings = sprite_names_dict['bugwings']
+    bugwingst = sprite_names_dict['bugwingst']
+    neonbatwings = sprite_names_dict['neonbatwings']
+    spinefrills = sprite_names_dict['spinefrills']
     skin_categories = [ empty, claws, whiskers, antennae, sharphorns, ramhorns, scavhorns, elitehorns, unihorns, antlers,
                         dragonhorns, moth, seaslugpapillae, tailfrills, thorns, glowspots, gills, tongues, lizardneedles,
                         spikes, lizardfins, catfishwhiskers, dragonwhiskers, quills, centipedegrowths, stinger, fangs, anglerfish,
                         spearholes, cyanfeatures, cyanwings, firebugpart, seaangelwings, loach, dropwig, glassback, grasssheepback,
                         familiar, acrotail, tears, manes, overseertenna, budgiewings, conurewings, lovebirdwings, pidgeonwings,
                         vulturewings, colorwings, whitefadewings, wings, bodyeyes, limbfades, chimneytail, slimetraits, kingtendrils,
-                        mechanical, wool
+                        mechanical, wool, popsiclewhiskers, colorouts, beetlewingsf, beetlewingsft, beetlewingsc, bugwings, bugwingst,
+                        neonbatwings, spinefrills
                     ]
     #list for stuff that should logically be behind a cloak
     closest_skin = sprite_names_dict['closest_skin']
@@ -205,16 +215,18 @@ class Pelt:
     #now to help do more complicated stuffs by catagorizing where certain features are on the body
     head_features = [empty, whiskers, antennae, sharphorns, ramhorns, scavhorns, elitehorns, unihorns, antlers, dragonhorns,
                      moth, seaslugpapillae, gills, tongues, catfishwhiskers, dragonwhiskers, dropwig, centipedegrowths, thorns,
-                     familiar, tears, manes, overseertenna, kingtendrils, anglerfish, firebugpart, loach, wool, mechanical, fangs]
+                     familiar, tears, manes, overseertenna, kingtendrils, anglerfish, firebugpart, loach, wool, mechanical, fangs,
+                     popsiclewhiskers, colorouts, spinefrills]
     body_features = [empty, thorns, centipedegrowths, quills, lizardfins, lizardneedles, cyanfeatures, cyanwings, firebugpart,
-                     seaangelwings, glassback, grasssheepback, familiar, bodyeyes, wool, spikes, mechanical, slimetraits]
+                     seaangelwings, glassback, grasssheepback, familiar, bodyeyes, wool, spikes, mechanical, slimetraits, colorouts, 
+                     beetlewingsf, beetlewingsft, beetlewingsc, bugwings, bugwingst, neonbatwings,]
     limb_features = [empty, thorns, claws, anglerfish, budgiewings, conurewings, lovebirdwings, pidgeonwings, vulturewings, colorwings,
-                     whitefadewings, wings, limbfades]
+                     whitefadewings, wings, limbfades, colorouts]
     tail_features = [empty, tailfrills, thorns, glowspots, centipedegrowths, stinger, spearholes, cyanfeatures, loach, firebugparts,
-                     glassback, grasssheepback, familiar, acrotail, chimneytail, slimetraits, wool, bodyeyes]
+                     glassback, grasssheepback, familiar, acrotail, chimneytail, slimetraits, wool, bodyeyes, colorouts]
 
     #misc descriptors
-    texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
+    texture = ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"]
     size = ["tiny", "small", "medium", "large", "huge"]
     species = ["mammallian", "feline", "amphibious", "reptillian", "insectoid", "aquatic", "aerial", "subterranean", "mechanical", "voidspawn"]
     
@@ -1200,8 +1212,8 @@ class Pelt:
 
         if not random.randint(0, mammalliannum):
             mammallian_features =  [Pelt.empty, Pelt.whiskers, Pelt.ramhorns, Pelt.scavhorns, Pelt.elitehorns, Pelt.antlers, Pelt.tongues, Pelt.grasssheepback, Pelt.acrotail,
-                                  Pelt.fangs, Pelt.manes, Pelt.wool, Pelt.quills, Pelt.limbfades]
-            mammallian_fweights = [10,10,10,10,10,5,5,3,3,10,5,5,5,10]
+                                  Pelt.fangs, Pelt.manes, Pelt.wool, Pelt.quills, Pelt.limbfades, Pelt.colorouts, Pelt.neonbatwings]
+            mammallian_fweights = [10,10,10,10,10,5,5,3,3,10,5,5,5,10,3,3]
             self.skin = choice(random.choices(mammallian_features, mammallian_fweights, k=1)[0])
             self.species = "mammallian"
             
@@ -1213,27 +1225,28 @@ class Pelt:
             
         elif not random.randint(0, amphibiousnum):
             amphibious_features =  [Pelt.empty, Pelt.sharphorns, Pelt.unihorns, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.gills, Pelt.tears, Pelt.bodyeyes, Pelt.kingtendrils,
-                                   Pelt.loach]
-            amphibious_fweights = [10,10,10,5,10,20,5,3,3,3]
+                                   Pelt.loach, Pelt.popsiclewhiskers, Pelt.spinefrills, Pelt.colorouts]
+            amphibious_fweights = [10,10,10,5,10,20,5,3,3,3,3,5,1]
             self.skin = choice(random.choices(amphibious_features, amphibious_fweights, k=1)[0])
             self.species = "amphibious"
             
         elif not random.randint(0, reptiliannum):
             reptilian_features =  [Pelt.empty, Pelt.claws, Pelt.whiskers, Pelt.sharphorns, Pelt.unihorns, Pelt.dragonhorns, Pelt.tailfrills, Pelt.thorns, Pelt.lizardneedles,
-                                  Pelt.dragonwhiskers, Pelt.spearholes, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.lizardfins, Pelt.spikes]
-            reptilian_fweights = [10,10,10,10,10,10,12,8,8,8,4,12,8,8,10]
+                                  Pelt.dragonwhiskers, Pelt.spearholes, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.lizardfins, Pelt.spikes, Pelt.spinefrills, Pelt.colorouts]
+            reptilian_fweights = [10,10,10,10,10,10,12,8,8,8,4,12,8,8,10,10,4]
             self.skin = choice(random.choices(reptilian_features, reptilian_fweights, k=1)[0])
             self.species = "reptilian"
         elif not random.randint(0, insectoidnum):
             insectoid_features =  [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
-                                   Pelt.bodyeyes]
-            insectoid_fweights = [10,20,20,10,10,15,10,10,10,5]
+                                   Pelt.bodyeyes, Pelt.colorouts, Pelt.beetlewingsf, Pelt.beetlewingsft, Pelt.beetlewingsc, Pelt.bugwings, Pelt.bugwingst]
+            insectoid_fweights = [10,20,20,10,10,15,10,10,10,5,5,10,10,20,20,20]
             self.skin = choice(random.choices(insectoid_features, insectoid_fweights, k=1)[0])
             self.species = "insectoid"
             
         elif not random.randint(0, aquaticnum):
-            aquatic_features =  [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils]
-            aquatic_fweights = [4,20,10,12,8,8,12,4]
+            aquatic_features =  [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils, 
+                                 Pelt.spinefrills, Pelt.colorout]
+            aquatic_fweights = [4,20,10,12,8,8,12,4,12,4]
             self.skin = choice(random.choices(aquatic_features, aquatic_fweights, k=1)[0])
             self.species = "aquatic"
             
@@ -1247,21 +1260,21 @@ class Pelt:
         elif not random.randint(0, subterraneannum):
             subterranean_features = [Pelt.empty, Pelt.whiskers,  Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
                                      Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
-                                     Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades]
-            subterranean_fweights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12]
+                                     Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades, Pelt.colorouts, Pelt.popsiclewhiskers]
+            subterranean_fweights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12,4,8]
             self.skin = choice(random.choices(subterranean_features, subterranean_fweights, k=1)[0])
             self.species = "subterranean"
             
         elif not random.randint(0, mechanicalnum):
             mechanical_features =  [Pelt.empty, Pelt.claws, Pelt.glowspots, Pelt.bodyeyes, Pelt.spearholes, Pelt.cyanfeatures, Pelt.glassback, Pelt.overseertenna, Pelt.roboticspines,
-                                   Pelt.chimneytail, Pelt.mechanical, Pelt.tongues]
-            mechanical_fweights = [12,8,16,12,12,12,8,16,16,8,12,8]
+                                   Pelt.chimneytail, Pelt.mechanical, Pelt.tongues, Pelt.colorouts]
+            mechanical_fweights = [12,8,16,12,12,12,8,16,16,8,12,8,4]
             self.skin = choice(random.choices(mechanical_features, mechanical_fweights, k=1)[0])
             self.species = "mechanical"
             
         elif not random.randint(0, voidspawnnum):
-            voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart]
-            voidspawn_fweights = [40,1,40,120,120,80]
+            voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart, Pelt.colorout]
+            voidspawn_fweights = [40,1,40,120,120,80,10]
             self.skin = choice(random.choices(voidspawn_features, voidspawn_fweights, k=1)[0])
             self.species = "voidspawn"
             if self.skin in Pelt.familiar:
