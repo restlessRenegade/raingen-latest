@@ -432,7 +432,7 @@ class RelationshipScreen(Screens):
             self.the_cat.genderalign
             + " - "
             + str(self.the_cat.moons)
-            + " moons - "
+            + " cycles - "
             + self.the_cat.personality.trait,
             ui_scale(pygame.Rect((80, 105), (400, 30))),
             object_id=get_text_box_theme("#text_box_22_horizleft"),
@@ -549,7 +549,7 @@ class RelationshipScreen(Screens):
             col1 += self.inspect_cat.genderalign + "\n"
 
             # Age
-            col1 += f"{self.inspect_cat.moons} moons\n"
+            col1 += f"{self.inspect_cat.moons} cycles\n"
 
             # Trait
             col1 += f"{self.inspect_cat.personality.trait}\n"
