@@ -300,7 +300,7 @@ class Pelt:
                             "sick_young": 19}
 
         self.reverse = reverse
-        self.skin = skin if skin is not None else []
+        self.skin = None
 
     @staticmethod
     def generate_new_pelt(gender: str, parents: tuple = (), age: str = "adult"):
