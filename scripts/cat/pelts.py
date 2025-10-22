@@ -1245,7 +1245,7 @@ class Pelt:
             
         elif not random.randint(0, aquaticnum):
             aquatic_features =  [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils, 
-                                 Pelt.spinefrills, Pelt.colorout]
+                                 Pelt.spinefrills, Pelt.colorouts]
             aquatic_fweights = [4,20,10,12,8,8,12,4,12,4]
             self.skin = choice(random.choices(aquatic_features, aquatic_fweights, k=1)[0])
             self.species = "aquatic"
@@ -1273,7 +1273,7 @@ class Pelt:
             self.species = "mechanical"
             
         elif not random.randint(0, voidspawnnum):
-            voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart, Pelt.colorout]
+            voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart, Pelt.colorouts]
             voidspawn_fweights = [40,1,40,120,120,80,10]
             self.skin = choice(random.choices(voidspawn_features, voidspawn_fweights, k=1)[0])
             self.species = "voidspawn"
