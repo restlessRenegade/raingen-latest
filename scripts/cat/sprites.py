@@ -365,7 +365,7 @@ class Sprites:
         neonbatwings_colors = sprites_py_dict['neonbatwings_colors']
         self.make_sprite_groups('neonbatwings', neonbatwings_colors, 'skin')
 
-        # bugwings spritesheet
+        # spinefrils spritesheet
         spinefrills_colors = sprites_py_dict['spinefrills_colors']
         self.make_sprite_groups('spinefrills', spinefrills_colors, 'skin')
 
