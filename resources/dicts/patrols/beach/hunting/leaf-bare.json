@@ -135,7 +135,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l praises {PRONOUN/app1/object} and smiles, and app1 drops into a hunting crouch as the lantern mouse crawls out of the burrow. Unfortunately, in {PRONOUN/app1/poss} excitement, app1 loses {PRONOUN/app1/poss} footing, and {PRONOUN/app1/poss} claws skid a little on the rocks; the lantern mouse shrieks at {PRONOUN/app1/object} and vanishes into the burrow.",
+                "text": "p_l praises {PRONOUN/app1/object} and smiles, and app1 drops into a hunting crouch as the lantern mouse crawls out of the burrow. Unfortunately, in {PRONOUN/app1/poss} excitement, app1 loses {PRONOUN/app1/poss} footing, and {PRONOUN/app1/poss} paws skid a little on the rocks; the lantern mouse shrieks at {PRONOUN/app1/object} and vanishes into the burrow.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -167,7 +167,7 @@
         "chance_of_success": 20,
         "success_outcomes": [
             {
-                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The snake backs up and hisses, before turning and slithering away. r_c wastes no time in pouncing on the lantern mouse now that it's safe to approach, securing the meal for the Clan!",
+                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The spitter spider backs up and hisses, before turning and slithering away. r_c wastes no time in pouncing on the lantern mouse now that it's safe to approach, securing the meal for the Clan!",
                 "exp": 50,
                 "weight": 20,
                 "prey": ["medium"],
@@ -182,7 +182,7 @@
                 ]
             },
             {
-                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The snake backs up and hisses, and the lantern mouse lunges! The patrol is stupefied, watching it attack and send it fleeing, before r_c remembers what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing and kills the lantern mouse before it, too, flees.",
+                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The spitter spider backs up and hisses, and the lantern mouse lunges! The patrol is stupefied, watching it attack and send it fleeing, before r_c remembers what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing and kills the lantern mouse before it, too, flees.",
                 "exp": 50,
                 "weight": 5,
                 "prey": ["medium"],
@@ -197,7 +197,7 @@
                 ]
             },
             {
-                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. s_c moves in once {PRONOUN/s_c/subject} {VERB/s_c/realize/realizes} the snake is intimidated by the lantern mouse, killing <i>both</i> of them before either can fully react! The patrol lets s_c carry both home, eager to show the Clan what {PRONOUN/s_c/subject} accomplished.",
+                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. s_c moves in once {PRONOUN/s_c/subject} {VERB/s_c/realize/realizes} the spitter spider is intimidated by the lantern mouse, killing <i>both</i> of them before either can fully react! The patrol lets s_c carry both home, eager to show the Clan what {PRONOUN/s_c/subject} accomplished.",
                 "exp": 50,
                 "weight": 20,
                 "stat_skill": ["HUNTER,1"],
@@ -215,7 +215,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The snake backs up and hisses, and the lantern mouse lunges! The patrol is stupefied, watching it attack and send it fleeing, and nobody even thinks to catch the lantern mouse until it, too, is long gone.",
+                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. The spitter spider backs up and hisses, and the lantern mouse lunges! The patrol is stupefied, watching it attack and send it fleeing, and nobody even thinks to catch the lantern mouse until it, too, is long gone.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -229,7 +229,7 @@
                 ]
             },
             {
-                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. r_c moves in once {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} the snake is intimidated by it but {VERB/r_c/don't/doesn't} anticipate it turning on them instead! With no lantern mouse, no snake, and an envenomed bite, r_c is rushed home to the cleric den.",
+                "text": "Watching from a careful distance, the patrol observes the lantern mouse chittering at it, kicking up sand and wildly whipping its tail in the air. r_c moves in once {PRONOUN/r_c/subject} {VERB/r_c/realize/realizes} the spitter spider is intimidated by it but {VERB/r_c/don't/doesn't} anticipate it turning on them instead! With no lantern mouse, no spitter spider, and an envenomed bite, r_c is rushed home to the cleric den.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
