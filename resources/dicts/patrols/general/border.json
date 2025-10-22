@@ -5269,7 +5269,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "p_l strolls across the border, deliberately laying {PRONOUN/p_l/poss} scent everywhere {PRONOUN/p_l/subject} can. For good measure, {PRONOUN/p_l/subject} {VERB/p_l/hunt/hunts} and {VERB/p_l/kill/kills} a mouse, feasting messily and leaving the bones strewn about. That'll show those good-for-nothing o_c_n slugcats who really owns these lands.",
+                "text": "p_l strolls across the border, deliberately laying {PRONOUN/p_l/poss} scent everywhere {PRONOUN/p_l/subject} can. For good measure, {PRONOUN/p_l/subject} {VERB/p_l/hunt/hunts} and {VERB/p_l/kill/kills} a lantern mouse, feasting messily and leaving the bones strewn about. That'll show those good-for-nothing o_c_n slugcats who really owns these lands.",
                 "exp": 5,
                 "weight": 20,
                 "other_clan_rep": -2
