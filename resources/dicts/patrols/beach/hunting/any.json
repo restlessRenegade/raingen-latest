@@ -3140,7 +3140,7 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a white lizard. When they track it down, they find it feeding on a shark that the waves have washed ashore in the night.",
+        "intro_text": "The patrol catches the scent of a white lizard. When they track it down, they find it feeding on a juvenile leviathan that the waves have washed ashore in the night.",
         "decline_text": "The patrol decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -3313,7 +3313,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches the scent of a white lizard. When they track it down, they find it feeding on a shark that the waves have washed ashore in the night.",
+        "intro_text": "The patrol catches the scent of a white lizard. When they track it down, they find it feeding on a juvenile leviathan that the waves have washed ashore in the night.",
         "decline_text": "The patrol decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -3493,7 +3493,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c catches the scent of a white lizard. When {PRONOUN/r_c/subject} {VERB/r_c/track/tracks} it down, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} it feeding on a shark that the waves have washed ashore in the night.",
+        "intro_text": "r_c catches the scent of a white lizard. When {PRONOUN/r_c/subject} {VERB/r_c/track/tracks} it down, {PRONOUN/r_c/subject} {VERB/r_c/find/finds} it feeding on a juvenile leviathan that the waves have washed ashore in the night.",
         "decline_text": "r_c decides not to quarrel with the lizard and to find prey elsewhere.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -3513,7 +3513,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the lizard with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the lizard's back, digging in {PRONOUN/s_c/poss} claws. It's a wild ride across the beach, until the lizard bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the shark carcass.",
+                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the lizard with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the lizard's back, digging in {PRONOUN/s_c/poss} spear. It's a wild ride across the beach, until the lizard bucks {PRONOUN/s_c/object} off, but it wins {PRONOUN/s_c/object} the juvenile leviathan carcass.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,2"],
@@ -3575,7 +3575,7 @@
                 ]
             },
             {
-                "text": "r_c throws {PRONOUN/r_c/self} at the lizard ferociously, determined to win the shark prize. But the lizard values it just as dearly and manages to get a good grip on r_c, shaking {PRONOUN/r_c/object} to pieces and killing {PRONOUN/r_c/object}.",
+                "text": "r_c throws {PRONOUN/r_c/self} at the lizard ferociously, determined to win the juvenile leviathan prize. But the lizard values it just as dearly and manages to get a good grip on r_c, shaking {PRONOUN/r_c/object} to pieces and killing {PRONOUN/r_c/object}.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
@@ -3585,7 +3585,7 @@
                 }
             },
             {
-                "text": "r_c launches into battle but is caught with a nasty bite and retreats to limp back home. The lizard doesn't follow, happy enough to eat the shark instead of the foolish slugcat.",
+                "text": "r_c launches into battle but is caught with a nasty bite and retreats to limp back home. The lizard doesn't follow, happy enough to eat the juvenile leviathan instead of the foolish slugcat.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -4050,7 +4050,7 @@
                 ]
             },
             {
-                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the lizard with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up, and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the lizard's back, digging in {PRONOUN/s_c/poss} claws. It's enough to convince the blue to back off, and s_c claims {PRONOUN/s_c/poss} share of the carcass.",
+                "text": "s_c uses every trick in {PRONOUN/s_c/poss} talented fighting skillset to attack the lizard with no one to watch {PRONOUN/s_c/poss} flank, until the perfect opportunity opens up, and {PRONOUN/s_c/subject} {VERB/s_c/pounce/pounces} onto the lizard's back, digging in {PRONOUN/s_c/poss} spear. It's enough to convince the blue to back off, and s_c claims {PRONOUN/s_c/poss} share of the carcass.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["FIGHTER,2"],
