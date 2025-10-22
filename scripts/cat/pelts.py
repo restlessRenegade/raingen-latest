@@ -222,7 +222,7 @@ class Pelt:
                      beetlewingsf, beetlewingsft, beetlewingsc, bugwings, bugwingst, neonbatwings,]
     limb_features = [empty, thorns, claws, anglerfish, budgiewings, conurewings, lovebirdwings, pidgeonwings, vulturewings, colorwings,
                      whitefadewings, wings, limbfades, colorouts]
-    tail_features = [empty, tailfrills, thorns, glowspots, centipedegrowths, stinger, spearholes, cyanfeatures, loach, firebugparts,
+    tail_features = [empty, tailfrills, thorns, glowspots, centipedegrowths, stinger, spearholes, cyanfeatures, loach, firebugpart,
                      glassback, grasssheepback, familiar, acrotail, chimneytail, slimetraits, wool, bodyeyes, colorouts]
 
     #misc descriptors
