@@ -610,7 +610,7 @@
                 "weight": 20
             },
             {
-                "text": "s_c tries to remain calm, clawing sand away from {PRONOUN/s_c/poss} muzzle so {PRONOUN/s_c/subject} can breathe. As the shock wears off, {PRONOUN/s_c/subject} {VERB/s_c/realize/realizes} the sand seems thinner on one side of {PRONOUN/s_c/poss} body. With a surge of energy, {PRONOUN/s_c/subject} {VERB/s_c/burst/bursts} through the weak point, terrified and caked in damp sand. {PRONOUN/s_c/subject/CAP} may have a new nightmare to take back with {PRONOUN/s_c/object}, but at least {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} alive.",
+                "text": "s_c tries to remain calm, pawing sand away from {PRONOUN/s_c/poss} muzzle so {PRONOUN/s_c/subject} can breathe. As the shock wears off, {PRONOUN/s_c/subject} {VERB/s_c/realize/realizes} the sand seems thinner on one side of {PRONOUN/s_c/poss} body. With a surge of energy, {PRONOUN/s_c/subject} {VERB/s_c/burst/bursts} through the weak point, terrified and caked in damp sand. {PRONOUN/s_c/subject/CAP} may have a new nightmare to take back with {PRONOUN/s_c/object}, but at least {PRONOUN/s_c/subject}{VERB/s_c/'re/'s} alive.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"]
@@ -974,7 +974,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Rotwound slugcat who tried to escape into the ocean, only to be cursed by the Ascended into becoming a monster with legs sprouting from each claw. As app1 watches the jetfish contort itself, more liquid than animal, {PRONOUN/app1/subject} can see how it could be a sea slugcat.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Rotwound slugcat who tried to escape into the ocean, only to be cursed by the Ascended into becoming a monster with legs sprouting from each finger. As app1 watches the jetfish contort itself, more liquid than animal, {PRONOUN/app1/subject} can see how it could be a sea slugcat.",
                 "exp": 15,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1191,7 +1191,7 @@
                 ]
             },
             {
-                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Rotwound slugcat who tried to escape into the ocean, only to be cursed by the Ascended into a monster with legs sprouting from each claw. app1 and app2 watch the jetfish contort itself, more liquid than animal, and they can see how it could be a sea slugcat.",
+                "text": "s_c points out the dangers of the creature, explaining how some c_n stories tell of a Rotwound slugcat who tried to escape into the ocean, only to be cursed by the Ascended into a monster with legs sprouting from each finger. app1 and app2 watch the jetfish contort itself, more liquid than animal, and they can see how it could be a sea slugcat.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1842,7 +1842,7 @@
         "chance_of_success": 60,
         "success_outcomes": [
             {
-                "text": "r_c pokes curiously at one of the little lights, bringing {PRONOUN/r_c/poss} face down to it. It's a tiny snail, less than the width of one of {PRONOUN/r_c/poss} claws! It fascinates {PRONOUN/r_c/object} and p_l, and they spend hours on the beach, lapping up mouthfuls of light snails and crushing them between their teeth, laughing with each other as their mouths start glowing too.",
+                "text": "r_c pokes curiously at one of the little lights, bringing {PRONOUN/r_c/poss} face down to it. It's a tiny snail, less than the width of one of {PRONOUN/r_c/poss} fingers! It fascinates {PRONOUN/r_c/object} and p_l, and they spend hours on the beach, lapping up mouthfuls of light snails and crushing them between their teeth, laughing with each other as their mouths start glowing too.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -1938,7 +1938,7 @@
                 ]
             },
             {
-                "text": "r_c shows off how far {PRONOUN/r_c/subject} can pounce, so p_l shows off how fast {PRONOUN/p_l/subject} can run, so r_c shows off how sharp {PRONOUN/r_c/poss} claws are, so p_l shows off how shiny {PRONOUN/p_l/poss} pelt is, so r_c shows off how long {PRONOUN/r_c/poss} legs are, so p_l shows off how cool {PRONOUN/p_l/poss} scars are - this goes on all afternoon.",
+                "text": "r_c shows off how far {PRONOUN/r_c/subject} can pounce, so p_l shows off how fast {PRONOUN/p_l/subject} can run, so r_c shows off how sharp {PRONOUN/r_c/poss} spear is, so p_l shows off how shiny {PRONOUN/p_l/poss} pelt is, so r_c shows off how long {PRONOUN/r_c/poss} legs are, so p_l shows off how cool {PRONOUN/p_l/poss} scars are - this goes on all afternoon.",
                 "exp": 15,
                 "weight": 5,
                 "relationships": [
@@ -2247,7 +2247,7 @@
         "decline_text": "Taking a break turns into ending the patrol early.",
         "success_outcomes": [
                 {
-                    "text": "The great legend Maowi was once a young apprentice, p_l starts the story, who went out fishing with his older, already grown siblings. They had no faith in him, but speaking a great karakia to give the Ascended's blessing to his claws, he won a leviathan from the ocean that stretched from horizon to horizon and became c_n's territory.",
+                    "text": "The great legend Maowi was once a young apprentice, p_l starts the story, who went out fishing with his older, already grown siblings. They had no faith in him, but speaking a great karakia to give the Ascended's blessing to his paws, he won a leviathan from the ocean that stretched from horizon to horizon and became c_n's territory.",
                     "exp": 30,
                     "weight": 20,
                     "art": "gen_bord_story",
@@ -2312,7 +2312,7 @@
         "decline_text": "A story is nice, but the patrol has to get back to camp, the rest will wait for another time.",
         "success_outcomes": [
             {
-                    "text": "Once, the sun raced across the sky, each day only lasting a single catnap. The great Maowi, alongside his siblings, said a karakia to the Ascended to ask for their help in fighting the sun. They pinned the great flaming sun in a burrow, clawing at it until it gave in and promised to slow, and this is why the sun gives up its race in leaf-bare and slows the day, bringing greenleaf.",
+                    "text": "Once, the sun raced across the sky, each day only lasting a single catnap. The great Maowi, alongside his siblings, said a karakia to the Ascended to ask for their help in fighting the sun. They pinned the great flaming sun in a burrow, pawing at it until it gave in and promised to slow, and this is why the sun gives up its race in leaf-bare and slows the day, bringing greenleaf.",
                     "exp": 40,
                     "weight": 20,
                     "relationships": [
