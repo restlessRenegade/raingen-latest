@@ -128,6 +128,14 @@
         "Revcentipede": "revcentipede",
         "Revcherry": "revcherry",
         "Petaled": "petaled",
+        "Glitch": "glitch",
+        "Lightglitch": "lightglitch",
+        "Noodleflydark": "noodleflydark",
+        "Noodleflylight": "noodleflylight",
+        "Soft": "soft",
+        "Texture": "texture",
+        "Warrior": "warrior",
+        "Washy": "washy",
         "Tortie": "None",
         "Calico": "None"
     },
@@ -165,7 +173,8 @@
                 "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted",
                 "plated", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic",
                 "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revamazon", "revapple", 
-                "revamoeba", "revbanana", "revbengal", "revbetta", "revboba", "revbudgie", "revcentipede", "revcherry", "petaled"],
+                "revamoeba", "revbanana", "revbengal", "revbetta", "revboba", "revbudgie", "revcentipede", "revcherry", "petaled", 
+                "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
   
   "pelt_length": ["slim", "average", "bulky"],
   
@@ -592,20 +601,21 @@
         "Sparse", "Impish", "Ringed", "Mold", "Apple", "Glitter", "Whale", "Pidgeon", 
         "Watermelon", "Lightecho", "Darkecho", "Salmon", "Plantain", "Malibu", "Clay", "Antethisis",
         "Interloper", "Painted", "Voidmass", "Lunatic", "Kiwi", "Lacuna", "Petaled", "Revapple", 
-        "Revbengal", "Revcherry", "Revbanana"
+        "Revbengal", "Revcherry", "Revbanana", "Noodleflydark", "Noodleflylight"
     ],
   "plain": [
         "SingleColour", "TwoColour", "Smoke", "Singlestripe", "Collared", "Lizard", "Slimemold",
         "Fluffy", "Yeek", "Rusted", "Leafy", "Scaled", "Countershaded", "Sunset", "Skinny", 
         "Sporty", "Skeleton", "Shred", "Robot", "Lantern", "Grave", "Xelsquid", "Mima", "Xelstar",
-        "Bowie", "Silv", "Solid", "Simple", "Source"
+        "Bowie", "Silv", "Solid", "Simple", "Source", "Texture", "Soft"
     ],
   "exotic": [
         "Mackerel", "Cyanlizard", "Centipede", "Amoeba", "Seaslug", "Dragonfruit", "Duskdawn", 
         "Seer", "Wolf", "Sparklecat", "Hypnotist", "Fizzy", "Glowing", "Budgie", "Lovebird",
         "Seltzer", "Amazon", "Boba", "Iggy", "Tomo", "Dragonet", "Conure", "Betta", "Patchwork", 
         "Constellation", "Plated", "Slime", "Toonie", "Cosmos", "Snuff", "Metro", "Revamazon",
-        "Revamoeba", "Revboba", "Revbudgie", "Revbetta", "Revcentipede"
+        "Revamoeba", "Revboba", "Revbudgie", "Revbetta", "Revcentipede", "glitch", "lightglitch",
+        "Warrior", "Washy"
     ],
   "torties": ["Tortie", "Calico"],
 
