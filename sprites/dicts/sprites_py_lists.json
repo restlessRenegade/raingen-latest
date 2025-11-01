@@ -38,7 +38,9 @@
             "xelflamecolours", "tooniecolours", "lunaticcolours", "cosmoscolours", "snuffcolours", "kiwicolours",
             "lacunacolours", "silvcolours", "simplecolours", "solidcolours", "sourcecolours", "metrocolours",
             "revamazoncolours", "revapplecolours", "revamoebacolours", "revbananacolours", "revbengalcolours", "revbobacolours",
-            "revbettacolours", "revbudgiecolours", "revcentipedecolours", "revcherrycolours", "petaledcolours",
+            "revbettacolours", "revbudgiecolours", "revcentipedecolours", "revcherrycolours", "petaledcolours", "glitchcolours", 
+            "lightglitchcolours", "noodleflydarkcolours", "noodleflylightcolours", "softcolours", "texturecolours", 
+            "warriorcolours", "washycolours",
             "raineyes", "raineyes2", "multieyes", "multiraineyes", "larseyes", "multilarseyes", "larseyes2", 
             "rivuleteyes", "rivuleteyes2", "buttoneyes", "buttoneyes2", "bobaeyes", "bobaeyes2", "bobaeyeslars",
             "bobaeyeslars2", "geckoeyes", "geckoeyes2",
@@ -158,7 +160,8 @@
             "lacunacolours", "silvcolours", "simplecolours", "solidcolours", "sourcecolours", "metrocolours",
             "revamazoncolours", "revapplecolours", "revamoebacolours", "revbananacolours", "revbengalcolours", 
             "revbobacolours", "revbettacolours", "revbudgiecolours", "revcentipedecolours", "revcherrycolours",
-            "petaledcolours"
+            "petaledcolours", "glitchcolours", "lightglitchcolours", "noodleflydarkcolours", "noodleflylightcolours",
+            "softcolours", "texturecolours", "warriorcolours", "washycolours",
         ],
   "tortiepatchesmasks": [
             ["ONE", "TWO", "THREE", "FOUR", "REDTAIL", "DELILAH", "HALF", "STREAK", "MASK", "SMOKE"],
