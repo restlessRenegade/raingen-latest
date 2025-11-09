@@ -237,6 +237,10 @@ class Sprites:
         rivuleteye_colors = sprites_py_dict['rivuleteye_colors']
         self.make_sprite_groups('rivuleteyes', rivuleteye_colors, 'rivuleteyes')
         self.make_sprite_groups('rivuleteyes2', rivuleteye_colors, 'rivuleteyes2')
+        self.make_sprite_groups('rivuleteyes3', rivuleteye_colors, 'rivuleteyes3')
+        self.make_sprite_groups('rivuleteyes4', rivuleteye_colors, 'rivuleteyes4')
+        self.make_sprite_groups('rivuleteyes5', rivuleteye_colors, 'rivuleteyes5')
+        self.make_sprite_groups('rivuleteyes6', rivuleteye_colors, 'rivuleteyes6')
                      
         buttoneye_colors = sprites_py_dict['buttoneye_colors']
         self.make_sprite_groups('buttoneyes', buttoneye_colors, 'buttoneyes')
