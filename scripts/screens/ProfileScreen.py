@@ -128,6 +128,8 @@ def theHorrors(self, cat, i, accessory, pos_x, pos_y, cat_sprite):
         self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(ui_scale(pygame.Rect((100 + pos_x, 365 + pos_y), (50, 50))), sprites.sprites['newaccs4' + accessory + cat_sprite], manager=MANAGER)
     elif accessory in cat.pelt.newaccs5:
         self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(ui_scale(pygame.Rect((100 + pos_x, 365 + pos_y), (50, 50))), sprites.sprites['newaccs5' + accessory + cat_sprite], manager=MANAGER)
+    elif accessory in cat.pelt.newaccs6:
+        self.cat_list_buttons["cat" + str(i)] = pygame_gui.elements.UIImage(ui_scale(pygame.Rect((100 + pos_x, 365 + pos_y), (50, 50))), sprites.sprites['newaccs6' + accessory + cat_sprite], manager=MANAGER)
 
 
 
