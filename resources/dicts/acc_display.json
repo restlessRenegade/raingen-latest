@@ -5633,5 +5633,35 @@
     "default": "symbiotic DLL",
     "plural": "symbiotic DLLs",
     "singular": "symbiotic DLL"
+  },
+  "TEALCLOWNNOSE": {
+    "default": "teal clown nose",
+    "plural": "teal clown noses",
+    "singular": "teal clown nose"
+  },
+  "CYANCLOWNNOSE": {
+    "default": "cyan clown nose",
+    "plural": "cyan clown noses",
+    "singular": "cyan clown nose"
+  },
+  "BLUEARMADILOCLOAK": {
+    "default": "blue armadilo cloak",
+    "plural": "blue armadilo cloaks",
+    "singular": "blue armadilo cloak"
+  },
+  "BLUEBLINDFOLD": {
+    "default": "blue blindfold",
+    "plural": "blue blindfolds",
+    "singular": "blue blindfolds"
+  },
+  "BLUESMILE": {
+    "default": "blue smile",
+    "plural": "blue smiles",
+    "singular": "blue smile"
+  },
+  "REDCLOWNNOSE": {
+    "default": "red clown nose",
+    "plural": "red clown noses",
+    "singular": "red clown nose"
   }
 }
