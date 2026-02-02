@@ -1,4 +1,4 @@
-<strong>Dev Version</strong>
+<strong>v1.8</strong>
 Added:
 - Features:
 - - Wings by Foxett and Wildy
@@ -8,12 +8,15 @@ Added:
 - Pelts:
 - - Citadel, and Grave by Foxett
 - - Interloper, and Anethisis by Wildy
+- Code/Dev Specific:
+- - Moved sprite names into json files for cleanup
 HEAVY WIP - 3 New conditions with scars to go alongside them
-- Moved sprite names into json files for cleanup
-- Pelt length changed to build on profiles
-- Added texture and size categories on profiles
-- Species have been implemented, currently only affects possible feature generation, this replaces common combinations
-- More text replacements
+- Misc: 
+- - Pelt length changed to build on profiles
+- - Added texture and size categories on profiles
+- - Species have been implemented, currently only affects possible feature generation, this replaces common combinations
+- - More text replacements
+
 
 Fixes:
 
