@@ -47,6 +47,7 @@ class Pelt:
     green_gecko_eyes = sprite_names_dict['green_gecko_eyes']
     red_gecko_eyes = sprite_names_dict['red_gecko_eyes']
 
+    pelt_colours = sprite_names_dict['pelt_colours']
     tabbies = sprite_names_dict['tabbies']
     spotted = sprite_names_dict['spotted']
     plain = sprite_names_dict['plain']
@@ -539,6 +540,13 @@ class Pelt:
                 colour_wheel = [Pelt.yellow_pupil_eyes, Pelt.blue_pupil_eyes, Pelt.green_pupil_eyes, Pelt.red_pupil_eyes]
             elif self.eye_colour in Pelt.riveye_colours:
                 colour_wheel = [Pelt.yellow_riv_eyes, Pelt.blue_riv_eyes, Pelt.green_riv_eyes, Pelt.red_riv_eyes]
+                for colour in colour_wheel[:]:
+                    if self.eye_colour in colour:
+                        print("GENERATING RIV ALT")
+                        colour_wheel.remove(colour)  # removes the selected list from the options
+                        self.eye_colour = choice(choice(colour_wheel))  # choose from the remaining 3 lists
+                        self.eye_colour = choice(["","WHITEPUPIL","ALTERNATEPUPIL","UHOH","SMALLPUPIL"]) + self.eye_colour
+                        print(self.eye_colour + " WAS SELECTED")
             elif self.eye_colour in Pelt.buttoneye_colours:
                 colour_wheel = [Pelt.yellow_button_eyes, Pelt.blue_button_eyes, Pelt.green_button_eyes, Pelt.red_button_eyes]
             elif self.eye_colour in Pelt.bobaeye_colours:
@@ -552,7 +560,6 @@ class Pelt:
                     colour_wheel.remove(colour) # removes the selected list from the options
                     self.eye_colour2 = choice(choice(colour_wheel)) # choose from the remaining 3 lists
                     break
-
         elif 'MULTI'+self.eye_colour in Pelt.multi_eyes and not random.randint(0, multieyenum):
             self.eye_colour2 = 'MULTI'+self.eye_colour
 

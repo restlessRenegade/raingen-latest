@@ -42,8 +42,8 @@
             "lightglitchcolours", "noodleflydarkcolours", "noodleflylightcolours", "softcolours", "texturecolours", 
             "warriorcolours", "washycolours",
             "raineyes", "raineyes2", "multieyes", "multiraineyes", "larseyes", "multilarseyes", "larseyes2", 
-            "rivuleteyes", "rivuleteyes2", "buttoneyes", "buttoneyes2", "bobaeyes", "bobaeyes2", "bobaeyeslars",
-            "bobaeyeslars2", "geckoeyes", "geckoeyes2",
+            "rivuleteyes", "rivuleteyes2", "whitepupilrivuleteyes", "alternatepupilrivuleteyes", "uhohrivuleteyes", "smallpupilrivuleteyes",
+            "buttoneyes", "buttoneyes2", "bobaeyes", "bobaeyes2", "bobaeyeslars", "bobaeyeslars2", "geckoeyes", "geckoeyes2",
             "shadersnewwhite", "lightingnew",
             "whitepatches", "tortiepatchesmasks",
             "fademask", "fadestarclan", "fadedarkforest", "fadeunknownresidence",
@@ -166,11 +166,13 @@
             "softcolours", "texturecolours", "warriorcolours", "washycolours"
         ],
   "tortiepatchesmasks": [
-            ["ONE", "TWO", "THREE", "FOUR", "REDTAIL", "DELILAH", "HALF", "STREAK", "MASK", "SMOKE"],
-            ["MINIMALONE", "MINIMALTWO", "MINIMALTHREE", "MINIMALFOUR", "OREO", "SWOOP", "CHIMERA", "CHEST", "ARMTAIL", "GRUMPYFACE"],
-            ["MOTTLED", "SIDEMASK", "EYEDOT", "BANDANA", "PACMAN", "STREAMSTRIKE", "SMUDGED", "DAUB", "EMBER", "BRIE"],
-            ["ORIOLE", "ROBIN", "BRINDLE", "PAIGE", "ROSETAIL", "SAFI", "DAPPLENIGHT", "BLANKET", "BELOVED", "BODY"],
-            ["SHILOH", "FRECKLED", "HEARTBEAT", "SPECKLES", "TIGER", "SHROOM", "MAILBOX", "GILAMONSTER", "RINGEDMIMIC", "NECKLACEMIMIC"]
+            ["ONE", "TWO", "THREE", "FOUR", "ARMTAIL", "BANDANA", "BELOVED", "BLANKET", "BODY", "BIRE"],
+            ["BRINDLE", "CHEST", "CHIMERA", "DAPPLENIGHT", "DAUB", "DELILAH", "EMBER", "EYEDOT", "FRECKLED", "GRUMPYFACE"],
+            ["HALF", "HEARTBEAT", "MASK", "MINIMALONE", "MINIMALTWO", "MINIMALTHREE", "MINIMALFOUR", "MOTTLED", "OREO", "ORIOLE"],
+            ["PACMAN", "PAIGE", "REDTAIL", "ROBIN", "ROSETAIL", "SAFI", "SHILOH", "SIDEMASK", "SMOKE", "SMUDGED"],
+            ["STREAK", "STREAMSTRIKE", "SWOOP", "SPORTYMIMIC", "ECHOMIMIC", "MAGMA", "HEROBRINE", "CURLED", "LITTLESTRIPE", "TAILCOLOUR"],
+            ["BRINDLETWO", "TAILBACK", "PIKA", "CHESTHEARTED", "TRIDENT", "FINLEAP", "DAISY", "SIDEHEADED", "AIM", "TEARY"],
+            ["CIRCLEDOT", "BLEEDINGHEART", "DOTTEDFACE", "BLAZER", "HICKORY", "OC"]
         ],
   "gilltongue_rows": [
             ["PINKGILLS", "BLUEGILLS", "REDGILLS", "LIMEGILLS", "YELLOWGILLS", "WHITEGILLS"],

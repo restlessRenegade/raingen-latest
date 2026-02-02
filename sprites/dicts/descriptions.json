@@ -115,11 +115,11 @@
             "Antethisis": "vibrant blotchy c_n",
             "Citadel": "banded c_n",
             "Grave": "patchily striped c_n",
-            "Interloper": "vibrantly patched c_n",
+            "Interloper": "vibrantly patched c_n"
         },
   "feature_details":  {
             "WIP": "Im having to make a json file for this HELP. ME."
-        }
+        },
   "scar_details": {
             "NOTAIL": "no tail",
             "HALFTAIL": "half a tail",

@@ -237,10 +237,16 @@ class Sprites:
         rivuleteye_colors = sprites_py_dict['rivuleteye_colors']
         self.make_sprite_groups('rivuleteyes', rivuleteye_colors, 'rivuleteyes')
         self.make_sprite_groups('rivuleteyes2', rivuleteye_colors, 'rivuleteyes2')
-        self.make_sprite_groups('rivuleteyes3', rivuleteye_colors, 'rivuleteyes3')
-        self.make_sprite_groups('rivuleteyes4', rivuleteye_colors, 'rivuleteyes4')
-        self.make_sprite_groups('rivuleteyes5', rivuleteye_colors, 'rivuleteyes5')
-        self.make_sprite_groups('rivuleteyes6', rivuleteye_colors, 'rivuleteyes6')
+
+        #riv alt eye types crying
+        whitepupilrivuleteye_colors = [[f"WHITEPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        alternatepupilrivuleteye_colors = [[f"ALTERNATEPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        uhohrivuleteye_colors = [[f"UHOH{color}" for color in row] for row in rivuleteye_colors]
+        smallpupilrivuleteye_colors = [[f"SMALLPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        self.make_sprite_groups('whitepupilrivuleteyes', whitepupilrivuleteye_colors, 'whitepupilrivuleteyes')
+        self.make_sprite_groups('alternatepupilrivuleteyes', alternatepupilrivuleteye_colors, 'alternatepupilrivuleteyes')
+        self.make_sprite_groups('uhohrivuleteyes', uhohrivuleteye_colors, 'uhohrivuleteyes')
+        self.make_sprite_groups('smallpupilrivuleteyes', smallpupilrivuleteye_colors, 'smallpupilrivuleteyes')
                      
         buttoneye_colors = sprites_py_dict['buttoneye_colors']
         self.make_sprite_groups('buttoneyes', buttoneye_colors, 'buttoneyes')
