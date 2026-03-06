@@ -1,4 +1,4 @@
-<strong>v1.8</strong>
+<strong>DEV v1.8</strong>
 Added:
 - Features:
 - - Wings, so many wings, by Foxett and Wildy
@@ -39,8 +39,12 @@ HEAVY WIP - 3 New conditions with scars to go alongside them
 - - More text replacements
 
 Fixes:
-- Tortie patches APPARENTLY were broken in the code for a long time?? Now you can actually get all of them!
+- Tortie patches apparently were broken in the code for a long time?? Now you can actually get all of them!
 - Black Claws will now appear with the old gills and tongues enabled
+
+Note about the next major update:
+- A huge sprite rework is planned, reviewing EVERY sprite we have, reorganizing sprite sheets, things that work or look one way now will likely be vastly different after v1.9/2.0 (idk yet man it might be big enough to warrent 2.0)
+- Also bunch of events n patrols, n other stuff soooo yeah get ready, especially if clangen updates itll be a hot minute moving stuff
 
 <strong>v1.7</strong>
 Added:
