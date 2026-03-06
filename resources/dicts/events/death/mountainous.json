@@ -63,7 +63,7 @@
         "weight": 30,
         "event_text": "m_c got grabbed by a big moth whilst saving r_c",
         "m_c": {
-            "dies": true
+            "dies": true,
             "status": [
                 "apprentice",
                 "warrior",
@@ -73,7 +73,7 @@
                 "mediator apprentice",
                 "mediator",
                 "elder"
-            ],
+            ]
         },
         "r_c": {
             "age": ["adolescent"],
@@ -93,7 +93,7 @@
         "weight": 30,
         "event_text": "m_c was out in the middle of camp when suddeny a large moth descended onto {PRONOUN/m_c/object} and carried {PRONOUN/m_c/object} away, never to be seen again.",
         "m_c": {
-            "dies": true
+            "dies": true,
             "status": ["kitten"]
         },
         "history": [{
