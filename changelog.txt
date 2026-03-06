@@ -6,11 +6,29 @@ Added:
 - - Overseertenna by Foxett
 - - White dropwig mandibles by Squid Say Moo
 - - White, Brown, and Black sheep wool by Foxett
+- - Slime Parts (yes slime rancher) by Foxett
+- - Visor Antennae by Mimalot
+- - Chimeny Tail by Mimalot
+- - Robotic spines by Foxett
+- - Wires by Foxett
+- - Internal Gills by Foxett
+- - Body Eyes by Squid say Moo (YES ITS ALL THE EYE COLORS)
+- Accessories:
 - - Mercy Wings Mask by Wildy
+- - DLL & BLL Rot Symbiote by Mimalot
+- - Frog Goggles by Foxett
+- - Electrified by Mimalot
+- - 3 Collar Variants by Squid say Moo
 - Pelts:
-- - Citadel, and Grave by Foxett
+- - Citadel, Grave, Painted, Plated, Slime, by Foxett
 - - Interloper, and Anethisis by Wildy
-- - 
+- - Mono(concepted by Flamedash), Voidmass, Xelsquid, Mima, XelStar, Bowie, Xelflame, Toonie, Lunatic, Cosmos, Snuff by Squid say Moo
+- Patches:
+- - 2 White Patches by Mimalot
+- Eyes:
+- - 8 Eye colors by Foxett
+- - 5 Eye colors by Mimalot
+- - New Gecko eyes with 18 colors by Squid say Moo
 - Code/Dev Specific:
 - - Moved sprite names into json files for cleanup
 HEAVY WIP - 3 New conditions with scars to go alongside them
@@ -20,8 +38,9 @@ HEAVY WIP - 3 New conditions with scars to go alongside them
 - - Species have been implemented, currently only affects possible feature generation, this replaces common combinations
 - - More text replacements
 
-
 Fixes:
+- Tortie patches APPARENTLY were broken in the code for a long time?? Now you can actually get all of them!
+- Black Claws will now appear with the old gills and tongues enabled
 
 <strong>v1.7</strong>
 Added:
