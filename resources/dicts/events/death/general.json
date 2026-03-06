@@ -280,7 +280,7 @@
             "dies": true
         },
         "r_c": {
-            "status": [ "kitten" ]
+            "status": [ "kitten" ],
             "skill": [
                 "STORY, 1"
             ]
@@ -344,7 +344,7 @@
             "dies": true
         },
         "r_c": {
-            "status": [ "kitten" ]
+            "status": [ "kitten" ],
             "skill": [
                 "DARK, 1"
             ]
