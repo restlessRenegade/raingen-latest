@@ -1,13 +1,16 @@
 <strong>v1.8</strong>
 Added:
 - Features:
-- - Wings by Foxett and Wildy
+- - Wings, so many wings, by Foxett and Wildy
 - - Manes by Foxett
 - - Overseertenna by Foxett
 - - White dropwig mandibles by Squid Say Moo
+- - White, Brown, and Black sheep wool by Foxett
+- - Mercy Wings Mask by Wildy
 - Pelts:
 - - Citadel, and Grave by Foxett
 - - Interloper, and Anethisis by Wildy
+- - 
 - Code/Dev Specific:
 - - Moved sprite names into json files for cleanup
 HEAVY WIP - 3 New conditions with scars to go alongside them
