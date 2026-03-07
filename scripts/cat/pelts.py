@@ -46,6 +46,17 @@ class Pelt:
     blue_gecko_eyes = sprite_names_dict['blue_gecko_eyes']
     green_gecko_eyes = sprite_names_dict['green_gecko_eyes']
     red_gecko_eyes = sprite_names_dict['red_gecko_eyes']
+    bugeyes_colors = sprite_names_dict['bugeyes_colors']
+    yellow_bug_eyes = sprite_names_dict['yellow_bug_eyes']
+    blue_bug_eyes = sprite_names_dict['blue_bug_eyes']
+    green_bug_eyes = sprite_names_dict['green_bug_eyes']
+    red_bug_eyes = sprite_names_dict['red_bug_eyes']
+    animeeyes_colors = sprite_names_dict['animeeyes_colors']
+    yellow_anime_eyes = sprite_names_dict['yellow_anime_eyes']
+    blue_anime_eyes = sprite_names_dict['blue_anime_eyes']
+    green_anime_eyes = sprite_names_dict['green_anime_eyes']
+    red_anime_eyes = sprite_names_dict['red_anime_eyes']
+
 
     pelt_colours = sprite_names_dict['pelt_colours']
     tabbies = sprite_names_dict['tabbies']
@@ -512,6 +523,8 @@ class Pelt:
         buttoneyenum = game.config["cat_generation"]["base_buttoneyes"]
         bobaeyenum = game.config["cat_generation"]["base_bobaeyes"]
         geckoeyenum = game.config["cat_generation"]["base_geckoeyes"]
+        bugeyenum = game.config["cat_generation"]["base_bugeyes"]
+        animeeyenum = game.config["cat_generation"]["base_animeeyes"]
 
         if not random.randint(0, riveyenum):
             self.eye_colour = choice(Pelt.riveye_colours)
@@ -521,6 +534,10 @@ class Pelt:
             self.eye_colour = choice(Pelt.bobaeye_colours)
         elif not random.randint(0, geckoeyenum):
             self.eye_colour = choice(Pelt.geckoeyes_colors)
+        elif not random.randint(0, bugeyenum):
+            self.eye_colour = choice(Pelt.bugeyes_colors)
+        elif not random.randint(0, animeeyenum):
+            self.eye_colour = choice(Pelt.animeeyes_colors)
 
         # White patches must be initalized before eye color.
         num = game.config["cat_generation"]["base_heterochromia"]
@@ -553,6 +570,10 @@ class Pelt:
                 colour_wheel = [Pelt.yellow_boba_eyes, Pelt.blue_boba_eyes, Pelt.green_boba_eyes, Pelt.red_boba_eyes]
             elif self.eye_colour in Pelt.geckoeyes_colors:
                 colour_wheel = [Pelt.yellow_gecko_eyes, Pelt.blue_gecko_eyes, Pelt.green_gecko_eyes, Pelt.red_gecko_eyes]
+            elif self.eye_colour in Pelt.bugeyes_colors:
+                colour_wheel = [Pelt.yellow_bug_eyes, Pelt.blue_bug_eyes, Pelt.green_bug_eyes, Pelt.red_bug_eyes]
+            elif self.eye_colour in Pelt.animeeyes_colors:
+                colour_wheel = [Pelt.yellow_anime_eyes, Pelt.blue_anime_eyes, Pelt.green_anime_eyes, Pelt.red_anime_eyes]
             else:
                 colour_wheel = [Pelt.yellow_eyes, Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes]
             for colour in colour_wheel[:]:

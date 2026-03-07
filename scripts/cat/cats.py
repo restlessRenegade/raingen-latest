@@ -1019,6 +1019,10 @@ class Cat:
             colour = colour.replace("boba", "")
         if self.pelt.eye_colour in Pelt.geckoeyes_colors:
             colour = colour.replace("gecko", "")
+        if self.pelt.eye_colour in Pelt.bugeyes_colors:
+            colour = colour.replace("bug", "")
+        if self.pelt.eye_colour in Pelt.animeeyes_colors:
+            colour = colour.replace("anime", "")
             
         if self.pelt.eye_colour2:
             if self.pelt.eye_colour2 in Pelt.multi_eyes:
@@ -1032,6 +1036,10 @@ class Cat:
                     colour2 = colour2.replace("boba", "")
                 if self.pelt.eye_colour2 in Pelt.geckoeyes_colors:
                     colour2 = colour2.replace("gecko", "")
+                if self.pelt.eye_colour2 in Pelt.bugeyes_colors:
+                    colour2 = colour2.replace("bug", "")
+                if self.pelt.eye_colour2 in Pelt.animeeyes_colors:
+                    colour2 = colour2.replace("anime", "")
                 if colour2 == "palegreen":
                     colour2 = "pale green"
                 if colour2 == "darkblue":
@@ -1056,6 +1064,10 @@ class Cat:
             colour = colour + ", large"
         if self.pelt.eye_colour in Pelt.geckoeyes_colors:
             colour = colour + ", huge"
+        if self.pelt.eye_colour in Pelt.bugeyes_colors:
+            colour = colour + ", huge"
+        if self.pelt.eye_colour in Pelt.animeeyes_colors:
+            colour = colour + ", giant"
 
         return colour
 
