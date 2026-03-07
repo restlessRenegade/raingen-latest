@@ -1246,7 +1246,7 @@ class Pelt:
         elif not random.randint(0, insectoidnum):
             insectoid_features =  [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
                                    Pelt.bodyeyes, Pelt.beetlewingsf, Pelt.beetlewingsft, Pelt.beetlewingsc, Pelt.bugwings, Pelt.bugwingst]
-            insectoid_fweights = [10,20,20,10,10,15,10,10,10,5,5,10,10,20,20,20]
+            insectoid_fweights = [10,20,20,10,10,15,10,10,10,5,10,10,20,20,20]
             self.skin = choice(random.choices(insectoid_features, insectoid_fweights, k=1)[0])
             self.species = "insectoid"
             
