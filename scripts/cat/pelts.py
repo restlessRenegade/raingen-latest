@@ -1260,7 +1260,7 @@ class Pelt:
         elif not random.randint(0, aerialnum):
             aerial_features = [Pelt.dragonhorns, Pelt.dragonwhiskers, Pelt.moth, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.seaangelwings, Pelt.budgiewings, Pelt.conurewings,
                                Pelt.lovebirdwings, Pelt.pidgeonwings, Pelt.vulturewings, Pelt.whitefadewings, Pelt.wings, Pelt.kingtendrils]
-            aerial_fweights = [4,4,8,8,8,12,20,20,20,20,20,20,20,20,4]
+            aerial_fweights = [4,4,8,8,8,12,20,20,20,20,20,20,20,20]
             self.skin = choice(random.choices(aerial_features, aerial_fweights, k=1)[0])
             self.species = "aerial"
             
