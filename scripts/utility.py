@@ -2952,6 +2952,8 @@ def generate_sprite(
                             new_sprite.blit(sprites.sprites['newaccs4' + i + cat_sprite], (0, 0))
                         elif i in cat.pelt.newaccs5:
                             new_sprite.blit(sprites.sprites['newaccs5' + i + cat_sprite], (0, 0))
+                        elif i in cat.pelt.newaccs6:
+                            new_sprite.blit(sprites.sprites['newaccs6' + i + cat_sprite], (0, 0))
 
                     except:
                         continue
@@ -3059,6 +3061,8 @@ def generate_sprite(
                             new_sprite.blit(sprites.sprites['newaccs4' + i + cat_sprite], (0, 0))
                         elif i in cat.pelt.newaccs5:
                             new_sprite.blit(sprites.sprites['newaccs5' + i + cat_sprite], (0, 0))
+                        elif i in cat.pelt.newaccs6:
+                            new_sprite.blit(sprites.sprites['newaccs6' + i + cat_sprite], (0, 0))
 
                     except:
                         continue

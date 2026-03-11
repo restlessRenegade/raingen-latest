@@ -13,22 +13,61 @@ Added:
 - - Wires by Foxett
 - - Internal Gills by Foxett
 - - Body Eyes by Squid say Moo (YES ITS ALL THE EYE COLORS)
+- - Fangs by Squid say Moo
+- - 5 Beetle Wing variants by Dragonfly
+- - King Tendril Variants by Squid say Moo
+- - Limb Gradients by Squid say Moo
+- - Angler Fins by Foxett
+- - Neon Wings by Cosmonaught
+- - Purple and Yellow Glowspots and Antennae by Foxett
+- - Spined Frills by Dragonfly
+- - Popsicle Whiskers by Mimalot
+- - Black, Green, and Whiteout by Mimalot (bonus thing you can add in savefile editing essentially)
+- - WSol Antennae and Wings by Mimalot
 - Accessories:
 - - Mercy Wings Mask by Wildy
 - - DLL & BLL Rot Symbiote by Mimalot
 - - Frog Goggles by Foxett
 - - Electrified by Mimalot
 - - 3 Collar Variants by Squid say Moo
+- - MLG Glasses by Squid say Moo
+- - More Iterator Drapes, Flame Manes, Karma Flower Wreathes, Karma Flowers, Muddy Paws, Overseer Eyes, Iterator Pearl Drapes, Mushroom Hats, Explosive Spears, Tears, and Sheep Wool variants by Squid say Moo
+- - Pumpkin and Jack-o-Lantern head by Mimalot
+- - BLindfold remake + more variants by Mimalot
+- - Clown Noses by RestlessRenegade
+- - Silly Horn by RestlessRenegade
+- - Valentine Masks by Squid say Moo
+- - Hooded Ponchos by Squid say Moo
+- - Tyton Masks by Squid say Moo
+- - 3 Helmets by Foxett
+- - Armadillo Cloaks by Mimalot
+- - Various new Jewlery variants by Squid say Moo
+- - Mini Black Hole by Mimalot
+- - Meganium Collars by Wildy
+- - Regular smiles by Mimalot
+- - Karma Veils by Squid say Moo
+- - More Halo and Neuron glow variants by Squid say Moo
+- Scars:
+- - Ill "scar" (not actually implemented yet but will show up on scugs with allergies next update)
 - Pelts:
-- - Citadel, Grave, Painted, Plated, Slime, by Foxett
+- - Citadel, Grave, Painted, Plated, Slime, Soft, and Warrior by Foxett
 - - Interloper, and Anethisis by Wildy
-- - Mono(concepted by Flamedash), Voidmass, Xelsquid, Mima, XelStar, Bowie, Xelflame, Toonie, Lunatic, Cosmos, Snuff by Squid say Moo
+- - Mono(concepted by Flamedash), Voidmass, Xelsquid, Mima, XelStar, Bowie, Xelflame, Toonie, Lunatic, Cosmos, Snuff, Kiwi, Lacuna, Silv, Simple, Solid, Source, Metro, Petaled, and Washy by Squid say Moo
+- - Reverse Amazon, Apple, Amoeba, Agouti, Banana, Bangal, Betta, Boba, Budgie, and Centipede by Mimalot
+- - Noodlefly and Noodlefly2 by MissingSoul00e
+- - Textured, Glitch, and Lightglitch by Harley
 - Patches:
 - - 2 White Patches by Mimalot
+- - 5 White Patch by Squid say Moo
+- - 1 Tortie Patch by Foxett
 - Eyes:
-- - 8 Eye colors by Foxett
+- - 9 Eye colors by Foxett
 - - 5 Eye colors by Mimalot
+- - 3 Eye colors by Squid say Moo
 - - New Gecko eyes with 18 colors by Squid say Moo
+- - 4 Rivulet eye variants by Squid say Moo
+- - New Bug eyes with 4 variants by Squid say Moo
+- - New Anime eyes by Squid say Moo
 - Code/Dev Specific:
 - - Moved sprite names into json files for cleanup
 HEAVY WIP - 3 New conditions with scars to go alongside them

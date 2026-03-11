@@ -233,7 +233,8 @@ class Sprites:
         #lars' multi eyes
         multilarseye_colors = sprites_py_dict['multilarseye_colors']
         self.make_sprite_groups('multilarseyes', multilarseye_colors, 'multilarseyes')
-                    
+
+        #riv eyes
         rivuleteye_colors = sprites_py_dict['rivuleteye_colors']
         self.make_sprite_groups('rivuleteyes', rivuleteye_colors, 'rivuleteyes')
         self.make_sprite_groups('rivuleteyes2', rivuleteye_colors, 'rivuleteyes2')
@@ -247,7 +248,8 @@ class Sprites:
         self.make_sprite_groups('alternatepupilrivuleteyes', alternatepupilrivuleteye_colors, 'alternatepupilrivuleteyes')
         self.make_sprite_groups('uhohrivuleteyes', uhohrivuleteye_colors, 'uhohrivuleteyes')
         self.make_sprite_groups('smallpupilrivuleteyes', smallpupilrivuleteye_colors, 'smallpupilrivuleteyes')
-                     
+
+        #button eyes
         buttoneye_colors = sprites_py_dict['buttoneye_colors']
         self.make_sprite_groups('buttoneyes', buttoneye_colors, 'buttoneyes')
         self.make_sprite_groups('buttoneyes2', buttoneye_colors, 'buttoneyes2')
@@ -261,6 +263,16 @@ class Sprites:
         geckoeyes_colors = sprites_py_dict['geckoeyes_colors']
         self.make_sprite_groups('geckoeyes', geckoeyes_colors, 'geckoeyes')
         self.make_sprite_groups('geckoeyes2', geckoeyes_colors, 'geckoeyes2')
+
+        # bugeyes seperate as theres only 4
+        bugeyes_colors = sprites_py_dict['bugeyes_colors']
+        self.make_sprite_groups('bugeyes', bugeyes_colors, 'bugeyes')
+        self.make_sprite_groups('bugeyes2', bugeyes_colors, 'bugeyes2')
+
+        # animeeyes seperate as they got 27 unique colors sobbing
+        animeeyes_colors = sprites_py_dict['animeeyes_colors']
+        self.make_sprite_groups('animeeyes', animeeyes_colors, 'animeeyes')
+        self.make_sprite_groups('animeeyes2', animeeyes_colors, 'animeeyes2')
         
         # Define white patches
         white_patches = sprites_py_dict['white_patches']
