@@ -5019,7 +5019,7 @@
     "new_accessory": ["BASECOLLARS", "PEARLCOLLARS", "STUDDEDCOLLARS"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
-    }
+    },
     {
     "event_id": "gen_misc_any_electrified",
     "location": ["any"],
