@@ -2106,7 +2106,27 @@ class Cat:
                 "ORANGEFIRE", "GREENFIRE",
                 "BLUEFIRE", "YELLOWFIRE",
                 "WHITEFIRE", "PINKFIRE",
-                "REDFIRE"
+                "REDFIRE", "MOUSEBLUE",
+                "MOUSEYEL", "MOUSEPINK",
+                "MOUSERED", "YEEKRED",
+                "YEEKBLUE", "NOODLERED",
+                "NOODLEPURPLE", "NOODLEGREY",
+                "NOODLEBLUE", "NOODLEWHITE",
+                "NOODLEPINK", "SQUIDBLACK",
+                "SQUIDWHITE", "REDARMOR",
+                "TAILWRAP", "FLOWEREDMOSS",
+                "MOSS", "MUSHROOMS",
+                "MOUSEYELPLUSH", "MOUSEREDPLUSH",
+                "MOUSEBLUEPLUSH", "MOUSEPINKPLUSH",
+                "ORANGEPLANTPELT", "LIMEPLANTPELT",
+                "GREENPLANTPELT", "YELLOWPLANTPELT",
+                "BLUEPLANTPELT", "ORANGEFIRE",
+                "GREENFIRE", "BLUEFIRE",
+                "YELLOWFIRE", "WHITEFIRE",
+                "PINKFIRE", "REDFIRE",
+                "MOTHBUDDY", "MOTHBUDDYTWO",
+                "FOOLSGOLDTAILCHAIN", "GOLDTAILCHAIN",
+                "ROSEGOLDTAILCHAIN", "SILVERTAILCHAIN"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -2125,7 +2145,15 @@ class Cat:
                 "BLUEPAINT", "PURPLEPAINT",
                 "MAGENTAPAINT", "BLACKPAINT",
                 "WHITEPAINT", "FALLENSTARPAWS",
-                "MUDDYPAWS"
+                "MUDDYPAWS", "FLASHFRUIT",
+                "REDFLASHFRUIT", "BUBBLE",
+                "BLUEFRUIT", "INVEGG",
+                "GRENADE", "PEARLDRAPERY",
+                "FALLENSTARPAWS", "MOTHBUDDYTWO",
+                "BLOODYPAWS", "INKYPAWS",
+                "FOOLSGOLDBAND", "GOLDBAND",
+                "JADEBANDS", "ROSEGOLDBAND",
+                "SILVERBAND", "CLOWNHORN"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -2141,7 +2169,33 @@ class Cat:
                 "PALEPAINT", "CYANPAINT",
                 "BLUEPAINT", "PURPLEPAINT",
                 "MAGENTAPAINT", "BLACKPAINT",
-                "WHITEPAINT"
+                "WHITEPAINT", "PEARLEAR",
+                "LILCENTI", "REDBATNIP",
+                "LILFLY", "BATNIP",
+                "TREESEED", "GLOWSTONE",
+                "LILBEETLE", "GREENDRAGFLY",
+                "BLUEDRAGFLY", "DEATHSHEAD",
+                "BLUEBORDERED", "BLOODVEIN",
+                "LARGEEMERALD", "CINNABAR",
+                "LUNA", "ROSYMAPLE",
+                "ATLAS", "HERCULES",
+                "SUNSET", "PURPLEEMPEROR",
+                "WHITEADMIRAL", "SWALLOWTAIL",
+                "YEEKRED", "YEEKBLUE",
+                "SNAILGREEN", "SNAILBLUE",
+                "SNAILRED", "SNAILPURPLE",
+                "OVERSEEREYE", "MURDERPAINT"
+                "PEARLDRAPERY", "AMBERJEWLERY",
+                "SCAVMPAINT", "MOTHBUDDY",
+                "MOTHBUDDYTWO", "BLUEOVERSEEREYE",
+                "GREENOVERSEEREYE", "PURPLEOVERSEEREYE",
+                "REDOVERSEEREYE", "WHITEOVERSEEREYE",
+                "FOOLSGOLDEARRINGALT", "FOOLSGOLDSIMPLESTUD",
+                "GOLDSIMPLESTUD", "GOLDEARRINGALT",
+                "ROSEGOLDSIMPLESTUD", "SILVEREARRINGALT",
+                "GOLDSTUDSALT", "ROSEGOLDSTUDSALT",
+                "FOOLSGOLDSTUDALT", "SILVERSTUDALT",
+                "JADESTUDALT"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
