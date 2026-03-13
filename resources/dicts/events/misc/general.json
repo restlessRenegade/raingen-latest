@@ -678,7 +678,7 @@
     "season": ["leaf-fall"],
     "tags": ["clan:kitten"],
     "weight": 20,
-    "event_text": "The older cats look fondly upon the kits who are dashing in and out of leaf piles at the edge of camp.",
+    "event_text": "The older slugcats look fondly upon the pups who are dashing in and out of leaf piles at the edge of camp.",
     "m_c": {
       "age": ["senior", "senior adult"]
     },
@@ -946,7 +946,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 10,
-    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed kits.",
+    "event_text": "m_c listens bashfully as r_c tells the story of how {PRONOUN/r_c/subject} fell in love with {PRONOUN/r_c/poss} mate to a group of starry-eyed pups.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -972,7 +972,7 @@
     "season": ["any"],
     "tags": ["clan:elder"],
     "weight": 15,
-    "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind cat as {PRONOUN/m_c/poss} mate.",
+    "event_text": "m_c watches r_c give an elder the best piece of prey on the pile. {PRONOUN/m_c/subject/CAP} {VERB/m_c/feel/feels} lucky to have such a kind slugcat as {PRONOUN/m_c/poss} mate.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -998,7 +998,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 15,
-    "event_text": "m_c and r_c watch the Clan's kits play and daydream about having their own one day.",
+    "event_text": "m_c and r_c watch the Clan's pups play and daydream about having their own one day.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -1315,7 +1315,7 @@
         "season": ["leaf-fall"],
       "tags": ["clan:warrior"],
         "weight": 20,
-        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult cats watch with amused purrs.",
+        "event_text": "m_c and r_c lead a small leaf-gathering hunt, which the adult slugcats watch with amused purrs.",
         "m_c": {
             "status": ["kitten"]
         },
@@ -1405,7 +1405,7 @@
         "season": ["any"],
         "sub_type": ["war"],
         "weight": 10,
-        "event_text": "m_c is being comforted by r_c after having nightmares about the big, bad o_c_n cats.",
+        "event_text": "m_c is being comforted by r_c after having nightmares about the big, bad o_c_n slugcats.",
         "m_c": {
             "status": ["kitten"],
             "relationship_status": ["child/parent"]
@@ -1880,7 +1880,7 @@
     "season": ["any"],
     "sub_type": ["accessory"],
     "weight": 20,
-    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the kit squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's pelt.",
+    "event_text": "m_c is nearly blindsided by r_c as {PRONOUN/m_c/subject} {VERB/m_c/walk/walks} into camp after a long training day, listening to the pup squeak about a type of feather. r_c leads m_c to the nursery, where {PRONOUN/r_c/subject} carefully {VERB/r_c/put/puts} acc_plural in m_c's pelt.",
     "new_accessory": ["BLUE FEATHERS", "JAY FEATHERS", "RED FEATHERS"],
     "m_c": {
         "age": ["adolescent"]
@@ -2066,7 +2066,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was loitering around o_c_n's border, looking for a specific cat.",
+    "event_text": "m_c was loitering around o_c_n's border, looking for a specific slugcat.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     }
@@ -2091,7 +2091,7 @@
     "season": ["any"],
     "tags": [],
     "weight": 10,
-    "event_text": "m_c was seen arguing, and borderline-fighting, with a cat from o_c_n.",
+    "event_text": "m_c was seen arguing, and borderline-fighting, with a slugcat from o_c_n.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2105,7 +2105,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was seen speaking calmly to a cat from o_c_n.",
+    "event_text": "m_c was seen speaking calmly to a slugcat from o_c_n.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2171,7 +2171,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 10,
-    "event_text": "m_c was seen talking calmly to a loner, before both cats went their separate ways.",
+    "event_text": "m_c was seen talking calmly to a loner, before both slugcats went their separate ways.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
@@ -2290,7 +2290,7 @@
     "season": ["any"],
     "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c is checking in on every cat in the camp to make sure everyone is staying healthy in the midst of war.",
+    "event_text": "m_c is checking in on every scug in the camp to make sure everyone is staying healthy in the midst of war.",
     "m_c": {
       "age":["any"],  
       "status": ["mediator", "mediator apprentice"],
@@ -2681,7 +2681,7 @@
     "season": ["any"],
     "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every cat.",
+    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every scug.",
     "m_c": {
       "status": ["cleric apprentice", "cleric"],
       "skill": ["OMEN,1"]
@@ -2771,7 +2771,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c awakens with multiple objects stacked on {PRONOUN/m_c/object}, and the sound of giggling cats in the distance.",
+    "event_text": "m_c awakens with multiple objects stacked on {PRONOUN/m_c/object}, and the sound of giggling slugcats in the distance.",
     "m_c": {
       "status":["elder"]
     }
@@ -2834,7 +2834,7 @@
     "season": ["any"],
     "tags": ["clan:apps"],
     "weight": 20,
-    "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
+    "event_text": "m_c calls the younger slugcats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
     "m_c": {
       "age":["any"],
       "status":["elder"],
@@ -2847,7 +2847,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 30,
-    "event_text": "m_c calls out to some eager kits, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the kits a thrilling story of times long past.",
+    "event_text": "m_c calls out to some eager pups, and after they have situated themselves in front of m_c, {PRONOUN/m_c/subject} {VERB/m_c/start/starts} telling the pups a thrilling story of times long past.",
     "m_c": {
       "age": ["senior", "adolescent","young adult", "adult","senior adult"],
       "skill": ["STORY,1","LORE,2"]
@@ -3229,7 +3229,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The o_c_n cleric apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. c_n provides the cat with some of their extra lungwort.",
+    "event_text": "The o_c_n cleric apprentice comes to c_n's camp, pleading for help with a yellowcough epidemic. c_n provides the slugcat with some of their extra lungwort.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3525,7 +3525,7 @@
     "season": ["leaf-bare"],
     "tags": ["clan_wide"],
     "weight": 1,
-    "event_text": "Freezing temperatures have not just affected the cats. It's also frostbitten the stored herbs. Many of them are useless now and will have to be replaced.",
+    "event_text": "Freezing temperatures have not just affected the slugcats. It's also frostbitten the stored herbs. Many of them are useless now and will have to be replaced.",
     "supplies": [
       {
           "type": "all_herb",
@@ -3640,7 +3640,7 @@
     "season": ["any"],
     "sub_type": ["ceremony", "accessory"],
     "weight": 20,
-    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} kit has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
+    "event_text": "r_c is so proud of how far {PRONOUN/r_c/poss} pup has grown. With a look of pride, r_c presents m_c with acc_plural as a congratulations for becoming an apprentice.",
     "new_accessory": ["WILD", "PLANT", "SAKURA", "WHITEADMIRAL", "SWALLOWTAIL", "PURPLEEMPEROR", "SUNSET", "HERCULES", "ATLAS", "ROSYMAPLE", "LUNA", "CINNABAR", "LARGEEMERALD", "BLOODVEIN", "BLUEBORDERED", "DEATHSHEAD"],
     "m_c": {
       "status": ["apprentice"],
@@ -4830,7 +4830,7 @@
     "weight": 10,
     "event_text": "m_c finds a acc_singular and decides to keep it.",
     "new_accessory": [
-      "PURPLEINDIGOPSPEAR", "INDIGOPSPEAR", "PURPLEPSPEAR", "CYANPSPEAR", "BLUEPSPEAR", "BLURCYANPSPEAR",
+      "PURPLEINDIGOPSPEAR", "INDIGOPSPEAR", "PURPLEPSPEAR", "CYANPSPEAR", "BLUEPSPEAR", "BLUECYANPSPEAR",
       "GAYPSPEAR", "TURQUOISEPSPEAR", "TURQUOISEGREENPSPEAR", "LIMEGREENPSPEAR", "LIMEPSPEAR", "GREYPSPEAR",
       "GREENPSPEAR", "ORANGEPSPEAR", "REDPSPEAR", "REDPINKPSPEAR", "PURPLEPINKPSPEAR", "PINKPSPEAR",
       "MAGENTAPINKPSPEAR", "REDPURPLEPSPEAR", "BLUEPURPLEPSPEAR", "ROSEPINKPSPEAR", "GREENYELLOWPSPEAR", "LIMEYELLOWPSPEAR",
@@ -5004,12 +5004,13 @@
     "weight": 5,
     "event_text": "m_c had been scavenging around a scavenger toll and found a acc_singular, and {PRONOUN/m_c/subject} decided to wear it.",
     "new_accessory": ["ITERATORMASKS", "YELLOWTYTONMASK", "GREYTYTONMASK", "REDTYTONMASK", "WHITETYTONMASK", "ORANGETYTONMASK", "BLUETYTONMASK", "GREENVALENTINEMASK",
-                      "AMBERVALENTINEMASK", "BONEVALENTINEMASK", "BLUEVALENTINEMASK", "REDVALENTINEMASK", "PINKVALENTINEMASK", "ORANGEVALENTINEMASK", "WHITEVALENTINEMASK", "ALTGREENVALENTINEMASK", 
+                      "AMBERVALENTINEMASK", "BONEVALENTINEMASK", "BLUEVALENTINEMASK", "REDVALENTINEMASK", "PINKVALENTINEMASK", "ORANGEVALENTINEMASK", "WHITEVALENTINEMASK", "ALTGREENVALENTINEMASK",
                       "LIMEVALENTINEMASK", "GHOSTVALENTINEMASK", "PUMPKINVALENTINEMASK", "GREYVALENTINEMASK", "SKYVALENTINEMASK"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
-    },
-    {
+    }
+  },
+  {
     "event_id": "gen_misc_any_collar",
     "location": ["any"],
     "season": ["any"],
@@ -5019,7 +5020,8 @@
     "new_accessory": ["BASECOLLARS", "PEARLCOLLARS", "STUDDEDCOLLARS"],
     "m_c": {
       "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
-    },
+    }
+  },
     {
     "event_id": "gen_misc_any_electrified",
     "location": ["any"],

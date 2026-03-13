@@ -343,7 +343,7 @@ class Pelt:
         new_pelt.init_species(parents)
 
         return new_pelt
-
+    @staticmethod
     def check_and_convert(self, convert_dict):
         """Checks for old-type properties for the appearance-related properties
         that are stored in Pelt, and converts them. To be run when loading a cat in. """
@@ -352,10 +352,6 @@ class Pelt:
         
         if self.name == "Conductor":
             self.name = "Con"
-        if self.tortiebase == "conductor":
-            self.tortiebase = "con"
-        if self.tortiepattern == "conductor":
-            self.tortiepattern = "con"
 
         if self.white_patches == 'POINTMARK':
             self.white_patches = "SEALPOINT"
@@ -449,37 +445,30 @@ class Pelt:
         if self.white_patches_tint in convert_dict["old_white_patch_tints"]:
             self.white_patches_tint = convert_dict["old_white_patch_tints"][self.white_patches_tint]
         
-        # Move white_patches that should be in vit or points. 
-        if self.white_patches in Pelt.vit:
-            self.vitiligo = self.white_patches
-            self.white_patches = None
-        elif self.white_patches in Pelt.point_markings:
-            self.points = self.white_patches
-            self.white_patches = None
+        # Move white_patches that should be in vit or points.
+        if self.white_patches:
+            if self.white_patches in Pelt.vit:
+                self.vitiligo = self.white_patches
+                self.white_patches = None
+            elif self.white_patches in Pelt.point_markings:
+                self.points = self.white_patches
+                self.white_patches = None
+
+        if self.tortiebase:
+            if self.tortiebase == "conductor":
+                self.tortiebase = "con"
+
+        if self.tortiepattern:
+            if self.tortiepattern == "conductor":
+                self.tortiepattern = "con"
 
         if self.tortiepattern and "tortie" in self.tortiepattern:
             self.tortiepattern = sub("tortie", "", self.tortiepattern.lower())
             if self.tortiepattern == "solid":
                 self.tortiepattern = "single"
 
-        if self.white_patches in convert_dict["old_creamy_patches"]:
-            self.white_patches = convert_dict["old_creamy_patches"][self.white_patches]
-            self.white_patches_tint = "darkcream"
-        elif self.white_patches in ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']:
-            self.white_patches_tint = "none"
-
-        # Eye Color Convert Stuff
-        if self.eye_colour == "BLUE2":
-            self.eye_colour = "COBALT"
-        if self.eye_colour2 == "BLUE2":
-            self.eye_colour2 = "COBALT"
-
-        if self.eye_colour in ["BLUEYELLOW", "BLUEGREEN"]:
-            if self.eye_colour == "BLUEYELLOW":
-                self.eye_colour2 = "YELLOW"
-            elif self.eye_colour == "BLUEGREEN":
-                self.eye_colour2 = "GREEN"
-            self.eye_colour = "BLUE"
+        if self.pattern in convert_dict["old_patterns"]:
+            self.pattern = convert_dict["old_patterns"][self.pattern]
             
         # Convert the old skin
         if self.skin in convert_dict["old_sharphorns"]:
@@ -506,25 +495,17 @@ class Pelt:
             elif self.cat_sprites['senior'] == 5:
                 self.cat_sprites['senior'] = 14
         
-        if self.pattern in convert_dict["old_tortie_patches"]:
-            old_pattern = self.pattern
-            self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
+        if self.pattern:
+            if self.pattern in convert_dict["old_tortie_patches"]:
+                old_pattern = self.pattern
+                self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
 
-            # If the pattern is old, there is also a chance the base color is stored in
-            # tortiecolour. That may be different from the pelt color ("main" for torties)
-            # generated before the "ginger-on-ginger" update. If it was generated after that update,
-            # tortiecolour and pelt_colour will be the same. Therefore, let's also re-set the pelt color
-            self.colour = self.tortiecolour
-            self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
-            
-        if self.pattern == "MINIMAL1":
-            self.pattern = "MINIMALONE"
-        elif self.pattern == "MINIMAL2":
-            self.pattern = "MINIMALTWO"
-        elif self.pattern == "MINIMAL3":
-            self.pattern = "MINIMALTHREE"
-        elif self.pattern == "MINIMAL4":
-            self.pattern = "MINIMALFOUR"
+                # If the pattern is old, there is also a chance the base color is stored in
+                # tortiecolour. That may be different from the pelt color ("main" for torties)
+                # generated before the "ginger-on-ginger" update. If it was generated after that update,
+                # tortiecolour and pelt_colour will be the same. Therefore, let's also re-set the pelt color
+                self.colour = self.tortiecolour
+                self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
         
     def init_eyes(self, parents):
         if not parents:
@@ -972,6 +953,7 @@ class Pelt:
                 choice(Pelt.herbs2),
                 choice(Pelt.buddies),
                 choice(Pelt.newaccs),
+                choice(Pelt.newaccs2),
                 choice(Pelt.bodypaint),
                 choice(Pelt.necklaces),
                 choice(Pelt.larsaccs),
@@ -982,12 +964,21 @@ class Pelt:
                 choice(Pelt.pridedrapery),
                 choice(Pelt.featherboas),
                 choice(Pelt.chains),
+                choice(Pelt.newaccs3),
                 choice(Pelt.floatyeyes),
                 choice(Pelt.flagaccs),
                 choice(Pelt.ponchoaccs),
                 choice(Pelt.glassesaccs),
                 choice(Pelt.orbitals),
-                choice(Pelt.vulturemasks)
+                choice(Pelt.vulturemasks),
+                choice(Pelt.iteratormasks),
+                choice(Pelt.basecollars),
+                choice(Pelt.pearlcollars),
+                choice(Pelt.studdedcollars),
+                choice(Pelt.vulturemasks),
+                choice(Pelt.newaccs4),
+                choice(Pelt.newaccs5),
+                choice(Pelt.newaccs6)
             ]))
         else:
             self.accessories = []
@@ -1347,7 +1338,7 @@ class Pelt:
         :return str: The cat's description
         """
         
-        with open("sprites/dicts/descriptions.json", "f") as f:
+        with open("sprites/dicts/descriptions.json") as f:
             descriptions_dict = ujson.load(f)
             
         # Define look-up dictionaries

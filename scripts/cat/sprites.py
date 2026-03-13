@@ -458,6 +458,7 @@ class Sprites:
         studdedcollars_data = sprites_py_dict['studdedcollars_data']
         newaccs4_data = sprites_py_dict['newaccs4_data']
         newaccs5_data = sprites_py_dict['newaccs5_data']
+        newaccs6_data = sprites_py_dict['newaccs6_data']
 
         # medcatherbs
         self.make_sprite_groups('medcatherbs', medcatherbs_data, 'acc_herbs')
@@ -585,6 +586,9 @@ class Sprites:
 
         # newaccs5
         self.make_sprite_groups('newaccs5', newaccs5_data, 'newaccs5')
+
+        # newaccs5
+        self.make_sprite_groups('newaccs6', newaccs5_data, 'newaccs6')
 
     def load_symbols(self):
         """

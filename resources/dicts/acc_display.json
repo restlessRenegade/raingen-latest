@@ -3894,7 +3894,7 @@
     "plural": "white striped aqua basic collars",
     "singular": "white striped aqua basic collar"
   },
-  "WHITESTRIPEDCYABBASECOLLAR": {
+  "WHITESTRIPEDCYANBASECOLLAR": {
     "default": "white stripped cyan basic collar",
     "plural": "white striped cyan basic collars",
     "singular": "white striped cyan basic collar"
@@ -3969,7 +3969,7 @@
     "plural": "black striped aqua basic collars",
     "singular": "black striped aqua basic collar"
   },
-  "BLACKSTRIPEDCYABBASECOLLAR": {
+  "BLACKSTRIPEDCYANBASECOLLAR": {
     "default": "black stripped cyan basic collar",
     "plural": "black striped cyan basic collars",
     "singular": "black striped cyan basic collar"
@@ -4044,7 +4044,7 @@
     "plural": "semi striped aqua basic collars",
     "singular": "semi striped aqua basic collar"
   },
-  "SEMISTRIPEDCYABBASECOLLAR": {
+  "SEMISTRIPEDCYANBASECOLLAR": {
     "default": "semi stripped cyan basic collar",
     "plural": "semi striped cyan basic collars",
     "singular": "semi striped cyan basic collar"
@@ -4509,7 +4509,7 @@
     "plural": "white striped aqua pearl collars",
     "singular": "white striped aqua pearl collar"
   },
-  "WHITESTRIPEDCYABPEARLCOLLAR": {
+  "WHITESTRIPEDCYANPEARLCOLLAR": {
     "default": "white stripped cyan pearl collar",
     "plural": "white striped cyan pearl collars",
     "singular": "white striped cyan pearl collar"
@@ -4584,7 +4584,7 @@
     "plural": "black striped aqua pearl collars",
     "singular": "black striped aqua pearl collar"
   },
-  "BLACKSTRIPEDCYABPEARLCOLLAR": {
+  "BLACKSTRIPEDCYANPEARLCOLLAR": {
     "default": "black stripped cyan pearl collar",
     "plural": "black striped cyan pearl collars",
     "singular": "black striped cyan pearl collar"
@@ -4659,7 +4659,7 @@
     "plural": "semi striped aqua pearl collars",
     "singular": "semi striped aqua pearl collar"
   },
-  "SEMISTRIPEDCYABPEARLCOLLAR": {
+  "SEMISTRIPEDCYANPEARLCOLLAR": {
     "default": "semi stripped cyan pearl collar",
     "plural": "semi striped cyan pearl collars",
     "singular": "semi striped cyan pearl collar"
@@ -5124,7 +5124,7 @@
     "plural": "white striped aqua studded collars",
     "singular": "white striped aqua studded collar"
   },
-  "WHITESTRIPEDCYABSTUDDEDCOLLAR": {
+  "WHITESTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "white stripped cyan studded collar",
     "plural": "white striped cyan studded collars",
     "singular": "white striped cyan studded collar"
@@ -5199,7 +5199,7 @@
     "plural": "black striped aqua studded collars",
     "singular": "black striped aqua studded collar"
   },
-  "BLACKSTRIPEDCYABSTUDDEDCOLLAR": {
+  "BLACKSTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "black stripped cyan studded collar",
     "plural": "black striped cyan studded collars",
     "singular": "black striped cyan studded collar"
@@ -5274,7 +5274,7 @@
     "plural": "semi striped aqua studded collars",
     "singular": "semi striped aqua studded collar"
   },
-  "SEMISTRIPEDCYABSTUDDEDCOLLAR": {
+  "SEMISTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "semi stripped cyan studded collar",
     "plural": "semi striped cyan studded collars",
     "singular": "semi striped cyan studded collar"
