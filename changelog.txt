@@ -76,6 +76,7 @@ HEAVY WIP - 3 New conditions with scars to go alongside them
 - - Added texture and size categories on profiles
 - - Species have been implemented, currently only affects possible feature generation, this replaces common combinations
 - - More text replacements
+- - It is safe to move your old slugcat clans over to this version, they shouldnt explode aside from tortie patches changing!
 
 Fixes:
 - Tortie patches apparently were broken in the code for a long time?? Now you can actually get all of them!
