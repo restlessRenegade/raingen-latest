@@ -19,7 +19,7 @@ Added:
 - - Limb Gradients by Squid say Moo
 - - Angler Fins by Foxett
 - - Neon Wings by Cosmonaught
-- - Purple and Yellow Glowspots and Antennae by Foxett
+- - Purple and Yellow Glowspots and Antennae by Wildy
 - - Spined Frills by Dragonfly
 - - Popsicle Whiskers by Mimalot
 - - Black, Green, and Whiteout by Mimalot (bonus thing you can add in savefile editing essentially)
