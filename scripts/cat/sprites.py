@@ -193,12 +193,14 @@ class Sprites:
 
         self.make_group('lineartdead', (0, 0), 'lineartdead')
         self.make_group('lineartdf', (0, 0), 'lineartdf')
+        self.make_group('lineartur', (0, 0), 'lineartur')
 
         # Fading Fog
         for i in range(0, 3):
             self.make_group('fademask', (i, 0), f'fademask{i}')
             self.make_group('fadestarclan', (i, 0), f'fadestarclan{i}')
             self.make_group('fadedarkforest', (i, 0), f'fadedf{i}')
+            self.make_group("fadeunknownresidence", (i, 0), f"fadeur{i}")
 
         # Define eye colors
         eye_colors = sprites_py_dict['eye_colors']
@@ -231,11 +233,23 @@ class Sprites:
         #lars' multi eyes
         multilarseye_colors = sprites_py_dict['multilarseye_colors']
         self.make_sprite_groups('multilarseyes', multilarseye_colors, 'multilarseyes')
-                    
+
+        #riv eyes
         rivuleteye_colors = sprites_py_dict['rivuleteye_colors']
         self.make_sprite_groups('rivuleteyes', rivuleteye_colors, 'rivuleteyes')
         self.make_sprite_groups('rivuleteyes2', rivuleteye_colors, 'rivuleteyes2')
-                     
+
+        #riv alt eye types crying
+        whitepupilrivuleteye_colors = [[f"WHITEPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        alternatepupilrivuleteye_colors = [[f"ALTERNATEPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        uhohrivuleteye_colors = [[f"UHOH{color}" for color in row] for row in rivuleteye_colors]
+        smallpupilrivuleteye_colors = [[f"SMALLPUPIL{color}" for color in row] for row in rivuleteye_colors]
+        self.make_sprite_groups('whitepupilrivuleteyes', whitepupilrivuleteye_colors, 'whitepupilrivuleteyes')
+        self.make_sprite_groups('alternatepupilrivuleteyes', alternatepupilrivuleteye_colors, 'alternatepupilrivuleteyes')
+        self.make_sprite_groups('uhohrivuleteyes', uhohrivuleteye_colors, 'uhohrivuleteyes')
+        self.make_sprite_groups('smallpupilrivuleteyes', smallpupilrivuleteye_colors, 'smallpupilrivuleteyes')
+
+        #button eyes
         buttoneye_colors = sprites_py_dict['buttoneye_colors']
         self.make_sprite_groups('buttoneyes', buttoneye_colors, 'buttoneyes')
         self.make_sprite_groups('buttoneyes2', buttoneye_colors, 'buttoneyes2')
@@ -249,6 +263,16 @@ class Sprites:
         geckoeyes_colors = sprites_py_dict['geckoeyes_colors']
         self.make_sprite_groups('geckoeyes', geckoeyes_colors, 'geckoeyes')
         self.make_sprite_groups('geckoeyes2', geckoeyes_colors, 'geckoeyes2')
+
+        # bugeyes seperate as theres only 4
+        bugeyes_colors = sprites_py_dict['bugeyes_colors']
+        self.make_sprite_groups('bugeyes', bugeyes_colors, 'bugeyes')
+        self.make_sprite_groups('bugeyes2', bugeyes_colors, 'bugeyes2')
+
+        # animeeyes seperate as they got 27 unique colors sobbing
+        animeeyes_colors = sprites_py_dict['animeeyes_colors']
+        self.make_sprite_groups('animeeyes', animeeyes_colors, 'animeeyes')
+        self.make_sprite_groups('animeeyes2', animeeyes_colors, 'animeeyes2')
         
         # Define white patches
         white_patches = sprites_py_dict['white_patches']
@@ -263,10 +287,6 @@ class Sprites:
         # tortiepatchesmasks
         tortiepatchesmasks = sprites_py_dict['tortiepatchesmasks']
         self.make_sprite_groups('tortiepatchesmasks', tortiepatchesmasks, 'tortiemask')
-                
-        # Empty skins
-        skin_colors = sprites_py_dict['skin_colors']
-        self.make_sprite_groups('skin', skin_colors, 'skin')
                 
         # Gills, Tongues, Quills
         gilltongue_rows = sprites_py_dict['gilltongue_rows']
@@ -285,12 +305,7 @@ class Sprites:
 
         # fancyskin spritesheet
         fancyskin_colors = sprites_py_dict['fancyskin_colors']
-        # Handle rows 0-6 with function
-        self.make_sprite_groups('fancyskin', fancyskin_colors[:11], 'skin')
-        # Handle row 11 seperately because it will suffer alone
-        if len(fancyskin_colors) > 11:
-            for col, color in enumerate(fancyskin_colors[11]):
-                self.make_group('fancyskin', (col, 11), f"muddypaws{color}")
+        self.make_sprite_groups('fancyskin', fancyskin_colors, 'skin')
 
         # data games stuff spritesheet
         datagamesstuff_colors = sprites_py_dict['datagamesstuff_colors']
@@ -348,6 +363,29 @@ class Sprites:
         roboticspines_colors = sprites_py_dict['roboticspines_colors']
         self.make_sprite_groups('roboticspines', roboticspines_colors, 'skin')
 
+        # beetlewingsc spritesheet
+        beetlewingsc_colors = sprites_py_dict['beetlewingsc_colors']
+        self.make_sprite_groups('beetlewingsc', beetlewingsc_colors, 'skin')
+
+        # beetlewingsf spritesheet
+        beetlewingsf_colors = sprites_py_dict['beetlewingsf_colors']
+        self.make_sprite_groups('beetlewingsf', beetlewingsf_colors, 'skin')
+
+        # bugwings spritesheet
+        bugwings_colors = sprites_py_dict['bugwings_colors']
+        self.make_sprite_groups('bugwings', bugwings_colors, 'skin')
+
+        # bugwingst spritesheet
+        bugwingst_colors = sprites_py_dict['bugwingst_colors']
+        self.make_sprite_groups('bugwingst', bugwingst_colors, 'skin')
+
+        # neonbatwings spritesheet
+        neonbatwings_colors = sprites_py_dict['neonbatwings_colors']
+        self.make_sprite_groups('neonbatwings', neonbatwings_colors, 'skin')
+
+        # spinefrils spritesheet
+        spinefrills_colors = sprites_py_dict['spinefrills_colors']
+        self.make_sprite_groups('spinefrills', spinefrills_colors, 'skin')
 
         self.load_scars()
         self.load_symbols()
@@ -416,6 +454,7 @@ class Sprites:
         studdedcollars_data = sprites_py_dict['studdedcollars_data']
         newaccs4_data = sprites_py_dict['newaccs4_data']
         newaccs5_data = sprites_py_dict['newaccs5_data']
+        newaccs6_data = sprites_py_dict['newaccs6_data']
 
         # medcatherbs
         self.make_sprite_groups('medcatherbs', medcatherbs_data, 'acc_herbs')
@@ -543,6 +582,9 @@ class Sprites:
 
         # newaccs5
         self.make_sprite_groups('newaccs5', newaccs5_data, 'newaccs5')
+
+        # newaccs5
+        self.make_sprite_groups('newaccs6', newaccs6_data, 'newaccs6')
 
     def load_symbols(self):
         """

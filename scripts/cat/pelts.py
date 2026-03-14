@@ -46,7 +46,19 @@ class Pelt:
     blue_gecko_eyes = sprite_names_dict['blue_gecko_eyes']
     green_gecko_eyes = sprite_names_dict['green_gecko_eyes']
     red_gecko_eyes = sprite_names_dict['red_gecko_eyes']
+    bugeyes_colors = sprite_names_dict['bugeyes_colors']
+    yellow_bug_eyes = sprite_names_dict['yellow_bug_eyes']
+    blue_bug_eyes = sprite_names_dict['blue_bug_eyes']
+    green_bug_eyes = sprite_names_dict['green_bug_eyes']
+    red_bug_eyes = sprite_names_dict['red_bug_eyes']
+    animeeyes_colors = sprite_names_dict['animeeyes_colors']
+    yellow_anime_eyes = sprite_names_dict['yellow_anime_eyes']
+    blue_anime_eyes = sprite_names_dict['blue_anime_eyes']
+    green_anime_eyes = sprite_names_dict['green_anime_eyes']
+    red_anime_eyes = sprite_names_dict['red_anime_eyes']
 
+
+    pelt_colours = sprite_names_dict['pelt_colours']
     tabbies = sprite_names_dict['tabbies']
     spotted = sprite_names_dict['spotted']
     plain = sprite_names_dict['plain']
@@ -94,23 +106,35 @@ class Pelt:
     studdedcollars = sprite_names_dict['studdedcollars']
     newaccs4 = sprite_names_dict['newaccs4']
     newaccs5 = sprite_names_dict['newaccs5']
+    newaccs6 = sprite_names_dict['newaccs6']
 
         #list for stuff that should logically be behind a long tongue   
     closest_accs = (
-        lizards + bodypaint + collars + implant + drapery + 
-        pridedrapery + scarves + featherboas + chains + ponchoaccs + morespears + floatyeyes +
-        harleyaccs + neckbandanas + basecollars + pearlcollars + studdedcollars +
+        lizards + bodypaint + collars + implant + necklaces + drapery +
+        pridedrapery + scarves + featherboas + chains + ponchoaccs + morespears + flagaccs + floatyeyes +
+        haloaccs + harleyaccs + neckbandanas + basecollars + pearlcollars + studdedcollars + 
         ["MUDDYPAWS", "CELLIMPLANT", "GOGGLES", "FALLMPAINT", "SCAVMPAINT", "SPEARMPAINT", "EYEBAGS", "MAGNATEJEWLERY", "YELLOWKARMAWREATH", "BLUEKARMAWREATH", "PURPLEKARMAWREATH",
         "MURDERPAINT", "BOGMOSSBLUE", "BOGMOSSGREEN", "BOGMOSSLIME", "ORANGEPLANTPELT", "LIMEPLANTPELT", "GREENPLANTPELT", "YELLOWPLANTPELT", "BLUEPLANTPELT", "FAUXMANE",
         "BLACKKARMAFLOWERWREATH", "GREENKARMAFLOWERWREATH", "PURPLEKARMAFLOWERWREATH", "REDKARMAFLOWERWREATH", "BLUEFLAMEMANE", "COOLFLAMEMANE", "COLORFULKARMAFLOWERWREATH",
-        "MOONPEARLNECKLACE", "NSHPEARLNECKLACE", "BLOODYPAWS", "INKYPAWS", "INKTEARS", "REDBOW", "GREYBOW", "WHITEBOW", "BROWNBOW", "ORANGEBOW", "YELLOWBOW", "GREENBOW", 
-        "TEALBOW", "BLUEBOW", "PURPLEBOW", "PINKBOW", "BLACKBOW"]
+        "MOONPEARLNECKLACE", "NSHPEARLNECKLACE", "BLOODYPAWS", "INKYPAWS", "INKTEARS", "ROGUEEXPLOSIVESPEAR", "VOIDEXPLOSIVESPEAR", "REDBOW", "GREYBOW", "WHITEBOW", "BROWNBOW", "ORANGEBOW", "YELLOWBOW", "GREENBOW", 
+        "TEALBOW", "BLUEBOW", "PURPLEBOW", "PINKBOW", "BLACKBOW", "FROGGOGGLES", "REDREALBOW", "GREYREALBOW", "WHITEREALBOW", "BROWNREALBOW", "ORANGEREALBOW", "YELLOWREALBOW",
+        "GREENREALBOW", "TEALREALBOW", "BLUEREALBOW", "PURPLEREALBOW", "PINKREALBOW", "BLACKREALBOW", "BLUESMILE", "GREENSMILE", "BRONZEHELMET", "GOLDHELMET", "SIVLERHELMET"
+        "REVERSEBLUEARMADILOCLOAK" ,"REVERSEGREENARMADILOCLOAK", "REVERSEORANGEARMADILOCLOAK", "REVERSEPINKARMADILOCLOAK", "REVERSEPURPEARMADILOCLOAK", "REVERSEREDARMADILOCLOAK", "REVERSETEALARMADILOCLOAK", "REVERSEYELLOWARMADILOCLOAK",
+        "BLUEARMADILOCLOAK" ,"GREENARMADILOCLOAK", "ORANGEARMADILOCLOAK", "PINKARMADILOCLOAK", "PURPEARMADILOCLOAK", "REDARMADILOCLOAK", "TEALARMADILOCLOAK", "YELLOWARMADILOCLOAK", "BLUEITTYHALO", "YELLOWITTYHALO", "GREENITTYHALO", "ORANGEITTYHALO",
+        "GREYITTYHALO", "WHITEITTYHALO", "GOLDITTYHALO", "JACKOLANTERN", "MEGANIUMCOLLAR", "BLACKHOLE", "ORANGESMILE", "PINKSMILE", "PURPLESMILE", "PUMPKIN", "REDSMILE", "TEALSMILE", 
+        "ORANGEPONCHOHOODED", "YELLOWPONCHOHOODED", "GREENPONCHOHOODED", "TEALPONCHOHOODED", "CYANPONCHOHOODED", "BLUEPONCHOHOODED", "PURPLEPONCHOHOODED", "PINKPONCHOHOODED", "REDPONCHOHOODED", "WHITEPONCHOHOODED",
+        "BROWNPONCHOHOODED", "SILVERPONCHOHOODED", "BLACKPONCHOHOODED", "MLOCPONCHOHOODED", "VSSCPONCHOHOODED", "FAMILIARPONCHOHOODED", "NSHPONCHOHOODED", "GHOSTPONCHOHOODED", "ANCIENTPONCHOHOODED", 
+        "AMBERCHAINGOLD", "PINKCHAINGOLD", "PURPLECHAINGOLD", "YELLOWCHAINGOLD", "TEALCHAINGOLD", "GREENCHAINGOLD", "REDCHAINGOLD", "ORANGECHAINGOLD",
+        "BLUECHAINGOLD", "BLACKCHAINGOLD", "AMBERCHAINROSEGOLD", "PINKCHAINROSEGOLD", "PURPLECHAINROSEGOLD", "YELLOWCHAINROSEGOLD", "TEALCHAINROSEGOLD", "GREENCHAINROSEGOLD", "REDCHAINROSEGOLD", "ORANGECHAINROSEGOLD", "BLUECHAINROSEGOLD", "BLACKCHAINROSEGOLD",
+        "AMBERCHAINFOOLSGOLD", "PINKCHAINFOOLSGOLD", "PURPLECHAINFOOLSGOLD", "YELLOWCHAINFOOLSGOLD", "TEALCHAINFOOLSGOLD", "GREENCHAINFOOLSGOLD", "REDCHAINFOOLSGOLD", "ORANGECHAINFOOLSGOLD", "BLUECHAINFOOLSGOLD", "BLACKCHAINFOOLSGOLD"
+        "GLOWGOLDHALO", "GOLDHALO", "SILVERHALO", "PALEHALO", "ROSENEURONGLOW", "REDNEURONGLOW", "ORANGENEURONGLOW", "AMBERNEURONGLOW", "YELLOWNEURONGLOW",
+        "GREENNEURONGLOW", "TEALNEURONGLOW", "CYANNEURONGLOW", "BLUENEURONGLOW", "PURPLENEURONGLOW", "PINKNEURONGLOW", "RAINBOWNEURONGLOW", "BLACKNEURONGLOW", "LIMENEURONGLOW", "CORALNEURONGLOW", "LAVENDERNEURONGLOW", "INDIGONEURONGLOW",
+        "SKYNEURONGLOW", "AQUANEURONGLOW", "TURQUOISENEURONGLOW", "CRIMSONNEURONGLOW", "ROSEHALO", "MAGENTAHALO", "HOTPINKHALO", "BLUEPURPLEHALO", "INDIGOBLUEHALO", "SKYHALO", "AQUAHALO", "TEALGREENHALO",
+        "LIMEYELLOWHALO", "GOLDHALO", "AMBERYELLOWHALO", "ORANGEREDHALO", "YELLOWSMILE"]
 )
     scars1 = sprite_names_dict['scars1']
     scars2 = sprite_names_dict['scars2']
     scars3 = sprite_names_dict['scars3']
-
-    skin_weights = game.config["feature_generation"]["feature_chances"]
     
     single_colours = sprite_names_dict['single_colours']
     warm_colours = sprite_names_dict['warm_colours']
@@ -135,7 +159,7 @@ class Pelt:
 
     pelt_length = sprite_names_dict['pelt_length']
 
-    empty = sprite_names_dict['empty']
+    empty = [None]
     claws = sprite_names_dict['claws']
     whiskers = sprite_names_dict['whiskers']
     antennae = sprite_names_dict['antennae']
@@ -193,21 +217,44 @@ class Pelt:
     kingtendrils = sprite_names_dict['kingtendrils']
     mechanical = sprite_names_dict['mechanical']
     wool = sprite_names_dict['wool']
+    popsiclewhiskers = sprite_names_dict['popsiclewhiskers']
+    colorouts = sprite_names_dict['colorouts']
+    beetlewingsf = sprite_names_dict['beetlewingsf']
+    beetlewingsc = sprite_names_dict['beetlewingsc']
+    bugwings = sprite_names_dict['bugwings']
+    bugwingst = sprite_names_dict['bugwingst']
+    neonbatwings = sprite_names_dict['neonbatwings']
+    spinefrills = sprite_names_dict['spinefrills']
     skin_categories = [ empty, claws, whiskers, antennae, sharphorns, ramhorns, scavhorns, elitehorns, unihorns, antlers,
                         dragonhorns, moth, seaslugpapillae, tailfrills, thorns, glowspots, gills, tongues, lizardneedles,
                         spikes, lizardfins, catfishwhiskers, dragonwhiskers, quills, centipedegrowths, stinger, fangs, anglerfish,
                         spearholes, cyanfeatures, cyanwings, firebugpart, seaangelwings, loach, dropwig, glassback, grasssheepback,
                         familiar, acrotail, tears, manes, overseertenna, budgiewings, conurewings, lovebirdwings, pidgeonwings,
                         vulturewings, colorwings, whitefadewings, wings, bodyeyes, limbfades, chimneytail, slimetraits, kingtendrils,
-                        mechanical, wool
+                        mechanical, wool, popsiclewhiskers, colorouts, beetlewingsf, beetlewingsc, bugwings, bugwingst,
+                        neonbatwings, spinefrills
                     ]
     #list for stuff that should logically be behind a cloak
     closest_skin = sprite_names_dict['closest_skin']
 
-    #misc descriptors
-    texture = ["smooth", "fuzzy", "velvety", "greasy", "slimey", "rough", "soft", "fluffy"]
-    size = ["tiny", "small", "medium", "large", "huge"]
+    #now to help do more complicated stuffs by catagorizing where certain features are on the body
+    head_features = [empty, whiskers, antennae, sharphorns, ramhorns, scavhorns, elitehorns, unihorns, antlers, dragonhorns,
+                     moth, seaslugpapillae, gills, tongues, catfishwhiskers, dragonwhiskers, dropwig, centipedegrowths, thorns,
+                     familiar, tears, manes, overseertenna, kingtendrils, anglerfish, firebugpart, loach, wool, mechanical, fangs,
+                     popsiclewhiskers, colorouts, spinefrills]
+    body_features = [empty, thorns, centipedegrowths, quills, lizardfins, lizardneedles, cyanfeatures, cyanwings, firebugpart,
+                     seaangelwings, glassback, grasssheepback, familiar, bodyeyes, wool, spikes, mechanical, slimetraits, colorouts, 
+                     beetlewingsf, beetlewingsc, bugwings, bugwingst, neonbatwings,]
+    limb_features = [empty, thorns, claws, anglerfish, budgiewings, conurewings, lovebirdwings, pidgeonwings, vulturewings, colorwings,
+                     whitefadewings, wings, limbfades, colorouts]
+    tail_features = [empty, tailfrills, thorns, glowspots, centipedegrowths, stinger, spearholes, cyanfeatures, loach, firebugpart,
+                     glassback, grasssheepback, familiar, acrotail, chimneytail, slimetraits, wool, bodyeyes, colorouts]
 
+    #misc descriptors
+    texture = ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"]
+    size = ["tiny", "small", "medium", "large", "huge"]
+    species = ["mammallian", "feline", "amphibious", "reptillian", "insectoid", "aquatic", "aerial", "subterranean", "mechanical", "voidspawn"]
+    
     """Holds all appearance information for a cat. """
 
     def __init__(self,
@@ -216,6 +263,7 @@ class Pelt:
                  colour: str = "WHITE",
                  texture: str = "smooth",
                  size: str = "medium",
+                 species: str = None,
                  white_patches: str = None,
                  eye_color: str = "BLUE",
                  eye_colour2: str = None,
@@ -230,7 +278,7 @@ class Pelt:
                  opacity: int = 100,
                  scars: list = None,
                  tint: str = "none",
-                 skin: str = "BLACK",
+                 skin: str = None,
                  white_patches_tint: str = "none",
                  kitten_sprite: int = None,
                  adol_sprite: int = None,
@@ -245,6 +293,7 @@ class Pelt:
         self.colour = colour
         self.texture = texture
         self.size = size
+        self.species = species
         self.white_patches = white_patches
         self.eye_colour = eye_color
         self.eye_colour2 = eye_colour2
@@ -290,10 +339,10 @@ class Pelt:
         new_pelt.init_eyes(parents)
         new_pelt.init_pattern()
         new_pelt.init_tint()
-        new_pelt.common_combinations()
+        new_pelt.init_species(parents)
 
         return new_pelt
-
+    @staticmethod
     def check_and_convert(self, convert_dict):
         """Checks for old-type properties for the appearance-related properties
         that are stored in Pelt, and converts them. To be run when loading a cat in. """
@@ -302,10 +351,6 @@ class Pelt:
         
         if self.name == "Conductor":
             self.name = "Con"
-        if self.tortiebase == "conductor":
-            self.tortiebase = "con"
-        if self.tortiepattern == "conductor":
-            self.tortiepattern = "con"
 
         if self.white_patches == 'POINTMARK':
             self.white_patches = "SEALPOINT"
@@ -383,6 +428,15 @@ class Pelt:
             elif self.tortiecolour == 'CHOCOLATE':
                 self.tortiecolour = 'LAVENDER'
 
+        #build - length conversions
+        if self.length:
+            if self.length == 'long':
+                self.length = 'bulky'
+            if self.length == 'medium':
+                self.length = 'average'
+            if self.length == 'short':
+                self.length = 'slim'
+        
         # tint conversions
         #if self.tint in convert_dict["old_tints"]:
         #    self.tint = convert_dict["old_tints"][self.tint]
@@ -390,37 +444,30 @@ class Pelt:
         if self.white_patches_tint in convert_dict["old_white_patch_tints"]:
             self.white_patches_tint = convert_dict["old_white_patch_tints"][self.white_patches_tint]
         
-        # Move white_patches that should be in vit or points. 
-        if self.white_patches in Pelt.vit:
-            self.vitiligo = self.white_patches
-            self.white_patches = None
-        elif self.white_patches in Pelt.point_markings:
-            self.points = self.white_patches
-            self.white_patches = None
+        # Move white_patches that should be in vit or points.
+        if self.white_patches:
+            if self.white_patches in Pelt.vit:
+                self.vitiligo = self.white_patches
+                self.white_patches = None
+            elif self.white_patches in Pelt.point_markings:
+                self.points = self.white_patches
+                self.white_patches = None
+
+        if self.tortiebase:
+            if self.tortiebase == "conductor":
+                self.tortiebase = "con"
+
+        if self.tortiepattern:
+            if self.tortiepattern == "conductor":
+                self.tortiepattern = "con"
 
         if self.tortiepattern and "tortie" in self.tortiepattern:
             self.tortiepattern = sub("tortie", "", self.tortiepattern.lower())
             if self.tortiepattern == "solid":
                 self.tortiepattern = "single"
 
-        if self.white_patches in convert_dict["old_creamy_patches"]:
-            self.white_patches = convert_dict["old_creamy_patches"][self.white_patches]
-            self.white_patches_tint = "darkcream"
-        elif self.white_patches in ['SEPIAPOINT', 'MINKPOINT', 'SEALPOINT']:
-            self.white_patches_tint = "none"
-
-        # Eye Color Convert Stuff
-        if self.eye_colour == "BLUE2":
-            self.eye_colour = "COBALT"
-        if self.eye_colour2 == "BLUE2":
-            self.eye_colour2 = "COBALT"
-
-        if self.eye_colour in ["BLUEYELLOW", "BLUEGREEN"]:
-            if self.eye_colour == "BLUEYELLOW":
-                self.eye_colour2 = "YELLOW"
-            elif self.eye_colour == "BLUEGREEN":
-                self.eye_colour2 = "GREEN"
-            self.eye_colour = "BLUE"
+        if self.pattern in convert_dict["old_patterns"]:
+            self.pattern = convert_dict["old_patterns"][self.pattern]
             
         # Convert the old skin
         if self.skin in convert_dict["old_sharphorns"]:
@@ -447,25 +494,17 @@ class Pelt:
             elif self.cat_sprites['senior'] == 5:
                 self.cat_sprites['senior'] = 14
         
-        if self.pattern in convert_dict["old_tortie_patches"]:
-            old_pattern = self.pattern
-            self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
+        if self.pattern:
+            if self.pattern in convert_dict["old_tortie_patches"]:
+                old_pattern = self.pattern
+                self.pattern = convert_dict["old_tortie_patches"][old_pattern][1]
 
-            # If the pattern is old, there is also a chance the base color is stored in
-            # tortiecolour. That may be different from the pelt color ("main" for torties)
-            # generated before the "ginger-on-ginger" update. If it was generated after that update,
-            # tortiecolour and pelt_colour will be the same. Therefore, let's also re-set the pelt color
-            self.colour = self.tortiecolour
-            self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
-            
-        if self.pattern == "MINIMAL1":
-            self.pattern = "MINIMALONE"
-        elif self.pattern == "MINIMAL2":
-            self.pattern = "MINIMALTWO"
-        elif self.pattern == "MINIMAL3":
-            self.pattern = "MINIMALTHREE"
-        elif self.pattern == "MINIMAL4":
-            self.pattern = "MINIMALFOUR"
+                # If the pattern is old, there is also a chance the base color is stored in
+                # tortiecolour. That may be different from the pelt color ("main" for torties)
+                # generated before the "ginger-on-ginger" update. If it was generated after that update,
+                # tortiecolour and pelt_colour will be the same. Therefore, let's also re-set the pelt color
+                self.colour = self.tortiecolour
+                self.tortiecolour = convert_dict["old_tortie_patches"][old_pattern][0]
         
     def init_eyes(self, parents):
         if not parents:
@@ -478,6 +517,8 @@ class Pelt:
         buttoneyenum = game.config["cat_generation"]["base_buttoneyes"]
         bobaeyenum = game.config["cat_generation"]["base_bobaeyes"]
         geckoeyenum = game.config["cat_generation"]["base_geckoeyes"]
+        bugeyenum = game.config["cat_generation"]["base_bugeyes"]
+        animeeyenum = game.config["cat_generation"]["base_animeeyes"]
 
         if not random.randint(0, riveyenum):
             self.eye_colour = choice(Pelt.riveye_colours)
@@ -487,6 +528,10 @@ class Pelt:
             self.eye_colour = choice(Pelt.bobaeye_colours)
         elif not random.randint(0, geckoeyenum):
             self.eye_colour = choice(Pelt.geckoeyes_colors)
+        elif not random.randint(0, bugeyenum):
+            self.eye_colour = choice(Pelt.bugeyes_colors)
+        elif not random.randint(0, animeeyenum):
+            self.eye_colour = choice(Pelt.animeeyes_colors)
 
         # White patches must be initalized before eye color.
         num = game.config["cat_generation"]["base_heterochromia"]
@@ -506,12 +551,23 @@ class Pelt:
                 colour_wheel = [Pelt.yellow_pupil_eyes, Pelt.blue_pupil_eyes, Pelt.green_pupil_eyes, Pelt.red_pupil_eyes]
             elif self.eye_colour in Pelt.riveye_colours:
                 colour_wheel = [Pelt.yellow_riv_eyes, Pelt.blue_riv_eyes, Pelt.green_riv_eyes, Pelt.red_riv_eyes]
+                for colour in colour_wheel[:]:
+                    if self.eye_colour in colour:
+                        print("GENERATING RIV ALT")
+                        colour_wheel.remove(colour)  # removes the selected list from the options
+                        self.eye_colour = choice(choice(colour_wheel))  # choose from the remaining 3 lists
+                        self.eye_colour = choice(["","WHITEPUPIL","ALTERNATEPUPIL","UHOH","SMALLPUPIL"]) + self.eye_colour
+                        print(self.eye_colour + " WAS SELECTED")
             elif self.eye_colour in Pelt.buttoneye_colours:
                 colour_wheel = [Pelt.yellow_button_eyes, Pelt.blue_button_eyes, Pelt.green_button_eyes, Pelt.red_button_eyes]
             elif self.eye_colour in Pelt.bobaeye_colours:
                 colour_wheel = [Pelt.yellow_boba_eyes, Pelt.blue_boba_eyes, Pelt.green_boba_eyes, Pelt.red_boba_eyes]
             elif self.eye_colour in Pelt.geckoeyes_colors:
                 colour_wheel = [Pelt.yellow_gecko_eyes, Pelt.blue_gecko_eyes, Pelt.green_gecko_eyes, Pelt.red_gecko_eyes]
+            elif self.eye_colour in Pelt.bugeyes_colors:
+                colour_wheel = [Pelt.yellow_bug_eyes, Pelt.blue_bug_eyes, Pelt.green_bug_eyes, Pelt.red_bug_eyes]
+            elif self.eye_colour in Pelt.animeeyes_colors:
+                colour_wheel = [Pelt.yellow_anime_eyes, Pelt.blue_anime_eyes, Pelt.green_anime_eyes, Pelt.red_anime_eyes]
             else:
                 colour_wheel = [Pelt.yellow_eyes, Pelt.blue_eyes, Pelt.green_eyes, Pelt.red_eyes]
             for colour in colour_wheel[:]:
@@ -519,7 +575,6 @@ class Pelt:
                     colour_wheel.remove(colour) # removes the selected list from the options
                     self.eye_colour2 = choice(choice(colour_wheel)) # choose from the remaining 3 lists
                     break
-
         elif 'MULTI'+self.eye_colour in Pelt.multi_eyes and not random.randint(0, multieyenum):
             self.eye_colour2 = 'MULTI'+self.eye_colour
 
@@ -824,10 +879,6 @@ class Pelt:
             'sick_adult': 18
         }
         self.reverse = bool(random.getrandbits(1))
-        # skin chances
-        self.skin = choice(
-            random.choices(Pelt.skin_categories, Pelt.skin_weights, k=1)[0]
-        )
 
         if self.length != 'bulky':
             self.cat_sprites['adult'] = random.randint(6, 8)
@@ -901,6 +952,7 @@ class Pelt:
                 choice(Pelt.herbs2),
                 choice(Pelt.buddies),
                 choice(Pelt.newaccs),
+                choice(Pelt.newaccs2),
                 choice(Pelt.bodypaint),
                 choice(Pelt.necklaces),
                 choice(Pelt.larsaccs),
@@ -911,12 +963,21 @@ class Pelt:
                 choice(Pelt.pridedrapery),
                 choice(Pelt.featherboas),
                 choice(Pelt.chains),
+                choice(Pelt.newaccs3),
                 choice(Pelt.floatyeyes),
                 choice(Pelt.flagaccs),
                 choice(Pelt.ponchoaccs),
                 choice(Pelt.glassesaccs),
                 choice(Pelt.orbitals),
-                choice(Pelt.vulturemasks)
+                choice(Pelt.vulturemasks),
+                choice(Pelt.iteratormasks),
+                choice(Pelt.basecollars),
+                choice(Pelt.pearlcollars),
+                choice(Pelt.studdedcollars),
+                choice(Pelt.vulturemasks),
+                choice(Pelt.newaccs4),
+                choice(Pelt.newaccs5),
+                choice(Pelt.newaccs6)
             ]))
         else:
             self.accessories = []
@@ -1164,83 +1225,100 @@ class Pelt:
         else:
             self.white_patches_tint = "none"
 
-    def common_combinations(self):
-        if int(game.config["cat_generation"]["common_combinations"]) and random.randint(1, game.config["cat_generation"]["common_combinations"]) == 1: #1/5 default
-
-            if self.eye_colour in Pelt.riveye_colours:
-                fishy_features = [Pelt.gills, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.anglerfish]
-                fishy_weights = [50, 30, 15, 10, 1]
-                self.skin = choice(random.choices(fishy_features, fishy_weights, k=1)[0])
-                print("fish spotted!!")
-
-            if self.eye_colour in Pelt.geckoeyes_colors:
-                reptile_features = [Pelt.tailfrills, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.spikes]
-                reptile_weights = [50, 30, 15, 10]
-                self.skin = choice(random.choices(reptile_features, reptile_weights, k=1)[0])
-                self.name = "Scaled"
-                print("reptile spotted!!")
-
-            if self.skin in Pelt.centipedegrowths and self.tortiepattern == None:
-                self.name = "Centipede"
-                print("centipede spotted!!")
-
-            if self.skin in Pelt.overseertenna and self.tortiepattern == None:
-                self.name = "Iggy"
-                print("overseer spotted!!")
-
-            if self.skin in Pelt.manes and self.tortiepattern == None:
-                self.name = "Maned"
-                print("maned slugcat spotted!!")
-
-            if self.name == "Leafy" or self.tortiebase == "Leafy" and self.tortiepattern == "Leafy":
-                wing_options = [Pelt.wings, Pelt.whitefadewings, Pelt.colorwings]
-                wing_weights = [50, 40, 10]
-                self.skin = choice(random.choices(wing_options, wing_weights, k=1)[0])
-                print("winged slugcat spotted!!")
-
-            if self.name == "Fluffy" or self.tortiebase == "Fluffy" and self.tortiepattern == "Fluffy":
-                self.skin = choice(Pelt.tongues + Pelt.claws + Pelt.whiskers)
-                print("cat spotted!!")
-
-            if self.name == "Seaslug" or self.tortiebase == "Seaslug" and self.tortiepattern == "Seaslug":
-                self.skin = choice(Pelt.glowspots + Pelt.seaslugpapillae)
-                print("sea slug spotted!!")
-
-            if self.name == "Pidgeon" or self.tortiebase == "Pidgeon" and self.tortiepattern == "Pidgeon":
-                self.skin = choice(Pelt.pidgeonwings)
-                print("Pidgeon spotted!!")
-
-            if self.name == "Conure" or self.tortiebase == "Conure" and self.tortiepattern == "Conure":
-                self.skin = choice(Pelt.conurewings)
-                print("Conure spotted!!")
-
-            if self.name == "Lovebird" or self.tortiebase == "Lovebird" and self.tortiepattern == "Lovebird":
-                self.skin = choice(Pelt.lovebirdwings)
-                print("Lovebird spotted!!")
-
-            if self.name == "Budgie" or self.tortiebase == "Budgie" and self.tortiepattern == "Budgie":
-                self.skin = choice(Pelt.budgiewings)
-                print("Budgie spotted!!")
-
-            if self.name == "Plated" or self.tortiebase == "Plated" and self.tortiepattern == "Plated":
-                self.skin = choice(Pelt.mechanical)
-                print("Mecha scug spotted!!")
+    def init_species(self, parents):
+        if not parents:
+            self.species = choice(Pelt.species)
+        else:
+            self.species = choice([i.pelt.species for i in parents] + [choice(Pelt.species)])
         
+        mammalliannum = game.config["cat_generation"]["base_mammallian"]
+        felinenum = game.config["cat_generation"]["base_feline"]
+        amphibiousnum = game.config["cat_generation"]["base_amphibious"]
+        reptiliannum = game.config["cat_generation"]["base_reptilian"]
+        insectoidnum = game.config["cat_generation"]["base_insectoid"]
+        aquaticnum = game.config["cat_generation"]["base_aquatic"]
+        aerialnum = game.config["cat_generation"]["base_aerial"]
+        subterraneannum = game.config["cat_generation"]["base_subterranean"]
+        mechanicalnum = game.config["cat_generation"]["base_mechanical"]
+        voidspawnnum = game.config["cat_generation"]["base_voidspawn"]
+
+        if not random.randint(0, mammalliannum):
+            mammallian_features =  [Pelt.empty, Pelt.whiskers, Pelt.ramhorns, Pelt.scavhorns, Pelt.elitehorns, Pelt.antlers, Pelt.tongues, Pelt.grasssheepback,
+                                  Pelt.fangs, Pelt.manes, Pelt.wool, Pelt.quills, Pelt.limbfades, Pelt.neonbatwings]
+            mammallian_fweights = [50,10,10,10,10,5,5,3,10,5,5,5,10,3]
+            self.skin = choice(random.choices(mammallian_features, mammallian_fweights, k=1)[0])
+            self.species = "mammallian"
+            
+        elif not random.randint(0, felinenum):
+            feline_features = [Pelt.whiskers, Pelt.fangs, Pelt.manes, Pelt.claws, Pelt.tongues]
+            feline_fweights = [15,15,5,15,10]
+            self.skin = choice(random.choices(feline_features, feline_fweights, k=1)[0])
+            self.species = "feline"
+            
+        elif not random.randint(0, amphibiousnum):
+            amphibious_features =  [Pelt.empty, Pelt.sharphorns, Pelt.unihorns, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.gills, Pelt.tears, Pelt.bodyeyes, Pelt.kingtendrils,
+                                   Pelt.loach, Pelt.popsiclewhiskers, Pelt.spinefrills, Pelt.tongues]
+            amphibious_fweights = [10,10,10,5,10,20,5,3,3,3,3,5,5]
+            self.skin = choice(random.choices(amphibious_features, amphibious_fweights, k=1)[0])
+            self.species = "amphibious"
+            
+        elif not random.randint(0, reptiliannum):
+            reptilian_features =  [Pelt.empty, Pelt.claws, Pelt.sharphorns, Pelt.unihorns, Pelt.dragonhorns, Pelt.tailfrills, Pelt.thorns, Pelt.lizardneedles,
+                                  Pelt.dragonwhiskers, Pelt.spearholes, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.lizardfins, Pelt.spikes, Pelt.spinefrills, Pelt.tongues]
+            reptilian_fweights = [10,10,10,10,10,12,8,8,8,4,12,8,8,10,10,10]
+            self.skin = choice(random.choices(reptilian_features, reptilian_fweights, k=1)[0])
+            self.species = "reptilian"
+
+        elif not random.randint(0, insectoidnum):
+            insectoid_features =  [Pelt.empty, Pelt.antennae, Pelt.moth, Pelt.seaangelwings, Pelt.glowspots, Pelt.centipedegrowths, Pelt.firebugpart, Pelt.dropwig, Pelt.stinger,
+                                   Pelt.bodyeyes, Pelt.beetlewingsf, Pelt.beetlewingsc, Pelt.bugwings, Pelt.bugwingst]
+            insectoid_fweights = [10,20,20,10,10,15,10,10,10,5,10,20,20,20]
+            self.skin = choice(random.choices(insectoid_features, insectoid_fweights, k=1)[0])
+            self.species = "insectoid"
+            
+        elif not random.randint(0, aquaticnum):
+            aquatic_features =  [Pelt.empty, Pelt.gills, Pelt.whiskers, Pelt.catfishwhiskers, Pelt.seaslugpapillae, Pelt.glowspots, Pelt.anglerfish, Pelt.kingtendrils, 
+                                 Pelt.spinefrills]
+            aquatic_fweights = [4,30,10,12,8,8,12,4,12]
+            self.skin = choice(random.choices(aquatic_features, aquatic_fweights, k=1)[0])
+            self.species = "aquatic"
+            
+        elif not random.randint(0, aerialnum):
+            aerial_features = [Pelt.dragonhorns, Pelt.dragonwhiskers, Pelt.moth, Pelt.cyanfeatures, Pelt.cyanwings, Pelt.seaangelwings, Pelt.budgiewings, Pelt.conurewings,
+                               Pelt.lovebirdwings, Pelt.pidgeonwings, Pelt.vulturewings, Pelt.whitefadewings, Pelt.wings, Pelt.kingtendrils]
+            aerial_fweights = [4,4,8,8,8,12,20,20,20,20,20,20,20,20]
+            self.skin = choice(random.choices(aerial_features, aerial_fweights, k=1)[0])
+            self.species = "aerial"
+            
+        elif not random.randint(0, subterraneannum):
+            subterranean_features = [Pelt.empty, Pelt.whiskers,  Pelt.moth, Pelt.seaslugpapillae, Pelt.tailfrills, Pelt.glowspots, Pelt.lizardneedles, Pelt.thorns, Pelt.quills,
+                                     Pelt.spikes, Pelt.lizardfins, Pelt.catfishwhiskers, Pelt.dragonwhiskers, Pelt.centipedegrowths, Pelt.spearholes, Pelt.firebugpart, Pelt.loach,
+                                     Pelt.dropwig, Pelt.stinger, Pelt.bodyeyes, Pelt.limbfades, Pelt.popsiclewhiskers]
+            subterranean_fweights = [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12,8]
+            self.skin = choice(random.choices(subterranean_features, subterranean_fweights, k=1)[0])
+            self.species = "subterranean"
+            
+        elif not random.randint(0, mechanicalnum):
+            mechanical_features =  [Pelt.empty, Pelt.claws, Pelt.glowspots, Pelt.bodyeyes, Pelt.spearholes, Pelt.cyanfeatures, Pelt.glassback, Pelt.overseertenna, Pelt.roboticspines,
+                                   Pelt.chimneytail, Pelt.mechanical]
+            mechanical_fweights = [12,8,16,12,12,12,8,16,16,8,12]
+            self.skin = choice(random.choices(mechanical_features, mechanical_fweights, k=1)[0])
+            self.species = "mechanical"
+            
+        elif not random.randint(0, voidspawnnum):
+            voidspawn_features = [Pelt.empty, Pelt.familiar, Pelt.glassback, Pelt.antennae, Pelt.glowspots, Pelt.firebugpart]
+            voidspawn_fweights = [40,1,40,120,120,80]
+            self.skin = choice(random.choices(voidspawn_features, voidspawn_fweights, k=1)[0])
+            self.species = "voidspawn"
             if self.skin in Pelt.familiar:
                 self.colour = "PURPLE"
-                print("FAMILIAR??!?!?")
+                print("HE HAS ARRIVED")
 
-        if int(game.config["cat_generation"]["most_common_combinations"]) and random.randint(1, game.config["cat_generation"]["most_common_combinations"]) == 1: #1/10 default
-
-            if self.eye_colour in Pelt.buttoneye_colours and self.tortiepattern == None:
-                self.name = "Patchwork"
-                print("someone got turned into a marketable plushie...")
-
-            if self.name == "Fizzy" or self.name == "Boba" or self.name == "Amoeba" or self.name == "Seaslug":
-                self.white_patches = None
-                self.vitiligo = None
-                self.points = None
-                print("clear pelt")
+        #error handling for if a species isnt generated
+        if self.species == None:
+            print("ERROR species didnt generate! Please report! Setting to mammallian and feature to None")
+            self.species = "mammallian"
+            self.skin = None
                 
     @property
     def white(self):
@@ -1260,7 +1338,7 @@ class Pelt:
         :return str: The cat's description
         """
         
-        with open("sprites/dicts/descriptions.json", "f") as f:
+        with open("sprites/dicts/descriptions.json") as f:
             descriptions_dict = ujson.load(f)
             
         # Define look-up dictionaries

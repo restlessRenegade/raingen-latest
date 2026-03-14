@@ -135,12 +135,12 @@ class ListScreen(Screens):
 
                 if "#show_dead_button" in event.ui_element.get_object_ids():
                     element.change_object_id("#show_living_button")
-                    element.tool_tip_text = "view cats in the living world"
+                    element.tool_tip_text = "view scugs in the living world"
                     self.death_status = "dead"
                     self.get_sc_cats()
                 else:
                     element.change_object_id("#show_dead_button")
-                    element.tool_tip_text = "view cats in the afterlife"
+                    element.tool_tip_text = "view scugs in the afterlife"
                     self.death_status = "living"
                     if (
                         "#filter_by_death_button"
@@ -302,7 +302,7 @@ class ListScreen(Screens):
             if game.clan.clan_settings["show fav"]
             else "#fav_cat_toggle_off",
             container=self.cat_list_bar,
-            tool_tip_text="hide favorite cat indicators"
+            tool_tip_text="hide favorite scug indicators"
             if game.clan.clan_settings["show fav"]
             else "show favorite cat indicators",
             starting_height=1,
@@ -336,9 +336,9 @@ class ListScreen(Screens):
             if self.death_status != "dead"
             else "#show_living_button",
             container=self.cat_list_bar,
-            tool_tip_text="view cats in the afterlife"
+            tool_tip_text="view scugs in the afterlife"
             if self.death_status != "dead"
-            else "view cats in the living world",
+            else "view scugs in the living world",
             manager=MANAGER,
             starting_height=1,
         )
@@ -369,7 +369,7 @@ class ListScreen(Screens):
         y_pos = 0
         for text, object_id in (
             ["Your Clan", "#view_your_clan_button"],
-            ["Cats Outside the Clan", "#view_cotc_button"],
+            ["Scugs Outside the Clan", "#view_cotc_button"],
         ):
             self.choose_group_buttons[object_id.strip("#")] = UISurfaceImageButton(
                 ui_scale(pygame.Rect((0, y_pos), (190, 34))),

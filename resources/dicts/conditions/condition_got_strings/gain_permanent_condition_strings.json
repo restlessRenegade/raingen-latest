@@ -130,6 +130,13 @@
             "m_c sits and watches the Clan going about their business and tries to get used to the stark silence. {PRONOUN/m_c/subject/CAP} {VERB/m_c/know/knows}, instinctively, that {PRONOUN/m_c/poss} hearing is never coming back. The frostbite must have scarred something deep within {PRONOUN/m_c/poss} ears."
         ]
     },
+    "chest wound": {
+        "raspy lungs": [
+            "r_c checks m_c's throat for the fourth time this cycle, {PRONOUN/m_c/subject} insists something's been wrong ever since {PRONOUN/m_c/poss) chest wound. After thinking r_c agrees, this might be permanent.",
+            "Despite m_c's wound having closed up, it seems it hit more vital structures than r_c first thought, as m_c has had a rasp in {PRONOUN/m_c/poss} chest that won't go away.",
+            "Ever since m_c's chest was injured, {PRONOUN/m_c/subject} was never able to breathe properly, and r_c has to break the news that this will be the new normal for {PRONOUN/m_c/object}."
+        ]
+    },
     "water in their lungs": {
         "raspy lungs": [
             "r_c places a bunch of fragrant herbs under m_c's nose, hoping the scent will help the rasp in {PRONOUN/m_c/poss} throat {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} had since inhaling all that water. Unfortunately it seems this rasp may never leave.",

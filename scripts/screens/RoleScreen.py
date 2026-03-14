@@ -247,9 +247,9 @@ class RoleScreen(Screens):
         text += f"{self.the_cat.moons} "
 
         if self.the_cat.moons == 1:
-            text += "moon  |  "
+            text += "cycle  |  "
         else:
-            text += "moons  |  "
+            text += "cycles  |  "
 
         text += self.the_cat.genderalign + "\n"
 
@@ -541,7 +541,7 @@ class RoleScreen(Screens):
                 f"They treat "
                 f"injuries and illnesses with herbal remedies. Unlike warriors, clerics are not expected "
                 f"to hunt and fight for the Clan. In addition to their healing duties, clerics also have "
-                f"a special connection to the Void. Every half-moon, they travel to their Clan's holy place "
+                f"a special connection to the Void. Every half-cycle, they travel to their Clan's holy place "
                 f"to commune with the Ascended. "
             )
         elif self.the_cat.status == "mediator":
@@ -554,7 +554,7 @@ class RoleScreen(Screens):
             )
         elif self.the_cat.status == "elder":
             output = (
-                f"{self.the_cat.name} is an <b>elder</b>. They have spent many moons serving their Clan, "
+                f"{self.the_cat.name} is an <b>elder</b>. They have spent many cycles serving their Clan, "
                 f"and have earned "
                 f"many moons of rest. Elders are essential to passing down the oral tradition of the Clan. "
                 f"Sometimes, cats may retire due to disability or injury. Whatever the "
@@ -564,7 +564,7 @@ class RoleScreen(Screens):
         elif self.the_cat.status == "apprentice":
             output = (
                 f"{self.the_cat.name} is an <b>apprentice</b>, in training to become a warrior. "
-                f"Kits can be made warrior apprentices at six moons of age, where they will learn how "
+                f"Pups can be made warrior apprentices at six cycles of age, where they will learn how "
                 f"to hunt and fight for their Clan. Typically, the training of an apprentice is entrusted "
                 f"to an single warrior - their mentor. To build character, apprentices are often assigned "
                 f"the unpleasant and grunt tasks of Clan life."
@@ -572,7 +572,7 @@ class RoleScreen(Screens):
         elif self.the_cat.status == "cleric apprentice":
             output = (
                 f"{self.the_cat.name} is a <b>cleric apprentice</b>, training to become a full cleric. "
-                f"Kits can be made cleric apprentices at six moons of age, where they will learn how to "
+                f"Pups can be made cleric apprentices at six cycles of age, where they will learn how to "
                 f"heal their Clanmates and commune with the Void. cleric apprentices are typically chosen "
                 f"for their interest in healing and/or their connecting to the Void."
             )
@@ -584,8 +584,8 @@ class RoleScreen(Screens):
             )
         elif self.the_cat.status == "kitten":
             output = (
-                f"{self.the_cat.name} is a <b>kitten</b>. All cats below the age of six moons are "
-                f"considered kits. Kits "
+                f"{self.the_cat.name} is a <b>kitten</b>. All slugcats below the age of six cycles are "
+                f"considered pups. Pups "
                 f"are prohibited from leaving camp in order to protect them from the dangers of the wild. "
                 f"Although they don't have any official duties in the Clan, they are expected to learn the "
                 f"legends and traditions of their Clan. They are protected by every slugcat in the Clan and always "
@@ -593,8 +593,8 @@ class RoleScreen(Screens):
             )
         elif self.the_cat.status == "newborn":
             output = (
-                f"{self.the_cat.name} is a <b>newborn kitten</b>. All cats below the age of six moons are "
-                f"considered kits. Kits "
+                f"{self.the_cat.name} is a <b>newborn slugpup</b>. All slugcats below the age of six cycles are "
+                f"considered pups. Pups "
                 f"are prohibited from leaving camp in order to protect them from the dangers of the wild. "
                 f"Although they don't have any official duties in the Clan, they are expected to learn the "
                 f"legends and traditions of their Clan. They are protected by every slugcat in the Clan and always "

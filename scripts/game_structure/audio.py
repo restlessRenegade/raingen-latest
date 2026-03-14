@@ -198,10 +198,23 @@ class MusicManager:
         elif biome == "Plains":
             new_playlist = self.playlists["plains_playlist"]
         elif biome == "Mountainous":
-            new_playlist = self.playlists["beach_playlist"]
-        elif biome == "Beach":
             new_playlist = self.playlists["mountainous_playlist"]
-
+        elif biome == "Beach":
+            new_playlist = self.playlists["beach_playlist"]
+        elif biome == "Desert":
+            new_playlist = self.playlists["desert_playlist"]
+        elif biome == "Wetlands":
+            new_playlist = self.playlists["wetlands_playlist"]
+        elif biome == "Underground":
+            new_playlist = self.playlists["underground_playlist"]
+        elif biome == "Glacial":
+            new_playlist = self.playlists["glacial_playlist"]
+        elif biome == "Jungle":
+            new_playlist = self.playlists["jungle_playlist"]
+        elif biome == "Urban":
+            new_playlist = self.playlists["urban_playlist"]
+        elif biome == "Iterator":
+            new_playlist = self.playlists["iterator_playlist"]
         return new_playlist
 
 

@@ -133,14 +133,18 @@
         "CREAMTHREE": ["CREAM", "THREE"],
         "CREAMFOUR": ["CREAM", "FOUR"]
 },
-    "old_creamy_patches": {
-        "COLOURPOINTCREAMY": "COLOURPOINT",
-        "ANYCREAMY": "ANY",
-        "ANY2CREAMY": "ANYTWO",
-        "LITTLECREAMY": "LITTLE",
-        "VANCREAMY": "VAN",
-        "TUXEDOCREAMY": "TUXEDO"
-},
+    "old_patterns": {
+        "SHILOH": "STREAK",
+        "FRECKLED": "STREAMSTRIKE",
+        "HEARTBEAT": "SWOOP",
+        "SPECKLES": "SPORTYMIMIC",
+        "TIGER": "ECHOMIMIC",
+        "SHROOM": "MAGMA",
+        "MAILBOX": "HEROBRINE",
+        "GILAMONSTER": "CURLED",
+        "RINGEDMIMIC": "LITTLESTRIPE",
+        "NECKLACEMIMIC": "TAILCOLOUR"
+    },
     "old_sharphorns": {
         "WHITEHORNS": "WHITEHORNSSHARP",
         "BLACKHORNS": "BLACKHORNSSHARP",

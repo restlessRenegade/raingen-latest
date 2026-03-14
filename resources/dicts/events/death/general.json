@@ -253,6 +253,195 @@
         ]
     },
     {
+        "event_id": "gen_death_murder_kit1",
+        "location": ["any"],
+        "season": [
+            "any"
+        ],
+        "sub_type":  [
+            "murder"
+        ],
+        "tags": [],
+        "weight": 5,
+        "event_text": "r_c having heard tales of murder decided to use those tale's wisdom to kill m_c, tired of {PRONOUN/m_c/poss} presence.",
+        "m_c": {
+            "age": [ "any" ],
+            "status": [
+                "kitten",
+                "apprentice",
+                "warrior",
+                "deputy",
+                "medicine cat apprentice",
+                "medicine cat",
+                "mediator apprentice",
+                "mediator",
+                "elder"
+            ],
+            "dies": true
+        },
+        "r_c": {
+            "status": [ "kitten" ],
+            "skill": [
+                "STORY, 1"
+            ]
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was murdered by r_c."
+        }],
+        "relationships": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "platonic"
+                ],
+                "amount": -15
+            },
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "dislike"
+                ],
+                "amount": 15
+            }
+        ]
+    },
+        {
+        "event_id": "gen_death_murder_kit2",
+        "location": ["any"],
+        "season": [
+            "any"
+        ],
+        "sub_type":  [
+            "murder"
+        ],
+        "tags": [],
+        "weight": 5,
+        "event_text": "Hearing the whispers of the Rotwound, r_c follows their instructions and kills m_c, tired of {PRONOUN/m_c/poss} nagging.",
+        "m_c": {
+            "age": [ "any" ],
+            "status": [
+                "kitten",
+                "apprentice",
+                "warrior",
+                "deputy",
+                "medicine cat apprentice",
+                "medicine cat",
+                "mediator apprentice",
+                "mediator",
+                "elder"
+            ],
+            "dies": true
+        },
+        "r_c": {
+            "status": [ "kitten" ],
+            "skill": [
+                "DARK, 1"
+            ]
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was murdered by r_c."
+        }],
+        "relationships": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "platonic"
+                ],
+                "amount": -15
+            },
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "dislike"
+                ],
+                "amount": 15
+            }
+        ]
+    },
+        {
+        "event_id": "gen_death_murder_kit3",
+        "location": ["any"],
+        "season": [
+            "any"
+        ],
+        "sub_type":  [
+            "murder"
+        ],
+        "tags": [],
+        "weight": 20,
+        "event_text": "Despite r_c's young age, {PRONOUN/r_c/subject} {VERB/r_c/lure/lures} m_c intentionally by a centipede's burrow, saying nothing as m_c is killed by it.",
+        "m_c": {
+            "age": [ "any" ],
+            "status": [
+                "kitten",
+                "apprentice",
+                "warrior",
+                "deputy",
+                "medicine cat apprentice",
+                "medicine cat",
+                "mediator apprentice",
+                "mediator",
+                "elder"
+            ],
+            "dies": true
+        },
+        "r_c": {
+            "status": [ "kitten" ]
+        },
+        "history": [{
+            "cats": ["m_c"],
+            "reg_death": "m_c was murdered by r_c."
+        }],
+        "relationships": [
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "platonic"
+                ],
+                "amount": -15
+            },
+            {
+                "cats_from": [
+                    "r_c"
+                ],
+                "cats_to": [
+                    "m_c"
+                ],
+                "values": [
+                    "dislike"
+                ],
+                "amount": 15
+            }
+        ]
+    },
+    {
         "event_id": "gen_death_murder_anymed1",
         "location": ["any"],
         "season": [

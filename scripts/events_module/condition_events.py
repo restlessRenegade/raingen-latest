@@ -305,7 +305,7 @@ class Condition_Events:
                 random_index = int(random.random() * len(possible_illnesses))
                 chosen_illness = possible_illnesses[random_index]
                 # if a non-kitten got kittencough, switch it to whitecough instead
-                if chosen_illness == "kittencough" and cat.status != "kitten":
+                if chosen_illness == "pupcough" and cat.status != "kitten":
                     chosen_illness = "whitecough"
                 # make em sick
                 cat.get_ill(chosen_illness)
@@ -516,7 +516,7 @@ class Condition_Events:
         event_list = []
         illness_progression = {
             "running nose": "whitecough",
-            "kittencough": "whitecough",
+            "pupcough": "whitecough",
             "whitecough": "greencough",
             "greencough": "yellowcough",
             "yellowcough": "redcough",

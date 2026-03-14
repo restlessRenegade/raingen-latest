@@ -108,12 +108,12 @@ class Welcoming_Events:
             if clan_cat.age == 1:
                 clan_cat.relationships[new_cat.ID].log.append(
                     interaction_str
-                    + f" - {clan_cat.name} was {clan_cat.moons} moons old"
+                    + f" - {clan_cat.name} was {clan_cat.moons} cycles old"
                 )
             else:
                 clan_cat.relationships[new_cat.ID].log.append(
                     interaction_str
-                    + f" - {clan_cat.name} was {clan_cat.moons} moons old"
+                    + f" - {clan_cat.name} was {clan_cat.moons} cycles old"
                 )
 
             new_cat.relationships[clan_cat.ID].link_relationship()
@@ -121,11 +121,11 @@ class Welcoming_Events:
         if clan_cat.ID in new_cat.relationships:
             if new_cat.age == 1:
                 new_cat.relationships[clan_cat.ID].log.append(
-                    interaction_str + f" - {new_cat.name} was {new_cat.moons} moon old"
+                    interaction_str + f" - {new_cat.name} was {new_cat.moons} cycle old"
                 )
             else:
                 new_cat.relationships[clan_cat.ID].log.append(
-                    interaction_str + f" - {new_cat.name} was {new_cat.moons} moons old"
+                    interaction_str + f" - {new_cat.name} was {new_cat.moons} cycles old"
                 )
 
     @staticmethod

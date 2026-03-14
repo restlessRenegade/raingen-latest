@@ -10,18 +10,18 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol catches scent of a lanternmouse nearby.",
-        "decline_text": "The patrol ignores the lanternmouse.",
+        "intro_text": "The patrol catches scent of a lantern mouse nearby.",
+        "decline_text": "The patrol ignores the lantern mouse.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c locates the lanternmouse and begins to stalk. The lanternmouse nibbles on some slime mold, unaware of the hunting slugcat. r_c readies {PRONOUN/r_c/poss} spear and throws it, killing the lanternmouse instantly.",
+                "text": "r_c locates the lantern mouse and begins to stalk. The lantern mouse nibbles on some slime mold, unaware of the hunting slugcat. r_c readies {PRONOUN/r_c/poss} spear and throws it, killing the lantern mouse instantly.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
             },
             {
-                "text": "r_c pinpoints the location of the prey and begins creeping forward. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} almost within throwing distance when the lanternmouse suddenly bolts. With a lash of {PRONOUN/r_c/poss} tail, r_c leaps after the critter, barely hitting it with the spear it before it reaches a pipe. {PRONOUN/r_c/subject/CAP} {VERB/r_c/purr/purrs} in satisfaction as the lanternmouse {PRONOUN/r_c/poss} stops struggling.",
+                "text": "r_c pinpoints the location of the prey and begins creeping forward. {PRONOUN/r_c/subject/CAP}{VERB/r_c/'re/'s} almost within throwing distance when the lantern mouse suddenly bolts. With a lash of {PRONOUN/r_c/poss} tail, r_c leaps after the critter, barely hitting it with the spear it before it reaches a pipe. {PRONOUN/r_c/subject/CAP} {VERB/r_c/purr/purrs} in satisfaction as the lantern mouse {PRONOUN/r_c/poss} stops struggling.",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["small"]
@@ -79,18 +79,18 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "The patrol comes across a lanternmouse.",
-        "decline_text": "The patrol ignores the lanternmouse.",
+        "intro_text": "The patrol comes across a lantern mouse.",
+        "decline_text": "The patrol ignores the lantern mouse.",
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "r_c throws {PRONOUN/r_c/poss} spear into the lanternmouse, with a squeak of surprise from both prey and apprentice.",
+                "text": "r_c throws {PRONOUN/r_c/poss} spear into the lantern mouse, with a squeak of surprise from both prey and apprentice.",
                 "exp": 10,
                 "weight": 20,
                 "prey": ["small"]
             },
             {
-                "text": "app1 throws a stone and stuns the lanternmouse, an easy kill! {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} really getting the hang of hunting!",
+                "text": "app1 throws a stone and stuns the lantern mouse, an easy kill! {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} really getting the hang of hunting!",
                 "exp": 10,
                 "weight": 5,
                 "prey": ["small"]
@@ -127,7 +127,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "The patrol narrowly misses the lanternmouse.",
+                "text": "The patrol narrowly misses the lantern mouse.",
                 "exp": 0,
                 "weight": 20,
                 "prey": ["very_small"]
@@ -314,7 +314,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climb to gather the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} {PRONOUN/s_c/was/were} taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! When it doesn't move, {PRONOUN/s_c/subject} safely climb to gather the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],
@@ -322,7 +322,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "s_c remembers a trick {PRONOUN/s_c/subject} were taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
+                "text": "s_c remembers a trick {PRONOUN/s_c/subject} {PRONOUN/s_c/was/were} taught, picking up a rock and throwing it hard as {PRONOUN/s_c/subject} could against the pole! The pole plant bursts into life and is dispatched, before s_c gathered the blue fruits.",
                 "exp": 10,
                 "weight": 5,
                 "stat_skill": ["CLEVER,1"],

@@ -201,9 +201,9 @@ class ChooseMateScreen(Screens):
         )
 
         self.info = pygame_gui.elements.UITextBox(
-            "If a cat has mates, then they will be loyal and only have kittens with their mates"
+            "If a scug has mates, then they will be loyal and only have slugpups with their mates"
             " (unless affairs are toggled on). Potential mates are listed below! The lines "
-            "connecting the two cats may give a hint on their compatibility with one another "
+            "connecting the two scugs may give a hint on their compatibility with one another "
             "and any existing romantic feelings will be shown with small hearts.",
             ui_scale(pygame.Rect((0, 5), (375, 100))),
             object_id=get_text_box_theme("#text_box_22_horizcenter_spacing_95"),
@@ -861,7 +861,7 @@ class ChooseMateScreen(Screens):
 
         info = (
             str(self.the_cat.moons)
-            + " moons\n"
+            + " cycles\n"
             + self.the_cat.status
             + "\n"
             + self.the_cat.genderalign
@@ -1025,7 +1025,7 @@ class ChooseMateScreen(Screens):
 
         info = (
             str(self.selected_cat.moons)
-            + " moons\n"
+            + " cycles\n"
             + self.selected_cat.status
             + "\n"
             + self.selected_cat.genderalign
@@ -1075,7 +1075,7 @@ class ChooseMateScreen(Screens):
             self.selected_cat_elements[
                 "no kit warning"
             ] = pygame_gui.elements.UITextBox(
-                "This pair can't have biological kittens.",
+                "This pair can't have biological slugpups.",
                 warning_rect,
                 object_id=get_text_box_theme(
                     "#text_box_22_horizcenter_vertcenter_spacing_95"
