@@ -274,13 +274,13 @@ class Romantic_Events:
 
         # now add the age of the cats before the string is sent to the cats' relationship logs
         relationship.log.append(
-            interaction_str + f" - {cat_from.name} was {cat_from.moons} moons old"
+            interaction_str + f" - {cat_from.name} was {cat_from.moons} cycles old"
         )
 
         if not relationship.opposite_relationship and cat_from.ID != cat_to.ID:
             relationship.link_relationship()
             relationship.opposite_relationship.log.append(
-                interaction_str + f" - {cat_to.name} was {cat_to.moons} moons old"
+                interaction_str + f" - {cat_to.name} was {cat_to.moons} cycles old"
             )
 
         return True

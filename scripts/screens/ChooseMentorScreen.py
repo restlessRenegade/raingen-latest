@@ -133,10 +133,10 @@ class ChooseMentorScreen(Screens):
             manager=MANAGER,
         )
         self.info = pygame_gui.elements.UITextBox(
-            "If an apprentice is 6 moons old and their mentor is changed, they "
+            "If an apprentice is 6 cycles old and their mentor is changed, they "
             "will not be listed as a former apprentice on their old mentor's "
             "profile. Apprentices without a mentor will have one automatically "
-            "assigned next moon. An apprentice's mentor can have an influence on "
+            "assigned next cycle. An apprentice's mentor can have an influence on "
             "their trait and skill later in life.\nChoose your mentors wisely",
             ui_scale(pygame.Rect((180, 52), (440, 92))),
             object_id=get_text_box_theme("#text_box_22_horizcenter_spacing_95"),

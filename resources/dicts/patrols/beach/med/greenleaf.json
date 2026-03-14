@@ -291,7 +291,7 @@
                 ]
             },
             {
-                "text": "By the time they reach the burdock plants, p_l is about ready to claw s_c's ears off. Great Void! <i>How</i> can a slugcat be so annoying? p_l hisses in exasperation, just as {PRONOUN/p_l/subject} {VERB/p_l/notice/notices} that the burdock is all shriveled and dead - the roots won't be any good. It's just one thing after another today.",
+                "text": "By the time they reach the burdock plants, p_l is about ready to slice s_c's ears off. Great Void! <i>How</i> can a slugcat be so annoying? p_l hisses in exasperation, just as {PRONOUN/p_l/subject} {VERB/p_l/notice/notices} that the burdock is all shriveled and dead - the roots won't be any good. It's just one thing after another today.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": ["troublesome", "childish"],
@@ -2063,7 +2063,7 @@
                 ]
             },
             {
-                "text": "The tree, growing in a sheltered spot without huge amounts of wind, has branches that extend a mere whisker-length above the ground. The gathering is simple, today, warmed by the greenleaf sun. They even stop for a nap before going home, app1 stretching out and ripping at the ground with {PRONOUN/app1/poss} claws indulgently.",
+                "text": "The tree, growing in a sheltered spot without huge amounts of wind, has branches that extend a mere whisker-length above the ground. The gathering is simple, today, warmed by the greenleaf sun. They even stop for a nap before going home, app1 stretching out and ripping at the ground with {PRONOUN/app1/poss} paws indulgently.",
                 "exp": 20,
                 "weight": 5,
                 "herbs": ["many_herbs", "elder_leaves"],
@@ -4657,7 +4657,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "Whatever tale p_l was reminded of, it does nothing to help {PRONOUN/p_l/object} climb the damn tree and fetch the leaves. {PRONOUN/p_l/subject/CAP} misjudge a step and are left clinging, claws out and eyes wide. Let's return to the ground. Now.",
+                "text": "Whatever tale p_l was reminded of, it does nothing to help {PRONOUN/p_l/object} climb the damn tree and fetch the leaves. {PRONOUN/p_l/subject/CAP} misjudge a step and are left clinging, spear out and eyes wide. Let's return to the ground. Now.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -5225,7 +5225,7 @@
                 "herbs": ["many_herbs", "ragwort"]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult but doable, if only just.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult but doable, if only just.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -5306,7 +5306,7 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult but doable, if only just, and app1 is desperately grateful to learn the trick.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. It's difficult but doable, if only just, and app1 is desperately grateful to learn the trick.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -5417,7 +5417,7 @@
                 ]
             },
             {
-                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} claws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. Some of the warriors are too impatient to follow {PRONOUN/s_c/poss} lead and end up suffering the taste of ragwort as the patrol brings back loads of the leaves.",
+                "text": "s_c has discovered a trick to harvesting the bountiful, but foul, ragwort - using {PRONOUN/s_c/poss} paws to tear leaves from the plant, then carefully carrying them back to camp without chewing or salivating. Some of the warriors are too impatient to follow {PRONOUN/s_c/poss} lead and end up suffering the taste of ragwort as the patrol brings back loads of the leaves.",
                 "exp": 10,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],

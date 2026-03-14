@@ -23,7 +23,9 @@ class Scar_Events():
         "BEAKCHEEK", "BEAKLOWER", "BEAKSIDE"
     ]
     canid_scars = [
-        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART", "DOUBLEBITE", "NIBBLEDIDIOT", "NIBBLEDAGAIN"
+        "LEGBITE", "NECKBITE", "TAILSCAR", "BRIGHTHEART", "LEFTFACE",
+        "RIGHTFACE", "DOUBLEBITE", "NIBBLEDIDIOT", "NIBBLEDAGAIN",
+        "ARTIRIGHT", "ARTILEFT"
     ]
     snake_scars = [
         "SNAKE", "SNAKETWO"
@@ -33,7 +35,8 @@ class Scar_Events():
         "SIDE", "THROAT", "TAILBASE", "BELLY", "FACE",
         "BRIDGE", "HINDLEG", "BACK", "SCRATCHSIDE",
         "LABRATFACE", "NEUTRINO", "ENVOYCHEST", "X-FACE",
-        "TAIL", "SHOULDER", "EYE", "ARM"
+        "TAIL", "SHOULDER", "EYE", "ARM", "MESSIAH",
+        "VULTURESHOULDER", "SPEARWOUND"
     ]
     leg_scars = [
         "NOPAW", "TOETRAP", "MANLEG", "FOUR", "MANGLEDARM", "ARM"
@@ -54,26 +57,28 @@ class Scar_Events():
     burn_scars = [
         "BRIGHTHEART", "BURNPAWS", "BURNTAIL", "BURNBELLY", "BURNRUMP",
         "HALFFACELEFT", "FULLBODYBURNS", "HALFFACERIGHT", "STARBURN", 
-        "ARMBURN", "DANGEROUS", "SMOKINGFACE", "BURNTLEG", "BURNTARM"
+        "ARMBURN", "DANGEROUS", "SMOKINGFACE", "BURNTLEG", "BURNTARM",
+        "ARTIRIGHT", "ARTIGLOWRIGHT", "ARTILEFT", "ARTIGLOWLEFT"
     ]
     quill_scars = [
         "QUILLCHUNK", "QUILLSCRATCH", "QUILLSIDE"
     ]
     head_scars = [
-        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK", "LABRATFACE", "BESIEGED"
+        "SNOUT", "CHEEK", "BRIDGE", "BEAKCHEEK", "LABRATFACE", "BESIEGED", "MESSIAH"
     ]
     bone_scars = [
         "MANLEG", "TOETRAP", "FOUR", "DANGEROUS"
     ]
     back_scars = [
-        "TWO", "TAILBASE", "BACK", "NEUTRINO"
+        "TWO", "TAILBASE", "BACK", "NEUTRINO", "VULTURESHOULDER"
     ]
     iterator_mangle = [
         "VIVISECTION", "LABRATCHEST", "LABRATLIMBS", "DANGEROUS", 
-        "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "FULLBODYBURNS"
+        "RESTITCHEDUPPER", "RESTITCHEDLOWER", "STITCHEDHEAD", "FULLBODYBURNS",
+        "PATCHWORK"
     ]
     iterator_extraction = [
-        "CUTOPEN", "EXTRACTIONTWO", "MESSIAH", "ENVOYCHEST"
+        "CUTOPEN", "EXTRACTIONTWO", "MESSIAH", "ENVOYCHEST", "SPEARWOUND"
     ]
     rot_scars = [
         "ROTRIDDEN"

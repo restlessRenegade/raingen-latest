@@ -4,5 +4,12 @@
   "forest_playlist": [],
   "plains_playlist": [],
   "beach_playlist": [],
-  "mountainous_playlist": []
+  "mountainous_playlist": [],
+  "desert_playlist": [],
+  "wetlands_playlist": [],
+  "underground_playlist": [],
+  "glacial_playlist": [],
+  "jungle_playlist": [],
+  "urban_playlist": [],
+  "iterator_playlist": []
 }

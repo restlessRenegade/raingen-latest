@@ -27,7 +27,7 @@
         "sub_type": [],
         "tags": ["clan:kitten"],
         "weight": 20,
-        "event_text": "m_c sneaks out of camp but finds {PRONOUN/m_c/self} lost in the strange, angular tunnels that lead out into the territory. The Clan searches for {PRONOUN/m_c/object} in the morning to no avail. The leftover scent of blood and mountain weasel serves as an intense warning to the other kits.",
+        "event_text": "m_c sneaks out of camp but finds {PRONOUN/m_c/self} lost in the strange, angular tunnels that lead out into the territory. The Clan searches for {PRONOUN/m_c/object} in the morning to no avail. The leftover scent of blood and drogwig serves as an intense warning to the other pups.",
         "m_c": {
             "age": ["kitten"],
             "dies": true
@@ -35,7 +35,7 @@
         "history": [
             {
                 "cats": ["m_c"],
-                "reg_death": "m_c was eaten by a mountain weasel when {PRONOUN/m_c/subject} tried to sneak out of camp."
+                "reg_death": "m_c was eaten by a drogwig when {PRONOUN/m_c/subject} tried to sneak out of camp."
             }
         ]
     },
@@ -63,7 +63,7 @@
         "weight": 30,
         "event_text": "m_c got grabbed by a big moth whilst saving r_c",
         "m_c": {
-            "dies": true
+            "dies": true,
             "status": [
                 "apprentice",
                 "warrior",
@@ -73,7 +73,7 @@
                 "mediator apprentice",
                 "mediator",
                 "elder"
-            ],
+            ]
         },
         "r_c": {
             "age": ["adolescent"],
@@ -93,7 +93,7 @@
         "weight": 30,
         "event_text": "m_c was out in the middle of camp when suddeny a large moth descended onto {PRONOUN/m_c/object} and carried {PRONOUN/m_c/object} away, never to be seen again.",
         "m_c": {
-            "dies": true
+            "dies": true,
             "status": ["kitten"]
         },
         "history": [{

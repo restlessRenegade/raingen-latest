@@ -3894,7 +3894,7 @@
     "plural": "white striped aqua basic collars",
     "singular": "white striped aqua basic collar"
   },
-  "WHITESTRIPEDCYABBASECOLLAR": {
+  "WHITESTRIPEDCYANBASECOLLAR": {
     "default": "white stripped cyan basic collar",
     "plural": "white striped cyan basic collars",
     "singular": "white striped cyan basic collar"
@@ -3969,7 +3969,7 @@
     "plural": "black striped aqua basic collars",
     "singular": "black striped aqua basic collar"
   },
-  "BLACKSTRIPEDCYABBASECOLLAR": {
+  "BLACKSTRIPEDCYANBASECOLLAR": {
     "default": "black stripped cyan basic collar",
     "plural": "black striped cyan basic collars",
     "singular": "black striped cyan basic collar"
@@ -4044,7 +4044,7 @@
     "plural": "semi striped aqua basic collars",
     "singular": "semi striped aqua basic collar"
   },
-  "SEMISTRIPEDCYABBASECOLLAR": {
+  "SEMISTRIPEDCYANBASECOLLAR": {
     "default": "semi stripped cyan basic collar",
     "plural": "semi striped cyan basic collars",
     "singular": "semi striped cyan basic collar"
@@ -4509,7 +4509,7 @@
     "plural": "white striped aqua pearl collars",
     "singular": "white striped aqua pearl collar"
   },
-  "WHITESTRIPEDCYABPEARLCOLLAR": {
+  "WHITESTRIPEDCYANPEARLCOLLAR": {
     "default": "white stripped cyan pearl collar",
     "plural": "white striped cyan pearl collars",
     "singular": "white striped cyan pearl collar"
@@ -4584,7 +4584,7 @@
     "plural": "black striped aqua pearl collars",
     "singular": "black striped aqua pearl collar"
   },
-  "BLACKSTRIPEDCYABPEARLCOLLAR": {
+  "BLACKSTRIPEDCYANPEARLCOLLAR": {
     "default": "black stripped cyan pearl collar",
     "plural": "black striped cyan pearl collars",
     "singular": "black striped cyan pearl collar"
@@ -4659,7 +4659,7 @@
     "plural": "semi striped aqua pearl collars",
     "singular": "semi striped aqua pearl collar"
   },
-  "SEMISTRIPEDCYABPEARLCOLLAR": {
+  "SEMISTRIPEDCYANPEARLCOLLAR": {
     "default": "semi stripped cyan pearl collar",
     "plural": "semi striped cyan pearl collars",
     "singular": "semi striped cyan pearl collar"
@@ -5124,7 +5124,7 @@
     "plural": "white striped aqua studded collars",
     "singular": "white striped aqua studded collar"
   },
-  "WHITESTRIPEDCYABSTUDDEDCOLLAR": {
+  "WHITESTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "white stripped cyan studded collar",
     "plural": "white striped cyan studded collars",
     "singular": "white striped cyan studded collar"
@@ -5199,7 +5199,7 @@
     "plural": "black striped aqua studded collars",
     "singular": "black striped aqua studded collar"
   },
-  "BLACKSTRIPEDCYABSTUDDEDCOLLAR": {
+  "BLACKSTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "black stripped cyan studded collar",
     "plural": "black striped cyan studded collars",
     "singular": "black striped cyan studded collar"
@@ -5274,7 +5274,7 @@
     "plural": "semi striped aqua studded collars",
     "singular": "semi striped aqua studded collar"
   },
-  "SEMISTRIPEDCYABSTUDDEDCOLLAR": {
+  "SEMISTRIPEDCYANSTUDDEDCOLLAR": {
     "default": "semi stripped cyan studded collar",
     "plural": "semi striped cyan studded collars",
     "singular": "semi striped cyan studded collar"
@@ -5559,62 +5559,62 @@
     "plural": "MLG glasses",
     "singular": "MLG glasses"
   },
-  "REDBOW": {
+  "REDREALBOW": {
     "default": "red bow",
     "plural": "red bows",
     "singular": "red bow"
   },
-  "GREYBOW": {
+  "GREYREALBOW": {
     "default": "grey bow",
     "plural": "grey bows",
     "singular": "grey bow"
   },
-  "WHITEBOW": {
+  "WHITEREALBOW": {
     "default": "white bow",
     "plural": "white bows",
     "singular": "white bow"
   },
-  "BROWNBOW": {
+  "BROWNREALBOW": {
     "default": "brown bow",
     "plural": "brown bows",
     "singular": "brown bow"
   },
-  "ORANGEBOW": {
+  "ORANGEREALBOW": {
     "default": "orange bow",
     "plural": "orange bows",
     "singular": "orange bow"
   },
-  "YELLOWBOW": {
+  "YELLOWREALBOW": {
     "default": "yellow bow",
     "plural": "yellow bows",
     "singular": "yellow bow"
   },
-  "GREENBOW": {
+  "GREENREALBOW": {
     "default": "green bow",
     "plural": "green bows",
     "singular": "green bow"
   },
-  "TEALBOW": {
+  "TEALREALBOW": {
     "default": "teal bow",
     "plural": "teal bows",
     "singular": "teal bow"
   },
-  "BLUEBOW": {
+  "BLUEREALBOW": {
     "default": "blue bow",
     "plural": "blue bows",
     "singular": "blue bow"
   },
-  "PURPLEBOW": {
+  "PURPLEREALBOW": {
     "default": "purple bow",
     "plural": "purple bows",
     "singular": "purple bow"
   },
-  "PINKBOW": {
+  "PINKREALBOW": {
     "default": "pink bow",
     "plural": "pink bows",
     "singular": "pink bow"
   },
-  "BLACKBOW": {
+  "BLACKREALBOW": {
     "default": "black bow",
     "plural": "black bows",
     "singular": "black bow"
@@ -5633,5 +5633,960 @@
     "default": "symbiotic DLL",
     "plural": "symbiotic DLLs",
     "singular": "symbiotic DLL"
+  },
+  "TEALCLOWNNOSE": {
+    "default": "teal clown nose",
+    "plural": "teal clown noses",
+    "singular": "teal clown nose"
+  },
+  "CYANCLOWNNOSE": {
+    "default": "cyan clown nose",
+    "plural": "cyan clown noses",
+    "singular": "cyan clown nose"
+  },
+  "BLUEARMADILOCLOAK": {
+    "default": "blue armadilo cloak",
+    "plural": "blue armadilo cloaks",
+    "singular": "blue armadilo cloak"
+  },
+  "BLUEBLINDFOLD": {
+    "default": "blue blindfold",
+    "plural": "blue blindfolds",
+    "singular": "blue blindfolds"
+  },
+  "BLUESMILE": {
+    "default": "blue smile",
+    "plural": "blue smiles",
+    "singular": "blue smile"
+  },
+  "REDCLOWNNOSE": {
+    "default": "red clown nose",
+    "plural": "red clown noses",
+    "singular": "red clown nose"
+  },
+  "FOOLSGOLDEARRINGALT": {
+    "default": "fool's gold earring",
+    "plural": "fool's gold earrings",
+    "singular": "fool's gold earring"
+  },
+  "FOOLSGOLDTAILCHAIN": {
+    "default": "fool's gold tail chain",
+    "plural": "fool's gold tail chains",
+    "singular": "fool's gold tail chain"
+  },
+  "CYANBLINDFOLD": {
+    "default": "cyan blindfold",
+    "plural": "cyan blindfolds",
+    "singular": "cyan blindfold"
+  },
+  "BLUECLOWNNOSE": {
+    "default": "blue clown nose",
+    "plural": "blue clown nose",
+    "singular": "blue clown nose"
+  },
+  "FOOLSGOLDBAND": {
+    "default": "fool's gold bands",
+    "plural": "fool's gold bands",
+    "singular": "fool's gold band"
+  },
+  "FOOLSGOLDSIMPLESTUD": {
+    "default": "fool's gold simple stud",
+    "plural": "fool's gold simple studs",
+    "singular": "fool's gold simple stud"
+  },
+  "FOOLSGOLDSEERJEWLERY": {
+    "default": "fool's gold seer jewelry",
+    "plural": "fool's gold seer jewelry",
+    "singular": "fool's gold seer jewelry"
+  },
+  "GOLDSIMPLESTUD": {
+    "default": "gold simple stud",
+    "plural": "gold simple studs",
+    "singular": "gold simple stud"
+  },
+  "GOLDBAND": {
+    "default": "gold bands",
+    "plural": "gold bands",
+    "singular": "gold band"
+  },
+  "GOLDEARRINGALT": {
+    "default": "gold earring",
+    "plural": "gold earrings",
+    "singular": "gold earring"
+  },
+  "GOLDTAILCHAIN": {
+    "default": "gold tail chain",
+    "plural": "gold tail chains",
+    "singular": "gold tail chain"
+  },
+  "GREENCLOWNNOSE": {
+    "default": "green clown nose",
+    "plural": "green clown noses",
+    "singular": "green clown nose"
+  },
+  "GREENBLINDFOLD": {
+    "default": "green blindfold",
+    "plural": "green blindfolds",
+    "singular": "green blindfold"
+  },
+  "GREENSMILE": {
+    "default": "green smile",
+    "plural": "green smiles",
+    "singular": "green smile"
+  },
+  "BRONZEHELMET": {
+    "default": "bronze helmet",
+    "plural": "bronze helmets",
+    "singular": "bronze helmet"
+  },
+  "GOLDHELMET": {
+    "default": "gold helmet",
+    "plural": "gold helmets",
+    "singular": "gold helmet"
+  },
+  "SIVLERHELMET": {
+    "default": "silver helmet",
+    "plural": "silver helmets",
+    "singular": "silver helmet"
+  },
+  "ROSECLOWNNOSE": {
+    "default": "rose clown nose",
+    "plural": "rose clown noses",
+    "singular": "rose clown nose"
+  },
+  "REVERSEBLUEARMADILOCLOAK": {
+    "default": "reverse blue armadillo cloak",
+    "plural": "reverse blue armadillo cloaks",
+    "singular": "reverse blue armadillo cloak"
+  },
+  "REVERSEGREENARMADILOCLOAK": {
+    "default": "reverse green armadillo cloak",
+    "plural": "reverse green armadillo cloaks",
+    "singular": "reverse green armadillo cloak"
+  },
+  "REVERSEORANGEARMADILOCLOAK": {
+    "default": "reverse orange armadillo cloak",
+    "plural": "reverse orange armadillo cloaks",
+    "singular": "reverse orange armadillo cloak"
+  },
+  "REVERSEPINKARMADILOCLOAK": {
+    "default": "reverse pink armadillo cloak",
+    "plural": "reverse pink armadillo cloaks",
+    "singular": "reverse pink armadillo cloak"
+  },
+  "REVERSEPURPEARMADILOCLOAK": {
+    "default": "reverse purple armadillo cloak",
+    "plural": "reverse purple armadillo cloaks",
+    "singular": "reverse purple armadillo cloak"
+  },
+  "REVERSEREDARMADILOCLOAK": {
+    "default": "reverse red armadillo cloak",
+    "plural": "reverse red armadillo cloaks",
+    "singular": "reverse red armadillo cloak"
+  },
+  "REVERSETEALARMADILOCLOAK": {
+    "default": "reverse teal armadillo cloak",
+    "plural": "reverse teal armadillo cloaks",
+    "singular": "reverse teal armadillo cloak"
+  },
+  "REVERSEYELLOWARMADILOCLOAK": {
+    "default": "reverse yellow armadillo cloak",
+    "plural": "reverse yellow armadillo cloaks",
+    "singular": "reverse yellow armadillo cloak"
+  },
+  "BLUEITTYHALO": {
+    "default": "blue iterator halo",
+    "plural": "blue iterator halos",
+    "singular": "blue iterator halo"
+  },
+  "YELLOWITTYHALO": {
+    "default": "yellow iterator halo",
+    "plural": "yellow iterator halos",
+    "singular": "yelow iterator halo"
+  },
+  "GREENITTYHALO": {
+    "default": "green iterator halo",
+    "plural": "green iterator halos",
+    "singular": "green iterator halo"
+  },
+  "ORANGEITTYHALO": {
+    "default": "orange iterator halo",
+    "plural": "orange iterator halos",
+    "singular": "orange iterator halo"
+  },
+  "GREYITTYHALO": {
+    "default": "grey iterator halo",
+    "plural": "grey iterator halos",
+    "singular": "grey iterator halo"
+  },
+  "WHITEITTYHALO": {
+    "default": "white iterator halo",
+    "plural": "white iterator halos",
+    "singular": "white iterator halo"
+  },
+  "GOLDITTYHALO": {
+    "default": "gold iterator halo",
+    "plural": "gold iterator halos",
+    "singular": "gold iterator halo"
+  },
+  "JACKOLANTERN": {
+    "default": "jack-o'-lantern",
+    "plural": "jack-o'-lanterns",
+    "singular": "jack-o'-lanterns"
+  },
+  "JADEBANDS": {
+    "default": "jade bands",
+    "plural": "jade bands",
+    "singular": "jade band"
+  },
+  "SKYCLOWNNOSE": {
+    "default": "sky blue clown nose",
+    "plural": "sky blue clown noses",
+    "singular": "sky blue clown nose"
+  },
+  "LIMECLOWNNOSE": {
+    "default": "lime clown nose",
+    "plural": "lime clown noses",
+    "singular": "lime clown nose"
+  },
+  "GREENARMADILOCLOAK": {
+    "default": "green armadillo cloak",
+    "plural": "green armadillo cloaks",
+    "singular": "green armadillo cloak"
+  },
+  "LIMEBLINDFOLD": {
+    "default": "lime blindfold",
+    "plural": "lime blindfolds",
+    "singular": "lime blindfold"
+  },
+  "MEGANIUMCOLLAR": {
+    "default": "meganium collar",
+    "plural": "meganium collars",
+    "singular": "meganium collar"
+  },
+  "BLACKHOLE": {
+    "default": "black hole",
+    "plural": "black holes",
+    "singular": "black hole"
+  },
+  "ORANGECLOWNNOSE": {
+    "default": "orange clown nose",
+    "plural": "orange clown noses",
+    "singular": "orange clown nose"
+  },
+  "ORANGEARMADILOCLOAK": {
+    "default": "orange armadillo cloak",
+    "plural": "orange armadillo cloaks",
+    "singular": "orange armadillo cloak"
+  },
+  "ORANGEBLINDFOLD": {
+    "default": "orange blindfold",
+    "plural": "orange blindfolds",
+    "singular": "orange blindfold"
+  },
+  "ORANGESMILE": {
+    "default": "orange smile",
+    "plural": "orange smiles",
+    "singular": "orange smile"
+  },
+  "PINKARMADILOCLOAK": {
+    "default": "pink armadillo cloak",
+    "plural": "pink armadillo cloaks",
+    "singular": "pink armadillo cloak"
+  },
+  "PINKSMILE": {
+    "default": "pink smile",
+    "plural": "pink smiles",
+    "singular": "pink smile"
+  },
+  "PUMPKIN": {
+    "default": "pumpkin",
+    "plural": "pumpkins",
+    "singular": "pumpkin"
+  },
+  "PURPLECLOWNNOSE": {
+    "default": "purple clown nose",
+    "plural": "purple clown noses",
+    "singular": "purple clown nose"
+  },
+  "PURPLEARMADILOCLOAK": {
+    "default": "purple armadillo cloak",
+    "plural": "purple armadillo cloaks",
+    "singular": "purple armadillo cloak"
+  },
+  "PURPLEBLINDFOLD": {
+    "default": "purple blindfold",
+    "plural": "purple blindfolds",
+    "singular": "purple blindfold"
+  },
+  "PINKSMILE": {
+    "default": "pink smile",
+    "plural": "pink smiles",
+    "singular": "pink smile"
+  },
+  "REDARMADILOCLOAK": {
+    "default": "red armadillo cloak",
+    "plural": "red armadillo cloaks",
+    "singular": "red armadillo cloak"
+  },
+  "REDBLINDFOLD": {
+    "default": "red blindfold",
+    "plural": "red blindfolds",
+    "singular": "red blindfold"
+  },
+  "REDSMILE": {
+    "default": "red smile",
+    "plural": "red smiles",
+    "singular": "red smile"
+  },
+  "ROSEGOLDBAND": {
+    "default": "rose gold bands",
+    "plural": "rose gold bands",
+    "singular": "rose gold band"
+  },
+  "ROSEGOLDSIMPLESTUD": {
+    "default": "rose gold simple stud",
+    "plural": "rose gold simple studs",
+    "singular": "rose gold simple stud"
+  },
+  "ROSEGOLDTAILCHAIN": {
+    "default": "rose gold tail chain",
+    "plural": "rose gold tail chains",
+    "singular": "rose gold tail chain"
+  },
+  "ROSEGOLDSEERJEWERY": {
+    "default": "rose gold seer jewelry",
+    "plural": "rose gold seer jewelry",
+    "singular": "rose gold seer jewelry"
+  },
+  "SILVERBAND": {
+    "default": "silver bands",
+    "plural": "silver bands",
+    "singular": "silver band"
+  },
+  "SILVERSIMPLESTUD": {
+    "default": "silver simple stud",
+    "plural": "silver simple studs",
+    "singular": "silver simple stud"
+  },
+  "CLOWNHORN": {
+    "default": "clown horn",
+    "plural": "clown horns",
+    "singular": "clown horn"
+  },
+  "SILVEREARRINGALT": {
+    "default": "silver earring",
+    "plural": "silver earrings",
+    "singular": "silver earring"
+  },
+  "SILVERTAILCHAIN": {
+    "default": "silver tail chain",
+    "plural": "silver tail chains",
+    "singular": "silver tail chain"
+  },
+  "TEALARMADILOCLOAK": {
+    "default": "teal armadillo cloak",
+    "plural": "teal armadillo cloaks",
+    "singular": "teal armadillo cloak"
+  },
+  "TEALBLINDFOLD": {
+    "default": "teal blindfold",
+    "plural": "teal blindfolds",
+    "singular": "teal blindfold"
+  },
+  "TEALSMILE": {
+    "default": "teal smile",
+    "plural": "teal smiles",
+    "singular": "teal smile"
+  },
+  "ORANGEPONCHOHOODED": {
+    "default": "hooded orange poncho",
+    "plural": "hooded orange ponchos",
+    "singular": "hooded orange poncho"
+  },
+  "YELLOWPONCHOHOODED": {
+    "default": "hooded yellow poncho",
+    "plural": "hooded yellow ponchos",
+    "singular": "hooded yellow poncho"
+  },
+  "GREENPONCHOHOODED": {
+    "default": "hooded green poncho",
+    "plural": "hooded green ponchos",
+    "singular": "hooded green poncho"
+  },
+  "TEALPONCHOHOODED": {
+    "default": "hooded teal poncho",
+    "plural": "hooded teal ponchos",
+    "singular": "hooded teal poncho"
+  },
+  "CYANPONCHOHOODED": {
+    "default": "hooded cyan poncho",
+    "plural": "hooded cyan ponchos",
+    "singular": "hooded cyan poncho"
+  },
+  "BLUEPONCHOHOODED": {
+    "default": "hooded blue poncho",
+    "plural": "hooded blue ponchos",
+    "singular": "hooded blue poncho"
+  },
+  "PURPLEPONCHOHOODED": {
+    "default": "hooded purple poncho",
+    "plural": "hooded purple ponchos",
+    "singular": "hooded purple poncho"
+  },
+  "PINKPONCHOHOODED": {
+    "default": "hooded pink poncho",
+    "plural": "hooded pink ponchos",
+    "singular": "hooded pink poncho"
+  },
+  "REDPONCHOHOODED": {
+    "default": "hooded red poncho",
+    "plural": "hooded red ponchos",
+    "singular": "hooded red poncho"
+  },
+  "WHITEPONCHOHOODED": {
+    "default": "hooded white poncho",
+    "plural": "hooded white ponchos",
+    "singular": "hooded white poncho"
+  },
+  "BROWNPONCHOHOODED": {
+    "default": "hooded brown poncho",
+    "plural": "hooded brown ponchos",
+    "singular": "hooded brown poncho"
+  },
+  "SILVERPONCHOHOODED": {
+    "default": "hooded silver poncho",
+    "plural": "hooded silver ponchos",
+    "singular": "hooded silver poncho"
+  },
+  "BLACKPONCHOHOODED": {
+    "default": "hooded black poncho",
+    "plural": "hooded black ponchos",
+    "singular": "hooded black poncho"
+  },
+  "MLOCPONCHOHOODED": {
+    "default": "hooded MLOC poncho",
+    "plural": "hooded MLOC ponchos",
+    "singular": "hooded MLOC poncho"
+  },
+  "VSSCPONCHOHOODED": {
+    "default": "hooded VSS poncho",
+    "plural": "hooded VSS ponchos",
+    "singular": "hooded VSS poncho"
+  },
+  "FAMILIARPONCHOHOODED": {
+    "default": "hooded Familiar poncho",
+    "plural": "hooded Familiar ponchos",
+    "singular": "hooded Familiar poncho"
+  },
+  "NSHPONCHOHOODED": {
+    "default": "hooded NSH poncho",
+    "plural": "hooded NSH ponchos",
+    "singular": "hooded NSH poncho"
+  },
+  "GHOSTPONCHOHOODED": {
+    "default": "hooded ghost poncho",
+    "plural": "hooded ghost ponchos",
+    "singular": "hooded ghost poncho"
+  },
+  "ANCIENTPONCHOHOODED": {
+    "default": "hooded ancient poncho",
+    "plural": "hooded ancient ponchos",
+    "singular": "hooded ancient poncho"
+  },
+  "YELLOWTYTONMASK": {
+    "default": "yellow tyton mask",
+    "plural": "yellow tyton masks",
+    "singular": "yellow tyton mask"
+  },
+  "GREYTYTONMASK": {
+    "default": "grey tyton mask",
+    "plural": "grey tyton masks",
+    "singular": "grey tyton mask"
+  },
+  "REDTYTONMASK": {
+    "default": "red tyton mask",
+    "plural": "red tyton masks",
+    "singular": "red tyton mask"
+  },
+  "WHITETYTONMASK": {
+    "default": "white tyton mask",
+    "plural": "white tyton masks",
+    "singular": "white tyton mask"
+  },
+  "ORANGETYTONMASK": {
+    "default": "orange tyton mask",
+    "plural": "orange tyton masks",
+    "singular": "orange tyton mask"
+  },
+  "BLUETYTONMASK": {
+    "default": "blue tyton mask",
+    "plural": "blue tyton masks",
+    "singular": "blue tyton mask"
+  },
+  "AMBERCHAINGOLD": {
+    "default": "amber gold chain",
+    "plural": "amber gold chains",
+    "singular": "amber gold chain"
+  },
+  "PINKCHAINGOLD": {
+    "default": "pink gold chain",
+    "plural": "pink gold chains",
+    "singular": "pink gold chain"
+  },
+  "PURPLECHAINGOLD": {
+    "default": "purple gold chain",
+    "plural": "purple gold chains",
+    "singular": "purple gold chain"
+  },
+  "YELLOWCHAINGOLD": {
+    "default": "yellow gold chain",
+    "plural": "yellow gold chains",
+    "singular": "yellow gold chain"
+  },
+  "TEALCHAINGOLD": {
+    "default": "teal gold chain",
+    "plural": "teal gold chains",
+    "singular": "teal gold chain"
+  },
+  "GREENCHAINGOLD": {
+    "default": "green gold chain",
+    "plural": "green gold chains",
+    "singular": "green gold chain"
+  },
+  "REDCHAINGOLD": {
+    "default": "red gold chain",
+    "plural": "red gold chains",
+    "singular": "red gold chain"
+  },
+  "ORANGECHAINGOLD": {
+    "default": "orange gold chain",
+    "plural": "orange gold chains",
+    "singular": "orange gold chain"
+  },
+  "BLUECHAINGOLD": {
+    "default": "blue gold chain",
+    "plural": "blue gold chains",
+    "singular": "blue gold chain"
+  },
+  "BLACKCHAINGOLD": {
+    "default": "black gold chain",
+    "plural": "black gold chains",
+    "singular": "black gold chain"
+  },
+  "AMBERCHAINROSEGOLD": {
+    "default": "amber rose gold chain",
+    "plural": "amber rose gold chains",
+    "singular": "amber rose gold chain"
+  },
+  "PINKCHAINROSEGOLD": {
+    "default": "pink rose gold chain",
+    "plural": "pink rose gold chains",
+    "singular": "pink rose gold chain"
+  },
+  "PURPLECHAINROSEGOLD": {
+    "default": "purple rose gold chain",
+    "plural": "purple rose gold chains",
+    "singular": "purple rose gold chain"
+  },
+  "YELLOWCHAINROSEGOLD": {
+    "default": "yellow rose gold chain",
+    "plural": "yellow rose gold chains",
+    "singular": "yellow rose gold chain"
+  },
+  "TEALCHAINROSEGOLD": {
+    "default": "teal rose gold chain",
+    "plural": "teal rose gold chains",
+    "singular": "teal rose gold chain"
+  },
+  "GREENCHAINROSEGOLD": {
+    "default": "green rose gold chain",
+    "plural": "green rose gold chains",
+    "singular": "green rose gold chain"
+  },
+  "REDCHAINROSEGOLD": {
+    "default": "red rose gold chain",
+    "plural": "red rose gold chains",
+    "singular": "red rose gold chain"
+  },
+  "ORANGECHAINROSEGOLD": {
+    "default": "orange rose gold chain",
+    "plural": "orange rose gold chains",
+    "singular": "orange rose gold chain"
+  },
+  "BLUECHAINROSEGOLD": {
+    "default": "blue rose gold chain",
+    "plural": "blue rose gold chains",
+    "singular": "blue rose gold chain"
+  },
+  "BLACKCHAINROSEGOLD": {
+    "default": "black rose gold chain",
+    "plural": "black rose gold chains",
+    "singular": "black rose gold chain"
+  },
+  "AMBERCHAINFOOLSGOLD": {
+    "default": "amber fool's gold chain",
+    "plural": "amber fool's gold chains",
+    "singular": "amber fool's gold chain"
+  },
+  "PINKCHAINFOOLSGOLD": {
+    "default": "pink fool's gold chain",
+    "plural": "pink fool's gold chains",
+    "singular": "pink fool's gold chain"
+  },
+  "PURPLECHAINFOOLSGOLD": {
+    "default": "purple fool's gold chain",
+    "plural": "purple fool's gold chains",
+    "singular": "purple fool's gold chain"
+  },
+  "YELLOWCHAINFOOLSGOLD": {
+    "default": "yellow fool's gold chain",
+    "plural": "yellow fool's gold chains",
+    "singular": "yellow fool's gold chain"
+  },
+  "TEALCHAINFOOLSGOLD": {
+    "default": "teal fool's gold chain",
+    "plural": "teal fool's gold chains",
+    "singular": "teal fool's gold chain"
+  },
+  "GREENCHAINFOOLSGOLD": {
+    "default": "green fool's gold chain",
+    "plural": "green fool's gold chains",
+    "singular": "green fool's gold chain"
+  },
+  "REDCHAINFOOLSGOLD": {
+    "default": "red fool's gold chain",
+    "plural": "red fool's gold chains",
+    "singular": "red fool's gold chain"
+  },
+  "ORANGECHAINFOOLSGOLD": {
+    "default": "orange fool's gold chain",
+    "plural": "orange fool's gold chains",
+    "singular": "orange fool's gold chain"
+  },
+  "BLUECHAINFOOLSGOLD": {
+    "default": "blue fool's gold chain",
+    "plural": "blue fool's gold chains",
+    "singular": "blue fool's gold chain"
+  },
+  "BLACKCHAINFOOLSGOLD": {
+    "default": "black fool's gold chain",
+    "plural": "black fool's gold chains",
+    "singular": "black fool's gold chain"
+  },
+  "GOLDSTUDSALT": {
+    "default": "gold studs",
+    "plural": "gold studs",
+    "singular": "gold stud"
+  },
+  "ROSEGOLDSTUDSALT": {
+    "default": "rose gold studs",
+    "plural": "rose gold studs",
+    "singular": "rose gold stud"
+  },
+  "FOOLSGOLDSTUDALT": {
+    "default": "fool's gold studs",
+    "plural": "fool's gold studs",
+    "singular": "fool's gold stud"
+  },
+  "SILVERSTUDALT": {
+    "default": "silver studs",
+    "plural": "silver studs",
+    "singular": "silver stud"
+  },
+  "JADESTUDALT": {
+    "default": "jade studs",
+    "plural": "jade studs",
+    "singular": "jade stud"
+  },
+  "GLOWGOLDHALO": {
+    "default": "glow gold halo",
+    "plural": "glow gold halos",
+    "singular": "glow gold halo"
+  },
+  "GOLDHALO": {
+    "default": "gold halo",
+    "plural": "gold halos",
+    "singular": "gold halo"
+  },
+  "SILVERHALO": {
+    "default": "silver halo",
+    "plural": "silver halos",
+    "singular": "silver halo"
+  },
+  "PALEHALO": {
+    "default": "pale halo",
+    "plural": "pale halos",
+    "singular": "pale halo"
+  },
+  "ROSENEURONGLOW": {
+    "default": "rose neuron glow",
+    "plural": "rose neuron glows",
+    "singular": "rose neuron glow"
+  },
+  "REDNEURONGLOW": {
+    "default": "red neuron glow",
+    "plural": "red neuron glows",
+    "singular": "red neuron glow"
+  },
+  "ORANGENEURONGLOW": {
+    "default": "orange neuron glow",
+    "plural": "orange neuron glows",
+    "singular": "orange neuron glow"
+  },
+  "AMBERNEURONGLOW": {
+    "default": "amber neuron glow",
+    "plural": "amber neuron glows",
+    "singular": "amber neuron glow"
+  },
+  "YELLOWNEURONGLOW": {
+    "default": "yellow neuron glow",
+    "plural": "yellow neuron glows",
+    "singular": "yellow neuron glow"
+  },
+  "GREENNEURONGLOW": {
+    "default": "green neuron glow",
+    "plural": "green neuron glows",
+    "singular": "green neuron glow"
+  },
+  "TEALNEURONGLOW": {
+    "default": "teal neuron glow",
+    "plural": "teal neuron glows",
+    "singular": "teal neuron glow"
+  },
+  "CYANNEURONGLOW": {
+    "default": "cyan neuron glow",
+    "plural": "cyan neuron glows",
+    "singular": "cyan neuron glow"
+  },
+  "BLUENEURONGLOW": {
+    "default": "blue neuron glow",
+    "plural": "blue neuron glows",
+    "singular": "blue neuron glow"
+  },
+  "PURPLENEURONGLOW": {
+    "default": "purple neuron glow",
+    "plural": "purple neuron glows",
+    "singular": "purple neuron glow"
+  },
+  "PINKNEURONGLOW": {
+    "default": "pink neuron glow",
+    "plural": "pink neuron glows",
+    "singular": "pink neuron glow"
+  },
+  "RAINBOWNEURONGLOW": {
+    "default": "rainbow neuron glow",
+    "plural": "rainbow neuron glows",
+    "singular": "rainbow neuron glow"
+  },
+  "BLACKNEURONGLOW": {
+    "default": "black neuron glow",
+    "plural": "black neuron glows",
+    "singular": "black neuron glow"
+  },
+  "LIMENEURONGLOW": {
+    "default": "lime neuron glow",
+    "plural": "lime neuron glows",
+    "singular": "lime neuron glow"
+  },
+  "CORALNEURONGLOW": {
+    "default": "coral neuron glow",
+    "plural": "coral neuron glows",
+    "singular": "coral neuron glow"
+  },
+  "LAVENDERNEURONGLOW": {
+    "default": "lavender neuron glow",
+    "plural": "lavender neuron glows",
+    "singular": "lavender neuron glow"
+  },
+  "INDIGONEURONGLOW": {
+    "default": "indigo neuron glow",
+    "plural": "indigo neuron glows",
+    "singular": "indigo neuron glow"
+  },
+  "SKYNEURONGLOW": {
+    "default": "sky blue neuron glow",
+    "plural": "sky blue neuron glows",
+    "singular": "sky blue neuron glow"
+  },
+  "AQUANEURONGLOW": {
+    "default": "aqua neuron glow",
+    "plural": "aqua neuron glows",
+    "singular": "aqua neuron glow"
+  },
+  "TURQUOISENEURONGLOW": {
+    "default": "turquoise neuron glow",
+    "plural": "turquoise neuron glows",
+    "singular": "turquoise neuron glow"
+  },
+  "CRIMSONNEURONGLOW": {
+    "default": "crimson neuron glow",
+    "plural": "crimson neuron glows",
+    "singular": "crimson neuron glow"
+  },
+  "ROSEHALO": {
+    "default": "rose halo",
+    "plural": "rose halos",
+    "singular": "rose halo"
+  },
+  "MAGENTAHALO": {
+    "default": "magenta halo",
+    "plural": "magenta halos",
+    "singular": "magenta halo"
+  },
+  "HOTPINKHALO": {
+    "default": "hot pink halo",
+    "plural": "hot pink halos",
+    "singular": "hot pink halo"
+  },
+  "BLUEPURPLEHALO": {
+    "default": "blue purple halo",
+    "plural": "blue purple halos",
+    "singular": "blue purple halo"
+  },
+  "INDIGOBLUEHALO": {
+    "default": "indigo halo",
+    "plural": "indigo halos",
+    "singular": "indigo halo"
+  },
+  "SKYHALO": {
+    "default": "sky blue halo",
+    "plural": "sky blue halos",
+    "singular": "sky blue halo"
+  },
+  "AQUAHALO": {
+    "default": "aqua halo",
+    "plural": "aqua halos",
+    "singular": "aqua halo"
+  },
+  "TEALGREENHALO": {
+    "default": "teal green halo",
+    "plural": "teal green halos",
+    "singular": "teal green halo"
+  },
+  "LIMEYELLOWHALO": {
+    "default": "lime yellow halo",
+    "plural": "lime yellow halos",
+    "singular": "lime yellow halo"
+  },
+  "GOLDHALO": {
+    "default": "gold halo",
+    "plural": "gold halos",
+    "singular": "gold halo"
+  },
+  "AMBERYELLOWHALO": {
+    "default": "amber yellow halo",
+    "plural": "amber yellow halos",
+    "singular": "amber yellow halo"
+  },
+  "ORANGEREDHALO": {
+    "default": "orange red halo",
+    "plural": "orange red halos",
+    "singular": "orange red halo"
+  },
+  "GREENVALENTINEMASK": {
+    "default": "olive valentine mask",
+    "plural": "olive valentine masks",
+    "singular": "olive valentine mask"
+  },
+  "AMBERVALENTINEMASK": {
+    "default": "amber valentine mask",
+    "plural": "amber valentine masks",
+    "singular": "amber valentine mask"
+  },
+  "BONEVALENTINEMASK": {
+    "default": "bone valentine mask",
+    "plural": "bone valentine masks",
+    "singular": "bone valentine mask"
+  },
+  "BLUEVALENTINEMASK": {
+    "default": "blue valentine mask",
+    "plural": "blue valentine masks",
+    "singular": "blue valentine mask"
+  },
+  "REDVALENTINEMASK": {
+    "default": "red valentine mask",
+    "plural": "red valentine masks",
+    "singular": "red valentine mask"
+  },
+  "PINKVALENTINEMASK": {
+    "default": "pink valentine mask",
+    "plural": "pink valentine masks",
+    "singular": "pink valentine mask"
+  },
+  "ORANGEVALENTINEMASK": {
+    "default": "orange valentine mask",
+    "plural": "orange valentine masks",
+    "singular": "orange valentine mask"
+  },
+  "WHITEVALENTINEMASK": {
+    "default": "white valentine mask",
+    "plural": "white valentine masks",
+    "singular": "white valentine mask"
+  },
+  "ALTGREENVALENTINEMASK": {
+    "default": "green valentine mask",
+    "plural": "green valentine masks",
+    "singular": "green valentine mask"
+  },
+  "LIMEVALENTINEMASK": {
+    "default": "lime valentine mask",
+    "plural": "lime valentine masks",
+    "singular": "lime valentine mask"
+  },
+  "GHOSTVALENTINEMASK": {
+    "default": "ghost valentine mask",
+    "plural": "ghost valentine masks",
+    "singular": "ghost valentine mask"
+  },
+  "PUMPKINVALENTINEMASK": {
+    "default": "pumpkin valentine mask",
+    "plural": "pumpkin valentine masks",
+    "singular": "pumpkin valentine mask"
+  },
+  "GREYVALENTINEMASK": {
+    "default": "grey valentine mask",
+    "plural": "grey valentine masks",
+    "singular": "grey valentine mask"
+  },
+  "SKYVALENTINEMASK": {
+    "default": "sky blue valentine mask",
+    "plural": "sky blue valentine masks",
+    "singular": "sky blue valentine mask"
+  },
+  "DARKGREYNEURONGLOW": {
+    "default": "dark grey neuron glow",
+    "plural": "dark grey neuron glows",
+    "singular": "dark grey neuron glow"
+  },
+  "GREYNEURONGLOW": {
+    "default": "grey neuron glow",
+    "plural": "grey neuron glows",
+    "singular": "grey neuron glow"
+  },
+  "MAGENTACLOWNNOSE": {
+    "default": "magenta clown nose",
+    "plural": "magenta clown noses",
+    "singular": "magenta clown nose"
+  },
+  "YELLOWARMADILOCLOAK": {
+    "default": "yellow armadillo cloak",
+    "plural": "yellow armadillo cloaks",
+    "singular": "yellow armadillo cloak"
+  },
+  "YELOWCLOWNNOSE": {
+    "default": "yellow clown nose",
+    "plural": "yellow clown noses",
+    "singular": "yellow clown nose"
+  },
+  "YELLOWBLINDFOLD": {
+    "default": "yellow blindfold",
+    "plural": "yellow blindfolds",
+    "singular": "yellow blindfold"
+  },
+  "YELLOWSMILE": {
+    "default": "yellow smile",
+    "plural": "yellow smiles",
+    "singular": "yellow smile"
   }
 }

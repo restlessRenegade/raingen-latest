@@ -35,7 +35,7 @@ class OutsiderEvents:
                     cat.outside = False
                     text = f"Will they reach the Void, even so far away? {cat.name} isn't sure, " \
                            f"but as they drift away, they hope to see " \
-                           f"familiar starry fur on the other side."
+                           f"familiar golden pelts on the other side."
                     death_history = "m_c died while being lost and trying to get back to the Clan."
 
                 History.add_death(cat, death_text=death_history)

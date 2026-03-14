@@ -44,7 +44,7 @@
                 ]
             },
             {
-                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and claws unsheathed. The rogues are quickly driven away by the patrol.",
+                "text": "s_c revels in the battle, leaping into the fray with {PRONOUN/s_c/poss} teeth bared and spear unsheathed. The rogues are quickly driven away by the patrol.",
                 "exp": 30,
                 "weight": 20,
                 "stat_trait": ["bloodthirsty", "fierce", "vengeful"],
@@ -534,7 +534,7 @@
                 }
             },
             {
-                "text": "There is a downpour, and a sudden flood from the overflowing river sweeps r_c away. Injured, gasping for air and paddling desperately, r_c remembers enough of {PRONOUN/r_c/poss} training to keep an eye out for driftwood. {PRONOUN/r_c/subject/CAP} {VERB/r_c/sink/sinks} {PRONOUN/r_c/poss} claws into the first piece that's swept past {PRONOUN/r_c/object}. It saves {PRONOUN/r_c/poss} life.",
+                "text": "There is a downpour, and a sudden flood from the overflowing river sweeps r_c away. Injured, gasping for air and paddling desperately, r_c remembers enough of {PRONOUN/r_c/poss} training to keep an eye out for driftwood. {PRONOUN/r_c/subject/CAP} {VERB/r_c/sink/sinks} {PRONOUN/r_c/poss} paws into the first piece that's swept past {PRONOUN/r_c/object}. It saves {PRONOUN/r_c/poss} life.",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -1805,7 +1805,7 @@
                 ]
             },
             {
-                "text": "r_c unsheathes {PRONOUN/r_c/poss} claws, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the salamander from the border.",
+                "text": "r_c unsheathes {PRONOUN/r_c/poss} spear, puffs {PRONOUN/r_c/poss} fur out to as far as it'll go, gathers {PRONOUN/r_c/poss} courage, and drives the salamander from the border.",
                 "exp": 10,
                 "weight": 5
             },
@@ -1961,8 +1961,8 @@
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush",
                     "lead_death": "killed in a salamander ambush"
                 }
             },
@@ -1978,8 +1978,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush.",
                     "lead_death": "killed in a salamander ambush"
                 }
             }
@@ -2015,7 +2015,7 @@
                 ]
             },
             {
-                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the salamander, spears out, standing tall, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 5,
                 "relationships": [
@@ -2159,8 +2159,8 @@
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush",
                     "lead_death": "killed in a salamander ambush"
                 }
             },
@@ -2176,8 +2176,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush.",
                     "lead_death": "killed in a salamander ambush"
                 }
             }
@@ -2199,7 +2199,7 @@
                 "chance_of_success": 10,
         "success_outcomes": [
             {
-                "text": "The patrol paces towards the salamander, claws out, fur up, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
+                "text": "The patrol paces towards the salamander, spears out, standing tall, backed up with the courage of their Clanmates. The salamander breaks into a hissing fit, but that's their opportunity to attack, covering each other as they push the creature away from their territory.",
                 "exp": 10,
                 "weight": 20,
                 "relationships": [
@@ -2357,8 +2357,8 @@
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush",
                     "lead_death": "killed in a salamander ambush"
                 }
             },
@@ -2374,8 +2374,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat got a scar from a salamander ambush.",
-                    "reg_death": "This cat was killed in a salamander ambush.",
+                    "scar": "This slugcat got a scar from a salamander ambush.",
+                    "reg_death": "This slugcat was killed in a salamander ambush.",
                     "lead_death": "killed in a salamander ambush"
                 }
             }

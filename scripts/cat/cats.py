@@ -1019,6 +1019,10 @@ class Cat:
             colour = colour.replace("boba", "")
         if self.pelt.eye_colour in Pelt.geckoeyes_colors:
             colour = colour.replace("gecko", "")
+        if self.pelt.eye_colour in Pelt.bugeyes_colors:
+            colour = colour.replace("bug", "")
+        if self.pelt.eye_colour in Pelt.animeeyes_colors:
+            colour = colour.replace("anime", "")
             
         if self.pelt.eye_colour2:
             if self.pelt.eye_colour2 in Pelt.multi_eyes:
@@ -1032,6 +1036,10 @@ class Cat:
                     colour2 = colour2.replace("boba", "")
                 if self.pelt.eye_colour2 in Pelt.geckoeyes_colors:
                     colour2 = colour2.replace("gecko", "")
+                if self.pelt.eye_colour2 in Pelt.bugeyes_colors:
+                    colour2 = colour2.replace("bug", "")
+                if self.pelt.eye_colour2 in Pelt.animeeyes_colors:
+                    colour2 = colour2.replace("anime", "")
                 if colour2 == "palegreen":
                     colour2 = "pale green"
                 if colour2 == "darkblue":
@@ -1056,6 +1064,10 @@ class Cat:
             colour = colour + ", large"
         if self.pelt.eye_colour in Pelt.geckoeyes_colors:
             colour = colour + ", huge"
+        if self.pelt.eye_colour in Pelt.bugeyes_colors:
+            colour = colour + ", bug-like"
+        if self.pelt.eye_colour in Pelt.animeeyes_colors:
+            colour = colour + ", giant"
 
         return colour
 
@@ -2094,7 +2106,27 @@ class Cat:
                 "ORANGEFIRE", "GREENFIRE",
                 "BLUEFIRE", "YELLOWFIRE",
                 "WHITEFIRE", "PINKFIRE",
-                "REDFIRE"
+                "REDFIRE", "MOUSEBLUE",
+                "MOUSEYEL", "MOUSEPINK",
+                "MOUSERED", "YEEKRED",
+                "YEEKBLUE", "NOODLERED",
+                "NOODLEPURPLE", "NOODLEGREY",
+                "NOODLEBLUE", "NOODLEWHITE",
+                "NOODLEPINK", "SQUIDBLACK",
+                "SQUIDWHITE", "REDARMOR",
+                "TAILWRAP", "FLOWEREDMOSS",
+                "MOSS", "MUSHROOMS",
+                "MOUSEYELPLUSH", "MOUSEREDPLUSH",
+                "MOUSEBLUEPLUSH", "MOUSEPINKPLUSH",
+                "ORANGEPLANTPELT", "LIMEPLANTPELT",
+                "GREENPLANTPELT", "YELLOWPLANTPELT",
+                "BLUEPLANTPELT", "ORANGEFIRE",
+                "GREENFIRE", "BLUEFIRE",
+                "YELLOWFIRE", "WHITEFIRE",
+                "PINKFIRE", "REDFIRE",
+                "MOTHBUDDY", "MOTHBUDDYTWO",
+                "FOOLSGOLDTAILCHAIN", "GOLDTAILCHAIN",
+                "ROSEGOLDTAILCHAIN", "SILVERTAILCHAIN"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -2113,7 +2145,15 @@ class Cat:
                 "BLUEPAINT", "PURPLEPAINT",
                 "MAGENTAPAINT", "BLACKPAINT",
                 "WHITEPAINT", "FALLENSTARPAWS",
-                "MUDDYPAWS"
+                "MUDDYPAWS", "FLASHFRUIT",
+                "REDFLASHFRUIT", "BUBBLE",
+                "BLUEFRUIT", "INVEGG",
+                "GRENADE", "PEARLDRAPERY",
+                "FALLENSTARPAWS", "MOTHBUDDYTWO",
+                "BLOODYPAWS", "INKYPAWS",
+                "FOOLSGOLDBAND", "GOLDBAND",
+                "JADEBANDS", "ROSEGOLDBAND",
+                "SILVERBAND", "CLOWNHORN"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -2129,7 +2169,33 @@ class Cat:
                 "PALEPAINT", "CYANPAINT",
                 "BLUEPAINT", "PURPLEPAINT",
                 "MAGENTAPAINT", "BLACKPAINT",
-                "WHITEPAINT"
+                "WHITEPAINT", "PEARLEAR",
+                "LILCENTI", "REDBATNIP",
+                "LILFLY", "BATNIP",
+                "TREESEED", "GLOWSTONE",
+                "LILBEETLE", "GREENDRAGFLY",
+                "BLUEDRAGFLY", "DEATHSHEAD",
+                "BLUEBORDERED", "BLOODVEIN",
+                "LARGEEMERALD", "CINNABAR",
+                "LUNA", "ROSYMAPLE",
+                "ATLAS", "HERCULES",
+                "SUNSET", "PURPLEEMPEROR",
+                "WHITEADMIRAL", "SWALLOWTAIL",
+                "YEEKRED", "YEEKBLUE",
+                "SNAILGREEN", "SNAILBLUE",
+                "SNAILRED", "SNAILPURPLE",
+                "OVERSEEREYE", "MURDERPAINT"
+                "PEARLDRAPERY", "AMBERJEWLERY",
+                "SCAVMPAINT", "MOTHBUDDY",
+                "MOTHBUDDYTWO", "BLUEOVERSEEREYE",
+                "GREENOVERSEEREYE", "PURPLEOVERSEEREYE",
+                "REDOVERSEEREYE", "WHITEOVERSEEREYE",
+                "FOOLSGOLDEARRINGALT", "FOOLSGOLDSIMPLESTUD",
+                "GOLDSIMPLESTUD", "GOLDEARRINGALT",
+                "ROSEGOLDSIMPLESTUD", "SILVEREARRINGALT",
+                "GOLDSTUDSALT", "ROSEGOLDSTUDSALT",
+                "FOOLSGOLDSTUDALT", "SILVERSTUDALT",
+                "JADESTUDALT"
                 ]:
                 if acc in self.pelt.accessories:
                     self.pelt.inventory.remove(acc)
@@ -3208,6 +3274,8 @@ class Cat:
 
         if self.df:
             file_name += "_df"
+        if self.outside and self.dead:
+            file_name += "_ur"
 
         file_name += ".png"
 
@@ -3500,6 +3568,7 @@ class Cat:
                 "eye_colour2": (self.pelt.eye_colour2 or None),
                 "size": self.pelt.size,
                 "texture": self.pelt.texture,
+                "species": self.pelt.species,
                 "reverse": self.pelt.reverse,
                 "white_patches": self.pelt.white_patches,
                 "vitiligo": self.pelt.vitiligo,
