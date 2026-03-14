@@ -1,6 +1,13 @@
 name: PyInstaller build
 
-on: [push]
+on:
+  push:
+    paths-ignore:
+      - ".github/workflows/build-docs.yml"
+      - "docs/**"
+      - "docs-resources/**"
+      - "mkdocs.yml"
+      - "Dockerfile"
 
 permissions:
   contents: write
@@ -10,12 +17,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: windows-latest
-            artifact_name: Raingen_Win64_Windows10+.zip
+          - os: ubuntu-22.04
+            artifact_name: Raingen_Linux64_glibc2.35+.tar.xz
             python_version: "3.11"
             python_arch: "x64"
-            itch_channel: win64_10
-            api_artifact_name: win10+
+            itch_channel: linux64_glibc_235
+            api_artifact_name: linux2.35
             
           - os: windows-latest
             artifact_name: Raingen_Win64.zip
@@ -24,26 +31,19 @@ jobs:
             itch_channel: win64
             api_artifact_name: win64
             
-          - os: windows-2019
-            artifact_name: Raingen_Win32.zip
-            python_version: "3.8"
-            python_arch: "x86"
-            itch_channel: win32
-            api_artifact_name: win32
+          - os: windows-latest
+            artifact_name: Raingen_Win64_Windows10+.zip
+            python_version: "3.11"
+            python_arch: "x64"
+            itch_channel: win64_10
+            api_artifact_name: win10+
             
-          - os: macos-13
+          - os: macos-15-intel
             artifact_name: Raingen_macOS64.dmg
             python_version: "3.11"
             python_arch: "x64"
             itch_channel: osx64
             api_artifact_name: macOS
-            
-          - os: ubuntu-22.04
-            artifact_name: Raingen_Linux64_glibc2.35+.tar.xz
-            python_version: "3.11"
-            python_arch: "x64"
-            itch_channel: linux64_glibc_235
-            api_artifact_name: linux2.35
             
     runs-on: ${{ matrix.os }}
     if: ${{ !startsWith(github.ref, 'ref/heads/release') }}
@@ -56,16 +56,16 @@ jobs:
         shell: bash -l {0}
     steps:
       - uses: actions/checkout@v4
-      - name: Install poetry
-        uses: abatilo/actions-poetry@v3
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
         with:
-          poetry-version: latest
+          enable-cache: true
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python_version }}
           architecture: ${{ matrix.python_arch }}
-          cache: "poetry"
       - name: Install build dependencies (Ubuntu)
         if: startsWith(matrix.os, 'ubuntu')
         run: |
@@ -92,7 +92,7 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
           restore-keys: ${{ runner.os }}-cargo-
       - name: install dependencies
-        run: poetry install --with build -E discord
+        run: uv sync --group build --extra discord
       - name: Build PyInstaller bootloader
         run: |
           git clone https://github.com/pyinstaller/pyinstaller.git
@@ -101,7 +101,7 @@ jobs:
           cd bootloader
           python ./waf all
           cd ../../
-          poetry run pip install -e pyinstaller
+          uv pip install -e pyinstaller
       - name: Configure dev
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
         run: |
@@ -118,14 +118,24 @@ jobs:
           echo "version_number=${{ env.VERSION_NUMBER }}" >> version.ini
           echo "release_channel=${{ env.RELEASE_CHANNEL }}" >> version.ini
           echo "upstream=${{ github.repository }}" >> version.ini
+      - name: Write commit file
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        run: |
+          git log --pretty="format:%H|||%cd|||%b|||%s" -15 --no-decorate --merges --grep="Merge pull request" --date=short > changelog.txt
+      - name: Build self-updater binary (Windows)
+        if: startsWith(matrix.os, 'windows')
+        run: |
+          cd self_updater
+          cargo build --release
+          cp target/release/self_updater.exe ../resources/
       - name: Run PyInstaller (Development)
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python -m PyInstaller Raingen.spec
+        run: uv run pyinstaller Raingen.spec
         env:
           IS_RELEASE: 0
       - name: Run PyInstaller (Release)
         if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: poetry run python -m PyInstaller Raingen.spec
+        run: uv run pyinstaller Raingen.spec
         env:
           IS_RELEASE: 1
       - name: Create archive (Linux)
