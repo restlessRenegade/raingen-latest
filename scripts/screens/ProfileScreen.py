@@ -1348,11 +1348,6 @@ class ProfileScreen(Screens):
             #firebugpart
             elif the_cat.pelt.skin in the_cat.pelt.firebugpart:
                 output += "feature: firebug antennae"
-                    
-            #dropwig
-            elif the_cat.pelt.skin in the_cat.pelt.dropwig:
-                featurename = featurename.replace("dropwig", " dropwig")
-                output += featurename
     
             #seaangelwings
             elif the_cat.pelt.skin in the_cat.pelt.seaangelwings:
@@ -1373,7 +1368,121 @@ class ProfileScreen(Screens):
             #familiar
             elif the_cat.pelt.skin in the_cat.pelt.familiar:
                 output += "feature: something familiar"
-                    
+                
+            #budgiewings
+            elif the_cat.pelt.skin in the_cat.pelt.budgiewings:
+                output += "feature: budgie wings"
+                
+            #conurewings
+            elif the_cat.pelt.skin in the_cat.pelt.conurewings:
+                output += "feature: conure wings"
+                
+            #lovebirdwings
+            elif the_cat.pelt.skin in the_cat.pelt.lovebirdwings:
+                output += "feature: lovebird wings"
+
+            #pidgeonwings
+            elif the_cat.pelt.skin in the_cat.pelt.pidgeonwings:
+                output += "feature: pidgeon wings"
+                
+            #vulturewings
+            elif the_cat.pelt.skin in the_cat.pelt.vulturewings:
+                output += "feature: vulture wings"
+                
+            #colorwings
+            elif the_cat.pelt.skin in the_cat.pelt.wings or the_cat.pelt.skin in the_cat.pelt.colorwings or the_cat.pelt.skin in the_cat.pelt.whitefadewings:
+                output += "feature: wings"
+                
+            #dropwig
+            elif the_cat.pelt.skin in the_cat.pelt.dropwig:
+                output += "feature: dropwig-like"
+                
+            #bodyeyes
+            elif the_cat.pelt.skin in the_cat.pelt.bodyeyes:
+                output += "feature: eyes all over the body"
+                
+            #limbfades
+            elif the_cat.pelt.skin in the_cat.pelt.limbfades:
+                featurename = featurename.replace("limbfade", " fade")
+                output += featurename
+                
+            #roboticspines
+            elif the_cat.pelt.skin in the_cat.pelt.roboticspines:
+                featurename = featurename.replace("roboticspines", " robotic spines")
+                output += featurename
+                
+            #popsiclewhiskers 
+            elif the_cat.pelt.skin in the_cat.pelt.popsiclewhiskers :
+                output += "feature: popsicle whiskers"
+                
+            #beetlewingsf
+            elif the_cat.pelt.skin in the_cat.pelt.beetlewingsf:
+                featurename = featurename.replace("beetlewingsf", " beetle wings")
+                output += featurename
+                
+            #beetlewingsc
+            elif the_cat.pelt.skin in the_cat.pelt.beetlewingsc:
+                featurename = featurename.replace("beetlewingsc", " beetle wings")
+                output += featurename
+                
+            #bugwings
+            elif the_cat.pelt.skin in the_cat.pelt.bugwings:
+                featurename = featurename.replace("bugwings", " bug wings")
+                output += featurename
+                
+            #bugwingst
+            elif the_cat.pelt.skin in the_cat.pelt.bugwingst:
+                featurename = featurename.replace("bugwingst", " bug wings")
+                output += featurename
+                
+            #neonbatwings
+            elif the_cat.pelt.skin in the_cat.pelt.neonbatwings:
+                featurename = featurename.replace("neonbatwings", " bat wings")
+                output += featurename
+                
+            #spinefrills
+            elif the_cat.pelt.skin in the_cat.pelt.spinefrills:
+                featurename = featurename.replace("spinefrills", " spine frills")
+                output += featurename
+                
+            #wool
+            elif the_cat.pelt.skin in the_cat.pelt.wool:
+                featurename = featurename.replace("wool", " wool")
+                output += featurename
+                
+            #manes
+            elif the_cat.pelt.skin in the_cat.pelt.manes:
+                featurename = featurename.replace("mane", " mane")
+                output += featurename
+                
+            #overseertenna
+            elif the_cat.pelt.skin in the_cat.pelt.overseertenna:
+                featurename = featurename.replace("overseertenna", "overseer antennae")
+                output += featurename
+                
+            #slimetraits
+            elif the_cat.pelt.skin in the_cat.pelt.slimetraits:
+                output += "feature: slime traits"
+                
+            #kingtendrils
+            elif the_cat.pelt.skin in the_cat.pelt.kingtendrils:
+                featurename = featurename.replace("kingtendrils", " king tendrils")
+                output += featurename
+                
+            #mechanical
+            elif the_cat.pelt.skin in the_cat.pelt.mechanical:
+                featurename = featurename.replace("antennae", " antennae")
+                output += featurename
+                
+            #colorouts
+            elif the_cat.pelt.skin in the_cat.pelt.colorouts:
+                featurename = featurename.replace("out", " out")
+                output += featurename
+                
+            #chimneytail
+            elif the_cat.pelt.skin in the_cat.pelt.chimneytail:
+                output += "feature: smoking tail"
+                
             else:
                 output += featurename
                     

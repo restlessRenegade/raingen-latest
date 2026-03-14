@@ -6,7 +6,7 @@
             "gilltongue", "beagilltongue", "horns", "fancyskin", "whiskers", "orbitals", "datagamesstuff",
             "budgiewings", "colorwings", "conurewings", "lovebirdwings", "manes", "overseertenna", "pidgeonwings",
             "vulturewings", "whitepatchwings", "whitepatchwingsfade", "bodyeyes", "limbfades", "roboticspines",
-            "beetlewingsc", "beetlewingsf", "beetlewingsft", "bugwings", "bugwingst", "neonbatwings", "spinefrills",
+            "beetlewingsc", "beetlewingsf", "bugwings", "bugwingst", "neonbatwings", "spinefrills",
             "scars", "missingscars",
             "medcatherbs",
             "collars", "bellcollars", "bowcollars", "nyloncollars", "rwlizards", "drones", "muddypaws", 
@@ -290,12 +290,7 @@
   "beetlewingsf_colors": [
             ["DARKBLUEBEETLEWINGSF", "BLUEBEETLEWINGSF", "SKYBEETLEWINGSF", "AQUABEETLEWINGSF", "GREENBEETLEWINGSF", "LIMEBEETLEWINGSF"],
             ["YELLOWBEETLEWINGSF", "YELLOWORANGEBEETLEWINGSF", "AMBERBEETLEWINGSF", "ORANGEBEETLEWINGSF", "REDBEETLEWINGSF", "ROSEBEETLEWINGSF"],
-            ["PINKBEETLEWINGSF", "PURPLEBEETLEWINGSF", "BLACKBEETLEWINGSF", "WHITEBEETLEWINGSF", "DUSKDAWNBEETLEWINGSF", "ECHOBEETLEWINGSF"]
-      ],
-  "beetlewingsft_colors": [
-            ["DARKBLUEBEETLEWINGSFT", "BLUEBEETLEWINGSFT", "SKYBEETLEWINGSFT", "AQUABEETLEWINGSFT", "GREENBEETLEWINGSFT", "LIMEBEETLEWINGSFT"],
-            ["YELLOWBEETLEWINGSFT", "YELLOWORANGEBEETLEWINGSFT", "AMBERBEETLEWINGSFT", "ORANGEBEETLEWINGSFT", "REDBEETLEWINGSFT", "ROSEBEETLEWINGSFT"],
-            ["PINKBEETLEWINGSFT", "PURPLEBEETLEWINGSFT", "BLACKBEETLEWINGSFT", "WHITEBEETLEWINGSFT", "DUSKDAWNBEETLEWINGSFT", "ECHOBEETLEWINGSFT"]
+            ["PINKBEETLEWINGSF", "PURPLEBEETLEWINGSF", "BLACKBEETLEWINGSF", "WHITEBEETLEWINGSF"]
       ],
   "bugwings_colors": [
             ["LIGHTBLUEBUGWINGS", "AQUABUGWINGS", "GREENBUGWINGS", "LIMEBUGWINGS", "YELLOWBUGWINGS", "ORANGEYELLOWBUGWINGS"], 

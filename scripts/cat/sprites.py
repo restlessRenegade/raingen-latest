@@ -371,10 +371,6 @@ class Sprites:
         beetlewingsf_colors = sprites_py_dict['beetlewingsf_colors']
         self.make_sprite_groups('beetlewingsf', beetlewingsf_colors, 'skin')
 
-        # beetlewingsft spritesheet
-        beetlewingsft_colors = sprites_py_dict['beetlewingsft_colors']
-        self.make_sprite_groups('beetlewingsft', beetlewingsft_colors, 'skin')
-
         # bugwings spritesheet
         bugwings_colors = sprites_py_dict['bugwings_colors']
         self.make_sprite_groups('bugwings', bugwings_colors, 'skin')
@@ -588,7 +584,7 @@ class Sprites:
         self.make_sprite_groups('newaccs5', newaccs5_data, 'newaccs5')
 
         # newaccs5
-        self.make_sprite_groups('newaccs6', newaccs5_data, 'newaccs6')
+        self.make_sprite_groups('newaccs6', newaccs6_data, 'newaccs6')
 
     def load_symbols(self):
         """

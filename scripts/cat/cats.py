@@ -1065,7 +1065,7 @@ class Cat:
         if self.pelt.eye_colour in Pelt.geckoeyes_colors:
             colour = colour + ", huge"
         if self.pelt.eye_colour in Pelt.bugeyes_colors:
-            colour = colour + ", huge"
+            colour = colour + ", bug-like"
         if self.pelt.eye_colour in Pelt.animeeyes_colors:
             colour = colour + ", giant"
 
