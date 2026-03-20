@@ -1,7 +1,7 @@
 {
   "mammalian": {
     "pelts": {
-      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "con", "lizard", "lantern", "leviathan", "fluffy", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "mold", "swing", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "whale", "pidgeon", "watermelon", "dragonet", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "noble", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revapple", "revbanana", "revbengal", "revboba", "revcherry", "petaled", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "con", "lizard", "lantern", "leviathan", "fluffy", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "mold", "swing", "lovebird", "budgie", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "whale", "pidgeon", "watermelon", "dragonet", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revapple", "revbanana", "revbengal", "revbudgie", "revboba", "revcherry", "petaled", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -40,13 +40,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["whiskers", "fangs", "manes", "claws", "tongues"],
+      "weights": [15,15,5,15,10]
     }
   },
   "amphibious": {
     "pelts": {
-      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "fluffy", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "glowing", "mold", "swing", "amazon", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "whale", "pidgeon", "watermelon", "dragonet", "salmon", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revamazon", "revapple", "revamoeba", "revbanana", "revbengal", "revbetta", "revboba", "revcentipede", "revcherry", "petaled", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "fluffy", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "glowing", "mold", "swing", "lovebird", "budgie", "amazon", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "whale", "pidgeon", "watermelon", "dragonet", "salmon", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revamazon", "revapple", "revamoeba", "revbanana", "revbengal", "revbetta", "revbudgie", "revboba", "revcentipede", "revcherry", "petaled", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -62,8 +62,8 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "sharphorns", "unihorns", "seaslugpapillae", "glowspots", "gills", "tears", "bodyeyes", "kingtendrils", "loach", "popsiclewhiskers", "spinefrills", "tongues"],
+      "weights": [10,10,10,5,10,20,5,3,3,3,3,5,5]
     }
   },
   "reptilian": {
@@ -84,8 +84,8 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "claws", "sharphorns", "unihorns", "dragonhorns", "tailfrills", "thorns", "lizardneedles", "dragonwhiskers", "spearholes", "cyanfeatures", "cyanwings", "lizardfins", "spikes", "spinefrills", "tongues"],
+      "weights": [10,10,10,10,10,12,8,8,8,4,12,8,8,10,10,10]
     }
   },
   "insectoid": {
@@ -106,13 +106,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "antennae", "moth", "seaangelwings", "glowspots", "centipedegrowths", "firebugpart", "dropwig", "stinger", "bodyeyes", "beetlewingsf", "beetlewingsc", "bugwings", "bugwingst"],
+      "weights": [10,20,20,10,10,15,10,10,10,5,10,20,20,20]
     }
   },
   "aquatic": {
     "pelts": {
-      "possible_pelts": ["exampleone", "string", "stringagain"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "skeleton", "shred", "glowing", "mold", "swing", "amazon", "apple", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "tomo", "whale", "pidgeon", "watermelon", "dragonet", "salmon", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revamazon", "revapple", "revamoeba", "revbanana", "revbengal", "revbetta", "revcentipede", "revcherry", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -128,13 +128,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "gills", "whiskers", "catfishwhiskers", "seaslugpapillae", "glowspots", "anglerfish", "kingtendrils", "spinefrills"],
+      "weights": [4,30,10,12,8,8,12,4,12]
     }
   },
   "aerial": {
     "pelts": {
-      "possible_pelts": ["exampleone", "string", "stringagain"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "vulture", "banana", "con", "lantern", "leviathan", "fluffy", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "skeleton", "shred", "glowing", "mold", "swing", "lovebird", "budgie", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "whale", "pidgeon", "watermelon", "dragonet", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "snuff", "kiwi", "silv", "simple", "solid", "source", "metro", "revapple", "revbanana", "revbengal", "revbudgie", "revcherry", "petaled", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -150,13 +150,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["dragonhorns", "dragonwhiskers", "moth", "cyanfeatures", "cyanwings", "seaangelwings", "budgiewings", "conurewings", "lovebirdwings", "pidgeonwings", "vulturewings", "whitefadewings", "wings", "kingtendrils"],
+      "weights": [4,4,8,8,8,12,20,20,20,20,20,20,20,20]
     }
   },
   "subterranean": {
     "pelts": {
-      "possible_pelts": ["exampleone", "string", "stringagain"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "fluffy", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "leafy", "scaled", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "oldgrowth", "sparklecat", "wolf", "cherry", "ringed", "skinny", "sparse", "impish", "sporty", "skeleton", "glowing", "mold", "swing", "ice", "iggy", "maned", "patchwork", "sunken", "tomo", "pidgeon", "salmon", "darkecho", "plantain", "daenix", "sworn", "spooky", "noble", "betta", "constellation", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "lunatic", "cosmos", "lacuna", "silv", "solid", "source", "revamazon", "revapple", "revamoeba", "revbanana", "revbengal", "revbetta", "revbudgie", "revboba", "revcentipede", "revcherry", "petaled", "noodleflydark", "noodleflylight", "soft", "texture", "warrior"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -172,13 +172,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "whiskers", "moth", "seaslugpapillae", "tailfrills", "glowspots", "lizardneedles", "thorns", "quills", "spikes", "lizardfins", "catfishwhiskers", "dragonwhiskers", "centipedegrowths", "spearholes", "firebugpart", "loach", "dropwig", "stinger", "bodyeyes", "limbfades", "popsiclewhiskers"],
+      "weights": [20,4,12,8,8,12,8,8,8,8,8,12,12,12,8,4,4,8,8,12,12,8]
     }
   },
   "mechanical": {
     "pelts": {
-      "possible_pelts": ["exampleone", "string", "stringagain"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "fluffy", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "glowing", "mold", "swing", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "robot", "sunken", "tomo", "whale", "pidgeon", "dragonet", "salmon", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "plated", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "lacuna", "silv", "simple", "solid", "source", "metro", "revamoeba", "revbanana", "revbengal", "revboba", "revcentipede", "revcherry", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -194,13 +194,13 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "claws", "glowspots", "bodyeyes", "spearholes", "cyanfeatures", "glassback", "overseertenna", "roboticspines", "chimneytail", "mechanical"],
+      "weights": [12,8,16,12,12,12,8,16,16,8,12]
     }
   },
   "voidspawn": {
     "pelts": {
-      "possible_pelts": ["exampleone", "string", "stringagain"],
+      "possible_pelts": ["single", "tabby", "marbled", "rosette", "smoke", "ticked", "speckled", "bengal", "mackerel", "classic", "sokoke", "agouti", "singlestripe", "masked", "gravel", "collared", "slimemold", "cyanlizard", "vulture", "banana", "centipede", "con", "lizard", "lantern", "leviathan", "fluffy", "amoeba", "seaslug", "yeek", "rusted", "envoy", "drizzle", "solace", "leafy", "scaled", "dragonfruit", "necklace", "dreamer", "duskdawn", "seer", "rotten", "fire", "countershaded", "sunset", "oldgrowth", "sparklecat", "wolf", "cherry", "hypnotist", "ringed", "skinny", "sparse", "impish", "sporty", "fizzy", "skeleton", "shred", "glowing", "mold", "swing", "lovebird", "budgie", "amazon", "apple", "boba", "glitter", "ice", "iggy", "maned", "patchwork", "sunken", "tomo", "whale", "pidgeon", "watermelon", "dragonet", "salmon", "lightecho", "darkecho", "plantain", "daenix", "seltzer", "sworn", "spooky", "conure", "noble", "betta", "constellation", "malibu", "clay", "antethisis", "citadel", "grave", "interloper", "painted", "mono", "slime", "voidmass", "xelsquid", "mima", "xelstar", "bowie", "xelflame", "toonie", "lunatic", "cosmos", "snuff", "kiwi", "lacuna", "silv", "simple", "solid", "source", "metro", "revamazon", "revapple", "revamoeba", "revbanana", "revbengal", "revbetta", "revbudgie", "revboba", "revcentipede", "revcherry", "petaled", "glitch", "lightglitch", "noodleflydark", "noodleflylight", "soft", "texture", "warrior", "washy"],
       "weights": [1,2,3]
     },
     "eye_types": {
@@ -216,8 +216,8 @@
       "weights": [1,2,3]
     },
     "features": {
-      "possible_features": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_features": ["empty", "familiar", "glassback", "antennae", "glowspots", "firebugpart"],
+      "weights": [40,1,40,120,120,80]
     }
   }
 }
