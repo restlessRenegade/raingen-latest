@@ -5,8 +5,8 @@
       "weights": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,6,2,2,2,2,4,4,2,6,2,2,2,2,6,2,2,4,2,2,2,2,2,2,2,2,2,6,2,6,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,6,6,6,6,6,6,2,6,6,2,2,2,2,2,2]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "buttoneye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,10,3,4,4,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft", "fluffy"],
@@ -28,8 +28,8 @@
       "weights": [4,2,2,2,2,2,2,2,4,2,2,2,2,2,4,2,4,2,2,4,4,4,2,2,4,4,4,4,2,2,4,4,4,6,2,4,4,4,4,4,4,4,2,4,4,4,4,4,4,2,4,2,6,4,6,4,4,4,4,4,4,2,2,4,4,2,4,2,2,2,2,2,4,2,4,4,2,2,2,2,6,6,6,4,4,2,2,4,4]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,2,2,4,3,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft", "fluffy"],
@@ -50,8 +50,8 @@
       "weights": [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,2,2,2,2,2,4,2,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,6,2,2,4,2,2,6,6,2,2,6,2,2,2,2,6,2,2,6,2,2,4,2,2,2,2,2,2,2,6,2,6,4,2,2,2,2,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,6,6,6,6,6,6,6,6,6,6,4,6,6,2,2,2,2,2,2]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "buttoneye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,2,10,2,4,4,3]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "greasy", "slimy", "soft", "fluffy"],
@@ -72,8 +72,8 @@
       "weights": [3,3,3,2,3,2,2,3,2,3,3,3,3,3,2,3,2,2,3,3,2,2,2,3,3,3,3,3,3,3,2,3,3,2,3,3,4,3,3,3,3,3,3,2,4,3,3,2,3,3,3,3,3,3,3,4,3,3,3,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,3,3,2,3,3,3,3,2,3,2,3,3,3,3,4,6,6,6,5,3,3,3,3,3,3]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,3,4,2,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft"],
@@ -94,8 +94,8 @@
       "weights": [3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,5,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,4,2,2,3,4,3,3]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "bugeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,3,2,4,2,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft", "fluffy"],
@@ -116,8 +116,8 @@
       "weights": [4,4,4,4,4,3,3,4,2,4,2,4,4,4,2,4,4,4,4,4,3,4,4,4,2,2,2,3,4,4,4,3,4,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,6,4,4,2,4,4,4,4,4,6,2,6,2,4,3,2,4,4,4,4,2,3,4,4,2,6,4,4,4,4,4,4,4,4,6,4,4,4,2,4,4,4,4,6,4,4,6,4,4,4,4,4,5,6,6,6,6,5,6,6,4,4,4,4,3,4]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,2,2,4,4,3]
     },
     "textures": {
       "possible_textures": ["smooth", "velvety", "greasy", "slimy", "rough", "soft"],
@@ -138,8 +138,8 @@
       "weights": [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,4,4,4,4,4,4,4,6,4,4,4,4,4,4,4,4,4,4,4,4,4,6,4,4,4,4,4,4,4,4,4,4,2,2,4,4,4,4,4,6,4,4,2,4,4,4,4,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,4,4,4,4,6,6,6,6,5,6,6,3,3,4,4,4,4]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "buttoneye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,10,3,4,4,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "soft", "fluffy"],
@@ -160,8 +160,8 @@
       "weights": [2,4,3,3,2,2,4,4,3,4,2,3,2,2,2,4,2,2,3,3,2,2,2,2,3,4,4,4,3,4,4,4,2,2,3,2,3,2,3,3,4,2,5,2,2,3,2,2,3,3,2,4,4,3,3,6,4,6,2,3,4,2,4,3,3,4,5,5,3,3,3,2,3,2,4,4,2,3,4,3,3,4,2,2,6,3,2,2,5,5,5,5,5,5,5,5,5,5,4,3,3,3,4,3]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,3,2,4,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"],
@@ -182,8 +182,8 @@
       "weights": [4,4,4,4,4,4,4,4,4,2,4,4,4,4,4,2,4,4,4,4,4,4,4,4,4,4,6,4,4,3,4,4,4,4,4,2,4,4,4,3,4,4,4,4,4,4,4,6,2,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,2,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,4,4,4,2,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,6,6,6,6,6,6,2,2,4,4,4,4,4,4]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "buttoneye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "bugeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,4,3,4,4,6,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "slimy", "rough", "soft", "fluffy"],
@@ -204,8 +204,8 @@
       "weights": [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,4,5,4,4,4,4,4,4,4,4,4,4,2,2,4,7,4,4,2,4,2,4,4,4,4,4,4,4,4,5,2,4,5,4,4,4,4,4,4,5,4,4,5,4,7,4,4,4,4,4,4,4,2,2,4,4,4,4,4,4,4,4,2,2,4,2,4,4,4,4,4,5,2,4,4,4,4,4,4,4,2,4,4,2,4,4,4,4,4,6,6,6,6,6,6,6,6,6,6,5,2,2,4,4,4,4,4,4]
     },
     "eye_types": {
-      "possible_eyes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_eyes": ["eye_colors", "pupil_eyes", "riveye_colours", "buttoneye_colours", "bobaeye_colours", "multi_eyes", "geckoeyes_colors", "bugeyes_colors", "animeeyes_colors"],
+      "weights": [2,2,3,10,3,2,4,6,4]
     },
     "textures": {
       "possible_textures": ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"],
