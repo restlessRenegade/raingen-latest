@@ -32,12 +32,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft", "fluffy"],
+      "weights": [2,2,2,5,2,2]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [4,2,2,2,5]
     },
     "features": {
       "possible_features": ["whiskers", "fangs", "manes", "claws", "tongues"],
@@ -54,12 +54,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "greasy", "slimy", "soft", "fluffy"],
+      "weights": [2,5,5,2,2,5]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [5,2,2,2,5]
     },
     "features": {
       "possible_features": ["empty", "sharphorns", "unihorns", "seaslugpapillae", "glowspots", "gills", "tears", "bodyeyes", "kingtendrils", "loach", "popsiclewhiskers", "spinefrills", "tongues"],
@@ -76,12 +76,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft"],
+      "weights": [2,5,5,2,2]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [5,4,2,2,3]
     },
     "features": {
       "possible_features": ["empty", "claws", "sharphorns", "unihorns", "dragonhorns", "tailfrills", "thorns", "lizardneedles", "dragonwhiskers", "spearholes", "cyanfeatures", "cyanwings", "lizardfins", "spikes", "spinefrills", "tongues"],
@@ -98,12 +98,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "rough", "soft", "fluffy"],
+      "weights": [2,3,5,5,3,5]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [2,2,2,4,5]
     },
     "features": {
       "possible_features": ["empty", "antennae", "moth", "seaangelwings", "glowspots", "centipedegrowths", "firebugpart", "dropwig", "stinger", "bodyeyes", "beetlewingsf", "beetlewingsc", "bugwings", "bugwingst"],
@@ -120,12 +120,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "velvety", "greasy", "slimy", "rough", "soft"],
+      "weights": [2,5,4,2,3,3]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [4,2,2,2,5]
     },
     "features": {
       "possible_features": ["empty", "gills", "whiskers", "catfishwhiskers", "seaslugpapillae", "glowspots", "anglerfish", "kingtendrils", "spinefrills"],
@@ -142,12 +142,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "soft", "fluffy"],
+      "weights": [2,2,2,2,2]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [3,2,2,2,5]
     },
     "features": {
       "possible_features": ["dragonhorns", "dragonwhiskers", "moth", "cyanfeatures", "cyanwings", "seaangelwings", "budgiewings", "conurewings", "lovebirdwings", "pidgeonwings", "vulturewings", "whitefadewings", "wings", "kingtendrils"],
@@ -164,12 +164,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"],
+      "weights": [2,2,2,5,3,3,2,2]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [5,2,2,2,3]
     },
     "features": {
       "possible_features": ["empty", "whiskers", "moth", "seaslugpapillae", "tailfrills", "glowspots", "lizardneedles", "thorns", "quills", "spikes", "lizardfins", "catfishwhiskers", "dragonwhiskers", "centipedegrowths", "spearholes", "firebugpart", "loach", "dropwig", "stinger", "bodyeyes", "limbfades", "popsiclewhiskers"],
@@ -186,12 +186,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "slimy", "rough", "soft", "fluffy"],
+      "weights": [2,3,2,5,2,2,3]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [3,2,2,2,3]
     },
     "features": {
       "possible_features": ["empty", "claws", "glowspots", "bodyeyes", "spearholes", "cyanfeatures", "glassback", "overseertenna", "roboticspines", "chimneytail", "mechanical"],
@@ -208,12 +208,12 @@
       "weights": [1,2,3]
     },
     "textures": {
-      "possible_textures": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_textures": ["smooth", "fuzzy", "velvety", "greasy", "slimy", "rough", "soft", "fluffy"],
+      "weights": [2,2,2,2,2,2,2,2]
     },
     "sizes": {
-      "possible_sizes": ["exampleone", "string", "stringagain"],
-      "weights": [1,2,3]
+      "possible_sizes": ["tiny", "small", "medium", "large", "huge"],
+      "weights": [2,2,2,2,2]
     },
     "features": {
       "possible_features": ["empty", "familiar", "glassback", "antennae", "glowspots", "firebugpart"],
