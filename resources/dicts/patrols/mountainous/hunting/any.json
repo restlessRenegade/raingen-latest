@@ -1167,7 +1167,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures decends on the slugcats and carries away as many as they can catch.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures descends on the slugcats and carries away as many as they can catch.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_openclearing_failure2",
@@ -1276,7 +1276,7 @@
                 "art": "gen_openclearing_failure1"
             },
             {
-                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures decends on the slugcats and carries away as many as they can catch.",
+                "text": "r_c hears a the jets of a vulture, and yowls a warning! It's a heartbeat too late, though, as a whole group of vultures descends on the slugcats and carries away as many as they can catch.",
                 "exp": 0,
                 "weight": 10,
                 "art": "gen_openclearing_failure2",
